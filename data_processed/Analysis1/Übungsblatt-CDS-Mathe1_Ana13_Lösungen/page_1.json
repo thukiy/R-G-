@@ -1,0 +1,10 @@
+{
+    "index": 0,
+    "markdown": "# -`sleq`j_rr ?1_13 Computational and Data Science BSc HS 2023 \n\n## 1. Aussagen \u00fcber die Kr\u00fcmmung\n\n| Welche der folgenden Aussagen sind wahr und welche falsch? | wahr | falsch |\n| :-- | :-- | :-- |\n| a) Verschwindet die analytische Kr\u00fcmmung einer Funktion an jeder Stelle <br> $x \\in \\mathbb{R}$, dann ist die Funktion linear oder sogar konstant. |  |  |\n| b) Haben zwei Funktionen die gleiche analytische Kr\u00fcmmung, dann haben <br> ihre Funktionsgraphen auch die gleiche geometrische Kr\u00fcmmung. |  |  |\n| c) Die geometrische Kr\u00fcmmung jedes Funktionsgraphen ist gerade $f^{\\prime \\prime}(x)$. |  |  |\n| d) Jede quadratische Funktion hat konstante, analytische Kr\u00fcmmung. |  |  |\n| e) Jede Parabel hat konstante geometrische Kr\u00fcmmung. |  |  |\n| f) Verschwindet an einem Punkt die analytische Kr\u00fcmmung einer Funktion, <br> dann gilt dies auch f\u00fcr die geometrische Kr\u00fcmmung ihres Funktionsgra- <br> phen. |  |  |\n\n## 2. Bestimmung von Wendestellen\n\nWir bestimmen jeweils alle Wendepunkte der angegebenen Funktion.\na) Wir betrachten die Funktion\n\n$$\na(x):=x^{3}-x+1\n$$\n\nF\u00fcr die erste, zweite und dritte Ableitung von $a$ erhalten wir\n\n$$\n\\begin{aligned}\n& a^{\\prime}(x)=3 \\cdot x^{3-1}-1+0=3 x^{2}-1 \\\\\n& a^{\\prime \\prime}(x)=3 \\cdot 2 x^{2-1}-0=6 x \\\\\n& a^{\\prime \\prime \\prime}(x)=6\n\\end{aligned}\n$$\n\nDa $a^{\\prime \\prime}$ linear ist, kann $a$ h\u00f6chstens eine Wendestelle haben. Aus\n\n$$\n0=a^{\\prime \\prime}(x)=6 x \\quad \\mid: 6\n$$\n\nerhalten wir die Wendestelle\n\n$$\nx_{1}=0\n$$",
+    "images": [],
+    "dimensions": {
+        "dpi": 200,
+        "height": 2339,
+        "width": 1654
+    }
+}

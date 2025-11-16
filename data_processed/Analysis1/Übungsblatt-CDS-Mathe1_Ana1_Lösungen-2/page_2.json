@@ -1,0 +1,10 @@
+{
+    "index": 1,
+    "markdown": "b) Wenn wir alle Elemente sammeln, welche in $A$ und in $B$ liegen, dann erhalten wir die Schnittmenge\n$\\underline{A \\cap B=\\{7,12\\}}$.\nc) Wenn wir alle Elemente sammeln, welche in $A$ oder in $B$ liegen, dann erhalten wir die Vereinigungsmenge\n$\\underline{A \\cup B=\\{1,2,4,6,7,8,9,10,12\\}}$\nd) Wenn wir alle Elemente sammeln, welche in $A$ aber nicht in $B$ liegen, dann erhalten wir die Mengendifferenz\n$\\underline{A \\backslash B=\\{1,6,9\\}}$.\nSammeln wir hingegen alle Elemente, welche in $B$ aber nicht in $A$ liegen, dann erhalten wir die Mengendifferenz\n$\\underline{B \\backslash A=\\{2,4,8,10\\}}$.\ne) Wir zeigen mehrere Varianten, um die symmetrische Mengendifferenz $A \\Delta B$ zu berechnen.\nVariante 1: Die Menge $A \\Delta B$ ist die Vereinigung der beiden Mengendifferenzen aus Teilaufgabe d). Wir erhalten\n\n$$\n\\underline{A \\Delta B}=(A \\backslash B) \\cup(B \\backslash A)=\\{1,6,9\\} \\cup\\{2,4,8,10\\}=\\underline{\\{1,2,4,6,8,9,10\\}}\n$$\n\nVariante 2: Die Menge $A \\Delta B$ ist die Mengendifferenz der Vereinigungsmenge von $A$ und $B$ aus Teilaufgabe c) ohne die Schnittmenge von $A$ und $B$ aus Teilaufgabe b). Wir erhalten\n\n$$\n\\begin{aligned}\n\\underline{A \\Delta B} & =(A \\cup B) \\backslash(B \\cap A)=\\{1,2,4,6,7,8,9,10,12\\} \\backslash\\{7,12\\} \\\\\n& =\\underline{\\{1,2,4,6,8,9,10\\}}\n\\end{aligned}\n$$\n\nf) Wir suchen alle Teilmengen von\n$C:=A \\cap B=\\{7,12\\}$.\nDa $C$ zwei Elemente hat, hat jede Teilmenge von $C$ entweder null, ein oder zwei Elemente. Wir bestimmen f\u00fcr jede m\u00f6gliche Anzahl Elemente die zugeh\u00f6rigen Teilmengen von $C$ und stellen die Ergebnisse in einer Tabelle zusammen.\n\n| Anzahl Elemente | Teilmengen |\n| :--: | :-- |\n| 0 | $\\varnothing$ |\n| 1 | $\\{7\\},\\{12\\}$ |\n| 2 | $\\{7,12\\}$ |\n\nInsgesamt haben wir also vier Teilmengen von $C$ gefunden. Alle Teilmengen ausser $C$ selbst sind echte Teilmengen von $C$, d.h.\n\n$$\n\\varnothing,\\{7\\} \\quad \\text { und } \\quad\\{12\\}\n$$",
+    "images": [],
+    "dimensions": {
+        "dpi": 200,
+        "height": 2339,
+        "width": 1654
+    }
+}

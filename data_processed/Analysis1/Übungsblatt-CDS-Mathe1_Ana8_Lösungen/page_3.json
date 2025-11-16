@@ -1,0 +1,10 @@
+{
+    "index": 2,
+    "markdown": "# 3. Konsequenzen der Produkt-Regel \n\nMit Hilfe der Produktregel der Differentialrechnung lassen sich einige weitere, n\u00fctzliche Regeln herleiten.\na) Es sei $f$ eine Funktion der Form\n\n$$\nf(x)=a(x) \\cdot b(x) \\cdot c(x)=a(x) \\cdot(b(x) \\cdot c(x))\n$$\n\nGem\u00e4ss Produktregel gilt\n\n$$\n\\begin{aligned}\n\\underline{\\underline{f^{\\prime}(x)}} & =a^{\\prime}(x) \\cdot(b(x) \\cdot c(x))+a(x) \\cdot(b(x) \\cdot c(x))^{\\prime} \\\\\n& =a^{\\prime}(x) \\cdot b(x) \\cdot c(x)+a(x) \\cdot\\left(b^{\\prime}(x) \\cdot c(x)+b(x) \\cdot c^{\\prime}(x)\\right) \\\\\n& =\\underline{\\underline{a^{\\prime}(x)} \\cdot b(x) \\cdot c(x)+a(x) \\cdot b^{\\prime}(x) \\cdot c(x)+a(x) \\cdot b(x) \\cdot c^{\\prime}(x)} .\n\\end{aligned}\n$$\n\nb) Es sei $f$ eine Funktion der Form\n\n$$\nf(x)=h^{2}(x)=h(x) \\cdot h(x)\n$$\n\nMit Hilfe der Produktregel erhalten wir die Quadratregel, d.h.\n\n$$\n\\underline{\\underline{f^{\\prime}(x)}}=h^{\\prime}(x) \\cdot h(x)+h(x) \\cdot h^{\\prime}(x)=\\underline{\\underline{2 \\cdot h(x) \\cdot h^{\\prime}(x)}}\n$$\n\nc) Es sei $f$ eine Funktion der Form\n\n$$\nf(x)=\\sqrt{h(x)}\n$$\n\nDurch Umformen, beidseitig Ableiten und Anwenden der Quadratregel aus Teilaufgabe b) erhalten wir\n\n$$\n\\begin{aligned}\n& f(x)=\\sqrt{h(x)} \\quad \\mid(\\ldots)^{2} \\\\\n& \\Rightarrow \\quad f^{2}(x)=h(x) \\quad \\mid(\\ldots)^{\\prime} \\\\\n& \\Rightarrow \\quad 2 \\cdot f(x) \\cdot f^{\\prime}(x)=h^{\\prime}(x) \\quad \\mid:(2 f(x)) .\n\\end{aligned}\n$$\n\nEs gilt also die Wurzelregel, d.h.\n\n$$\n\\underline{\\underline{f^{\\prime}(x)}}=\\frac{h^{\\prime}(x)}{2 f(x)}=\\underline{\\underline{h^{\\prime}(x)}} .\n$$\n\nd) Es sei $f$ eine Funktion der Form\n\n$$\nf(x)=\\frac{1}{h(x)}\n$$\n\nDurch Umformen, beidseitig Ableiten und Anwenden der Produkt-Regel erhalten wir\n\n$$\nf(x)=\\frac{1}{h(x)} \\quad \\mid \\cdot h(x)\n$$",
+    "images": [],
+    "dimensions": {
+        "dpi": 200,
+        "height": 2339,
+        "width": 1654
+    }
+}

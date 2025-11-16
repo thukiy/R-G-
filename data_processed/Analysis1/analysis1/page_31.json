@@ -1,0 +1,10 @@
+{
+    "index": 30,
+    "markdown": "- Summe der ersten $n$ natur lichen zahlen :\n\n$$\n\\begin{aligned}\n\\sum_{k=1}^{n} k & =\\sum_{k=1}^{n}(n+1-k) \\\\\n& =\\sum_{k=1}^{n} \\frac{(n+1)-\\sum_{k=1}^{n} k}{(\\text { fixe zaine } \\sum_{k=1}^{n} k} \\\\\n& =(n+1)(n+1-1)-\\sum_{k=1}^{n} k= \\\\\n2 \\cdot \\sum_{k=1}^{n} k & =(n+1) \\cdot n \\\\\n\\sum_{k=1}^{n} k & =\\frac{1}{2}(n+1) \\cdot n\n\\end{aligned}\n$$\n\n- Geometrische Summe\n\n$$\n\\begin{aligned}\n& G_{m, n}(x)=\\sum_{k=m}^{n}(x)^{k}=x^{m}+x^{m+1}+\\ldots+x^{n}=\\frac{x^{m}-x^{n+1}}{1-x} \\\\\n& m, n \\in \\mathbb{N}, \\quad x \\in \\mathbb{R} \\backslash\\{0 ; 1\\} \\\\\n& \\text { Bsp: } \\quad \\cdot \\sum_{k=1}^{n}\\left(\\frac{1}{2}\\right)^{k}=\\frac{\\left(\\frac{1}{2}\\right)-\\left(\\frac{1}{2}\\right)^{m}}{1-\\frac{1}{2}}=\\frac{\\frac{1}{2}-\\frac{1}{2 m}}{-\\frac{1}{2}}=2 \\cdot\\left(\\frac{1}{2}-\\frac{1}{2 m}\\right)=1-\\frac{1}{2^{3}} \\\\\n& \\rightarrow \\text { typische Anwendung: Renterrechnung }\n\\end{aligned}\n$$\n\n# Reihen \n\n- Partial-/Teilsumme:\n$a_{n}$ sei Folge reeller zahlen\n$s_{n}:=\\sum_{k=1}^{n} a_{k}$ heisst Partialsumme\nDie einzelnen $s_{n}$ bilden auch eine Folge : $\\left(s_{n}\\right)$.\n$\\rightarrow$ Die unendliche Summe $\\sum_{k=1}^{m} a_{k}$ heisst Reihe.\n$\\rightarrow$ Die Reihe konvergiert gegen ein $s \\in \\mathbb{R}$, wenn gilt : $\\lim _{n \\rightarrow \\infty} s_{n}=s$",
+    "images": [],
+    "dimensions": {
+        "dpi": 200,
+        "height": 2338,
+        "width": 1654
+    }
+}

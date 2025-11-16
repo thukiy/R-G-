@@ -1,0 +1,10 @@
+{
+    "index": 14,
+    "markdown": "# Mengenlehre \n\nSatz 1.9 Seien $A, B$ und $C$ Mengen. Dann gelten die\n\n1. Assoziativgesetze:\n\n$$\n\\begin{aligned}\n& A \\cup(B \\cup C)=(A \\cup B) \\cup C \\\\\n& A \\cap(B \\cap C)=(A \\cap B) \\cap C\n\\end{aligned}\n$$\n\n2. Distributivgesetze:\n\n$$\n\\begin{aligned}\n& A \\cap(B \\cup C)=(A \\cap B) \\cup(A \\cap C) \\\\\n& A \\cup(B \\cap C)=(A \\cup B) \\cap(A \\cup C)\n\\end{aligned}\n$$\n\n3. Kommutativgesetze:\n\n$$\n\\begin{aligned}\n& A \\cap B=B \\cap A \\\\\n& A \\cup B=B \\cup A\n\\end{aligned}\n$$\n\n4. Transitivit\u00e4t:\n\n$$\nA \\subset B \\text { und } B \\subset C \\Longrightarrow A \\subset C\n$$\n\n5. Falls $B, C \\subset A$, dann gelten die DE MORGANschen Regeln:\n\n$$\n\\begin{aligned}\n& A \\backslash(B \\cap C)=(A \\backslash B) \\cup(A \\backslash C) \\\\\n& A \\backslash(B \\cup C)=(A \\backslash B) \\cap(A \\backslash C)\n\\end{aligned}\n$$",
+    "images": [],
+    "dimensions": {
+        "dpi": 200,
+        "height": 1500,
+        "width": 2667
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "index": 4,
+    "markdown": "# Aussagenlogik\n\nDisjunktion: \u201eoder\", v ergibt eine wahre Aussage, wenn eine der beiden Aussagen wahr ist\n\n\u00c4quivalenz: \u201eA genau dann, wenn B\", \u201eA ist notwendig und hinreichend f\u00fcr B\", A $\\Leftrightarrow$ B\n\n|  A | B | A $\\vee$ B | A $\\Rightarrow$ B | A $\\Leftrightarrow$ B  |\n| --- | --- | --- | --- | --- |\n|  w | w | w | w | w  |\n|  w | f | w | f | f  |\n|  f | w | w | w | f  |\n|  f | f | f | w | w  |",
+    "images": [],
+    "dimensions": {
+        "dpi": 200,
+        "height": 1500,
+        "width": 2667
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "index": 6,
+    "markdown": "# Grundlagen Logik\n\nSatz 1.1 Seien $A, B$ und $C$ Aussagen. Dann gelten die\n\n1. Assoziativgesetze:\n\n$$ \\begin{gathered} (A \\vee(B \\vee C)) \\Leftrightarrow((A \\vee B) \\vee C) \\ L \\end{gathered} $$\n\n$A \\wedge(B \\wedge C)) \\Leftrightarrow((A \\wedge B) \\wedge C)$.\n2. Distributivgesetze:\n\n$$ \\begin{gathered} (A \\wedge(B \\vee C)) \\Leftrightarrow((A \\wedge B) \\vee(A \\wedge C)) \\ L \\end{gathered} $$\n\n$A \\vee(B \\wedge C)) \\Leftrightarrow((A \\vee B) \\wedge(A \\vee C))$.\n3. Kommutativgesetze:\n\n$$ \\begin{gathered} (A \\wedge B) \\Leftrightarrow(B \\wedge A) \\ L \\end{gathered} $$\n\n$A \\vee B) \\Leftrightarrow(B \\vee A)$.\n4. De Morganschen Regeln:\n\n$$ \\begin{gathered} (\\neg(A \\vee B)) \\Leftrightarrow((\\neg A) \\wedge(\\neg B)) \\ L \\end{gathered} $$\n\nBeweis. Stellvertretend \u00fcberpr\u00fcfen wir die Regeln von DE MORGAN ${ }^{1}$.\n\n|  $A$ | $B$ | $\\neg(A \\wedge B)$ | $(\\neg A) \\vee(\\neg B)$ | $(\\neg(A \\wedge B)) \\Leftrightarrow((\\neg A) \\vee(\\neg B))$  |\n| --- | --- | --- | --- | --- |\n|  W | W | F | F | W  |\n|  W | F | W | W | W  |\n|  F | W | W | W | W  |\n|  F | F | W | W | W  |",
+    "images": [],
+    "dimensions": {
+        "dpi": 200,
+        "height": 1500,
+        "width": 2667
+    }
+}

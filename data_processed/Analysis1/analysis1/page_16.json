@@ -1,0 +1,10 @@
+{
+    "index": 15,
+    "markdown": "# Zahlenmengen \n\nN: nat\u00fcrliche Zahlen $\\{1,2,3,4 \\ldots\\}$\n$\\mathrm{N}_{0}$ : nat\u00fcrliche Zahlen mit 0\n2: ganze Zahlen $\\{\\ldots-2,-1,0,1,2 \\ldots\\}$\nQ: rationale Zahlen $\\left\\{\\frac{m}{n} \\mid m \\in \\mathbb{Z}, n \\in \\mathbb{Z}, \\mathrm{n} \\neq 0\\right\\}$\nR: reelle Zahlen = rationale + irrationale Zahlen\nIrrationale Zahlen $=\\mathbb{R} \\backslash Q$ :\nNachkommastellen laufen unendlich weiter ohne periodisch zu werden\nBemerkung: $\\infty \\notin \\mathbb{R},-\\infty \\notin \\mathbb{R}$\n\n$$\n\\rightarrow \\mathrm{N} \\subset \\mathrm{~N}_{0} \\subset \\mathbb{Z} \\subset \\mathbb{Q} \\subset \\mathbb{R}\n$$",
+    "images": [],
+    "dimensions": {
+        "dpi": 200,
+        "height": 1500,
+        "width": 2667
+    }
+}

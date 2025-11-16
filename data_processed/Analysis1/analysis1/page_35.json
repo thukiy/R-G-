@@ -1,0 +1,10 @@
+{
+    "index": 34,
+    "markdown": "Bsp: $\\quad f(x)=1-x^{2} \\quad x \\in \\mathbb{R}$\noberw schranke : $M=1$\nkeine untere schranke\n\n- $f(x)=\\frac{4}{1+x^{2}} \\quad x \\in \\mathbb{R}$\noberw schranke : $M=4$\nuntere schranke : $m=0$\nHonotonie bei einer Funktion\n$f: A \\rightarrow B$ sei reelle Funktion\na) $\\int$ heisst monoton wachsend /steigend, wenn\n$f\\left(x_{1}\\right) \\leq f\\left(x_{2}\\right) \\quad$ f\u00fcr $x_{1}<x_{2}$\nb) $\\int$ heisst streng monoton wachsend, wenn\n$f\\left(x_{1}\\right) \\leq f\\left(x_{2}\\right) \\quad$ f\u00fcr $x_{1}<x_{2}$\nc) $\\int$ heisst monoton fallend, wenn\n$f\\left(x_{1}\\right) \\gg f\\left(x_{2}\\right) \\quad$ f\u00fcr $x_{1}<x_{2}$\nd) $\\int$ heisst streng monoton fallend, wenn\n$f\\left(x_{1}\\right)>f\\left(x_{2}\\right) \\quad$ f\u00fcr $x_{1}<x_{2}$\n$\\rightarrow$ Funktionen haben oftmals auf Teilbereichen Honoronieeigenschaften\nBsp: $\\quad f(x)=3 x \\quad x \\in \\mathbb{R}$\nstreng monoton steigend\n- $f(x)=4$\nmonoton fallend und steigend\n- $f(x)=x^{2}$\nf\u00fcr $x \\leq 0$ : streng monoton fallend",
+    "images": [],
+    "dimensions": {
+        "dpi": 200,
+        "height": 2338,
+        "width": 1654
+    }
+}

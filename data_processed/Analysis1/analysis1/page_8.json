@@ -1,0 +1,10 @@
+{
+    "index": 7,
+    "markdown": "# Mengenlehre \n\nBegr\u00fcnder der naiven Mengenlehre: Georg Cantor (1845 - 1918), dt. Mathematiker\nDefinition:\nEine Menge ist eine wohldefinierte Zusammenfassung bestimmter unterscheidbarer Objekte zu einer Gesamtheit. Die (realen oder abstrakten) Objekte nennen wir Elemente.\n$\\rightarrow$ Es muss eindeutig sein, ob ein Objekt Element einer Menge ist oder nicht.\nGrundlegende Aussage:\n\n- $x \\in M$ oder $M \\ni x$, d. h. Element $x$ ist in Menge $M$ enthalten\n- $x \\notin M$ oder $M \\ni x$, d. h. $x$ ist nicht Element der Menge $M$\n\nGenerell:\n\n- F\u00fcr Elemente werden Kleinbuchstaben verwendet\n- F\u00fcr Mengen werden Grossbuchstaben verwendet\n\nSchreibweisen:\n\n- Aufz\u00e4hlende Form: $A=\\{1,2,3,4,5\\}$\n- Beschreibende Form: $A=\\{x \\in \\mathbb{N} \\mid 1 \\leq x \\leq 10\\}$",
+    "images": [],
+    "dimensions": {
+        "dpi": 200,
+        "height": 1500,
+        "width": 2667
+    }
+}

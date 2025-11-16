@@ -1,0 +1,10 @@
+{
+    "index": 0,
+    "markdown": "# -`sleq`j_rr ?1_7 Amknsr_rgm1_j_1b B_r_ Qa\u0123c1ac @Qa FQ 0.01 \n\n## J-qslec1\n\nK_rfck_rji 1\n\n## 1. Aussagen \u00fcber Ableitungen\n\n| Welche der folgenden Aussagen sind wahr und welche falsch? | wahr | falsch |\n| :-- | :-- | :-- |\n| a) Der Funktionswert $f^{\\prime}(x)$ der Ableitung ist gerade die Steigung der Funk- <br> tion $f$ an der Stelle $x$. | $\\bullet$ | $\\bigcirc$ |\n| b) Ist der Graph einer Funktion eine Gerade, dann ist die zugeh\u00f6rige Ablei- <br> tung konstant. | $\\bullet$ | $\\bigcirc$ |\n| c) Es sei $f(x):=x^{2}$, dann ist der Graph der Ableitung $f^{\\prime}(x)$ eine Parabel. | $\\bigcirc$ | $\\bullet$ |\n| d) Es sei $f(x):=x^{3}$, dann hat der Graph von $f$ an der Stelle $x=5$ die <br> Steigung $m=75$. | $\\bullet$ | $\\bigcirc$ |\n| e) Ist eine Funktion $f$ das Doppelte einer Funktion $g$, dann ist nach der <br> Faktor-Regel auch die Ableitung von $f$ das Doppelte der Ableitung von $g$. | $\\bullet$ | $\\bigcirc$ |\n\n## 2. Ableitung von Monomen\n\nWir berechnen jeweils die Ableitung der gegebenen Funktion mit Hilfe der Faktor-Regel und der Monom-Ableitung.\na) Es gilt\n\n$$\n\\underline{f^{\\prime}(x)}=4 \\cdot x^{4-1}=\\underline{\\underline{4 x^{3}}}\n$$\n\nb) Es gilt\n\n$$\n\\underline{f^{\\prime}(x)}=3 \\cdot 4 \\cdot x^{4-1}=\\underline{\\underline{12 x^{3}}}\n$$\n\nc) Es gilt\n\n$$\n\\underline{f^{\\prime}(x)}=2 \\cdot 5 \\cdot x^{5-1}=\\underline{\\underline{10 x^{4}}}\n$$\n\nd) Es gilt\n\n$$\n\\underline{f^{\\prime}(x)}=\\frac{1}{10} \\cdot 5 \\cdot x^{5-1}=\\frac{1}{2} \\cdot x^{4}\n$$",
+    "images": [],
+    "dimensions": {
+        "dpi": 200,
+        "height": 2339,
+        "width": 1654
+    }
+}

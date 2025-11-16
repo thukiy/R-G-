@@ -1,0 +1,10 @@
+{
+    "index": 4,
+    "markdown": "b) Wir erhalten\n\n$$\n\\underline{\\sum_{k=-3}^{1} k^{2}+1}=(-3)^{2}+(-2)^{2}+(-1)^{2}+0^{2}+1^{2}+1=9+4+1+0+1+1=\\underline{\\underline{16}}\n$$\n\nc) Wir erhalten\n\n$$\n\\sum_{k=-3}^{3} \\frac{1}{k}=\\frac{1}{-3}+\\frac{1}{-2}+\\frac{1}{-1}+\\frac{1}{0}+\\frac{1}{1}+\\frac{1}{2}+\\frac{1}{3}=?\n$$\n\nDiese Summe enth\u00e4lt formell eine Division durch 0 und ist daher nicht definiert.\nd) Durch Ausklammern von $1 / l$ aus der inneren Summe erhalten wir\n\n$$\n\\begin{aligned}\n\\underline{\\sum_{l=1}^{3} \\sum_{k=0}^{3} \\frac{k}{l}} & =\\sum_{l=1}^{3} \\frac{1}{l} \\sum_{k=0}^{3} k=\\sum_{l=1}^{3} \\frac{1}{l} \\cdot(0+1+2+3)=\\sum_{l=1}^{3} \\frac{1}{l} \\cdot 6=\\frac{1}{1} \\cdot 6+\\frac{1}{2} \\cdot 6+\\frac{1}{3} \\cdot 6 \\\\\n& =6+3+2=\\underline{\\underline{11}}\n\\end{aligned}\n$$\n\n# 7. Summen mit dem Summen-Zeichen darstellen \n\nWir schreiben die folgenden Summen mit Hilfe des Summen-Zeichens.\na) Wir erhalten\n\n$$\n\\underline{\\underline{S}}=\\frac{1}{2}-\\frac{1}{3}+\\frac{1}{4}-\\frac{1}{5}+\\frac{1}{6}-\\frac{1}{7}+\\frac{1}{8}-\\frac{1}{9}=\\underline{\\underline{\\sum_{k=2}^{9} \\frac{(-1)^{k}}{k}}}\n$$\n\nb) Wir erhalten\n\n$$\n\\underline{\\underline{S}}=1+2-3-4+5+6-7-8+9+10=\\underline{\\sum_{k=0}^{4}(-1)^{k} \\sum_{l=1}^{2}(2 k+l)}\n$$\n\n## 8. Geometrische Summen-Formel\n\nEs seien $m, n \\in \\mathbb{N}$ mit $m<n$ und $x \\in \\mathbb{R} \\backslash\\{0,1\\}$. Eine geometrische Summe ist eine Summe der Form\n\n$$\nG_{(m ; n)}(x):=\\sum_{k=m}^{n} x^{k}\n$$\n\na) Wir schreiben die folgenden, geometrischen Summen ohne Summen-Zeichen aus.\ni) Wir erhalten\n\n$$\n\\underline{G_{(1 ; 4)}(3)}=\\sum_{k=1}^{4} 3^{k}=3^{1}+3^{2}+3^{3}+3^{4}=3+9+27+81=\\underline{\\underline{120}}\n$$",
+    "images": [],
+    "dimensions": {
+        "dpi": 200,
+        "height": 2339,
+        "width": 1654
+    }
+}

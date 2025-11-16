@@ -1,0 +1,10 @@
+{
+    "index": 74,
+    "markdown": "# Kurvendiskussion \n\nMan sammelt Informationen \u00fcber den Verlauf einer Funktion, um sie skizzieren zu k\u00f6nnen.\n\n- Ableitung enth\u00e4lt Informationen, in welchen Bereichen die Funktion steigt bzw. f\u00e4llt, wo Extremwerte wie Maxima und Minima vorliegen.\n- Ableitung beschreibt das Kr\u00fcmmungsverhalten der Funktion, wo eventuelle Wendepunkte vorliegen.\n\nTypischerweise werden folgende Schritte bei der Kurvendiskussion durchgef\u00fchrt:\n\n- Nullstellen bestimmen\n- Ordinatenabschnitt (y-Achsenabschnitt) bestimmen\n- Extremwerte bestimmen\n- Kr\u00fcmmungsverhalten und Wendepunkte\n- Verhalten der Funktion an den R\u00e4ndern des Definitionsbereichs, um festzustellen, an welchen Stellen globale Maxima bzw. Minima vorliegen\n- Skizze\nn\u00fctzlich: eventuelle Symmetrie der Funktion bestimmen, indem $f(-x)$ gebildet wird\n\nBsp: $\\quad f(x)=\\left(x^{2}-x\\right) \\cdot e^{-x}, \\quad f: R \\rightarrow R$\nExkemsstellen und Wendestellen bestimmen\n\n$$\n\\begin{aligned}\nf^{\\prime}(x) & =(2 x-1) \\cdot e^{-x}+\\left(x^{2}-x\\right) \\cdot\\left(-e^{-x}\\right) \\\\\n& =e^{-x}\\left(2 x-1-x^{2}+x\\right) \\\\\n& =e^{-x}\\left(-x^{2}+3 x-1\\right) \\\\\nf^{\\prime \\prime}(x) & =-e^{-x}\\left(-x^{2}+3 x-1\\right)+e^{-x}(-2 x+3) \\\\\n& =e^{-x}\\left(x^{2}-3 x+1-2 x+3\\right) \\\\\n& =e^{-x}\\left(x^{2}-5 x+4\\right) \\\\\nf^{\\prime \\prime \\prime}(x) & =-e^{-x}\\left(x^{2}-5 x+4\\right)+e^{-x}(2 x-5) \\\\\n& =e^{-x}\\left(-x^{2}+5 x-4+2 x-5\\right) \\\\\n& =e^{-x}\\left(-x^{2}+7 x-9\\right)\n\\end{aligned}\n$$",
+    "images": [],
+    "dimensions": {
+        "dpi": 200,
+        "height": 2338,
+        "width": 1654
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "index": 59,
+    "markdown": "Additionstheorem nutzen :\n$\\sin (\\alpha+\\beta)=\\sin \\alpha \\cos \\beta+\\sin \\beta \\cos \\alpha$\n$\\sin (\\alpha-\\beta)=\\sin \\alpha \\cos \\beta-\\sin \\beta \\cos \\alpha$\n(1) - (2) : $\\sin (\\alpha+\\beta)-\\sin (\\alpha-\\beta)=2 \\sin \\beta \\cos \\alpha$\n\nErsetzen: $\\alpha=\\frac{\\alpha+\\beta}{2}, \\beta=\\frac{\\alpha-\\beta}{2}$\n$\\rightarrow \\sin \\alpha-\\sin \\beta=2 \\cdot \\sin \\frac{\\alpha-\\beta}{2} \\cdot \\cos \\frac{\\alpha+\\beta}{2}$\n$\\rightarrow \\alpha=x+\\Delta x$ und $\\beta=x$ :\nDifferenzquotient\n\n$$\n\\begin{aligned}\n& \\frac{\\sin (x+\\Delta x)-\\sin x}{\\Delta x}=2 \\cdot \\sin \\frac{\\Delta x}{2} \\cdot \\cos \\frac{2 x+\\Delta x}{2} \\\\\n& f^{\\prime}(x)=\\lim _{\\Delta x \\rightarrow 0} 2 \\cdot \\sin \\frac{\\Delta x}{2} \\cdot \\cos \\frac{2 x+\\Delta x}{2} \\\\\n& =\\lim _{\\Delta x \\rightarrow 0} \\frac{2 \\cdot \\sin \\frac{\\Delta x}{2}}{2} \\cdot \\cos \\left(\\frac{2 x+\\Delta x}{2}\\right)=\\cos x\n\\end{aligned}\n$$\n\nweitere trigonometrische Funktionen :\n\n- $f(x)=\\cos x$\n$f^{\\prime}(x)=-\\sin x$\n- $f(x)=t \\tan x$\n$f^{\\prime}(x)=1+t \\tan ^{2} x=\\frac{1}{\\cos ^{2} x}$\n- $f(x)=\\cot x$\n$f^{\\prime}(x)=-1-\\cot ^{2} x=-\\frac{1}{\\sin ^{2} x}$",
+    "images": [],
+    "dimensions": {
+        "dpi": 200,
+        "height": 2338,
+        "width": 1654
+    }
+}

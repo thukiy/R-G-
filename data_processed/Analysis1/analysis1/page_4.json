@@ -1,0 +1,10 @@
+{
+    "index": 3,
+    "markdown": "# Aussagenlogik \n\n## Verbindungen von Aussagen\n\nImplikation: \u201ewenn A dann B\", \u201eA ist hinreichend f\u00fcr B\", \u201eB ist notwendig f\u00fcr A\", A $\\Rightarrow$ B\nBeispiel:\nFussballstar Huber wird vom Schiedsrichter ermahnt: wenn sie den Ball nochmals absichtlich mit der Hand spielen, erhalten sie die rote Karte.\n\nA: Ball absichtlich mit der Hand spielen\nB: rote Karte erhalten\n\n$$\nA \\Rightarrow B\n$$\n\n1. Fall: Huber spielt Ball mit der Hand bevor das Spiel zu Ende ist A: $\\mathrm{w} \\Rightarrow \\mathrm{B}: \\mathrm{w}$\n2. Fall: Huber spielt den Ball nicht mit der Hand bis Ende des Spiels A: $f \\Rightarrow B: w$, d. h. er erh\u00e4lt die rote Karte z. B. wegen einem Foul $\\Rightarrow$ B: f, d. h. er erh\u00e4lt keine rote Karte, begeht also kein Foul, spielt den Ball nicht mit der Hand\n$\\rightarrow$ Es k\u00f6nnen also die F\u00e4lle B: w und B: f eintreten, wenn A: f vorausgeht",
+    "images": [],
+    "dimensions": {
+        "dpi": 200,
+        "height": 1500,
+        "width": 2667
+    }
+}

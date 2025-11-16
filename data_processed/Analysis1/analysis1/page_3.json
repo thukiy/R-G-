@@ -1,0 +1,10 @@
+{
+    "index": 2,
+    "markdown": "# Aussagenlogik\n\n## Verbindungen von Aussagen\n\n$>$ Negation: \u201enicht\", $\\neg$\n\n|  A | $\\neg \\mathrm{A}$  |\n| --- | --- |\n|  w | f  |\n|  f | w  |\n\n$>$ Konjunktion: \u201eund\", $\\wedge$\n\n|  A | B | $A \\wedge B$  |\n| --- | --- | --- |\n|  w | w | w  |\n|  w | f | f  |\n|  f | w | f  |\n|  f | f | f  |\n\n1 Aussage falsch $\\rightarrow$ Konjunktion auch falsch",
+    "images": [],
+    "dimensions": {
+        "dpi": 200,
+        "height": 1500,
+        "width": 2667
+    }
+}

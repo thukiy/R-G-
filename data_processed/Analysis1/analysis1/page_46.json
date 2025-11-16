@@ -1,0 +1,10 @@
+{
+    "index": 45,
+    "markdown": "# Stetigkeit einer Funktion \n\nDef: Eine in $x_{0}$ und einer gewissen Umgebung von $x_{0}$ definierte Funktion $y=f(x)$ heisst stetig an der Stelle $x_{0}$, wenn der Grenzwert von $f(x)$ an $x_{0}$ vorhanden ist und mit dem Funktionswert \u00fcbereinstimmt :\n$\\lim _{x \\rightarrow x_{0}} f(x)=f\\left(x_{0}\\right)$\nBsp: $\\quad$ f $(x)=x^{2} \\quad$ f: $R \\rightarrow R$\n$f(1)=1 \\quad \\lim _{x \\rightarrow 1} f(x)=1=f(1)$\n$\\Rightarrow$ ist auf ganz $R$ stetig\n\n- $f(x)=\\frac{1}{1-x} \\quad f: R \\backslash \\mathbb{E} 13 \\rightarrow R$\n$\\Rightarrow f(x)$ ist an $x=1$ nicht stetig, da nicht definiert an dieser Stelle (Definitionsl\u00fccke)\n- $f(x)=\\left\\{\\begin{array}{ll}1 & x \\geqslant 0 \\\\ 0 & <0\\end{array}\\right.$\n$\\Rightarrow f(x)$ ist an $x=0$ nicht stetig\nUnstetigkeitsstellen : - L\u00fccken im Definitionsbereich\n- endliche spr\u00fcnge\n- Polstellen\n\nBsp: $\\quad f(x)=\\frac{x^{2}-1}{x+1} \\quad$ bei $x_{0}=-1$ Definitionsl\u00fccke\n$\\lim _{x \\rightarrow-1} \\frac{x^{2}-1}{x+1}=\\lim _{x \\rightarrow-1} \\frac{(x+1)(x-1)}{x+1}=\\lim _{x \\rightarrow-1}(x-1)=-2$\nBeheben der L\u00fccke : Funktionswert = Grenzwert\n\n$$\ng(x)=\\left\\{\\begin{array}{ll}\n\\frac{x^{2}-1}{x+1} & x \\neq-1 \\\\\n-2 & x=-1\n\\end{array}\\right\\}=x-1 \\Rightarrow g(x) \\text { ist stetig }\n$$",
+    "images": [],
+    "dimensions": {
+        "dpi": 200,
+        "height": 2338,
+        "width": 1654
+    }
+}

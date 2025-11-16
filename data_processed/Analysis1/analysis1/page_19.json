@@ -1,0 +1,10 @@
+{
+    "index": 18,
+    "markdown": "# Kartesisches Produkt \n\nBeispiel: $A=\\{1,2\\}, B=\\{3,4\\}$\n\n- $A \\times B=\\{(1 ; 3),(1 ; 4),(2 ; 3),(2 ; 4)\\}$\n- $B \\times A=\\{(3 ; 1),(3 ; 2),(4 ; 1),(4 ; 2)\\}$\n$\\rightarrow A \\times B \\neq B \\times A$\n\nBemerkung:\nFalls $A \\neq B$, dann $A \\times B \\neq B \\times A$\n\nRechteck R durch kartesisches Produkt beschreiben:\n$R=[2 ; 3] \\times[0 ; 1]$",
+    "images": [],
+    "dimensions": {
+        "dpi": 200,
+        "height": 1500,
+        "width": 2667
+    }
+}

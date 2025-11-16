@@ -1,0 +1,10 @@
+{
+    "index": 9,
+    "markdown": "# Mengenlehre \n\n## Mengenrelationen\n\nA = B: A und B besitzen dieselben Elemente\nA $\\subseteq$ B: A ist Teilmenge von B, d. h. jedes Element von A ist auch Element von B; A = B ist m\u00f6glich\nA $\\subset$ B: A ist echte Teilmenge von B, d. h. B besitzt mehr Elemente als A; \\{A $\\subseteq$ B $\\wedge$ A $\\neq$ B $\\}$\nA $\\nsubseteq$ B: A ist keine Teilmenge von B\n$A \\subseteq B \\Leftrightarrow B \\supset A$\nA $\\subset B \\Leftrightarrow B \\supset A$\n\nBeispiele:\n\n- $\\{1,2\\} \\subseteq\\{1,2,3\\}$\n- $\\{1,2\\} \\subset\\{1,2,3\\}$\n- $\\{1,2\\} \\subseteq\\{1,2\\}$\n- $\\{1,2\\} \\not \\subset\\{1,2\\}$\n- $\\varnothing \\subseteq$ A\n- $\\varnothing \\subset$ A",
+    "images": [],
+    "dimensions": {
+        "dpi": 200,
+        "height": 1500,
+        "width": 2667
+    }
+}

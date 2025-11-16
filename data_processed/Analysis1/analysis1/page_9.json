@@ -1,0 +1,10 @@
+{
+    "index": 8,
+    "markdown": "# Mengenlehre \n\nBemerkung:\n\n- Mengen m\u00fcssen nicht Zahlen als Elemente haben.\n- Angabe der Grundmenge nicht zwingend.\n\nBemerkung:\nEine Menge A kann Element einer Menge B sein. Dann sind jedoch die Elemente von A keine Elemente von B.\n\nBeispiel:\n\n- $1 \\in\\{1,2,3\\}$\n- $\\{1\\} \\notin\\{1,2,3\\}$\n$\\{1\\} \\in\\{\u00a3 15,1,2: 3\\}$; $\\{1,2\\} \\in\\{\u00a3 1,25,1,2: 3\\}$\n\nLeere Menge: $\\emptyset=\\{ \\}$, enth\u00e4lt keine Elemente",
+    "images": [],
+    "dimensions": {
+        "dpi": 200,
+        "height": 1500,
+        "width": 2667
+    }
+}

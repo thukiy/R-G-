@@ -1,0 +1,10 @@
+{
+    "index": 6,
+    "markdown": "j) Allgemein gilt\n\n$$\nf\\left(\\frac{x}{z}\\right)=a^{\\frac{x}{z}}=\\sqrt[4]{a^{x}}=\\sqrt[4]{f(x)}\n$$\n\nAls Beispiel w\u00e4hlen wir $a=2, x=10$ und $z=5$. Wir erhalten\n\n$$\n\\begin{aligned}\nf(10) & =2^{10}=1^{\\prime} 024 \\\\\nf\\left(\\frac{10}{5}\\right) & =f(2)=2^{2}=4=\\sqrt[5]{1^{\\prime} 024}=\\sqrt[5]{f(10)}\n\\end{aligned}\n$$\n\nk) Allgemein gilt\n\n$$\n\\underline{f\\left(\\log _{a}(x)\\right)}=a^{\\log _{a}(x)}=\\underline{x}\n$$\n\nAls Beispiel w\u00e4hlen wir $a=3$ und $x=81$. Wir erhalten\n\n$$\n\\underline{f\\left(\\log _{3}(81)\\right)}=f(4)=3^{4}=\\underline{81}\n$$\n\nI) Allgemein gilt\n\n$$\n\\underline{\\log _{a}(f(x))}=\\log _{a}\\left(a^{x}\\right)=\\underline{x}\n$$\n\nAls Beispiel w\u00e4hlen wir $a=3$ und $x=4$. Wir erhalten\n\n$$\n\\underline{\\log _{3}(f(4))}=\\log _{3}\\left(3^{4}\\right)=\\underline{4}\n$$\n\n# 7. Aussagen \u00fcber hyperbolische Funktionen \n\n| Welche der folgenden Aussagen sind wahr und welche falsch? | wahr | falsch |\n| :-- | :-- | :-- |\n| a) Die hyperbolischen Funktionen werden mit Hilfe der nat\u00fcrlichen Exponen- <br> tialfunktion definiert. | $\\bullet$ | $\\bigcirc$ |\n| b) Die hyperbolische Funktion cosh ist auf ganz $\\mathbb{R}$ definiert. | $\\bullet$ | $\\bigcirc$ |\n| c) Die hyperbolische Funktion sinh ist auf ganz $\\mathbb{R}$ definiert. | $\\bullet$ | $\\bigcirc$ |\n| d) Die hyperbolische Funktion tanh ist auf ganz $\\mathbb{R}$ definiert. | $\\bullet$ | $\\bigcirc$ |\n| e) Die hyperbolische Funktion coth ist auf ganz $\\mathbb{R}$ definiert. | $\\bigcirc$ | $\\bullet$ |",
+    "images": [],
+    "dimensions": {
+        "dpi": 200,
+        "height": 2339,
+        "width": 1654
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "index": 12,
+    "markdown": "f) nicht injektiv, bijektiv. Weil jede bijektive Funktion zwingend auch injektiv sein muss, gibt es keine Funktion, welche diese Kombination von Eigenschaften erf\u00fcllt.\n\n# 9. Aussagen \u00fcber eine Funktion \n\nWir betrachten die Mengen\n\n$$\nA:=\\{-2,-1,0,1,3\\} \\quad \\text { und } \\quad B:=\\{1,3,5\\}\n$$\n\nsowie die Funktion\n\n$$\n\\begin{aligned}\nf: A & \\rightarrow B \\\\\nx & \\mapsto f(x):=|2 x-1|\n\\end{aligned}\n$$\n\n| Welche der folgenden Aussagen sind wahr und welche falsch? | wahr | falsch |\n| :-- | :-- | :-- |\n| a) Es gilt $f(0)=0$. | $\\bigcirc$ | $\\bigcirc$ |\n| b) Es gilt $f(\\{0,1\\})=\\{1\\}$. | $\\bigcirc$ | $\\bigcirc$ |\n| c) Es gilt $f^{-1}(\\{5\\})=3$. | $\\bigcirc$ | $\\bigcirc$ |\n| d) Die Funktion $f$ ist surjektiv. | $\\bigcirc$ | $\\bigcirc$ |\n| e) Die Funktion $f$ ist injektiv. | $\\bigcirc$ | $\\bigcirc$ |\n| f) Die Funktion $f$ hat eine Umkehrfunktion. | $\\bigcirc$ | $\\bigcirc$ |",
+    "images": [],
+    "dimensions": {
+        "dpi": 200,
+        "height": 2339,
+        "width": 1654
+    }
+}

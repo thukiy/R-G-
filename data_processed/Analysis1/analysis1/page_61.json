@@ -1,0 +1,10 @@
+{
+    "index": 60,
+    "markdown": "Ableitung der Accus-Funktion: (wichtig f\u00fcr Integration)\n\n- $f(x)=a r c \\sin x$\n- $f(x)=a r c \\sinh x$\n$f^{\\prime}(x)=\\frac{1}{\\sqrt{1-x^{2}}}$\n- $f(x)=a r c \\cos x$\n- $f(x)=a r c \\cosh x$\n$f^{\\prime}(x)=-\\frac{1}{\\sqrt{1-x^{2}}}$\n$f^{\\prime}(x)=\\frac{1}{\\sqrt{x^{2}-1}}$\n- $f(x)=a r c \\tan x$\n- $f(x)=a r c \\tanh x$\n$f^{\\prime}(x)=\\frac{1}{1+x^{2}}$\n$f^{\\prime}(x)=\\frac{1}{1-x^{2}}$\n- $f(x)=a r c \\cot x$\n- $f(x)=a r c \\coth x$\n$f^{\\prime}(x)=\\frac{1}{1-x^{2}}$\n\nAbleitung der Hyperbelfunktionen :\n$\\rightarrow$ exponentielle Schreibweise nutzen\n\n- $\\sinh (x)=\\frac{e^{x}-e^{-x}}{2} \\rightarrow \\sinh ^{\\prime}(x)=\\cosh (x)$\n- $\\cosh (x)=\\frac{e^{x}+e^{-x}}{2} \\rightarrow \\cos h^{\\prime}(x)=\\sin h(x)$\n- $\\tanh (x)=\\frac{\\sinh (x)}{\\cosh (x)} \\rightarrow \\tanh ^{\\prime}(x)=1-\\tanh ^{2}(x)=\\frac{1}{\\cosh ^{2}(x)}$\n- $\\operatorname{coth}(x)=\\frac{\\cosh (x)}{\\sinh (x)} \\rightarrow \\operatorname{coth}^{\\prime}(x)=1-\\operatorname{coth}^{2}(x)=-\\frac{1}{\\sinh ^{2}(x)}$\n\nBsp: $\\quad f(x)=\\frac{1+\\cos x}{1-\\sin x}$\n\n$$\n\\begin{aligned}\nf^{\\prime}(x) & =\\frac{(-\\sin x) \\cdot(1-\\sin x)-(1+\\cos x) \\cdot(-\\cos x)}{(1-\\sin x)^{2}} \\\\\n& =\\frac{-\\sin x+\\sin ^{2} x+\\cos x+\\cos ^{2} x}{(1-\\sin x)^{2}} \\quad \\sin ^{2} x+\\cos ^{2} x=1 \\\\\n& =\\frac{1-\\sin x+\\cos x}{(1-\\sin x)^{2}}\n\\end{aligned}\n$$",
+    "images": [],
+    "dimensions": {
+        "dpi": 200,
+        "height": 2338,
+        "width": 1654
+    }
+}

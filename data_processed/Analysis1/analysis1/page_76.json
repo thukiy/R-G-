@@ -1,0 +1,10 @@
+{
+    "index": 75,
+    "markdown": "Exkemsstellen : $f^{\\prime}(x) \\doteq 0$\n\n$$\n\\begin{aligned}\n& e^{-x}\\left(-x^{2}+3 x-1\\right)=0 \\\\\n& \\rightarrow \\forall x \\in \\mathbb{R} \\text { gilt : } e^{-x} \\neq 0 \\\\\n& \\rightarrow-x^{2}+3 x-1=0 \\\\\n& x_{1,2}=\\frac{-3 \\pm \\sqrt{9-4 \\cdot(-1) \\cdot(-1)^{2}}}{2 \\cdot(-1)}=\\frac{-3 \\pm \\sqrt{5^{\\prime}}}{-2} \\\\\n& x_{1}=\\frac{3}{2}+\\frac{15}{2} \\quad x_{2}=\\frac{3}{2}-\\frac{15}{2}\n\\end{aligned}\n$$\n\n$f^{\\prime \\prime}\\left(x_{1}\\right)=-1,53<0 \\Rightarrow$ lokales Maximum bei $\\left(\\frac{3}{2}+\\frac{15}{2} ; 0,31\\right)$ $f^{\\prime \\prime}\\left(x_{2}\\right)=1,53>0 \\Rightarrow$ lokales kinimum bei $\\left(\\frac{3}{2}-\\frac{15}{2} ;-0,16\\right)$\n\nWendestellen: $f^{\\prime \\prime}(x) \\doteq 0$\n\n$$\n\\begin{aligned}\n& e^{-x}\\left(x^{2}-5 x+4\\right)=0 \\\\\n& x^{2}-5 x+4=0 \\\\\n& x_{1,2}=\\frac{5 \\pm \\sqrt{25-4 \\cdot 1 \\cdot 4^{\\prime}}}{2 \\cdot 1}=\\frac{5 \\pm 3}{2} \\\\\n& x_{1}=4 \\quad x_{2}=1\n\\end{aligned}\n$$\n\n$f^{\\prime \\prime \\prime}\\left(x_{1}\\right)=0,55 \\neq 0 \\Rightarrow$ Wendepunkt bei $(4 ; 0,22)$\n$f^{\\prime \\prime \\prime}\\left(x_{2}\\right)=-1,10 \\neq 0 \\Rightarrow$ Wendepunkt bei $(1 ; 0)$\nR\u00e4nder des Definitionbereichs untersuchen :\n\n$$\n\\lim _{x \\rightarrow-\\infty} f(x)=+\\infty \\quad \\lim _{x \\rightarrow \\infty} f(x)=0\n$$\n\n$f(0)=0$",
+    "images": [],
+    "dimensions": {
+        "dpi": 200,
+        "height": 2338,
+        "width": 1654
+    }
+}

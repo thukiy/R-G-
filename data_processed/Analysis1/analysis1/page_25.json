@@ -1,0 +1,10 @@
+{
+    "index": 24,
+    "markdown": "# Folgen \n\nEin Bagensee wird vergr\u00f6\u00dfert. Ei hat eine Fl\u00e4che von $1500 \\mathrm{~m}^{2}$, die jede Woche um $200 \\mathrm{~m}^{2}$ vergr\u00f6\u00dfert wird. Algen bedecken den See, anfangen sind dies $1 \\mathrm{~m}^{2}$. Die Algenflasche verdreifacht sich w\u00f6chentlich.\nVer\u00e4nderung der See - und Algenflasche :\n\n| wochenzahl n | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 |\n| :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: |\n| Seefl\u00e4che in $\\mathrm{m}^{2}$ | 1500 | 1700 | 1900 | 2100 | 2300 | 2500 | 2700 | 2900 | 3100 |\n| Algenfl\u00e4che in $\\mathrm{m}^{2}$ | 1 | 3 | 9 | 27 | 81 | 243 | 729 | 2187 | 6561 |\n| Seefl\u00e4che : $s(n)=1500+200 n$ |  |  |  |  |  |  |  |  |  |\n| Algenflasche : $a(n)=3^{n}$ |  |  |  |  |  |  |  |  |  |\n| $\\longrightarrow s(n) 8 a(n)$ sind Folgen |  |  |  |  |  |  |  |  |  |\n\nDefinition: Eine Folge an von reelen Zahlen ist eine Abbildung\n\n$$\n\\begin{aligned}\n& f: \\mathbb{N} \\rightarrow \\mathbb{R} \\\\\n& n \\rightarrow f(n)=a_{n}\n\\end{aligned}\n$$\n\ndie jedem $n$ eindeutig ein $a_{n}$ zuordnet.\n$a_{n}:$ Folgeglieder\n$\\rightarrow$ jede Folge hat einen Startwert\n$\\rightarrow$ jeder $a_{k}$ hat einen eindeutigen Nachfolger $a_{k+1}$\n$\\rightarrow$ Reihenfolge wichtig\nBsp: $\\cdot$ reziproke Folge\n\n$$\n\\begin{aligned}\n& a_{n}=\\frac{1}{n} \\\\\n& a_{1}=1 \\quad a_{2}=\\frac{1}{2} \\quad a_{3}=\\frac{1}{3}\n\\end{aligned}\n$$",
+    "images": [],
+    "dimensions": {
+        "dpi": 200,
+        "height": 2338,
+        "width": 1654
+    }
+}

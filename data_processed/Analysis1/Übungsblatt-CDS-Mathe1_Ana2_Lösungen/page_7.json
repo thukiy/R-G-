@@ -1,0 +1,10 @@
+{
+    "index": 6,
+    "markdown": "# 5. Aussagen \u00fcber eine Funktion \n\nWir betrachten die Mengen\n\n$$\nA:=\\{-1,0,1,3,5\\} \\quad \\text { und } \\quad B:=\\{-1,0,1,3,7,11\\}\n$$\n\nsowie die Funktion\n\n$$\n\\begin{aligned}\nf: A & \\rightarrow B \\\\\nx & \\mapsto f(x):=2 x+1\n\\end{aligned}\n$$\n\n| Welche der folgenden Aussagen sind wahr und welche falsch? | wahr | falsch |\n| :-- | :--: | :--: |\n| a) Es gilt $f(0)=0$. | $\\bigcirc$ | $\\bullet$ |\n| b) Es gilt $f(\\{3,5\\})=\\{7,11\\}$. | $\\bullet$ | $\\bigcirc$ |\n| c) Es gilt $f^{-1}(\\{0\\})=\\varnothing$. | $\\bullet$ | $\\bigcirc$ |\n| d) Die Funktion $f$ ist surjektiv. | $\\bigcirc$ | $\\bullet$ |\n| e) Die Funktion $f$ ist injektiv. | $\\bullet$ | $\\bigcirc$ |\n| f) Die Funktion $f$ ist bijektiv. | $\\bigcirc$ | $\\bullet$ |\n\nUm eine \u00dcbersicht \u00fcber die Wirkung der Funktion $f$ zu erhalten, stellen wir die Funktionswerte in einer Tabelle zusammen.\n\n| $x$ | -1 | 0 | 1 | 3 | 5 |\n| :--: | :--: | :--: | :--: | :--: | :--: |\n| $f(x)$ | -1 | 1 | 3 | 7 | 11 |\n\nZu einzelnen Teilaufgaben machen wir ein paar Bemerkungen.\na) Es ist zwar $0 \\in A$ und $0 \\in B$ aber gem\u00e4ss Tabelle (22) gilt $f(0)=1$.\nb) Es ist $\\{3,5\\} \\subseteq A,\\{7,11\\} \\subseteq B$ und gem\u00e4ss Tabelle (22) gilt\n\n$$\n\\underline{f(\\{3,5\\})}=\\{f(3), f(5)\\}=\\underline{\\{7,11\\}}\n$$\n\nc) Es gilt zwar $0 \\in B$, aber in der zweiten Zeile der Tabelle (22) steht keine 0 . Somit tritt 0 nicht als Funktionswert von $f$ auf. Es gibt daher kein $x \\in A$ mit $f(x)=0$ und es folgt $f$ $\\underline{-1}(\\{0\\})=\\varnothing$\nd) Weil das Element $0 \\in B$ als Funktionswert in der zweiten Zeile der Tabelle (22) nicht auftritt, kann $f$ nicht surjektiv sein.\ne) Weil jedes Element aus $B$ als Funktionswert in der zweiten Zeile der Tabelle (22) h\u00f6chstens einmal auftritt, ist $f$ injektiv.\nf) Weil $f$ gem\u00e4ss Teilaufgabe d) nicht surjektiv ist, kann $f$ auch nicht bijektiv sein.",
+    "images": [],
+    "dimensions": {
+        "dpi": 200,
+        "height": 2339,
+        "width": 1654
+    }
+}

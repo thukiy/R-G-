@@ -1,0 +1,10 @@
+{
+    "index": 0,
+    "markdown": "# \u00dcbungsblatt Ana 2 \n\n## 1. Aussagen \u00fcber Funktionen\n\n| Welche der folgenden Aussagen sind wahr und welche falsch? | wahr | falsch |\n| :-- | :--: | :--: |\n| a) Eine Funktion ordnet jedem Element der Definitionsmenge genau ein Ele- <br> ment der Zielmenge zu. | $\\bullet$ | $\\bigcirc$ |\n| b) Die Definitionsmenge einer Funktion darf zu gross sein. | $\\bigcirc$ | $\\bullet$ |\n| c) Die Zielmenge einer Funktion darf zu gross sein. | $\\bullet$ | $\\bigcirc$ |\n| d) Eine Funktion ist durch Angabe der Zuordnungsvorschrift vollst\u00e4ndig de- <br> finiert. | $\\bigcirc$ | $\\bullet$ |\n| e) In den meisten Anwendungen wird die Zuordnungsvorschrift durch einen <br> Funktionsterm angegeben. | $\\bullet$ | $\\bigcirc$ |\n\n## 2. Einfache, reellwertige Funktion mit Funktionsterm\n\nWir betrachten die Mengen\n\n$$\nA:=\\{1,3,5,7,9,11\\} \\quad \\text { und } \\quad B:=\\{0,2,4, \\ldots\\}\n$$\n\nFerner sei $f$ die Funktion\n\n$$\n\\begin{aligned}\nf: A & \\rightarrow B \\\\\nx & \\mapsto f(x):=4 x\n\\end{aligned}\n$$\n\na) Die Definitionsmenge der Funktion $f$ ist gem\u00e4ss (2) definiert als\n\n$$\n\\underline{A=\\{1,3,5,7,9,11\\}}\n$$\n\nund die Zielmenge\n\n$$\n\\underline{B=\\{0,2,4, \\ldots\\}}=2 \\mathbb{N}\n$$\n\nb) Der Funktionsterm der Funktion $f$ ist gem\u00e4ss (2) gegeben durch $\\underline{4 x}$, wobei $x$ die unabh\u00e4ngige Variable bezeichnet.",
+    "images": [],
+    "dimensions": {
+        "dpi": 200,
+        "height": 2339,
+        "width": 1654
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "index": 44,
+    "markdown": "f\u00fcrs Anfangsbeispiel k\u00f6nnte man auch\n$A_{0}=125$ und $t_{0}=1 \\mathrm{~h}$ w\u00e4hlen: $A_{0}$ und $t_{0}$ m\u00fcssen zusammen ge\u00e4ndert werden\n\nODER\nman k\u00f6nnte Vervielfachung in 6 h w\u00e4hlen :\na und $\\Sigma$ m\u00fcssen gemeinsam gew\u00e4hlt werden\nParameterwechsel f\u00fcr Referenzpunkt :\na) $\\tilde{A}_{0}=f\\left(\\tilde{t}_{0}\\right)=A_{0} \\cdot a^{\\frac{\\tilde{t}_{0}-t_{0}}{2}}$\nb) $\\tilde{t}_{0}=f^{-1}\\left(\\tilde{A}_{0}\\right)=\\sum \\cdot \\log _{a}\\left(\\frac{\\tilde{A}_{0}}{A_{0}}\\right)+t_{0}$\n\nParameterwechsel f\u00fcr Basis und Schrittweite :\na) $\\tilde{a}=a^{\\frac{2}{2}}$\nb) $\\tilde{\\Sigma}=\\sum \\cdot \\log _{a} \\tilde{a}$",
+    "images": [],
+    "dimensions": {
+        "dpi": 200,
+        "height": 2338,
+        "width": 1654
+    }
+}

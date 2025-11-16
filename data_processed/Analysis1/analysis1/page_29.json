@@ -1,0 +1,10 @@
+{
+    "index": 28,
+    "markdown": "Schreibweise: $\\lim _{n \\rightarrow \\infty} a_{n}=a$\n\n$$\na_{n} \\rightarrow a \\quad \\text { f\u00fcr } \\quad n \\rightarrow \\infty\n$$\n\nBsp: $\\quad a_{n}=\\frac{1}{n}$\nstreng monoton fallend, obere schranke: 1\nunkue schranke: 0\n\n$$\n\\lim _{n \\rightarrow \\infty} \\frac{1}{n}=0\n$$\n\n- $a_{n}=1$ monoton fallend \\& wachsend\n$\\lim _{n \\rightarrow \\infty} a_{n}=1$\n- $a_{n}=(1,0,1,0 \\ldots)$\nist beschr\u00e4nkt, konvergiert aber nicht\n- $a_{n}=\\frac{28 n^{4}-20 n^{3}+10 n}{14 n^{4}+200}$\n$=\\frac{n^{4}\\left(28-\\frac{20}{n}+\\frac{10}{n^{2}}\\right)}{n^{4}\\left(14+\\frac{200}{n^{2}}\\right)} \\rightarrow 0$ f\u00fcr $n \\rightarrow \\infty$\n$\\lim _{n \\rightarrow \\infty} a_{n}=\\frac{28}{14}=2$\n$\\rightarrow$ jede konvergente Folge ist beschr\u00e4nkt\n$\\rightarrow$ jede beschr\u00f6nlite und monotone Folge ist konvergent\n$\\rightarrow$ nicht beschr\u00e4nkt : divergent",
+    "images": [],
+    "dimensions": {
+        "dpi": 200,
+        "height": 2338,
+        "width": 1654
+    }
+}

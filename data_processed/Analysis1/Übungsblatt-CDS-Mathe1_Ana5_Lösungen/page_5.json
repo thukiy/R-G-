@@ -1,0 +1,10 @@
+{
+    "index": 4,
+    "markdown": "# 6. Eigenschaften von eigentlichen Exponentialfunktionen \n\nSeien $a \\in \\mathbb{R}^{+} \\backslash\\{1\\}, x, y \\in \\mathbb{R}, z \\in \\mathbb{R} \\backslash\\{0\\}$ und $f$ die eigentliche Exponentialfunktion\n\n$$\n\\begin{aligned}\nf: \\mathbb{R} & \\rightarrow \\mathbb{R} \\\\\nx & \\mapsto f(x):=a^{x}\n\\end{aligned}\n$$\n\nWir beweisen die folgenden Eigenschaften von $f$ und pr\u00fcfen diese jeweils an einem selbstgew\u00e4hlten Zahlenbeispiel nach.\na) Allgemein gilt\n\n$$\n\\underline{\\underline{f(0)}}=a^{0}=\\underline{1}\n$$\n\nAls Beispiel w\u00e4hlen wir $a=2$. Wir erhalten\n\n$$\n\\underline{\\underline{f(0)}}=2^{0}=\\underline{1}\n$$\n\nb) Allgemein gilt\n\n$$\n\\underline{\\underline{f(-x)}}=a^{-x}=\\frac{1}{a^{x}}=\\frac{1}{\\underline{\\underline{f(x)}}}\n$$\n\nAls Beispiel w\u00e4hlen wir $a=2$ und $x=3$. Wir erhalten\n\n$$\n\\begin{aligned}\nf(3) & =2^{3}=8 \\\\\n\\underline{\\underline{f(-3)}} & =2^{-3}=\\frac{1}{2^{3}}=\\frac{1}{8}=\\frac{1}{\\underline{\\underline{f(3)}}\n\\end{aligned}\n$$\n\nc) Allgemein gilt\n\n$$\n\\underline{\\underline{f(1)}}=a^{1}=\\underline{\\underline{a}}\n$$\n\nAls Beispiel w\u00e4hlen wir $a=3$. Wir erhalten\n\n$$\n\\underline{\\underline{f(1)}}=3^{1}=3=\\underline{\\underline{a}}\n$$\n\nd) Allgemein gilt\n\n$$\n\\underline{\\underline{f(-1)}}=a^{-1}=\\frac{1}{\\underline{\\underline{a}}}\n$$\n\nAls Beispiel w\u00e4hlen wir $a=3$. Wir erhalten\n\n$$\n\\underline{\\underline{f(-1)}}=3^{-1}=\\frac{1}{3}=\\frac{1}{\\underline{\\underline{a}}}\n$$\n\ne) Allgemein gilt\n\n$$\n\\underline{\\underline{f(x+1)}}=a^{x+1}=a^{x} \\cdot a^{1}=a^{x} \\cdot a=\\underline{\\underline{a} \\cdot f(x)}\n$$\n\nAls Beispiel w\u00e4hlen wir $a=5$ und $x=2$. Wir erhalten\n\n$$\n\\begin{aligned}\nf(2) & =5^{2}=25 \\\\\n\\underline{\\underline{f(2+1)}} & =f(3)=5^{3}=125=5 \\cdot 25=\\underline{\\underline{5 \\cdot f(2)}}\n\\end{aligned}\n$$",
+    "images": [],
+    "dimensions": {
+        "dpi": 200,
+        "height": 2339,
+        "width": 1654
+    }
+}

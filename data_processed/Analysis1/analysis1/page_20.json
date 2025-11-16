@@ -1,0 +1,10 @@
+{
+    "index": 19,
+    "markdown": "# Abbildungen \n\n- grundlegendes konzept in Mathe\n- einem element der Henge $A$ wird ein element der Henge $B$ zugeordnet\n\n$$\nA \\neq B\n$$\n\nDef: Eine Abbildung $\\xi$ aus einer Henge $A$ in eine Henge $B$ ist eine Vorschrift, die jedem $a \\in A$ genau ein $b=\\xi(a) \\in \\xi(b) \\subseteq B$ zuordnet.\nA : Definitionsmenge\nB : Werte-/Zielmenge\n$\\xi(A):$ Bild (menge)\n\n$$\n=\\xi b \\in B \\mid \\exists a \\in A \\text { mit } b=\\xi(a) \\xi\n$$\n\n$\\rightarrow$ Zielmenge $B$ da $f$ gr\u00f6sser als $\\xi(A)$ sein\n$\\rightarrow$ Abbildung ist eindeutig definiert durch Definitionsmenge, Zielmenge und Abbildungsvorschrift\nSchreibweise : $\\xi: A \\rightarrow B$\n\n$$\n\\begin{aligned}\n& a \\rightarrow \\xi(a) \\\\\n& b \\rightarrow \\xi(b)\n\\end{aligned}\n$$\n\na: unabh\u00e4ngige Variable, Argument\nb : abh\u00e4ngige Variable\nBsp: $\\quad f: \\xi 1,2 \\xi \\rightarrow \\xi 3,5,6 \\xi$\n\n$$\n\\begin{aligned}\n& x \\rightarrow f(x)=3 x \\\\\n& f(1)=3 \\\\\n& f(2)=6\n\\end{aligned}\n$$\n\n$\\rightarrow$ Wert 5 aus Zielmenge wird nicht angenommen",
+    "images": [],
+    "dimensions": {
+        "dpi": 200,
+        "height": 2338,
+        "width": 1654
+    }
+}

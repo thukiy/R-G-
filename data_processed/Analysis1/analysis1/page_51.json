@@ -1,0 +1,10 @@
+{
+    "index": 50,
+    "markdown": "# Differentialrechnung \n\n## Produktregel\n\n$f(x)=g(x) \\cdot h(x)$\nwie sieht $f^{\\prime}(x)$ aus?\n$\\rightarrow f^{\\prime}(x)=g^{\\prime}(x) \\cdot h^{\\prime}(x) \\quad$ FALSCH\n2.B. $f(x)=x^{2}$\n$f^{\\prime}(x)=2 x$\nmit $f(x)=\\frac{x \\cdot x}{g(x) h(x)}$\nw\u00e4re $f^{\\prime}(x)=g^{\\prime}(x) \\cdot h^{\\prime}(x)=1 \\cdot 1=1$\nProduktregel: $g, h: R \\rightarrow \\mathbb{R}, f(x)=g(x) \\cdot h(x)$\n$g \\& h$ sind differenzierbar. Dann gilt :\n$f^{\\prime}(x)=g^{\\prime}(x) \\cdot h(x)+g(x) \\cdot h^{\\prime}(x)$\nBsp: $\\quad f(x)=x^{2}=x \\cdot x$\n$f^{\\prime}(x)=x \\cdot 1+1 \\cdot x=2 x \\quad \\rightarrow$ stimma mit konomregel \u00fcberein\nbehachte Differenzquotient:\n\n$$\n\\begin{aligned}\n& f^{\\prime}(x)=\\lim _{\\Delta x \\rightarrow 0} \\frac{f(x+\\Delta x)-f(x)}{\\Delta x}=\\lim _{\\Delta x \\rightarrow 0} \\frac{g(x+\\Delta x) \\cdot h(x+\\Delta x)-g(x) \\cdot h(x)}{\\Delta x} \\\\\n& =\\lim _{\\Delta x \\rightarrow 0} \\frac{g(x+\\Delta x) \\cdot h(x+\\Delta x)+g(x) \\cdot h(x+\\Delta x)-g(x) \\cdot h(x+\\Delta x)-g(x) \\cdot h(x)}{\\Delta x} \\\\\n& =\\lim _{\\Delta x \\rightarrow 0} \\frac{h(x+\\Delta x) \\cdot[g(x+\\Delta x)-g(x)]+g(x) \\cdot[h(x+\\Delta x)-h(x)]}{\\Delta x} \\\\\n& =\\lim _{\\Delta x \\rightarrow 0} \\frac{h(x+\\Delta x)[g(x+\\Delta x)-g(x)]}{\\Delta x}+\\lim _{\\Delta x \\rightarrow 0} \\frac{g(x)[h(x+\\Delta x)-h(x)]}{\\Delta x}\n\\end{aligned}\n$$",
+    "images": [],
+    "dimensions": {
+        "dpi": 200,
+        "height": 2338,
+        "width": 1654
+    }
+}

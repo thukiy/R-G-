@@ -1,0 +1,10 @@
+{
+    "index": 2,
+    "markdown": "Gem\u00e4ss Ausgabe ist $\\underline{S=98}$.\nc) Wir modifizieren den Code.\n\\# Berechnungen:\nS=sp.summation(k**3,(k,-2,\nGem\u00e4ss Ausgabe ist $\\underline{S=0}$.\nd) Wir modifizieren den Code.\n\\# Berechnungen:\nS=sp.summation $(1 / k,(k, 2,4))$;\nGem\u00e4ss Ausgabe ist $\\underline{S=\\frac{13}{12}}$.\ne) Wir modifizieren den Code.\n\\# Berechnungen:\nS=sp.summation $(2 * * k,(k, 0,4))$;\nGem\u00e4ss Ausgabe ist $\\underline{S=31}$.\nf) Wir modifizieren den Code.\n\\# Berechnungen:\nS=sp.summation((-1)**k*k,(k,4,9));]\nGem\u00e4ss Ausgabe ist $\\underline{S=-3}$.\n\n# 4. Summen mit dem Summen-Zeichen darstellen \n\nWir schreiben die folgenden Summen mit Hilfe des Summen-Zeichens.\na) Wir erhalten\n\n$$\n4+5+6+7+8+9+10+11=\\sum_{k=4}^{11} k\n$$\n\nb) Wir erhalten\n\n$$\n0+2+4+6+8+10=\\sum_{k=0}^{5} 2 k\n$$\n\nc) Wir erhalten\n\n$$\n1+3+5+7+9+11=\\sum_{k=0}^{5}(2 k+1)=\\sum_{k=1}^{6}(2 k-1)\n$$\n\nd) Wir erhalten\n\n$$\n1-3+5-7+9-11=\\sum_{k=0}^{5}(-1)^{k}(2 k+1)\n$$",
+    "images": [],
+    "dimensions": {
+        "dpi": 200,
+        "height": 2339,
+        "width": 1654
+    }
+}

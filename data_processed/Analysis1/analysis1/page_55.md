@@ -1,0 +1,15 @@
+# Aheitung der umkelhufunhition : 
+
+$f: R \rightarrow R$ sei differenzierbar und bijektiv
+Es giet : $f^{-1}(y)^{\prime}=\frac{1}{f^{\prime}(x)}=\frac{1}{f^{\prime}\left(f^{-1}(y)\right)}$
+Bsp: $\quad f(x)=\left(x^{2}-x+1\right)^{4}$
+
+$$
+\begin{aligned}
+& g(h)=h^{4} \quad g^{\prime}(h)=4 h^{3} \\
+& h(x)=x^{2}-x+1 \quad h^{\prime}(x)=2 x-1 \\
+& f^{\prime}(x)=4\left(x^{2}-x+1\right)^{3} \cdot(2 x-1) \\
+& f(x)=\frac{x}{x^{2}+3} \\
+& f^{\prime}(x)=\frac{1 \cdot\left(x^{2}+3\right)-x \cdot 2 x}{\left(x^{2}+3\right)^{2}}=\frac{x^{2}+3-2 x^{2}}{\left(x^{2}+3\right)^{2}}=\frac{-x^{2}+3}{\left(x^{2}+3\right)^{2}}
+\end{aligned}
+$$

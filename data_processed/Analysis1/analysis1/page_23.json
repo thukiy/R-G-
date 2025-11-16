@@ -1,0 +1,10 @@
+{
+    "index": 22,
+    "markdown": "$\\rightarrow$ Injekttivit\u00e4t kann durch Verkleinern ale Definitionsmenge erveicht werden\n$\\rightarrow$ Sujetutivit\u00e4t kann duch Verkeainern der Werte - auf Bildmenge erreicht werden\n\nBsp: $\\quad f: N \\rightarrow N \\quad f(x)=x^{2}$\ninjetitiv, nicht sujeltiv (weile zB 3,5 wird nicht aingenommen)\n$\\circ f: N \\rightarrow \\xi-1 ; 1 \\xi \\quad f(x)=(-1)^{x}$\nsujeltiv, nicht injeltiv\n$\\circ f: \\mathscr{Z} \\rightarrow \\mathscr{Z} \\quad f(x)=1-x$\nbijeltiv\nDefinitions - 8 zielmenge bestimmen, dass\n$f(x)=x^{2}$ bijeltiv\n\n$$\nf: \\xi 1 \\xi \\rightarrow \\xi 1 \\xi\n$$\n\n$f: R_{0}{ }^{+} \\rightarrow R_{0}^{+}$\n$f: R_{0}-\\rightarrow R_{0}^{+}$\n\n# Wrbild von $Y \\subseteq B$ \n\nenth\u00e4lt all jene Elemente ale Definitionsmenge $A$, die nach $Y$ abgelbilder werden :\n\n$$\nf^{-1}(Y)=\\xi \\times \\in A \\mid f(x) \\in Y \\xi\n$$\n\nBsp: $\\quad \\circ f: H \\rightarrow N \\quad H=\\xi-3,-2,-1,0,1,2,3 \\xi$\n\n$$\nf(m)=m^{2} \\quad N=\\xi 0,1,2,3,4,5,6,7,8,9 \\xi\n$$\n\n$f(H)=\\xi 0,1,2,4,9 \\xi \\in N$",
+    "images": [],
+    "dimensions": {
+        "dpi": 200,
+        "height": 2338,
+        "width": 1654
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "index": 0,
+    "markdown": "# \u00dcbungsblatt Ana 5 \n\n## 1. Aussagen \u00fcber Betrag und Vorzeichen\n\n| Welche der folgenden Aussagen sind wahr und welche falsch? | wahr | falsch |\n| :-- | :--: | :--: |\n| a) F\u00fcr alle positiven reellen Zahlen $x>0$ gilt $|x|=x$. | $\\bullet$ | $\\bigcirc$ |\n| b) F\u00fcr jedes $x \\in \\mathbb{R}$ gilt $||x||=|x|$. | $\\bullet$ | $\\bigcirc$ |\n| c) F\u00fcr jedes $x \\in \\mathbb{R}$ gilt $\\operatorname{sgn}(\\operatorname{sgn}(x))=\\operatorname{sgn}(x)$. | $\\bullet$ | $\\bigcirc$ |\n| d) Die Gleichung $\\operatorname{sgn}(x)=|x|$ hat nur die L\u00f6sung $x=0$. | $\\bigcirc$ | $\\bullet$ |\n| e) F\u00fcr jedes $x \\in \\mathbb{R}$ gilt $0 \\leq|\\operatorname{sgn}(x)| \\leq 1$. | $\\bullet$ | $\\bigcirc$ |\n| f) F\u00fcr jedes $x \\in \\mathbb{R}$ gilt $\\operatorname{sgn}(|x|)=1$. | $\\bigcirc$ | $\\bullet$ |\n\n## 2. Aussagen \u00fcber Potenz-Funktionen\n\nWir betrachten $A \\subseteq \\mathbb{R}, p \\in \\mathbb{R}$ und die allgemeine Potenz-Funktion\n\n$$\n\\begin{aligned}\nf: & A \\rightarrow \\mathbb{R} \\\\\n& x \\mapsto f(x):=x^{p}\n\\end{aligned}\n$$\n\n| Welche der folgenden Aussagen sind wahr und welche falsch? | wahr | falsch |\n| :-- | :--: | :--: |\n| a) F\u00fcr $p=0.5$ darf man $A=\\mathbb{R}$ w\u00e4hlen. | $\\bigcirc$ | $\\bullet$ |\n| b) F\u00fcr $p \\leq 0$ muss in jedem Fall gelten $0 \\notin A$. | $\\bullet$ | $\\bigcirc$ |\n| c) In jedem Fall gilt $f(0)=0$. | $\\bigcirc$ | $\\bullet$ |\n| d) Falls $1 \\in A$, dann gilt $f(1)=1$. | $\\bullet$ | $\\bigcirc$ |",
+    "images": [],
+    "dimensions": {
+        "dpi": 200,
+        "height": 2339,
+        "width": 1654
+    }
+}

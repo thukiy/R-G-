@@ -1,0 +1,10 @@
+{
+    "index": 0,
+    "markdown": "# -`sleq`j_rr ?1_10 Computational and Data Science BSc HS 2023 \n\n## L\u00f6sungen\n\nMathematik 1\n\n## 1. Aussagen \u00fcber Ableitungen von trigonometrischen Funktionen\n\n| Welche der folgenden Aussagen sind wahr und welche falsch? | wahr | falsch |\n| :-- | :-- | :-- |\n| a) Die Ableitungen der trigonometrischen Funktionen sind nur bez\u00fcglich des <br> Gradmass definiert. | 0 | $\\bullet$ |\n| b) Die Ableitungen der trigonometrischen Funktionen sind nur bez\u00fcglich des <br> Bogenmass definiert. | $\\bullet$ | 0 |\n| c) Die Ableitungen $\\sin ^{\\prime}(x)$ und $\\cos ^{\\prime}(x)$ sind f\u00fcr alle $x \\in \\mathbb{R}$ definiert. | $\\bullet$ | 0 |\n| d) Die Ableitungen $\\tan ^{\\prime}(x)$ und $\\cot ^{\\prime}(x)$ sind f\u00fcr alle $x \\in \\mathbb{R}$ definiert. | 0 | $\\bullet$ |\n| e) Die Ableitungen $\\tan ^{\\prime}(x)$ und $\\cot ^{\\prime}(x)$ sind genau f\u00fcr alle jene $x \\in \\mathbb{R}$ defi- <br> niert, an welchen auch $\\tan (x)$ bzw. $\\cot (x)$ definiert sind. | $\\bullet$ | 0 |\n\n## 2. Ableitung von trigonometrischen Funktionen\n\nWir verwenden die Beziehungen zwischen den trigonometrischen Funktionen und geeignete Ableitungsregeln, um aus der Sinus-Ableitung\n\n$$\n\\sin ^{\\prime}(\\varphi)=\\cos (\\varphi)\n$$\n\njeweils die Ableitung der folgenden Funktionen zu bestimmen.\na) F\u00fcr alle $\\varphi \\in \\mathbb{R}$ gilt\n\n$$\n\\cos (\\varphi)=\\sin (\\pi / 2-\\varphi)\n$$\n\nMit Hilfe der Ketten-Regel und (1) erhalten wir\n\n$$\n\\underline{\\cos ^{\\prime}(\\varphi)}=\\sin ^{\\prime}(\\pi / 2-\\varphi) \\cdot(\\pi / 2-\\varphi)^{\\prime}=\\cos (\\pi / 2-\\varphi) \\cdot(-1)=-\\underline{\\sin (\\varphi)}\n$$\n\nb) F\u00fcr alle $\\varphi \\in \\mathbb{R} \\backslash(\\pi / 2+\\pi \\mathbb{Z})$ gilt\n\n$$\n\\tan (\\varphi)=\\frac{\\sin (\\varphi)}{\\cos (\\varphi)}\n$$\n\nWir zeigen mehrere Varianten, wie die Ableitung von $\\tan (\\varphi)$ berechnet und dargestellt werden kann.",
+    "images": [],
+    "dimensions": {
+        "dpi": 200,
+        "height": 2339,
+        "width": 1654
+    }
+}

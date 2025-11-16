@@ -1,0 +1,10 @@
+{
+    "index": 10,
+    "markdown": "erhalten wir\n\n$$\n\\begin{aligned}\n& \\underline{\\underline{F(x)}}=\\frac{1}{2} \\cdot x^{\\frac{1}{2}-1}=\\frac{1}{2} x^{-\\frac{1}{2}}=\\frac{1}{2} \\cdot \\frac{1}{x^{\\frac{1}{2}}}=\\underline{\\underline{2 \\sqrt{x}}} \\\\\n& \\underline{\\underline{F(x)}}=\\frac{1}{\\frac{1}{2}+1} x^{\\frac{1}{2}+1}+c=\\frac{1}{\\frac{3}{2}} x^{\\frac{3}{2}}+c=\\underline{\\frac{2}{3} \\sqrt{x^{3}}+c}\n\\end{aligned}\n$$\n\nwobei $c \\in \\mathbb{R}$ beliebig gew\u00e4hlt werden kann.\nI) F\u00fcr die Funktion\n\n$$\nf(x)=\\sqrt{\\frac{1}{x}}-1=\\sqrt{x^{-1}}-1=\\left(x^{-1}\\right)^{\\frac{1}{2}}-1=x^{-1 \\cdot \\frac{1}{2}}-1=x^{-\\frac{1}{2}}-1\n$$\n\nerhalten wir\n\n$$\n\\begin{aligned}\n& \\underline{\\underline{F(x)}}=-\\frac{1}{2} \\cdot x^{-\\frac{1}{2}-1}-0=-\\frac{1}{2} x^{-\\frac{3}{2}}=-\\frac{1}{2} \\cdot \\frac{1}{x^{\\frac{3}{2}}}=-\\underline{\\underline{1} \\\\\n& \\underline{\\underline{F(x)}}=\\frac{1}{-\\frac{1}{2}+1} x^{-\\frac{1}{2}+1}-x+c=\\frac{1}{\\frac{1}{2}} x^{\\frac{1}{2}}-x+c=\\underline{\\underline{2 \\sqrt{x}-x+c}}\n\\end{aligned}\n$$\n\nwobei $c \\in \\mathbb{R}$ beliebig gew\u00e4hlt werden kann.",
+    "images": [],
+    "dimensions": {
+        "dpi": 200,
+        "height": 2339,
+        "width": 1654
+    }
+}

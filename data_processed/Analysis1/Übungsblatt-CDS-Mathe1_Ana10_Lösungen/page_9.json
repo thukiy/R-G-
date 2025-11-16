@@ -1,0 +1,10 @@
+{
+    "index": 8,
+    "markdown": "# 10. Ableitung von Area-Funktionen \n\nWir verwenden die Ketten-Regel, um jeweils die Ableitung der folgenden Funktionen aus der Ableitung der Umkehrfunktion zu bestimmen.\na) F\u00fcr alle $z \\in \\mathbb{R}$ gilt\n\n$$\n\\operatorname{arsinh}(\\sinh (z))=z\n$$\n\nund\n\n$$\n\\cosh (z)=\\sqrt{1+\\sinh ^{2}(z)}\n$$\n\nDurch beidseitiges Ableiten von (70) mit Hilfe der Ketten-Regel erhalten wir\n\n$$\n\\begin{aligned}\n& \\operatorname{arsinh}^{\\prime}(\\sinh (z)) \\cdot \\sinh ^{\\prime}(z)=z^{\\prime} \\\\\n& \\Rightarrow \\quad \\operatorname{arsinh}^{\\prime}(\\sinh (z)) \\cdot \\cosh (z)=1 \\quad \\mid: \\cosh (z) \\\\\n& \\Rightarrow \\quad \\operatorname{arsinh}^{\\prime}(\\sinh (z))=\\frac{1}{\\cosh (z)}=\\frac{1}{\\sqrt{1+\\sinh ^{2}(z)}}\n\\end{aligned}\n$$\n\nDurch die Substitution $x:=\\sinh (z)$ erhalten wir f\u00fcr alle $x \\in \\mathbb{R}$ die Areasinus-HyperbolicusAbleitung\n\n$$\n\\underline{\\operatorname{arsinh}^{\\prime}(x)=\\frac{1}{\\sqrt{1+x^{2}}}}\n$$\n\nb) F\u00fcr alle $z \\in \\mathbb{R}_{0}^{+}$gilt\n\n$$\n\\operatorname{arcosh}(\\cosh (z))=z\n$$\n\nund\n\n$$\n\\sinh (z)>0 \\Rightarrow \\sinh (z)=\\sqrt{\\cosh ^{2}(z)-1}\n$$\n\nDurch beidseitiges Ableiten von (76) mit Hilfe der Ketten-Regel erhalten wir\n\n$$\n\\begin{aligned}\n& \\operatorname{arcosh}^{\\prime}(\\cosh (z)) \\cdot \\cosh ^{\\prime}(z)=z^{\\prime} \\\\\n& \\Rightarrow \\quad \\operatorname{arcosh}^{\\prime}(\\cosh (z)) \\cdot \\sinh (z)=1 \\quad \\mid: \\sinh (z) \\\\\n& \\Rightarrow \\quad \\operatorname{arcosh}^{\\prime}(\\cosh (z))=\\frac{1}{\\sinh (z)}=\\frac{1}{\\sqrt{\\cosh ^{2}(z)-1}}\n\\end{aligned}\n$$\n\nDurch die Substitution $x:=\\cosh (z)$ erhalten wir f\u00fcr alle $x \\in[1, \\infty[$ die AreacosinusHyperbolicus-Ableitung\n\n$$\n\\underline{\\operatorname{arcosh}^{\\prime}(x)=\\frac{1}{\\sqrt{x^{2}-1}}}\n$$",
+    "images": [],
+    "dimensions": {
+        "dpi": 200,
+        "height": 2339,
+        "width": 1654
+    }
+}

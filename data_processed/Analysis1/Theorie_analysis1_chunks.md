@@ -1,0 +1,2801 @@
+
+
+## Chunk 1
+--------------------------------------------------------------------------------
+# --- PAGE page_1 ---
+
+# AnalySis
+
+# --- PAGE page_10 ---
+
+# Mengenlehre 
+
+## Mengenrelationen
+
+A = B: A und B besitzen dieselben Elemente
+A $\subseteq$ B: A ist Teilmenge von B, d. h. jedes Element von A ist auch Element von B; A = B ist möglich
+A $\subset$ B: A ist echte Teilmenge von B, d. h. B besitzt mehr Elemente als A; \{A $\subseteq$ B $\wedge$ A $\neq$ B $\}$
+A $\nsubseteq$ B: A ist keine Teilmenge von B
+$A \subseteq B \Leftrightarrow B \supset A$
+A $\subset B \Leftrightarrow B \supset A$
+
+Beispiele:
+
+- $\{1,2\} \subseteq\{1,2,3\}$
+- $\{1,2\} \subset\{1,2,3\}$
+- $\{1,2\} \subseteq\{1,2\}$
+- $\{1,2\} \not \subset\{1,2\}$
+- $\varnothing \subseteq$ A
+- $\varnothing \subset$ A
+
+# --- PAGE page_11 ---
+
+# Mengenlehre
+
+## Darstellung mittels Venn-Diagrammen
+
+
+
+# --- PAGE page_12 ---
+
+# Mengenlehre
+
+
+
+## Chunk 2
+--------------------------------------------------------------------------------
+## Darstellung mittels Venn-Diagrammen
+
+
+
+# --- PAGE page_12 ---
+
+# Mengenlehre
+
+## Mengenoperationen
+
+**Vereinigung:** $$A \cup B = \{x|x \in A \lor x \in B\}$$
+
+**Beispiel:**
+
+- $\{1, 2\} \cup \{2, 3\} = \{1, 2, 3\}
+- $\{1, 2\} \cup \{5, 8\} = \{1, 2, 5, 8\}$
+
+
+
+**Schnittmenge:** $$A \cap B = \{x|x \in A \land x \in B\}$$
+
+**Beispiel:**
+
+- $\{1, 2\} \cap \{2, 4\} = \{2\}
+- $\{1, 4\} \cap \{3, 5, 7\} = \{3\}
+- $\{2, 3\} \cap \emptyset = \{3\}
+
+
+
+# --- PAGE page_13 ---
+
+# Mengenlehre
+
+## Mengenoperationen
+
+Mengendifferenz: $$A \backslash B = \{x \mid x \in A \land x \notin B\}$$
+
+Beispiel:
+
+- $\{1, 2\} \setminus \{2, 3\} = \mathbb{Z}^{15}$
+- $\{1, 2\} \setminus \{1, 2\} = \mathbb{Z}^{3}$
+
+
+
+Symmetrische Differenz: $$A\Delta B = (A \backslash B) \cup (B \backslash A) = (A \cup B) \setminus (A \cap B)$$
+
+Beispiel:
+
+- $\{1, 2\} \Delta \{2, 3\} = \mathbb{Z}^{1, 35}
+- $\{1, 2\} \Delta \{1, 2\} = \mathbb{Z}^{5}
+- $\{1, 2\} \Delta \{3, 4\} = \mathbb{Z}^{1, 2, 3, 45}
+
+
+
+# --- PAGE page_14 ---
+
+# Mengenlehre
+
+
+
+## Chunk 3
+--------------------------------------------------------------------------------
+## Mengenoperationen
+
+G = Grundmenge, A ⊆ G
+
+Komplementärmenge: $$A = G \backslash A = \{x \in G \mid x \notin A\}$$
+
+
+
+# --- PAGE page_15 ---
+
+# Mengenlehre 
+
+Satz 1.9 Seien $A, B$ und $C$ Mengen. Dann gelten die
+
+1. Assoziativgesetze:
+
+$$
+\begin{aligned}
+& A \cup(B \cup C)=(A \cup B) \cup C \\
+& A \cap(B \cap C)=(A \cap B) \cap C
+\end{aligned}
+$$
+
+2. Distributivgesetze:
+
+$$
+\begin{aligned}
+& A \cap(B \cup C)=(A \cap B) \cup(A \cap C) \\
+& A \cup(B \cap C)=(A \cup B) \cap(A \cup C)
+\end{aligned}
+$$
+
+3. Kommutativgesetze:
+
+$$
+\begin{aligned}
+& A \cap B=B \cap A \\
+& A \cup B=B \cup A
+\end{aligned}
+$$
+
+4. Transitivität:
+
+$$
+A \subset B \text { und } B \subset C \Longrightarrow A \subset C
+$$
+
+5. Falls $B, C \subset A$, dann gelten die DE MORGANschen Regeln:
+
+$$
+\begin{aligned}
+& A \backslash(B \cap C)=(A \backslash B) \cup(A \backslash C) \\
+& A \backslash(B \cup C)=(A \backslash B) \cap(A \backslash C)
+\end{aligned}
+$$
+
+# --- PAGE page_16 ---
+
+# Zahlenmengen 
+
+N: natürliche Zahlen $\{1,2,3,4 \ldots\}$
+$\mathrm{N}_{0}$ : natürliche Zahlen mit 0
+2: ganze Zahlen $\{\ldots-2,-1,0,1,2 \ldots\}$
+
+
+
+## Chunk 4
+--------------------------------------------------------------------------------
+# Zahlenmengen 
+
+N: natürliche Zahlen $\{1,2,3,4 \ldots\}$
+$\mathrm{N}_{0}$ : natürliche Zahlen mit 0
+2: ganze Zahlen $\{\ldots-2,-1,0,1,2 \ldots\}$
+Q: rationale Zahlen $\left\{\frac{m}{n} \mid m \in \mathbb{Z}, n \in \mathbb{Z}, \mathrm{n} \neq 0\right\}$
+R: reelle Zahlen = rationale + irrationale Zahlen
+Irrationale Zahlen $=\mathbb{R} \backslash Q$ :
+Nachkommastellen laufen unendlich weiter ohne periodisch zu werden
+Bemerkung: $\infty \notin \mathbb{R},-\infty \notin \mathbb{R}$
+
+$$
+\rightarrow \mathrm{N} \subset \mathrm{~N}_{0} \subset \mathbb{Z} \subset \mathbb{Q} \subset \mathbb{R}
+$$
+
+# --- PAGE page_17 ---
+
+# Zahlenmengen
+
+
+
+## Chunk 5
+--------------------------------------------------------------------------------
+## Intervalle
+
+- Geschlossen: $[a, b]=\{x \in \mathbb{R} \mid a \leq x \leq b\}$
+- Offen: $] a, b[=\{x \in \mathbb{R} \mid a<x<b\}$
+- Halboffen: $[a, b[=\{x \in \mathbb{R} \mid a \leq x<b\}$
+$] a, b]=\{x \in \mathbb{R} \mid a<x \leq b\}$
+
+Beispiele:
+
+- $\mathbb{R}_{0}^{+}=[0,+\infty[$
+- $\mathbb{R}^{+}=] 0,+\infty[$
+- $\mathbb{R}^{-}=]-\infty ; 0[$
+
+
+
+## Chunk 6
+--------------------------------------------------------------------------------
+## Beispiele:
+
+- 1
+- 3,2
+- -8
+- $\sqrt{10}$
+- $\frac{1}{7}$
+- 0
+$\epsilon \mathbb{N}_{0}, \mathbb{Z}, \mathbb{Q}, \mathbb{R}$
+
+# --- PAGE page_18 ---
+
+# Kartesisches Produkt
+
+xy-Diagramm wird zur Darstellung genutzt, z. B. für Funktionen oder in der Geometrie. Ein Punkt P wird durch ein Zahlenpaar (ein Tupel) beschrieben.
+
+
+
+Beschreibung von Punkten innerhalb des Rechtecks R sehr aufwändig (es wären sehr viele Tupel nötig)
+
+**Definition:**
+
+Kartesisches Produkt von 2 Mengen A und B:
+
+$$AxB = \{(x,y) \mid x \in A \land y \in B\}$$
+
+*Geordnetes Paar, Tupel*
+
+# --- PAGE page_19 ---
+
+# Kartesisches Produkt 
+
+Beispiel: $A=\{1,2\}, B=\{3,4\}$
+
+- $A \times B=\{(1 ; 3),(1 ; 4),(2 ; 3),(2 ; 4)\}$
+- $B \times A=\{(3 ; 1),(3 ; 2),(4 ; 1),(4 ; 2)\}$
+$\rightarrow A \times B \neq B \times A$
+
+Bemerkung:
+Falls $A \neq B$, dann $A \times B \neq B \times A$
+
+Rechteck R durch kartesisches Produkt beschreiben:
+$R=[2 ; 3] \times[0 ; 1]$
+
+# --- PAGE page_2 ---
+
+# Aussagenlogik 
+
+$>$ Lehre vom folgerichtigen Denken
+$>$ Befasst sich mit Aussagen: es wird überprüft, ob eine Aussage wahr oder falsch ist (es gibt keine weiteren Möglichkeiten)
+$>$ Die Aussagen werden typischerweise mit Buchstaben abgekürzt
+
+
+
+## Chunk 7
+--------------------------------------------------------------------------------
+$>$ Die Aussagen werden typischerweise mit Buchstaben abgekürzt
+
+Beispiel:
+Wenn die Sonne scheint und er keinen Besuch bekommt, dann geht Peter am Sonntag Pilze sammeln.
+
+Wenn die Sonne scheint und er keinen Besuch bekommt, dann geht Peter am Sonntag Pilze sammeln.
+$\rightarrow 3$ Aussagen, die miteinander verknüpft sind: A, B, C
+A: w
+dann C: w
+B: w
+
+# --- PAGE page_20 ---
+
+# Abbildungen 
+
+- grundlegendes konzept in Mathe
+- einem element der Henge $A$ wird ein element der Henge $B$ zugeordnet
+
+$$
+A \neq B
+$$
+
+Def: Eine Abbildung $\xi$ aus einer Henge $A$ in eine Henge $B$ ist eine Vorschrift, die jedem $a \in A$ genau ein $b=\xi(a) \in \xi(b) \subseteq B$ zuordnet.
+A : Definitionsmenge
+B : Werte-/Zielmenge
+$\xi(A):$ Bild (menge)
+
+$$
+=\xi b \in B \mid \exists a \in A \text { mit } b=\xi(a) \xi
+$$
+
+$\rightarrow$ Zielmenge $B$ da $f$ grösser als $\xi(A)$ sein
+$\rightarrow$ Abbildung ist eindeutig definiert durch Definitionsmenge, Zielmenge und Abbildungsvorschrift
+Schreibweise : $\xi: A \rightarrow B$
+
+$$
+\begin{aligned}
+& a \rightarrow \xi(a) \\
+& b \rightarrow \xi(b)
+\end{aligned}
+$$
+
+a: unabhängige Variable, Argument
+b : abhängige Variable
+
+
+
+## Chunk 8
+--------------------------------------------------------------------------------
+$$
+\begin{aligned}
+& a \rightarrow \xi(a) \\
+& b \rightarrow \xi(b)
+\end{aligned}
+$$
+
+a: unabhängige Variable, Argument
+b : abhängige Variable
+Bsp: $\quad f: \xi 1,2 \xi \rightarrow \xi 3,5,6 \xi$
+
+$$
+\begin{aligned}
+& x \rightarrow f(x)=3 x \\
+& f(1)=3 \\
+& f(2)=6
+\end{aligned}
+$$
+
+$\rightarrow$ Wert 5 aus Zielmenge wird nicht angenommen
+
+# --- PAGE page_21 ---
+
+- $f:[0 ; 1] \rightarrow[1 ; 3]$
+$x \rightarrow f(x)=x+2$
+$f(0 ; 5)=2 ; 5$
+$f\left([0 ; 2 ; 0 ; 7]\right)=[2 ; 2 ; 2 ; 7]$
+- $f:[-2 ; 2] \rightarrow \mathbb{R}$
+$f(x)=x^{2}$
+$f(-1)=1 \quad f(2-1 ; 12)=1$
+$f([-2 ; 2])=[0 ; 4]$
+- sei $A=\xi x_{1} ; x_{2} \xi$ und $B=\xi y 3$, dann ist
+$f: A \rightarrow B$ mit $f\left(x_{1}\right)=y$ und $f\left(x_{2}\right)=y$ eine Abbildung
+- sei $A=\xi x 3$ und $B \xi y_{1}, y_{2} 3$, dann ist
+$f: A \rightarrow B$ mit $f(x)=y_{1}$ und $f(x)=y_{2}$ keine Abbildung
+
+
+# Verkettung von Abhilalungen 
+
+- Hintereinanderausführung
+- möglich, wenn Wertebereich der 1. Abbildung in Definitionsbereich
+der 2. Abbildung enthalten
+$f_{1}: A \rightarrow B, f_{2}: B \rightarrow C$
+Verketting : $\left(f_{2} \circ f_{1}\right)(x)=f_{2}\left(f_{1}(x)\right)$
+$f_{2}$ nach $f_{1}$
+
+
+# --- PAGE page_22 ---
+
+
+
+## Chunk 9
+--------------------------------------------------------------------------------
+Verketting : $\left(f_{2} \circ f_{1}\right)(x)=f_{2}\left(f_{1}(x)\right)$
+$f_{2}$ nach $f_{1}$
+
+
+# --- PAGE page_22 ---
+
+Bsp: $\quad f_{1}: \mathbb{N} \rightarrow \mathbb{R} \quad f_{2}: \mathbb{R}^{+} \rightarrow \mathbb{R}^{+}$
+
+$$
+n \rightarrow \frac{1}{n} \quad \times \rightarrow \sqrt{x}
+$$
+
+$f_{2}=f_{1}: \mathbb{N} \rightarrow \mathbb{R}^{+}$
+
+$$
+n=\sqrt{\frac{1}{n}}
+$$
+
+Def: Eine Abbildung $f: A \rightarrow B, a \rightarrow f(a)$ Preisst
+a) injektiv,
+wenn aus $a_{1} \neq a_{2}$ auch immer $f\left(a_{1}\right) \neq f\left(a_{2}\right)$ folgt
+b) sujeltiv,
+wenn auf jedes element der Wertemenge $B$ abgebildet wird, dh. $\forall b \in B \quad 3 a \in A$ mit $f(a)=b$
+c) bijektiv,
+wenn sie sowohl injektiv als auch sujeltiv ist, dh. $\forall b \in B \quad 3, a \in A$ mit $f(a)=b$
+injektiv: jedes element der Zielmenge höchstens einmal
+
+sujeltiv: jedes element der Wertemenge mindestens einmal
+
+bijektiv: jedes element der Wertemenge genau einmal angenommen
+
+
+# --- PAGE page_23 ---
+
+$\rightarrow$ Injekttivität kann durch Verkleinern ale Definitionsmenge erveicht werden
+$\rightarrow$ Sujetutivität kann duch Verkeainern der Werte - auf Bildmenge erreicht werden
+
+
+
+## Chunk 10
+--------------------------------------------------------------------------------
+$\rightarrow$ Sujetutivität kann duch Verkeainern der Werte - auf Bildmenge erreicht werden
+
+Bsp: $\quad f: N \rightarrow N \quad f(x)=x^{2}$
+injetitiv, nicht sujeltiv (weile zB 3,5 wird nicht aingenommen)
+$\circ f: N \rightarrow \xi-1 ; 1 \xi \quad f(x)=(-1)^{x}$
+sujeltiv, nicht injeltiv
+$\circ f: \mathscr{Z} \rightarrow \mathscr{Z} \quad f(x)=1-x$
+bijeltiv
+Definitions - 8 zielmenge bestimmen, dass
+$f(x)=x^{2}$ bijeltiv
+
+$$
+f: \xi 1 \xi \rightarrow \xi 1 \xi
+$$
+
+$f: R_{0}{ }^{+} \rightarrow R_{0}^{+}$
+$f: R_{0}-\rightarrow R_{0}^{+}$
+
+# Wrbild von $Y \subseteq B$ 
+
+enthält all jene Elemente ale Definitionsmenge $A$, die nach $Y$ abgelbilder werden :
+
+$$
+f^{-1}(Y)=\xi \times \in A \mid f(x) \in Y \xi
+$$
+
+Bsp: $\quad \circ f: H \rightarrow N \quad H=\xi-3,-2,-1,0,1,2,3 \xi$
+
+$$
+f(m)=m^{2} \quad N=\xi 0,1,2,3,4,5,6,7,8,9 \xi
+$$
+
+$f(H)=\xi 0,1,2,4,9 \xi \in N$
+
+# --- PAGE page_24 ---
+
+betrachte $\xi 4,98<N$ :
+dann ist wioled von $\xi 4,98$ :
+
+$$
+f^{-1}(\xi 4,98)=\xi-3,-2,2,38
+$$
+
+# Umkehrabbildung 
+
+aus jedem Bildelement soll eindeutig das Ausgangselement rekonstruiert werden
+$\rightarrow$ dies ist nicht immer möglich
+
+
+
+## Chunk 11
+--------------------------------------------------------------------------------
+$$
+
+# Umkehrabbildung 
+
+aus jedem Bildelement soll eindeutig das Ausgangselement rekonstruiert werden
+$\rightarrow$ dies ist nicht immer möglich
+obriges Bsp: - nicht alle Elemente von $N$ haben Entsprechung in $M$
+
+- Problem mit Gindeutigkeit :
+$-2$ und +2 werden auf 4 abgebildet
+$\Rightarrow$ Abbildung $\xi$ muss bijektiv sein, damit sie umkehrbar ist
+$\leftrightarrow$ Funktionstum wird nach dem Argument aufgelöst
+obriges Bsp: $\quad M^{\prime}=\xi 0,1,2,38, N^{\prime}=\xi 0,1,4,98$
+
+$$
+\begin{aligned}
+& f: M^{\prime} \rightarrow N^{\prime} \quad f(m)=m^{2}=n \\
+& m^{2}=n \quad \Leftrightarrow \quad m=\sqrt{n} \\
+& f^{-1}: N^{\prime} \rightarrow M \quad f^{\prime}(n)=\sqrt{n}
+\end{aligned}
+$$
+
+# --- PAGE page_25 ---
+
+# Folgen 
+
+Ein Bagensee wird vergrößert. Ei hat eine Fläche von $1500 \mathrm{~m}^{2}$, die jede Woche um $200 \mathrm{~m}^{2}$ vergrößert wird. Algen bedecken den See, anfangen sind dies $1 \mathrm{~m}^{2}$. Die Algenflasche verdreifacht sich wöchentlich.
+Veränderung der See - und Algenflasche :
+
+| wochenzahl n | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 |
+| :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: |
+
+
+
+## Chunk 12
+--------------------------------------------------------------------------------
+| wochenzahl n | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 |
+| :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: |
+| Seefläche in $\mathrm{m}^{2}$ | 1500 | 1700 | 1900 | 2100 | 2300 | 2500 | 2700 | 2900 | 3100 |
+| Algenfläche in $\mathrm{m}^{2}$ | 1 | 3 | 9 | 27 | 81 | 243 | 729 | 2187 | 6561 |
+| Seefläche : $s(n)=1500+200 n$ |  |  |  |  |  |  |  |  |  |
+| Algenflasche : $a(n)=3^{n}$ |  |  |  |  |  |  |  |  |  |
+| $\longrightarrow s(n) 8 a(n)$ sind Folgen |  |  |  |  |  |  |  |  |  |
+
+Definition: Eine Folge an von reelen Zahlen ist eine Abbildung
+
+$$
+\begin{aligned}
+& f: \mathbb{N} \rightarrow \mathbb{R} \\
+& n \rightarrow f(n)=a_{n}
+\end{aligned}
+$$
+
+die jedem $n$ eindeutig ein $a_{n}$ zuordnet.
+$a_{n}:$ Folgeglieder
+$\rightarrow$ jede Folge hat einen Startwert
+$\rightarrow$ jeder $a_{k}$ hat einen eindeutigen Nachfolger $a_{k+1}$
+$\rightarrow$ Reihenfolge wichtig
+Bsp: $\cdot$ reziproke Folge
+
+$$
+\begin{aligned}
+& a_{n}=\frac{1}{n} \\
+& a_{1}=1 \quad a_{2}=\frac{1}{2} \quad a_{3}=\frac{1}{3}
+\end{aligned}
+$$
+
+# --- PAGE page_26 ---
+
+- identische Folge
+$a_{n}=n$
+$a_{1}=1 \quad a_{2}=2 \quad a_{3}=3$
+- alternierende Folge
+$a_{n}=(-1)^{n}$
+
+
+
+## Chunk 13
+--------------------------------------------------------------------------------
+\end{aligned}
+$$
+
+# --- PAGE page_26 ---
+
+- identische Folge
+$a_{n}=n$
+$a_{1}=1 \quad a_{2}=2 \quad a_{3}=3$
+- alternierende Folge
+$a_{n}=(-1)^{n}$
+$a_{1}=-1 \quad a_{2}=+1 \quad a_{3}=-1 \quad \ldots$
+- rekurative Folge
+$a_{n+1}=a_{n}+a_{n-1}$
+2.B. $a_{1}=0 \quad a_{2}=1$
+$\rightarrow a_{3}=1 \quad a_{4}=2 \quad a_{5}=3 \quad \ldots$
+- arithmetische Folge
+$a_{n}=a_{0}+n \cdot d \quad d \in R$
+$\rightarrow$ Differenz der Folgeglieder konstant
+
+$$
+a_{n+1}-a_{n}=a_{0}+(n+1) \cdot d-\left(a_{0}+n \cdot d\right)=\underline{d}
+$$
+
+- geometrische Folge
+$a_{n}=a_{0} \cdot q^{n} \quad a_{0} \neq 0, q \neq 0$
+$\rightarrow$ quotient aufeinanderfolgender $a_{k}$ ist konstant
+
+$$
+\frac{a_{n+1}}{a_{n}}=\frac{a_{0} \cdot q^{n+1}}{a_{0} \cdot q^{n}}=\underline{q}
+$$
+
+Def: a) Reelle Folge an heisst genau dann nach oben beschränkt, wenn ein $H \in \mathbb{R}$ mit $a_{n} \leqslant H \forall n \in \mathbb{N}$.
+b) an ist genau nach unten beschränkt, wenn ein $m \in \mathbb{R}$ existiert mit $a_{n} \geqslant m \forall n \in \mathbb{N}$
+
+# --- PAGE page_27 ---
+
+c) an ist beschrankt, wenn sie nach oben und unten beschrankt ist.
+
+$$
+\begin{aligned}
+& m \leqslant a_{n} \leqslant M \\
+
+
+
+## Chunk 14
+--------------------------------------------------------------------------------
+# --- PAGE page_27 ---
+
+c) an ist beschrankt, wenn sie nach oben und unten beschrankt ist.
+
+$$
+\begin{aligned}
+& m \leqslant a_{n} \leqslant M \\
+& \text { untere schranke obere }
+\end{aligned}
+$$
+
+Def: Rele Folge an heisst genau dann:
+a) monoton wachsend, wenn $a_{n} \leqslant a_{n+1}$
+b) streng monoton wachsend, wenn $a_{n}<a_{n+1}$
+c) monoton fallend, wenn $a_{n} \gg a_{n+1}$
+d) streng monoton fallend $a_{n}>a_{n+1}$
+$\rightarrow$ Folge kann monoton fallend und wachsend sein : wenn sie konstant ist
+
+
+Bsp: geometrische Folge $a_{n}=q^{n}$ ist :
+
+- streng monoton fallend für $0<q<1$ :
+
+$$
+a_{n+1}=q \cdot q^{n} \leqslant q^{n}=a_{n}
+$$
+
+- streng monoton steigend für $q>1$ :
+
+$$
+a_{n+1}=q \cdot q^{n} \quad>q^{n}=a_{n}
+$$
+
+# --- PAGE page_28 ---
+
+Konvergenz / Divergenz von Folgen
+
+Bsp: Flächeninhalt eines kreises mit Radius $r$
+
+- Quadrat mit Seitenlänge $2 \pi$
+- in $n^{2}$ Quadrate zerlegen:
+wie viele Quadrate im kreis $=b_{n}$
+$\rightarrow$ Peöcheninhalt der Quadrate :
+
+$c_{n}=b_{n} \cdot\left(\frac{2 r}{n}\right)^{2}=b_{n} \cdot \frac{4 r^{2}}{n^{2}}$
+$n \rightarrow \infty$, um kreis optimal zu beschreiben
+$c_{n} \rightarrow \pi r^{2}$
+
+
+
+## Chunk 15
+--------------------------------------------------------------------------------
+$n \rightarrow \infty$, um kreis optimal zu beschreiben
+$c_{n} \rightarrow \pi r^{2}$
+
+Def: an heisst genau dann konvergent, wenn $\exists a \in \mathbb{R}$ gibt, so dass gilt: zu jedem $E>0$ gibt es ein $n_{0}(E)$, so dass $t n>n_{0}(E)$ gilt : $1 a_{n}-a 1<E$. a heisst Grenzwert /Limes der Folge an / Ansonsten ist an divergent.
+
+# Folgen 
+
+Folge: $n \rightarrow\left(a_{n}\right) \quad n \in \mathbb{N}$
+
+$\left(a_{n}\right)$ und $\left(b_{n}\right)$ sind monoton wachsend
+$\left(a_{n}\right)$ hat eine untere Schranke $a_{u}$, jedoch keine obere: divergent
+$\left(b_{n}\right)$ hat eine obere und untere Schranke: konvergent
+
+# --- PAGE page_29 ---
+
+Schreibweise: $\lim _{n \rightarrow \infty} a_{n}=a$
+
+$$
+a_{n} \rightarrow a \quad \text { für } \quad n \rightarrow \infty
+$$
+
+Bsp: $\quad a_{n}=\frac{1}{n}$
+streng monoton fallend, obere schranke: 1
+unkue schranke: 0
+
+$$
+\lim _{n \rightarrow \infty} \frac{1}{n}=0
+$$
+
+- $a_{n}=1$ monoton fallend \& wachsend
+$\lim _{n \rightarrow \infty} a_{n}=1$
+- $a_{n}=(1,0,1,0 \ldots)$
+ist beschränkt, konvergiert aber nicht
+- $a_{n}=\frac{28 n^{4}-20 n^{3}+10 n}{14 n^{4}+200}$
+
+
+
+## Chunk 16
+--------------------------------------------------------------------------------
+- $a_{n}=(1,0,1,0 \ldots)$
+ist beschränkt, konvergiert aber nicht
+- $a_{n}=\frac{28 n^{4}-20 n^{3}+10 n}{14 n^{4}+200}$
+$=\frac{n^{4}\left(28-\frac{20}{n}+\frac{10}{n^{2}}\right)}{n^{4}\left(14+\frac{200}{n^{2}}\right)} \rightarrow 0$ für $n \rightarrow \infty$
+$\lim _{n \rightarrow \infty} a_{n}=\frac{28}{14}=2$
+$\rightarrow$ jede konvergente Folge ist beschränkt
+$\rightarrow$ jede beschrönlite und monotone Folge ist konvergent
+$\rightarrow$ nicht beschränkt : divergent
+
+# --- PAGE page_3 ---
+
+# Aussagenlogik
+
+
+
+## Chunk 17
+--------------------------------------------------------------------------------
+## Verbindungen von Aussagen
+
+$>$ Negation: „nicht", $\neg$
+
+|  A | $\neg \mathrm{A}$  |
+| --- | --- |
+|  w | f  |
+|  f | w  |
+
+$>$ Konjunktion: „und", $\wedge$
+
+|  A | B | $A \wedge B$  |
+| --- | --- | --- |
+|  w | w | w  |
+|  w | f | f  |
+|  f | w | f  |
+|  f | f | f  |
+
+1 Aussage falsch $\rightarrow$ Konjunktion auch falsch
+
+# --- PAGE page_30 ---
+
+# Summenzeichen: $\sum$ 
+
+verwendet, um eine Summe mit gleichartigen Summanden
+kure aufschreiben
+
+$$
+\sum_{k=1}^{n} a_{k}:=a_{1}+a_{2}+a_{3}+\ldots+a_{n}
+$$
+
+$k$ : Laufvariable, durchläuft Werte von 1...n
+$\rightarrow$ Laufvariable kann geändert werden
+
+$$
+\sum_{k=1}^{n} a_{k}=\sum_{m=1}^{n} a_{m}
+$$
+
+$\rightarrow$ Indexverschiebung kann durchgefuhrt werden
+
+$$
+\sum_{k=1}^{n} a_{k}=\sum_{k=1+5}^{n+5} a_{k-5}
+$$
+
+$\rightarrow$ hilfreich beim Zusammenfassen von 2 oder mehr Summen
+
+$$
+\begin{aligned}
+& \rightarrow \text { Regeln: } \quad \circ \sum_{k=1}^{n}\left(a_{k}+b_{k}\right)=\sum_{k=1}^{n} a_{k}+\sum_{k=1}^{n} b_{k} \\
+& \circ \sum_{k=1}^{n}\left(c \cdot a_{k}\right)=c \cdot \sum_{k=1}^{n} a_{k}
+\end{aligned}
+$$
+
+Bsp: $\quad \sum_{k=1}^{5} k^{2}=1^{2}+2^{2}+3^{2}+4^{2}+5^{2}=55$
+
+$$
+\begin{aligned}
+
+
+
+## Chunk 18
+--------------------------------------------------------------------------------
+\end{aligned}
+$$
+
+Bsp: $\quad \sum_{k=1}^{5} k^{2}=1^{2}+2^{2}+3^{2}+4^{2}+5^{2}=55$
+
+$$
+\begin{aligned}
+& \circ \sum_{k=m}^{n} c=c \cdot \sum_{k=m}^{n} 1=c \cdot(n-m+1) \quad C \in \mathbb{R} \\
+& \circ \sum_{k=1}^{5} \frac{(-1)^{k}}{2^{k}}=\frac{-1}{2}+\frac{1}{4}+\frac{-1}{8}+\frac{1}{16}+\frac{-1}{32} \\
+& \circ \sum_{k=5}^{8} a_{k}=\sum_{k=0}^{3} a_{k+5} \quad \rightarrow \text { Indexverschiebung } \\
+& \circ \sum_{k=4}^{40}(k+4)^{2}=\sum_{k=8}^{40} k^{2} \\
+& \circ \sum_{k=1}^{n} a_{k}=\sum_{k=1}^{n} a_{n+1-k}
+\end{aligned}
+$$
+
+# --- PAGE page_31 ---
+
+- Summe der ersten $n$ natur lichen zahlen :
+
+$$
+\begin{aligned}
+\sum_{k=1}^{n} k & =\sum_{k=1}^{n}(n+1-k) \\
+& =\sum_{k=1}^{n} \frac{(n+1)-\sum_{k=1}^{n} k}{(\text { fixe zaine } \sum_{k=1}^{n} k} \\
+& =(n+1)(n+1-1)-\sum_{k=1}^{n} k= \\
+2 \cdot \sum_{k=1}^{n} k & =(n+1) \cdot n \\
+\sum_{k=1}^{n} k & =\frac{1}{2}(n+1) \cdot n
+\end{aligned}
+$$
+
+- Geometrische Summe
+
+$$
+\begin{aligned}
+& G_{m, n}(x)=\sum_{k=m}^{n}(x)^{k}=x^{m}+x^{m+1}+\ldots+x^{n}=\frac{x^{m}-x^{n+1}}{1-x} \\
+& m, n \in \mathbb{N}, \quad x \in \mathbb{R} \backslash\{0 ; 1\} \\
+
+
+
+## Chunk 19
+--------------------------------------------------------------------------------
+& m, n \in \mathbb{N}, \quad x \in \mathbb{R} \backslash\{0 ; 1\} \\
+& \text { Bsp: } \quad \cdot \sum_{k=1}^{n}\left(\frac{1}{2}\right)^{k}=\frac{\left(\frac{1}{2}\right)-\left(\frac{1}{2}\right)^{m}}{1-\frac{1}{2}}=\frac{\frac{1}{2}-\frac{1}{2 m}}{-\frac{1}{2}}=2 \cdot\left(\frac{1}{2}-\frac{1}{2 m}\right)=1-\frac{1}{2^{3}} \\
+& \rightarrow \text { typische Anwendung: Renterrechnung }
+\end{aligned}
+$$
+
+# Reihen 
+
+- Partial-/Teilsumme:
+$a_{n}$ sei Folge reeller zahlen
+$s_{n}:=\sum_{k=1}^{n} a_{k}$ heisst Partialsumme
+Die einzelnen $s_{n}$ bilden auch eine Folge : $\left(s_{n}\right)$.
+$\rightarrow$ Die unendliche Summe $\sum_{k=1}^{m} a_{k}$ heisst Reihe.
+$\rightarrow$ Die Reihe konvergiert gegen ein $s \in \mathbb{R}$, wenn gilt : $\lim _{n \rightarrow \infty} s_{n}=s$
+
+# --- PAGE page_32 ---
+
+Eine nicht konvergente Reihe divergert.
+
+# - Spezielle Reihen 
+
+- Geometrische Reihe
+
+$$
+\begin{aligned}
+\sum_{k=m}^{\infty} x^{k} & =\lim _{n \rightarrow \infty} \sum_{k=m}^{n} x^{k} \\
+& = \begin{cases}\frac{x^{m}}{1-x} & x \in]-1 ; 1[ \\
+\text { divergent } & |x|>1\end{cases}
+\end{aligned}
+$$
+
+Bsp: $\quad \sum_{k=1}^{\infty} 3^{k}=\lim _{n \rightarrow \infty} \sum_{k=1}^{n} 3^{k}$
+
+$$
+
+
+
+## Chunk 20
+--------------------------------------------------------------------------------
+\text { divergent } & |x|>1\end{cases}
+\end{aligned}
+$$
+
+Bsp: $\quad \sum_{k=1}^{\infty} 3^{k}=\lim _{n \rightarrow \infty} \sum_{k=1}^{n} 3^{k}$
+
+$$
+=\lim _{n \rightarrow \infty}\left(3^{n}+3^{2}+3^{3} \ldots\right) \rightarrow \infty \quad \text { divergent }
+$$
+
+- $\sum_{k=1}^{\infty}(\frac{1}{3})^{k}=\lim _{n \rightarrow \infty} \sum_{k=1}^{n}\left(\frac{1}{3}\right)^{k}$
+
+$$
+=\lim _{n \rightarrow \infty} \frac{(\frac{1}{3})^{n}}{1-\frac{1}{3}}=\frac{1}{3} \cdot \frac{3}{2}=\frac{1}{2}
+$$
+
+- Basler Reihen
+gehen auf sogenanntes Basler Problem zuuich :
+was ergibt $\sum_{k=1}^{\infty} \frac{1}{k^{2}}$
+Basler Mathematiker wie Euler und Bernoulli haben darüber diskutiert, 1735 durch Euler gelöst : $\sum_{k=1}^{\infty} \frac{1}{k^{2}}=\frac{\pi^{2}}{6}$
+
+$$
+\begin{aligned}
+& \sum_{k=1}^{n} \frac{1}{k} \xrightarrow{n \rightarrow \infty} \infty \\
+& \sum_{k=1}^{n} \frac{(-1)^{k+1}}{k} \xrightarrow{n \rightarrow \infty} \text { en } 2 \\
+& \sum_{k=1}^{n} \frac{(-1)^{k+1}}{k^{2}} \xrightarrow{n \rightarrow \infty} \frac{\pi^{2}}{12}
+\end{aligned}
+$$
+
+# --- PAGE page_33 ---
+
+# Divergenzkriterium:
+
+
+
+## Chunk 21
+--------------------------------------------------------------------------------
+\end{aligned}
+$$
+
+# --- PAGE page_33 ---
+
+# Divergenzkriterium: 
+
+Konvergiert $\sum_{k=1}^{n} a_{k}$, dann folgt, dass $\lim _{k \rightarrow \infty} a_{k}=0$ gilt. Jedoch folgt aus $\lim _{k \rightarrow \infty} a_{k}=0$ nicht, dass $\sum_{k=1}^{n} a_{k}$ konvergiert.
+
+Bsp: $\quad \sum_{k=1}^{n} \frac{1}{k}$ ist divergent
+es gilt : $\lim _{k \rightarrow \infty} \frac{1}{k}=0$
+
+$$
+\begin{aligned}
+& \sum_{k=1}^{n} \frac{1}{k}=1+\frac{1}{2}+\frac{1}{3}+\frac{1}{4}+\frac{1}{5}+\frac{1}{6}+\frac{1}{7}+\frac{1}{8}+\ldots+\frac{1}{2^{m}} \\
+& \geqslant 1+\frac{1}{2}+\underbrace{1}_{1}+\frac{1}{4}+\underbrace{\frac{1}{8}+\frac{1}{8}+\frac{1}{8}+\frac{1}{8}}_{=2 \cdot \frac{1}{2^{2}}}=\frac{1}{2}=4 \cdot \frac{1}{2^{2}}=\frac{1}{2} \\
+& =1+m \cdot \frac{1}{2} \xrightarrow{m \rightarrow \infty} \infty
+\end{aligned}
+$$
+
+
+
+## Chunk 22
+--------------------------------------------------------------------------------
+## Sympy
+
+Summenberechnung: $\quad S=$ sp. summation $(k *=2,(k, 1,5)) ;$
+
+$$
+\rightarrow S=\sum_{k=1}^{5} k^{2}
+$$
+
+Grenzwertberechnung: $\quad a=$ sp. limit_seq $(1 / k, k)$;
+
+$$
+\rightarrow \lim _{k \rightarrow \infty} \frac{1}{k}
+$$
+
+## Geometrische Summenformel
+
+$G_{(m ; n)}(x):=\sum_{k=m}^{n} x^{k}$
+$\rightarrow(1-x) \cdot G_{(m ; n)}(x)=x^{m}-x^{n+1} \quad \times \notin \S 0 ; 1 \S$
+
+# --- PAGE page_34 ---
+
+# Elementarffunktionen 
+
+Def: reele Funktion
+Abbildung von $D \subseteq \mathbb{R}$ auf $W \subseteq \mathbb{R}$ mit reeler Variable
+$f: D \rightarrow W, f(x)=y$
+D: Definitionsbereich
+W: Wertebereich
+$x$ : unabhängige Variable, Argument
+$y$ : abhängige Variable, Funktionswert
+eindeutige zuordnung : zu jedem $x$ ein $f(x)$
+Bsp: $\quad f(x)=\mathbb{R} \rightarrow[0, \infty[$
+$f(x)=x^{2}$
+$\circ f(x):[1, \infty[ \rightarrow[0, \infty[$
+$f(x)=\sqrt{x-1}$
+
+
+
+## Chunk 23
+--------------------------------------------------------------------------------
+## Beschränkte Funktion
+
+$f: A \rightarrow B$ sei reele Funktion
+a) $f$ ist nach oben beschränkt, wenn ein $M \in \mathbb{R}$ existiert mit $f(x) \leq M \quad \forall x \in A$.
+b) $f$ ist nach unten beschränkt, wenn ein $m \in \mathbb{R}$ existiert mit $f(x) \geqslant m \quad \forall x \in A$.
+c) $f$ heisst beschränkt, wenn a) und b) zutreffen $m \leq f(x) \leq M$
+
+# --- PAGE page_35 ---
+
+Bsp: $\quad f(x)=1-x^{2} \quad x \in \mathbb{R}$
+oberw schranke : $M=1$
+keine untere schranke
+
+- $f(x)=\frac{4}{1+x^{2}} \quad x \in \mathbb{R}$
+oberw schranke : $M=4$
+untere schranke : $m=0$
+Honotonie bei einer Funktion
+$f: A \rightarrow B$ sei reelle Funktion
+a) $\int$ heisst monoton wachsend /steigend, wenn
+$f\left(x_{1}\right) \leq f\left(x_{2}\right) \quad$ für $x_{1}<x_{2}$
+b) $\int$ heisst streng monoton wachsend, wenn
+$f\left(x_{1}\right) \leq f\left(x_{2}\right) \quad$ für $x_{1}<x_{2}$
+c) $\int$ heisst monoton fallend, wenn
+$f\left(x_{1}\right) \gg f\left(x_{2}\right) \quad$ für $x_{1}<x_{2}$
+d) $\int$ heisst streng monoton fallend, wenn
+$f\left(x_{1}\right)>f\left(x_{2}\right) \quad$ für $x_{1}<x_{2}$
+$\rightarrow$ Funktionen haben oftmals auf Teilbereichen Honoronieeigenschaften
+
+
+
+## Chunk 24
+--------------------------------------------------------------------------------
+$f\left(x_{1}\right)>f\left(x_{2}\right) \quad$ für $x_{1}<x_{2}$
+$\rightarrow$ Funktionen haben oftmals auf Teilbereichen Honoronieeigenschaften
+Bsp: $\quad f(x)=3 x \quad x \in \mathbb{R}$
+streng monoton steigend
+- $f(x)=4$
+monoton fallend und steigend
+- $f(x)=x^{2}$
+für $x \leq 0$ : streng monoton fallend
+
+# --- PAGE page_36 ---
+
+# für $x \geqslant 0$ : streng monoton steigend
+
+
+
+## Chunk 25
+--------------------------------------------------------------------------------
+## Visualisierung
+
+mittels Funktionsgraphen : in katesisches koordinalensystem trägt man Punkt $(x, f(x))$ ein :
+
+
+$\rightarrow$ wegen eindeutiger Zuordnung : Parallele zu y - Achse schneidet f höchstens einmal
+$\rightarrow$ schneidet Parallele zu $x$ - Achse die Funktion $f$ mehr als einmal, dann ist $f$ nicht umkehrbar
+
+
+
+## Chunk 26
+--------------------------------------------------------------------------------
+## Funktionen
+
+algebraisch
+$0 y=3 x^{2}+4$
+$0 y=\frac{3 x}{x^{2}+3 x^{2}-7}$
+$0 y=\sqrt{3 x-4}$
+transzendent
+$0 y=e^{x}$
+$0 y=\ln x$
+$0 y=\sin x$
+
+# --- PAGE page_37 ---
+
+Del: Betragsfunktion
+abs: $R \rightarrow R_{0}{ }^{+}$
+
+$$
+x \rightarrow \operatorname{abs}(x):=|x| \begin{cases}-x & x<0 \\ 0 & x=0 \\ x & x>0\end{cases}
+$$
+
+
+
+Def: Vorzeichenfunktion / Signumfunktion
+sgn: $R \rightarrow f-1,0,1$
+$x \rightarrow \operatorname{sgn}(x)= \begin{cases}-1 & x<0 \\ 0 & x=0 \\ 1 & x>0\end{cases}$
+
+es gilt: $\cdot x=\operatorname{sgn}(x) \cdot|x|$
+
+- $|x|=\operatorname{sgn}(x) \cdot x$
+- Dreiecksungleichung : $|x \pm y| \leqslant|x|+|y|$
+
+Del: Potenzfunktion
+$f: x \rightarrow a \cdot x^{n} \quad x \in \mathbb{R} \quad a, n \in \mathbb{R}$
+
+- für $n \in \mathbb{N}$ heisst $a \cdot x^{n}$ ein Monom
+$\rightarrow$ Graph für $a \cdot x^{n}$ mit $n \in \mathbb{N}$ heisst Parabel $n$-ter Ordnung, für $n \in-\mathbb{N}$ heisst der Graph Hyperbel $n$-ter Ordnung
+
+# --- PAGE page_38 ---
+
+
+$\square$
+
+# --- PAGE page_39 ---
+
+Def: Eigentliche Exponenkielfunktion
+
+$$
+\begin{aligned}
+& f: R \rightarrow R^{+} \\
+& x \rightarrow f(x)=a^{x} \quad a \in R^{+} \backslash\{1\}
+\end{aligned}
+$$
+
+
+
+## Chunk 27
+--------------------------------------------------------------------------------
+$$
+\begin{aligned}
+& f: R \rightarrow R^{+} \\
+& x \rightarrow f(x)=a^{x} \quad a \in R^{+} \backslash\{1\}
+\end{aligned}
+$$
+
+$\rightarrow$ nun positive Funktionswerte
+$\rightarrow$ alle eigentlichen Exponenkielfunktionen gehen duuch $f(0)=1$
+
+$$
+\begin{aligned}
+\rightarrow f(x+1) & =a \cdot f(x) \\
+& =a^{x+1}=a^{x}+a^{1}=a \cdot f(x)
+\end{aligned}
+$$
+
+$\rightarrow 0<a<1$ : streng monoton fallend
+a>1 : streng monoton steigend
+Def: Hyperbolische Funktion / Hyperbeelfunktion
+a) $\sin h: R \rightarrow R$
+
+$$
+x \rightarrow \sinh (x)=\frac{e^{x}-e^{-x}}{2}
+$$
+
+b) $\cos h: R \rightarrow R$
+
+$$
+x \rightarrow \cosh (x)=\frac{e^{x}+e^{-x}}{2}
+$$
+
+c) $\tanh : R \rightarrow J-1,1 I$
+
+$$
+x \rightarrow \tanh (x)=\frac{\sinh (x)}{\cosh (x)}
+$$
+
+d) $\operatorname{coth}: R \backslash\{0\} \rightarrow R \backslash[-1,1]$
+
+$$
+x \rightarrow \operatorname{coth}(x)=\frac{\cosh (x)}{\sinh (x)}
+$$
+
+
+$\rightarrow$ sind über Exponenkielfunktionen definiert
+$\rightarrow$ sind nicht periodische Funktionen - im Gegensatz zu trigonometrischen Funktionen
+$\rightarrow$ bis auf $\cosh (x)$ alle bijektiv
+$\rightarrow$ Umkehrfunktionen heissen Area-Funktionen
+
+
+
+## Chunk 28
+--------------------------------------------------------------------------------
+$\rightarrow$ bis auf $\cosh (x)$ alle bijektiv
+$\rightarrow$ Umkehrfunktionen heissen Area-Funktionen
+$\rightarrow$ Pythagoras - Satz : $\cos \beta^{2}(x)-\sin \beta^{2}(x)=1$
+
+# --- PAGE page_4 ---
+
+# Aussagenlogik
+
+
+
+## Chunk 29
+--------------------------------------------------------------------------------
+## Verbindungen von Aussagen
+
+Implikation: „wenn A dann B", „A ist hinreichend für B", „B ist notwendig für A", A $\Rightarrow$ B
+Beispiel:
+Fussballstar Huber wird vom Schiedsrichter ermahnt: wenn sie den Ball nochmals absichtlich mit der Hand spielen, erhalten sie die rote Karte.
+
+A: Ball absichtlich mit der Hand spielen
+B: rote Karte erhalten
+
+$$
+A \Rightarrow B
+$$
+
+1. Fall: Huber spielt Ball mit der Hand bevor das Spiel zu Ende ist A: $\mathrm{w} \Rightarrow \mathrm{B}: \mathrm{w}$
+2. Fall: Huber spielt den Ball nicht mit der Hand bis Ende des Spiels A: $f \Rightarrow B: w$, d. h. er erhält die rote Karte z. B. wegen einem Foul $\Rightarrow$ B: f, d. h. er erhält keine rote Karte, begeht also kein Foul, spielt den Ball nicht mit der Hand
+$\rightarrow$ Es können also die Fälle B: w und B: f eintreten, wenn A: f vorausgeht
+
+# --- PAGE page_40 ---
+
+# Funktionseigenschaften 
+
+$f(x)$ sei reelle Funktion
+
+
+
+## Chunk 30
+--------------------------------------------------------------------------------
+## Symmetrie
+
+- symmetrisch zu y-Achse bzw. gerade bzw. positive Parität : $f(-x)=f(x)$
+- punktsymmetrisch zum Wrapnung bzw. ungerade bzw negative Parität : $f(-x)=-f(x)$
+
+Bsp: $\quad f(x)=x^{2}$
+
+$$
+f(-x)=(-x)^{2}=x^{2} \rightarrow \text { gerade }
+$$
+
+- $f(x)=x^{3}$
+$f(-x)=(-x)^{3}=-x^{3} \rightarrow$ ungerade
+
+
+
+## Chunk 31
+--------------------------------------------------------------------------------
+## Verschiebung
+
+- entlang der $x$-Richtung um $\Delta x, \Delta x>0$ :
+nach rechts (zunehmende $x$-Werte):
+$g(x)=f(x-\Delta x)$
+nach links: $g(x)=f(x+\Delta x)$
+- entlang der $y$-Richtung um $\Delta y, \Delta y>0$ :
+nach oben: $g(x)=f(x)+\Delta y$
+nach unten: $g(x)=f(x)-\Delta y$
+Bsp: $\quad f(x)=x^{2}$
+
+$$
+\begin{aligned}
+\Delta x=2 \text { nach rechts: } g(x) & =f(x-2) \\
+& =(x-2)^{2}
+\end{aligned}
+$$
+
+
+
+# --- PAGE page_41 ---
+
+$$
+\begin{aligned}
+\Delta y=3 \text { nach oben: } \quad g(x) & =f(x)+3 \\
+& =x^{2}+3
+\end{aligned}
+$$
+
+$\Delta x=2$ nach rechts und $\Delta y=3$ nach oben :
+
+$$
+g(x)=f(x-\Delta x)+\Delta y=(x-2)^{2}+3
+$$
+
+# Skalierung (Dehnung/Stauchung) 
+
+- entlang der $x$-Achse um Faktor $k: g(x)=f\left(\frac{x}{k}\right)$
+- entlang der $y$-Achse um Faktor $k: g(x)=k \cdot f(x)$
+
+Bsp: $\quad f(x)=x^{2} \quad k=3$ entlang $x$
+
+$$
+g(x)=\left(\frac{x}{3}\right)^{2}=\frac{x}{3} x^{2}
+$$
+
+
+
+## Chunk 32
+--------------------------------------------------------------------------------
+## Lineare Funktion
+
+
+
+$$
+\begin{aligned}
+& P_{1}\left(x_{1}, y_{1}\right) \\
+& P_{2}\left(x_{2}, y_{2}\right)
+\end{aligned}
+$$
+
+Graph einer linearen Funktion ist eine Gerade. wichtige Kenngrösse : Steigung $m$
+
+$$
+m=\frac{\Delta y}{\Delta x}=\frac{y_{2}-y_{1}}{x_{2}-x_{1}} \quad \text { bzw. } \quad m=\tan \rho
+$$
+
+$p$ : Steigungswinkel
+$p: x$ - Achsenabschnitt
+$q: y$ - Achsenabschnitt
+
+# --- PAGE page_42 ---
+
+# Darstellungen: 
+
+- Grundform : m und q gegeben, $m, q \in \mathbb{R}$
+$f(x)$ lässt sich durch
+$f(x)=m \cdot x+q$ darstellen
+
+Bsp: $\quad \mathrm{m}=5, \quad q=-2$
+
+$$
+f(x)=5 x-2
+$$
+
+- Taylorform : m und $P\left(x_{0}, y_{0}\right)$ gegeben
+
+$$
+\rightarrow f(x)=m\left(x-x_{0}\right)+y_{0}
+$$
+
+Bsp: $\quad \mathrm{m}=0,5 \quad \mathrm{P}(1 ; 3)$
+
+$$
+\begin{aligned}
+f(x) & =0,5(x-1)+3=0,5 x-0,5+3 \\
+& =0,5 x+2,5
+\end{aligned}
+$$
+
+- 2-Punkt-Form : 2 Punkte $P_{1}\left(x_{1}, y_{1}\right) \& P_{2}\left(x_{2}, y_{2}\right)$ gegeben
+
+$$
+\begin{aligned}
+& \rightarrow \mathrm{m}=\frac{\mathrm{y}_{2}-\mathrm{y}_{1}}{x_{2}-x_{1}} \\
+& \rightarrow f(x)=m\left(x-x_{1}\right)+y_{1} \\
+& =m\left(x-x_{2}\right)+y_{2}
+\end{aligned}
+$$
+
+
+
+## Chunk 33
+--------------------------------------------------------------------------------
+& \rightarrow f(x)=m\left(x-x_{1}\right)+y_{1} \\
+& =m\left(x-x_{2}\right)+y_{2}
+\end{aligned}
+$$
+
+Bsp: $\quad \mathrm{P}_{1}(1 ; 3) \quad \mathrm{P}_{2}(4 ; 5)$
+
+$$
+\begin{aligned}
+& m=\frac{5-3}{4-1}=\frac{5}{3} \\
+& f(x)=\frac{5}{3}(x-1)+3=\frac{5}{3} x-\frac{5}{3}+3 \\
+& =\frac{5}{3} x+\frac{5}{3}
+\end{aligned}
+$$
+
+# --- PAGE page_43 ---
+
+# Eigenschaften Lineale Funktion 
+
+- Monotomie: $\quad \mathrm{m}>0$ streng monoton steigend $\mathrm{m}<0$ streng monoton fallend $\mathrm{m}=0$ monoton fallend $\&$ steigend
+- Umkehrfunktion :
+$m \neq 0: f$ ist bijektiv, also umkehrbar
+$\rightarrow f(x)=m x+q$ nach $x$ auflösen
+
+$$
+\begin{aligned}
+& y-q=m x \\
+& x=\frac{y}{m}-\frac{q}{m}=f^{-1}(y) \\
+& \rightarrow \text { umkehrfunktion hat steigung } \frac{1}{m}
+\end{aligned}
+$$
+
+Bsp: $\quad \cdot f(x)=2 x-4$
+$m=2$, d.h. streng monoton steigend
+umkehrfunktion $f^{-1}(y)=\frac{1}{2} y-\frac{-4}{2}=\frac{1}{2} y+2$
+$m=0: f(x)=$ konstant $\rightarrow f(x)$ ist nicht bijektiv und somit nicht umkehrbar
+
+
+
+## Chunk 34
+--------------------------------------------------------------------------------
+## Verallgemeinerte Exponentialfunktion
+
+Bsp: Population besteht um 7:00 aus 500 Individuen und verdoppelt sich alle 3 h .
+a) Wie viele Individuen um 13:00? 2000
+b) Wann waren es 125 Individuen? 1:00
+c) In welcher Zeit Vervierfachung? 13:00
+d) Populationsgrösse als Funktion der Zeit. $f(t)=500 \cdot 2^{\frac{2 \cdot t}{}}$
+
+# --- PAGE page_44 ---
+
+| 2eit | 1.00 | 4.00 | 7.00 | 10.00 | 13.00 |
+| :--: | :--: | :--: | :--: | :--: | :--: |
+| Anzahle | 125 | 250 | 500 | 1000 | 2000 |
+
+$$
+f(t)=500 \cdot 2^{\frac{t-1}{2}}
+$$
+
+$t$ in Stunden, $t_{0}=7 h$
+allgemein: $f(t)=A_{0} \cdot a^{\frac{t-1}{2}}$
+
+A: : Referenzwert
+a : Basis
+
+Anwendungen :
+
+- Biclogie (Wachstum von Populationen von Bakterien etc.)
+- Kapitalentwicklung (Zinsersains...)
+- radioaktiver 2erfall
+- elektrische Schallungen (SpannungsStromverläufe)
+$\rightarrow f\left(t_{0}\right)=A_{0}$
+$\rightarrow f(t+\Sigma)=a \cdot f(t)=A_{0} \cdot a^{\frac{t+\Sigma-t_{0}}{2}}$
+
+$$
+=\underbrace{A_{0} \cdot a^{\frac{t-t_{0}}{2}}}_{f(t)} \cdot \underbrace{a^{\frac{t}{2}}}
+$$
+
+$\rightarrow f(t-\Sigma)=\frac{1}{a} \cdot f(t)$
+$\rightarrow$ falls die Zielmenge der Bildmenge B entspricht, ist $f(t)$ umkehrbar
+
+
+
+## Chunk 35
+--------------------------------------------------------------------------------
+$$
+
+$\rightarrow f(t-\Sigma)=\frac{1}{a} \cdot f(t)$
+$\rightarrow$ falls die Zielmenge der Bildmenge B entspricht, ist $f(t)$ umkehrbar
+$f^{-1}: B \rightarrow \mathbb{R}, f^{-1}(y)=t_{0} \cdot \sum \cdot \log _{a}\left(\frac{y}{2}\right)$
+
+# --- PAGE page_45 ---
+
+fürs Anfangsbeispiel könnte man auch
+$A_{0}=125$ und $t_{0}=1 \mathrm{~h}$ wählen: $A_{0}$ und $t_{0}$ müssen zusammen geändert werden
+
+ODER
+man könnte Vervielfachung in 6 h wählen :
+a und $\Sigma$ müssen gemeinsam gewählt werden
+Parameterwechsel für Referenzpunkt :
+a) $\tilde{A}_{0}=f\left(\tilde{t}_{0}\right)=A_{0} \cdot a^{\frac{\tilde{t}_{0}-t_{0}}{2}}$
+b) $\tilde{t}_{0}=f^{-1}\left(\tilde{A}_{0}\right)=\sum \cdot \log _{a}\left(\frac{\tilde{A}_{0}}{A_{0}}\right)+t_{0}$
+
+Parameterwechsel für Basis und Schrittweite :
+a) $\tilde{a}=a^{\frac{2}{2}}$
+b) $\tilde{\Sigma}=\sum \cdot \log _{a} \tilde{a}$
+
+# --- PAGE page_46 ---
+
+# Stetigkeit einer Funktion 
+
+Def: Eine in $x_{0}$ und einer gewissen Umgebung von $x_{0}$ definierte Funktion $y=f(x)$ heisst stetig an der Stelle $x_{0}$, wenn der Grenzwert von $f(x)$ an $x_{0}$ vorhanden ist und mit dem Funktionswert übereinstimmt :
+
+
+
+## Chunk 36
+--------------------------------------------------------------------------------
+$\lim _{x \rightarrow x_{0}} f(x)=f\left(x_{0}\right)$
+Bsp: $\quad$ f $(x)=x^{2} \quad$ f: $R \rightarrow R$
+$f(1)=1 \quad \lim _{x \rightarrow 1} f(x)=1=f(1)$
+$\Rightarrow$ ist auf ganz $R$ stetig
+
+- $f(x)=\frac{1}{1-x} \quad f: R \backslash \mathbb{E} 13 \rightarrow R$
+$\Rightarrow f(x)$ ist an $x=1$ nicht stetig, da nicht definiert an dieser Stelle (Definitionslücke)
+- $f(x)=\left\{\begin{array}{ll}1 & x \geqslant 0 \\ 0 & <0\end{array}\right.$
+$\Rightarrow f(x)$ ist an $x=0$ nicht stetig
+Unstetigkeitsstellen : - Lücken im Definitionsbereich
+- endliche sprünge
+- Polstellen
+
+Bsp: $\quad f(x)=\frac{x^{2}-1}{x+1} \quad$ bei $x_{0}=-1$ Definitionslücke
+$\lim _{x \rightarrow-1} \frac{x^{2}-1}{x+1}=\lim _{x \rightarrow-1} \frac{(x+1)(x-1)}{x+1}=\lim _{x \rightarrow-1}(x-1)=-2$
+Beheben der Lücke : Funktionswert = Grenzwert
+
+$$
+g(x)=\left\{\begin{array}{ll}
+\frac{x^{2}-1}{x+1} & x \neq-1 \\
+-2 & x=-1
+\end{array}\right\}=x-1 \Rightarrow g(x) \text { ist stetig }
+$$
+
+# --- PAGE page_47 ---
+
+- Prestelle
+$f(x)=\frac{1}{(x-3)^{2}} \quad$ Definitionsdicke bei $x_{0}=3$
+$\lim _{x \rightarrow 3} \frac{1}{(x-3)^{2}} \rightarrow \infty$
+
+
+
+## Chunk 37
+--------------------------------------------------------------------------------
+- Prestelle
+$f(x)=\frac{1}{(x-3)^{2}} \quad$ Definitionsdicke bei $x_{0}=3$
+$\lim _{x \rightarrow 3} \frac{1}{(x-3)^{2}} \rightarrow \infty$
+
+$\Rightarrow$ Beheben der dicke nicht möglich, $f(x)$ an $x_{0}=3$ nicht stetig
+- Sprungstelle
+$f(x)=\operatorname{sgn}(x)= \begin{cases}-1 & x<0 \\ 0 & x=0 \\ 1 & x>0\end{cases}$
+$\lim _{x \rightarrow 0}=-1 \quad \lim _{x \rightarrow 0}=1$
+$x<0 \quad x>0$
+$\Rightarrow$ an $x_{0}=0$ ist $f(x)$ nicht stetig
+
+
+# Differentialrechnung 
+
+
+
+$$
+\begin{aligned}
+& P\left(x_{0}, y_{0}\right) \\
+& Q\left(x_{0}+\Delta x, y_{0}+\Delta y\right)
+\end{aligned}
+$$
+
+Was ist Steigung von $f(x)$ im Punkt $P$ ?
+
+- Annäherung durch Sekante, die $P$ und $Q$ verbindet
+
+$$
+m_{s}=\frac{\Delta y}{\Delta x}=\underbrace{\frac{f\left(x_{0}+\Delta x\right)-f\left(x_{0}\right)}{\Delta x}}_{\text {Differenzquotient }}
+$$
+
+- Q rückt immer näher zu $P: \Delta x \rightarrow 0$, Sekante geht in Tangente über $m_{t}=\tan \alpha=\lim _{\Delta x \rightarrow 0} \frac{\Delta y}{\Delta x}=\lim _{\Delta x \rightarrow 0} \frac{f\left(x_{0}+\Delta x\right)-f\left(x_{0}\right)}{\Delta x}$
+
+# --- PAGE page_48 ---
+
+Grenawert nennt sich Ableitung der Funktion $f(x)$ an $x_{0}$.
+
+
+
+## Chunk 38
+--------------------------------------------------------------------------------
+# --- PAGE page_48 ---
+
+Grenawert nennt sich Ableitung der Funktion $f(x)$ an $x_{0}$.
+Man schreibt: $f^{\prime}\left(x_{0}\right), y^{\prime}\left(x_{0}\right), \frac{d y}{d x} \mid x=x_{0}$
+$\frac{d y}{d x}:$ Differentialquotient
+Def: $f: \mathbb{R} \rightarrow \mathbb{R}$ heisst an $x_{0}$ differenzierbar, wenn Grenawert $\lim _{\Delta x \rightarrow 0} \frac{f(x 0+\Delta x)-f(x 0)}{\Delta x}$ vorhanden ist.
+$\rightarrow f^{\prime}(x)$ nennt sich 1. Ableitung von $f(x)$
+$\rightarrow$ Ableitung ordnet jedem $x$-Wert von $f(x)$ den Steigungswert zu
+$\rightarrow$ wählt man a rechts (links) von P , so ethält man die rechtzeitige (linksseitige) Ableitung
+$\rightarrow$ stimmen beide überein, dann ist $f$ an $P$ differenzierbar $\rightarrow$ ist $f$ auf Intervall I differenzierbar, so ist $f$ stetig auf I $\rightarrow$ Stetigkeit ist notwendig für Differenzierbarkeit
+$\rightarrow$ höhere Ableitungen : $\cdot f^{\prime \prime}(x): 2$. Ableitung
+
+- $f^{\prime \prime \prime}(x): 3$. Ableitung
+- $f^{(n)}(x): n$. Ableitung
+
+Ableitung lineare Funktion
+
+$$
+\begin{aligned}
+& f(x)=m x+q \\
+& f^{\prime}(x)=m
+\end{aligned}
+$$
+
+Bsp: $\quad f(x)=3 x+5$
+
+$$
+f^{\prime}(x)=3
+$$
+
+$$
+\begin{aligned}
+
+
+
+## Chunk 39
+--------------------------------------------------------------------------------
+$$
+\begin{aligned}
+& f(x)=m x+q \\
+& f^{\prime}(x)=m
+\end{aligned}
+$$
+
+Bsp: $\quad f(x)=3 x+5$
+
+$$
+f^{\prime}(x)=3
+$$
+
+$$
+\begin{aligned}
+& \circ f(x)=8 \\
+& f^{\prime}(x)=0
+\end{aligned}
+$$
+
+# --- PAGE page_49 ---
+
+# Ableitung mittels Differenzquotient: 
+
+$$
+\begin{aligned}
+& f(x)=x^{2} \\
+& \frac{\Delta y}{\Delta x}=\frac{f(x+\Delta x)-f(x)}{\Delta x}=\frac{(x+\Delta x)^{2}-x^{2}}{\Delta x} \\
+& =\frac{x^{2}+2 \cdot \Delta x \cdot x+\Delta x^{2}-x^{2}}{\Delta x}=\frac{2 \Delta x \cdot x+\Delta x^{2}}{\Delta x}=\frac{\Delta x(2 x+\Delta x)}{\Delta x}=2 x+\Delta x \\
+& f^{\prime}(x)=\lim _{\Delta x \rightarrow 0} \frac{\Delta y}{\Delta x}=\lim _{\Delta x \rightarrow 0}(2 x+\Delta x)=2 x \\
+& \rightarrow f(x)=x^{2}, f^{\prime}(x)=2 x
+\end{aligned}
+$$
+
+
+
+## Chunk 40
+--------------------------------------------------------------------------------
+## Monom - Regel:
+
+$$
+\begin{aligned}
+& f: A \subseteq \mathbb{R} \rightarrow \mathbb{R}, f(x)=x^{p} \quad \text { mit } p \in \mathbb{R} \backslash \mathbb{E O} \text {; } \\
+& f^{\prime}(x)=p \cdot x^{p-1}
+\end{aligned}
+$$
+
+## Bep:
+
+- $f(x)=x^{5}$
+
+$$
+f^{\prime}(x)=5 \cdot x^{4}
+$$
+
+- $f(x)=\frac{1}{x}=x^{-1}$
+$f^{\prime}(x)=-x^{-2}=-\frac{1}{x^{2}}$
+- $f(x)=\sqrt{x}=x^{\pi / 2}$
+$f^{\prime}(x)=\frac{1}{2} x^{\pi / 2-1}=\frac{1}{2} x^{-\pi / 2}=\frac{1}{2} \frac{1}{x^{2 / 2}}=\frac{1}{2 \cdot \sqrt{x^{2}}}$
+
+Regeln:
+
+- $f(x)=a \cdot g(x)$
+$f^{\prime}(x)=a \cdot g^{\prime}(x)$
+$f(x)=g(x)+h(x)$
+$f^{\prime}(x)=g^{\prime}(x)+h^{\prime}(x)$
+$f(x)=a^{\prime}(x)+h^{\prime}(x)$
+$f(x)=5 \cdot x^{4}$
+$f(x)=x^{-1}$
+$f^{\prime}(x)=-x^{-2}=-\frac{1}{x^{2}}$
+- $f(x)=\sqrt{x}=x^{\pi / 2}$
+$f^{\prime}(x)=\frac{1}{2} x^{\pi / 2-1}=\frac{1}{2} x^{-\pi / 2}=\frac{1}{2} \frac{1}{x^{2 / 2}}=\frac{1}{2 \cdot \sqrt{x^{2}}}$
+
+
+
+## Chunk 41
+--------------------------------------------------------------------------------
+## $\int$ Summenregel
+
+# --- PAGE page_5 ---
+
+# Aussagenlogik
+
+Disjunktion: „oder", v ergibt eine wahre Aussage, wenn eine der beiden Aussagen wahr ist
+
+Äquivalenz: „A genau dann, wenn B", „A ist notwendig und hinreichend für B", A $\Leftrightarrow$ B
+
+|  A | B | A $\vee$ B | A $\Rightarrow$ B | A $\Leftrightarrow$ B  |
+| --- | --- | --- | --- | --- |
+|  w | w | w | w | w  |
+|  w | f | w | f | f  |
+|  f | w | w | w | f  |
+|  f | f | f | w | w  |
+
+# --- PAGE page_50 ---
+
+Bsp: o $f(x)=10 x^{4}$
+
+$$
+\begin{aligned}
+& f^{\prime}(x)=10.4 x^{3}=40 x^{3} \\
+& f^{\prime \prime}(x)=40.3 x^{2}=120 x^{2} \\
+& o f(x)=7 x^{3}-\frac{1}{2} x+\sqrt{3 x}-\frac{1}{x^{2}} \\
+& =7 x^{3}-\frac{1}{2} x+\sqrt{3} x^{\frac{1}{2}}-x^{-2} \\
+& f^{\prime}(x)=21 x^{2}-\frac{1}{2}+\frac{\sqrt{3}}{2 \cdot 1 x}+\frac{2}{x^{3}}
+\end{aligned}
+$$
+
+# Umkehrung der Ableitung nennt sich Aufleitung 
+
+$\rightarrow$ für Honome gilt:
+
+$$
+f(x)=x^{p}
+$$
+
+$$
+p \in \mathbb{R} \backslash \mathbb{Z},-15
+$$
+
+Aulleitung $F(x)=\frac{1}{p+1} \cdot x^{p+1}+c \quad c \in \mathbb{R}$
+
+Bsp: o $f(x)=x^{3}$
+
+$$
+F(x)=\frac{1}{3+1} \cdot x^{3+1}+c=\frac{1}{4} x^{4}+c
+$$
+
+# --- PAGE page_51 ---
+
+# Differentialrechnung
+
+
+
+## Chunk 42
+--------------------------------------------------------------------------------
+## Produktregel
+
+$f(x)=g(x) \cdot h(x)$
+wie sieht $f^{\prime}(x)$ aus?
+$\rightarrow f^{\prime}(x)=g^{\prime}(x) \cdot h^{\prime}(x) \quad$ FALSCH
+2.B. $f(x)=x^{2}$
+$f^{\prime}(x)=2 x$
+mit $f(x)=\frac{x \cdot x}{g(x) h(x)}$
+wäre $f^{\prime}(x)=g^{\prime}(x) \cdot h^{\prime}(x)=1 \cdot 1=1$
+Produktregel: $g, h: R \rightarrow \mathbb{R}, f(x)=g(x) \cdot h(x)$
+$g \& h$ sind differenzierbar. Dann gilt :
+$f^{\prime}(x)=g^{\prime}(x) \cdot h(x)+g(x) \cdot h^{\prime}(x)$
+Bsp: $\quad f(x)=x^{2}=x \cdot x$
+$f^{\prime}(x)=x \cdot 1+1 \cdot x=2 x \quad \rightarrow$ stimma mit konomregel überein
+behachte Differenzquotient:
+
+$$
+\begin{aligned}
+& f^{\prime}(x)=\lim _{\Delta x \rightarrow 0} \frac{f(x+\Delta x)-f(x)}{\Delta x}=\lim _{\Delta x \rightarrow 0} \frac{g(x+\Delta x) \cdot h(x+\Delta x)-g(x) \cdot h(x)}{\Delta x} \\
+& =\lim _{\Delta x \rightarrow 0} \frac{g(x+\Delta x) \cdot h(x+\Delta x)+g(x) \cdot h(x+\Delta x)-g(x) \cdot h(x+\Delta x)-g(x) \cdot h(x)}{\Delta x} \\
+& =\lim _{\Delta x \rightarrow 0} \frac{h(x+\Delta x) \cdot[g(x+\Delta x)-g(x)]+g(x) \cdot[h(x+\Delta x)-h(x)]}{\Delta x} \\
+
+
+
+## Chunk 43
+--------------------------------------------------------------------------------
+& =\lim _{\Delta x \rightarrow 0} \frac{h(x+\Delta x) \cdot[g(x+\Delta x)-g(x)]+g(x) \cdot[h(x+\Delta x)-h(x)]}{\Delta x} \\
+& =\lim _{\Delta x \rightarrow 0} \frac{h(x+\Delta x)[g(x+\Delta x)-g(x)]}{\Delta x}+\lim _{\Delta x \rightarrow 0} \frac{g(x)[h(x+\Delta x)-h(x)]}{\Delta x}
+\end{aligned}
+$$
+
+# --- PAGE page_52 ---
+
+$$
+\begin{aligned}
+& =\lim _{\Delta x \rightarrow 0} h(x+\Delta x) \cdot \underbrace{\lim _{\Delta x \rightarrow 0}} \frac{g(x+\Delta x)-g(x)}{\Delta x}+g(x) \cdot \underbrace{\lim _{x \rightarrow 0}} \frac{h(x+\Delta x-h(x)}{\Delta x} \\
+& =h(x) \\
+& =g^{\prime}(x) \\
+& =h^{\prime}(x) \\
+& =h(x) \cdot g^{\prime}(x)+g(x) \cdot h^{\prime}(x)
+\end{aligned}
+$$
+
+Bsp: $\quad f(x)=x^{3}=x^{2} \cdot x$
+
+$$
+f^{\prime}(x)=2 x \cdot x+x^{2} \cdot 1=2 x^{2}+x^{2}=3 x^{2}
+$$
+
+$$
+\begin{aligned}
+& \text { - } f(x)=\underbrace{\left(4 x^{3}-3 x\right)(\sqrt{x}-7)}_{g(x)} \\
+& f^{\prime}(x)=\left(4 \cdot 3 \cdot x^{2}-3\right)(\sqrt{x}-7)+\left(4 x^{3}-3 x\right)\left(\frac{7}{2} x^{-\frac{7}{2}}\right) \\
+& =\left(12 x^{2}-3\right)(\sqrt{x}-7)+\left(4 x^{3}-3 x\right)\left(\frac{4}{2 \sqrt{x}}\right)
+\end{aligned}
+$$
+
+# Quotiententegel:
+
+
+
+## Chunk 44
+--------------------------------------------------------------------------------
+& =\left(12 x^{2}-3\right)(\sqrt{x}-7)+\left(4 x^{3}-3 x\right)\left(\frac{4}{2 \sqrt{x}}\right)
+\end{aligned}
+$$
+
+# Quotiententegel: 
+
+$f: \mathbb{R} \backslash \xi \in \mathbb{R} \mid h(x)=0 \xi \rightarrow \mathbb{R}$
+
+$$
+x \rightarrow f(x)=\frac{g(x)}{h(x)}
+$$
+
+$g(x)$ und $h(x)$ sind differenzierbar
+$f^{\prime}(x)=\frac{g^{\prime}(x) \cdot h(x)-g(x) \cdot h^{\prime}(x)}{h(x)^{2}}$
+
+Bsp: $\quad f(x)=\frac{1}{x} \quad g(x)=1, h(x)=x$
+
+$$
+f^{\prime}(x)=\frac{0 \cdot x-1 \cdot 1}{x^{2}}=-\frac{1}{x^{2}}
+$$
+
+mit Kononregel : $f(x)=x^{-1}$
+
+$$
+f^{\prime}(x)=-1 \cdot x^{-2}=-\frac{1}{x^{2}}
+$$
+
+- $f(x)=\frac{x^{2}}{1+x} \quad g(x)=x^{2}, h(x)=1+x$
+
+$$
+\begin{aligned}
+f^{\prime}(x) & =\frac{2 x \cdot(1+x)-x^{2}-x^{2} \cdot 1}{(1+x)^{2}}=\frac{2 x+2 x^{2}-x^{2}}{(1+x)^{2}} \\
+& =\frac{2 x+x^{2}}{(1+x)^{2}}
+\end{aligned}
+$$
+
+# --- PAGE page_53 ---
+
+# Ableitung von Behag - und Umkehrfunktion 
+
+Behagsfunktion: $|x|=\operatorname{abs}(x)=\left\{\begin{array}{ll}x & x>0 \\ 0 & x=0 \\ -x & x<0\end{array}\right.$
+Vorzeichenfunktion: $\operatorname{sgn}(x)=\left\{\begin{array}{ll}1 & x>0 \\ 0 & x=0 \\ -1 & x<0\end{array}\right.$
+
+
+
+## Chunk 45
+--------------------------------------------------------------------------------
+Vorzeichenfunktion: $\operatorname{sgn}(x)=\left\{\begin{array}{ll}1 & x>0 \\ 0 & x=0 \\ -1 & x<0\end{array}\right.$
+
+
+Für alle $x \in \mathbb{R} \backslash \xi 0 \xi$ sind $|x|$ und $\operatorname{sgn}(x)$ differenzierbar. Es gilt :
+a) $f(x)=|x|$
+b) $f(x)=\operatorname{sgn}(x)$
+$f^{\prime}(x)=\operatorname{sgn}(x)$
+$f^{\prime}(x)=0$
+
+Bsp: $\quad f(x)=\operatorname{sgn}(x) \cdot x^{2}$
+Fallunterscheidung: a) $x \neq 0$
+b) $x=0$
+a) $f^{\prime}(x)=0 \cdot x^{2}+\operatorname{sgn}(x) \cdot 2 x$
+
+$$
+=\operatorname{sgn}(x) \cdot 2 x=2 \cdot \underbrace{\operatorname{sgn}(x) \cdot x}_{=|x|}=2 \cdot|x|
+$$
+
+b) $f(x)$ auf Stehigkeit an $x=0$ überprüfen,
+d.h. links - und rechtsseitigen Grenzwert bilden
+
+$$
+\lim _{x \rightarrow 0} f(x)=0 \quad \lim _{x \rightarrow 0} f(x)=0
+$$
+
+für Ableitung auch links - und rechtsseitigen Grenzwert
+
+$$
+\lim _{\substack{x \rightarrow 0 \\ x>0}} f^{\prime}(x)=\lim _{\substack{x \rightarrow 0 \\ x>0}} 2 \cdot|x|=0, \quad \lim _{\substack{x \rightarrow 0 \\ x<0}} f^{\prime}(x)=0
+$$
+
+# --- PAGE page_54 ---
+
+$f(x)$ ist an $x=0$ stetig und differenzierbar
+
+
+# Ketentregel: 
+
+$g, h$ seien auf $R$ differenzierbar
+$f(x)=g(h(x))$
+
+
+
+## Chunk 46
+--------------------------------------------------------------------------------
+$$
+
+# --- PAGE page_54 ---
+
+$f(x)$ ist an $x=0$ stetig und differenzierbar
+
+
+# Ketentregel: 
+
+$g, h$ seien auf $R$ differenzierbar
+$f(x)=g(h(x))$
+Es giet: $f^{\prime}(x)=\underbrace{g^{\prime}(h(x))} h^{\prime}(x)$
+
+$\rightarrow$ kann als wichtigste Ableitungsregel betrachter werden, da viele Funktionen in Wissenschafl und Technik zusammengesetat sind
+
+$$
+f^{\prime}(x)=\lim _{d x \rightarrow 0} \frac{d y}{d x}=\lim _{d x \rightarrow 0}\left(\frac{d y}{d x} \cdot \frac{d h}{d h}\right)=\lim _{d x \rightarrow 0}\left(\frac{d y}{d h} \cdot \frac{d h}{d x}\right)=g^{\prime}(h) \cdot h^{\prime}(x)
+$$
+
+Bsp: $\quad f(x)=(3 x-4)^{8}$
+
+$$
+\begin{aligned}
+& g(h)=h^{8} \quad g^{\prime}(h)=8 h^{7} \\
+& h(x)=3 x-4 \quad h^{\prime}(x)=3
+\end{aligned}
+$$
+
+$$
+\begin{aligned}
+& f^{\prime}(x)=g^{\prime}(h(x)) \cdot h^{\prime}(x) \\
+& =8 \cdot(3 x-4)^{7} \cdot 3=24(3 x-4)^{7} \\
+& =f(x)=\sqrt{h(x)} \quad g(h)=\sqrt{h}=h^{\frac{2}{7}} \\
+& g^{\prime}(h)=\frac{1}{2 \pi h} \\
+& f^{\prime}(x)=\frac{1}{27 x^{7}} \cdot h^{\prime}(x) \quad \text { Wurzelregel }
+\end{aligned}
+$$
+
+# --- PAGE page_55 ---
+
+# Aheitung der umkelhufunhition : 
+
+$f: R \rightarrow R$ sei differenzierbar und bijektiv
+
+
+
+## Chunk 47
+--------------------------------------------------------------------------------
+\end{aligned}
+$$
+
+# --- PAGE page_55 ---
+
+# Aheitung der umkelhufunhition : 
+
+$f: R \rightarrow R$ sei differenzierbar und bijektiv
+Es giet : $f^{-1}(y)^{\prime}=\frac{1}{f^{\prime}(x)}=\frac{1}{f^{\prime}\left(f^{-1}(y)\right)}$
+Bsp: $\quad f(x)=\left(x^{2}-x+1\right)^{4}$
+
+$$
+\begin{aligned}
+& g(h)=h^{4} \quad g^{\prime}(h)=4 h^{3} \\
+& h(x)=x^{2}-x+1 \quad h^{\prime}(x)=2 x-1 \\
+& f^{\prime}(x)=4\left(x^{2}-x+1\right)^{3} \cdot(2 x-1) \\
+& f(x)=\frac{x}{x^{2}+3} \\
+& f^{\prime}(x)=\frac{1 \cdot\left(x^{2}+3\right)-x \cdot 2 x}{\left(x^{2}+3\right)^{2}}=\frac{x^{2}+3-2 x^{2}}{\left(x^{2}+3\right)^{2}}=\frac{-x^{2}+3}{\left(x^{2}+3\right)^{2}}
+\end{aligned}
+$$
+
+# --- PAGE page_56 ---
+
+# Ableitung Exponentialfunktion 
+
+$$
+f(x)=a^{x} \quad f^{\prime}(x)=2
+$$
+
+mit Differentialquotient :
+
+$$
+\begin{aligned}
+& f^{\prime}(x)=\lim _{\Delta x \rightarrow 0} \frac{f(x+\Delta x)-f(x)}{\Delta x}=\lim _{\Delta x \rightarrow 0} \frac{a^{x+\Delta x}-a^{x}}{\Delta x}=\lim _{\Delta x \rightarrow 0} \frac{a^{x} \cdot a^{\Delta x}-a^{x}}{\Delta x} \\
+
+
+
+## Chunk 48
+--------------------------------------------------------------------------------
+& =\lim _{\Delta x \rightarrow 0} \frac{a^{x}\left(a^{\Delta x}-1\right)}{\Delta x}=a^{x} \cdot \underbrace{\lim _{\Delta x \rightarrow 0} \frac{a^{\Delta x}-1}{\Delta x}}_{=2 a}=a^{x} \cdot 2 a=2 a \cdot f(x)
+\end{aligned}
+$$
+
+Näherungswerte für $2 a$ bestimmen :
+
+$$
+\begin{aligned}
+& a=2: 2_{2}=\lim _{\Delta x \rightarrow 0} \frac{2^{\Delta x}-1}{\Delta x} \approx \frac{2^{0,001}-1}{0,001}=0,69 \\
+& \rightarrow\left(2^{x}\right)^{2}=0,69 \cdot 2^{x} \\
+& a=3: 2_{3}=\lim _{\Delta x \rightarrow 0} \frac{3^{\Delta x}-1}{\Delta x} \approx \frac{3^{0,001}-1}{0,001}=1,1 \\
+& \rightarrow\left(3^{x}\right)^{\prime}=1,1 \cdot 3^{x} \\
+& \rightarrow \text { es gibt eine Basis a, für die gilt : } \\
+& \left(a^{x}\right)^{\prime}=a^{x} \\
+& \quad \longmapsto \text { dies ist die culursche Zahl (nach deonard Euler) } \\
+& \quad e=2,7182 \ldots \quad \in R \backslash Q
+\end{aligned}
+$$
+
+natürliche Exponential - und logarithmustunktion :
+$f: R \rightarrow R^{+}$
+$f(x)=e^{x}$
+$f^{\prime}(x)=e^{x}$
+Umkehrfunktion von $f(x)=e^{x}: x=\log _{e} y$
+
+$$
+\begin{aligned}
+& =\ln y \\
+& =f^{-1}(y)
+\end{aligned}
+$$
+
+# --- PAGE page_57 ---
+
+Ableitung von natürlichen Logarithmusfunktionen:
+$f(x)=l n x$
+
+
+
+## Chunk 49
+--------------------------------------------------------------------------------
+$$
+\begin{aligned}
+& =\ln y \\
+& =f^{-1}(y)
+\end{aligned}
+$$
+
+# --- PAGE page_57 ---
+
+Ableitung von natürlichen Logarithmusfunktionen:
+$f(x)=l n x$
+$f^{\prime}(x)$ durch Nutzung der Inversenregel :
+$\left(f^{-1}(y)\right)^{\prime}=\frac{1}{f^{\prime}\left(f^{-1}(y)\right)}$
+$(l n y)^{\prime}=\frac{1}{e^{l n y}}=\frac{1}{y}$
+$\rightarrow f(x)=l n x$
+$f^{\prime}(x)=\frac{1}{x}$
+$\rightarrow$ natürliche Exponenhialfunktion sehr wichtig zum Lösen von
+Differentialgleichungen
+$f(x)=a^{x}=\exp \left(\ln a^{x}\right)=e^{\ln a^{x}}$
+$f^{\prime}(x)=e^{x \cdot \ln a} \cdot \ln a=a^{x} \cdot \ln a$
+ausere innere
+Ableitung
+
+$$
+\rightarrow 2 a=\ln a
+$$
+
+verallgemeinerte Exponentialfunktion
+
+$$
+f(x)=y_{0} \cdot a^{\frac{x-x_{0}}{2}}
+$$
+
+$$
+\begin{aligned}
+& a \in R^{+} \backslash\{1\} \\
+& x_{0} \in \mathbb{R}, y_{0} \in \mathbb{R} \backslash\{0\}
+\end{aligned}
+$$
+
+$f^{\prime}(x)=y_{0} \cdot \ln a \cdot \frac{1}{2} \cdot a^{\frac{x-x_{0}}{2}}$
+
+$$
+=\frac{y_{0} \cdot \ln a}{2} \cdot a^{\frac{x-x_{0}}{2}}
+$$
+
+
+
+## Chunk 50
+--------------------------------------------------------------------------------
+$$
+
+$f^{\prime}(x)=y_{0} \cdot \ln a \cdot \frac{1}{2} \cdot a^{\frac{x-x_{0}}{2}}$
+
+$$
+=\frac{y_{0} \cdot \ln a}{2} \cdot a^{\frac{x-x_{0}}{2}}
+$$
+
+Bsp: $\quad \begin{aligned} & f(x)=9 \cdot 3^{\frac{x-2}{2}} \\ & f^{\prime}(x)=\frac{3 \cdot \ln 3}{3} \cdot 3^{\frac{x-2}{2}} \\ & \quad=1,98 \cdot 3^{\frac{x-2}{2}}\end{aligned} \quad \begin{aligned} & f(x)=\frac{1}{2} \cdot 5^{\frac{x-3}{10}} \\ & f^{\prime}(x)=\frac{1 \cdot \ln 5}{10} \cdot 5^{\frac{x-3}{10}} \\ & \quad=0,08 \cdot 5^{\frac{x-3}{10}}\end{aligned}
+$$
+
+# --- PAGE page_58 ---
+
+Bsp: a) $f(x)=2 x \cdot \operatorname{en} x$
+
+$$
+\begin{aligned}
+f^{\prime}(x) & =2 \cdot \operatorname{en} x+2 x \cdot \frac{1}{x}=2 \cdot \operatorname{en} x+2 x \cdot x^{-1} \\
+& =2 \cdot \operatorname{en} x+2 x^{\circ}=2 \operatorname{en} x+2 \\
+f^{\prime \prime}(x) & =2 \cdot \frac{1}{x}=\frac{2}{x}
+\end{aligned}
+$$
+
+b) $f(x)=x^{n} \cdot e^{x}$
+
+$$
+\begin{aligned}
+f^{\prime}(x) & =n \cdot x^{n-1} \cdot e^{x}+x^{n} \cdot e^{x} \\
+& =x^{n-1} \cdot e^{x} \cdot(n+1) \\
+f^{\prime \prime}(x) & =(n-1) \cdot x^{n-2} \cdot e^{x} \cdot(n+x)+x^{n-1} \cdot\left[e^{x}(n+1)+e^{x} \cdot 1\right] \\
+
+
+
+## Chunk 51
+--------------------------------------------------------------------------------
+f^{\prime \prime}(x) & =(n-1) \cdot x^{n-2} \cdot e^{x} \cdot(n+x)+x^{n-1} \cdot\left[e^{x}(n+1)+e^{x} \cdot 1\right] \\
+& =(n-1) \cdot x^{n-2} \cdot e^{x}(n+x)+x^{n-1} \cdot e^{x}(n+1)+x^{n-1} \cdot e^{x} \\
+& =x^{n-2} \cdot e^{x} \cdot[-(n-1)(n+x)+x \cdot(n+x)+x]
+\end{aligned}
+$$
+
+c) $f(x)=\underbrace{\left(x^{2}-1\right)^{2}}_{2\left(x^{2}-1\right) \cdot 2 x} \cdot \underbrace{(x+5)^{3}}_{3(x+5)^{2} \cdot 1}$
+
+$$
+\begin{aligned}
+f^{\prime}(x) & =4 x\left(x^{2}-1\right) \cdot(x+5)^{3}+\left(x^{2}-1\right)^{2} \cdot 3(x+5)^{2} \\
+& =\left(x^{2}-1\right)(x+5)^{2} \cdot\left[4 x \cdot(x+5)+3 \cdot\left(x^{2}-1\right)\right] \\
+& =\left(x^{2}-1\right)(x+5)^{2} \cdot\left[4 x^{2}+20 x+3 x^{2}-3\right] \\
+& =\left(x^{2}-1\right)(x+5)^{2} \cdot\left[7 x^{2}+20 x-3\right]
+\end{aligned}
+$$
+
+# --- PAGE page_59 ---
+
+# Ableitung trigonometrischer Funktionen 
+
+um Ableitung von $\sin (x)$ zu bestimmen, müssen wir den Grenzwert von $\lim _{x \rightarrow 0} \frac{\sin x}{x}$ kennen
+
+beliebiger Punkt $P$ auf Einheitskreis : $P(\cos x, \sin x)$
+$\rightarrow$ betachlele Feache fleines Dreieck : $A_{1}=\frac{1}{2} \sin x \cdot \cos x$
+
+
+
+## Chunk 52
+--------------------------------------------------------------------------------
+$\rightarrow$ betachlele Feache fleines Dreieck : $A_{1}=\frac{1}{2} \sin x \cdot \cos x$
+Kreisausschnitt : $A_{2}=\frac{x}{2 \pi} \cdot \pi \cdot 1^{2}=\frac{x}{2}$
+$A_{3}=\frac{1}{2} \cdot 1 \cdot \tan x=\frac{\tan x}{2}$
+$A_{1} \leqslant A_{2} \leqslant A_{3}$
+$\frac{1}{2} \cdot \sin x \cdot \cos x \leqslant \frac{x}{2} \leqslant \frac{1}{2} \tan x \quad 1.2$
+$\sin x \cdot \cos x \leqslant x \leqslant \tan x \quad 1: \sin x$
+$\cos x \leqslant \frac{x}{\sin x} \leqslant \frac{1}{\cos x} \quad 1$ Kehrwert
+$\frac{1}{\cos x} \leqslant \frac{\sin x}{x} \leqslant \cos x$
+$x \rightarrow 0: 1 \leqslant \frac{\sin x}{x} \leqslant 1$
+$\Rightarrow \lim _{x \rightarrow 0} \frac{\sin x}{x}=1$
+Jefat Ableitung von $f(x)=\sin x$ mit Differenzquotient:
+$\frac{f(x+\Delta x)-f(x)}{\Delta x}=\frac{\sin (x+\Delta x)-\sin x}{\Delta x}$
+
+# --- PAGE page_6 ---
+
+# Quantoren 
+
+Häufig verwendete Abkürzungen = Quantoren:
+ㅐ: es existiert, es gibt
+ㄹ: es existiert kein
+ㅒ, oder ㅓ!: es existiert genau ein
+ㅜ: für alle
+
+# --- PAGE page_60 ---
+
+Additionstheorem nutzen :
+$\sin (\alpha+\beta)=\sin \alpha \cos \beta+\sin \beta \cos \alpha$
+$\sin (\alpha-\beta)=\sin \alpha \cos \beta-\sin \beta \cos \alpha$
+
+
+
+## Chunk 53
+--------------------------------------------------------------------------------
+$\sin (\alpha+\beta)=\sin \alpha \cos \beta+\sin \beta \cos \alpha$
+$\sin (\alpha-\beta)=\sin \alpha \cos \beta-\sin \beta \cos \alpha$
+(1) - (2) : $\sin (\alpha+\beta)-\sin (\alpha-\beta)=2 \sin \beta \cos \alpha$
+
+Ersetzen: $\alpha=\frac{\alpha+\beta}{2}, \beta=\frac{\alpha-\beta}{2}$
+$\rightarrow \sin \alpha-\sin \beta=2 \cdot \sin \frac{\alpha-\beta}{2} \cdot \cos \frac{\alpha+\beta}{2}$
+$\rightarrow \alpha=x+\Delta x$ und $\beta=x$ :
+Differenzquotient
+
+$$
+\begin{aligned}
+& \frac{\sin (x+\Delta x)-\sin x}{\Delta x}=2 \cdot \sin \frac{\Delta x}{2} \cdot \cos \frac{2 x+\Delta x}{2} \\
+& f^{\prime}(x)=\lim _{\Delta x \rightarrow 0} 2 \cdot \sin \frac{\Delta x}{2} \cdot \cos \frac{2 x+\Delta x}{2} \\
+& =\lim _{\Delta x \rightarrow 0} \frac{2 \cdot \sin \frac{\Delta x}{2}}{2} \cdot \cos \left(\frac{2 x+\Delta x}{2}\right)=\cos x
+\end{aligned}
+$$
+
+weitere trigonometrische Funktionen :
+
+- $f(x)=\cos x$
+$f^{\prime}(x)=-\sin x$
+- $f(x)=t \tan x$
+$f^{\prime}(x)=1+t \tan ^{2} x=\frac{1}{\cos ^{2} x}$
+- $f(x)=\cot x$
+$f^{\prime}(x)=-1-\cot ^{2} x=-\frac{1}{\sin ^{2} x}$
+
+# --- PAGE page_61 ---
+
+Ableitung der Accus-Funktion: (wichtig für Integration)
+
+- $f(x)=a r c \sin x$
+
+
+
+## Chunk 54
+--------------------------------------------------------------------------------
+# --- PAGE page_61 ---
+
+Ableitung der Accus-Funktion: (wichtig für Integration)
+
+- $f(x)=a r c \sin x$
+- $f(x)=a r c \sinh x$
+$f^{\prime}(x)=\frac{1}{\sqrt{1-x^{2}}}$
+- $f(x)=a r c \cos x$
+- $f(x)=a r c \cosh x$
+$f^{\prime}(x)=-\frac{1}{\sqrt{1-x^{2}}}$
+$f^{\prime}(x)=\frac{1}{\sqrt{x^{2}-1}}$
+- $f(x)=a r c \tan x$
+- $f(x)=a r c \tanh x$
+$f^{\prime}(x)=\frac{1}{1+x^{2}}$
+$f^{\prime}(x)=\frac{1}{1-x^{2}}$
+- $f(x)=a r c \cot x$
+- $f(x)=a r c \coth x$
+$f^{\prime}(x)=\frac{1}{1-x^{2}}$
+
+Ableitung der Hyperbelfunktionen :
+$\rightarrow$ exponentielle Schreibweise nutzen
+
+- $\sinh (x)=\frac{e^{x}-e^{-x}}{2} \rightarrow \sinh ^{\prime}(x)=\cosh (x)$
+- $\cosh (x)=\frac{e^{x}+e^{-x}}{2} \rightarrow \cos h^{\prime}(x)=\sin h(x)$
+- $\tanh (x)=\frac{\sinh (x)}{\cosh (x)} \rightarrow \tanh ^{\prime}(x)=1-\tanh ^{2}(x)=\frac{1}{\cosh ^{2}(x)}$
+- $\operatorname{coth}(x)=\frac{\cosh (x)}{\sinh (x)} \rightarrow \operatorname{coth}^{\prime}(x)=1-\operatorname{coth}^{2}(x)=-\frac{1}{\sinh ^{2}(x)}$
+
+Bsp: $\quad f(x)=\frac{1+\cos x}{1-\sin x}$
+
+$$
+\begin{aligned}
+f^{\prime}(x) & =\frac{(-\sin x) \cdot(1-\sin x)-(1+\cos x) \cdot(-\cos x)}{(1-\sin x)^{2}} \\
+
+
+
+## Chunk 55
+--------------------------------------------------------------------------------
+$$
+\begin{aligned}
+f^{\prime}(x) & =\frac{(-\sin x) \cdot(1-\sin x)-(1+\cos x) \cdot(-\cos x)}{(1-\sin x)^{2}} \\
+& =\frac{-\sin x+\sin ^{2} x+\cos x+\cos ^{2} x}{(1-\sin x)^{2}} \quad \sin ^{2} x+\cos ^{2} x=1 \\
+& =\frac{1-\sin x+\cos x}{(1-\sin x)^{2}}
+\end{aligned}
+$$
+
+# --- PAGE page_62 ---
+
+# Integralrechnung
+
+
+
+## Chunk 56
+--------------------------------------------------------------------------------
+## Motivation :
+
+
+$\rightarrow$ Berechnung von krummlinig begrenzten Flächen
+$\rightarrow$ Volumenberechnunng beliebig geformter Körper
+$\rightarrow$ Pluss einer Strömung duuch ein Plachenstück
+$\rightarrow$ Wie kehrt man Differentiation um?
+wie löst man $F^{\prime}(x)=f(x)$, wenn $f: R \rightarrow R$ gegeben ist und $F$ bestimmt werden soll
+
+Def: Eine Funktion $F: R \rightarrow R$ heisst Stammfunktion von $f: R \rightarrow R$, wenn gilt : $F^{\prime}(x)=f(x), \quad \forall x \in R$
+$\rightarrow$ Es gibt $\infty$ viele Stammfunktionen zu $f(x)$, die sich duuch eine Konstante $c$ unterscheiden :
+$\hookrightarrow$ wenn $F(x)$ Stammfunktion ist, dann auch $F(x)+c$ :
+
+$$
+\begin{aligned}
+& F^{\prime}(x)=f(x) \\
+& (F(x)+c)^{\prime}=F^{\prime}(x)+c^{\prime}=f(x)
+\end{aligned}
+$$
+
+Bsp: $\quad \circ f(x)=2 x$
+
+$$
+F(x)=x^{2}+c \quad \text { z. B. } \quad F(x)=x^{2} ; F(x)=x^{2}+1
+$$
+
+$F(x)=x^{2}-1$
+
+# --- PAGE page_63 ---
+
+Für das Auffinden einer Stammfunktion schreiben wir :
+
+$$
+f(f(x) d x=f(x)+c
+$$
+
+# Bestimmung von Flächeninhalten 
+
+- Annäherung durch Rechtecke: $f(x i) \cdot \Delta x_{i}$
+
+
+
+## Chunk 57
+--------------------------------------------------------------------------------
+$$
+f(f(x) d x=f(x)+c
+$$
+
+# Bestimmung von Flächeninhalten 
+
+- Annäherung durch Rechtecke: $f(x i) \cdot \Delta x_{i}$
+
+$\rightarrow$ wir bilden Unter- und Obersumme, wobei $\Delta x_{i}$ immer kleiner werden, um Genauigkeit zu erhöhen
+$\rightarrow$ Grenzwertbildung: Untersumme $\leqslant$ Flächeninhalts $\leqslant$ Obersumme
+
+(c) Obersumme $n=10$.
+
+(d) Untersumme $n=10$.
+
+Def: Grenzwert $\lim _{n \rightarrow \infty} \sum_{k=1}^{\infty} f\left(x_{k}\right) \cdot \Delta x_{k}$ heisst bestimmtes Integral der Funktion $f(x)$ in den Grenzen $x=a$ bis $x=b$ und wird durch $\int_{a}^{b} f(x) d x$ gekennzeichnet.
+
+# --- PAGE page_64 ---
+
+$\rightarrow$ Integral muss zwischen $x=a$ und $x=b$ beschränkt sein, $f(x)$ muss stetig sein
+$\rightarrow$ Weht des bestimmten Integrals kann $>0,<0$ oder $=0$ sein
+
+${ }_{a}^{b} f(x) d x=-{ }_{b}^{a} f(x) d x$
+Unbestimmtes Integral und Feachenfunktion
+
+$\rightarrow$ a sei feste Integrationsgrenze (Referenzstelle),
+$x$ sei variabel : Weit des Integrals hängt von $x$ ab
+$\rightarrow F(x)={ }_{a}^{x} f(x) d x \quad$ zuerst $F(x)$ ermitteln
+$\rightarrow$ Bestimmung der Fläche in den Grenzen $x_{0}$ und $x_{e}$ :
+
+
+
+## Chunk 58
+--------------------------------------------------------------------------------
+$\rightarrow F(x)={ }_{a}^{x} f(x) d x \quad$ zuerst $F(x)$ ermitteln
+$\rightarrow$ Bestimmung der Fläche in den Grenzen $x_{0}$ und $x_{e}$ :
+${ }_{x_{0}}^{x_{e}} f(x) d x=F\left(x_{e}\right)-F\left(x_{0}\right)=[F(x)]_{x_{0}}^{x_{e}}$
+$\rightarrow$ entscheidend für Bestimmung der Fläche :
+Auffinden einer Stammfunktion von $f(x)$
+
+# --- PAGE page_65 ---
+
+Rechenregeln :
+$f, g, h: R \rightarrow R \quad a, b, c \in \mathbb{R}$
+a) Faktorregel : $\int a \cdot f(x) d x=a \cdot \int f(x) d x$
+b) Summenregel: $\int(g(x)+h(x)) d x=\int g(x) d x+\int h(x) d x$
+c) $\int_{a}^{a} f(x) d x=0$
+d) Zeilegunggsatz: $\int_{a}^{b} f(x) d x=\int_{a}^{c} f(x) d x+\int_{c}^{b} f(x) d x$
+c muss nicht zwischen a und b liegen
+e) Potenzregel : $\int x^{n} d x=\frac{1}{n+1} x^{n+1}$
+weitere Stammfunktionen :
+
+- $\int a^{x} d x=\frac{1}{\ln (a)} \cdot a^{x}+c$
+- $\int e^{x} d x=e^{x}+c$
+- $\int \frac{1}{x} d x=\ln |x|+c$
+- $\int \ln x d x=x \cdot \ln x-x+c$
+
+Integrationskonstante
+Bsp: $\quad \int 3 x d x=3 \int x d x=3 \cdot \frac{3}{2} x^{2}+c=\frac{3}{2} x^{2}+c$ unbeskimmtes 1.
+
+- $\int\left(4 x^{3}-3 x^{2}\right) d x=4 \cdot \frac{7}{4} x^{4}-3 \cdot \frac{7}{3} x^{3}+c=x^{4}-x^{3}+c$
+
+
+
+## Chunk 59
+--------------------------------------------------------------------------------
+- $\int\left(4 x^{3}-3 x^{2}\right) d x=4 \cdot \frac{7}{4} x^{4}-3 \cdot \frac{7}{3} x^{3}+c=x^{4}-x^{3}+c$
+- $\int^{3} x^{2} d x=\left[\frac{7}{3} x^{3}\right]_{1}^{3}=\frac{7}{3} \cdot 3^{3}-\frac{7}{3} \cdot 1^{3}=9-\frac{7}{3}=\frac{36}{3}$ beskimmtes 1 .
+
+
+# --- PAGE page_66 ---
+
+# Stammfunktionen 
+
+$$
+\begin{aligned}
+& \int \cos x \mathrm{~d} x=\sin x \quad \text { auf } \mathbb{R} \\
+& \int \sin x \mathrm{~d} x=-\cos x \quad \text { auf } \mathbb{R} \\
+& \int \cosh x \mathrm{~d} x=\sinh x \quad \text { auf } \mathbb{R} \\
+& \int \sinh x \mathrm{~d} x=\cosh x \quad \text { auf } \mathbb{R} \\
+& \int \frac{1}{1+x^{2}} \mathrm{~d} x=\arctan x \quad \text { auf } \mathbb{R} \\
+& \int \frac{1}{1-x^{2}} \mathrm{~d} x=\frac{1}{2} \ln \left|\frac{1+x}{1-x}\right| \quad \operatorname{oder} \mathbb{R}_{>1} \\
+& \int \frac{1}{\sqrt{1+x^{2}}} \mathrm{~d} x=\operatorname{arsinh} x \quad \text { auf } \mathbb{R} \\
+& \int \frac{1}{\sqrt{1-x^{2}}} \mathrm{~d} x=\arcsin x \quad \text { auf }(-1,1) \\
+& \int \frac{1}{\sqrt{x^{2}-1}} \mathrm{~d} x=\left\{\begin{array}{ll}
+\arcosh x & \text { auf } \mathbb{R}_{>1} \\
+-\operatorname{arcosh}(-x) & \text { auf } \mathbb{R}_{<-1}
+
+
+
+## Chunk 60
+--------------------------------------------------------------------------------
+\arcosh x & \text { auf } \mathbb{R}_{>1} \\
+-\operatorname{arcosh}(-x) & \text { auf } \mathbb{R}_{<-1}
+\end{array}\right. \\
+& \int \frac{1}{\cos ^{2} x} \mathrm{~d} x=\tan x \quad \text { auf }\left(-\frac{\pi}{2}, \frac{\pi}{2}\right) \\
+& \int \frac{1}{\sin ^{2} x} \mathrm{~d} x=-\cot x \quad \text { auf }(0, \pi) \\
+& \int \frac{1}{\cosh ^{2} x} \mathrm{~d} x=\tanh x \quad \text { auf } \mathbb{R} \\
+& \int \frac{1}{\sinh ^{2} x} \mathrm{~d} x=-\operatorname{coth} x \quad \text { auf } \mathbb{R} \\
+& \int \tan x \mathrm{~d} x=-\ln |\cos x| \quad \text { auf }\left(-\frac{\pi}{2}, \frac{\pi}{2}\right) \\
+& \int \cot x \mathrm{~d} x=\ln |\sin x| \quad \text { auf }(0, \pi) \\
+& \int \tanh x \mathrm{~d} x=\ln (\cosh x) \quad \text { auf } \mathbb{R} \\
+& \int \operatorname{coth} x \mathrm{~d} x=\ln |\sinh x| \quad \text { auf } \mathbb{R}_{>0} \text { oder } \mathbb{R}_{<0}
+\end{aligned}
+$$
+
+# --- PAGE page_67 ---
+
+# Anwendung der Differentialrechnung 
+
+Monotonie und Beschränktheit von Funktionen können mit Differentialrechnung untersucht werden: 1. Ableitung vor allem.
+
+
+
+## Chunk 61
+--------------------------------------------------------------------------------
+## Monotonie
+
+f sei auf $I \subseteq R$ definiert und differenzierbar. Dann gilt :
+a) $f^{\prime}(x) \geqslant 0 \quad \forall x \in I: f$ ist monoton steigend
+b) $f^{\prime}(x)>0 \quad \forall x \in I: f$ ist streng monoton steigend
+c) $f^{\prime}(x) \leqslant 0 \quad \forall x \in I: f$ ist monoton fallend
+d) $f^{\prime}(x)<0 \quad \forall x \in I: f$ ist streng monoton fallend
+$\rightarrow$ es gibt Äquivalenz
+Bsp: $\quad f(x)=x^{2}$
+
+$$
+f^{\prime}(x)=2 x
+$$
+
+$$
+\begin{aligned}
+& I=]-\infty ; 0[: f^{\prime}(x)<0 \\
+& \rightarrow f \text { ist streng monoton fallend }
+\end{aligned}
+$$
+
+- $f(x)=\frac{1}{x} \quad x \neq 0$
+
+$$
+f^{\prime}(x)=-\frac{1}{x^{2}}
+$$
+
+$$
+I=]-\infty ; 0[: \quad f^{\prime}(x)<0
+$$
+
+$\rightarrow$ f ist stieng monoton fallend
+
+# --- PAGE page_68 ---
+
+Maxima / Minima
+$f: R \rightarrow R, a \in R$
+a) $f(x) \leq f(a) \quad$ Ya in Umgebung von a:
+a heisst lokale Maximalstelle und f(a) heisst lokales Maximum oder Hochpunkt
+b) $f(x) \geqslant f(a) \quad$ $Y_{x}$ in umgebung von a:
+a heisst lokale Minimalstelle und f(a) heisst lokales Minimum oder Tiefpunkt
+
+
+
+## Chunk 62
+--------------------------------------------------------------------------------
+b) $f(x) \geqslant f(a) \quad$ $Y_{x}$ in umgebung von a:
+a heisst lokale Minimalstelle und f(a) heisst lokales Minimum oder Tiefpunkt
+c) gilt a) bzw. b) auf gesamten Definitionsbereich, so ist a eine globale Maximal - bzw. Minimalstelle und f(a) ein globales Maximum bzw. Minimum
+d) $x=a$ heisst auch kritische bzw. Exhemstelle. f(a) ist Exhemum oder kritischer Punkt.
+
+Bsp: $\quad f(x)=x^{2}$
+$x=0$ ist Exhemstelle und stellt globale Minimalstelle dar, $f(0)=0$ ist globales Minimum
+$\rightarrow$ bekannte Intervall $[1 ; 2], f:[1 ; 2] \rightarrow R$
+
+$f(1)=1$ ist globales Minimum
+$f(2)=4$ ist globales Maximum
+$\rightarrow$ wir müssen die Ränder des Definitionsbereichs betrachten bei Untersuchung auf globale Exhema
+
+# --- PAGE page_69 ---
+
+
+
+# lokale Exhemstellen 
+
+f: $D \in \mathbb{R} \rightarrow \mathbb{R}$ sei auf $D$ differenzierbar.
+$x=$ a sei lokale Exhemstelle, dann gilt : $f^{\prime}(a)=0$
+$\rightarrow$ die Umkehrung muss nicht richtig sein, stellt somit notwendige Bedingung der
+
+Bsp: $\quad f(x)=\frac{7}{4} x^{4}-\frac{1}{3} x^{3}+\frac{1}{2} x^{2}$
+$f^{\prime}(x)=x^{3}-2 x^{2}+x=x\left(x^{2}-2 x+1\right)=x \cdot(x-1)^{2}$
+$f^{\prime}(x) \doteq 0$
+$x_{1}=0 \quad x_{2}=1$
+
+
+
+## Chunk 63
+--------------------------------------------------------------------------------
+$f^{\prime}(x)=x^{3}-2 x^{2}+x=x\left(x^{2}-2 x+1\right)=x \cdot(x-1)^{2}$
+$f^{\prime}(x) \doteq 0$
+$x_{1}=0 \quad x_{2}=1$
+$\rightarrow$ bei $x=1$ liegt weder lokale Maximal- noch Minimalstelle
+vor: es handelt sich um einen Sattelpunkt
+
+
+# --- PAGE page_7 ---
+
+# Grundlagen Logik
+
+Satz 1.1 Seien $A, B$ und $C$ Aussagen. Dann gelten die
+
+1. Assoziativgesetze:
+
+$$ \begin{gathered} (A \vee(B \vee C)) \Leftrightarrow((A \vee B) \vee C) \ L \end{gathered} $$
+
+$A \wedge(B \wedge C)) \Leftrightarrow((A \wedge B) \wedge C)$.
+2. Distributivgesetze:
+
+$$ \begin{gathered} (A \wedge(B \vee C)) \Leftrightarrow((A \wedge B) \vee(A \wedge C)) \ L \end{gathered} $$
+
+$A \vee(B \wedge C)) \Leftrightarrow((A \vee B) \wedge(A \vee C))$.
+3. Kommutativgesetze:
+
+$$ \begin{gathered} (A \wedge B) \Leftrightarrow(B \wedge A) \ L \end{gathered} $$
+
+$A \vee B) \Leftrightarrow(B \vee A)$.
+4. De Morganschen Regeln:
+
+$$ \begin{gathered} (\neg(A \vee B)) \Leftrightarrow((\neg A) \wedge(\neg B)) \ L \end{gathered} $$
+
+Beweis. Stellvertretend überprüfen wir die Regeln von DE MORGAN ${ }^{1}$.
+
+
+
+## Chunk 64
+--------------------------------------------------------------------------------
+Beweis. Stellvertretend überprüfen wir die Regeln von DE MORGAN ${ }^{1}$.
+
+|  $A$ | $B$ | $\neg(A \wedge B)$ | $(\neg A) \vee(\neg B)$ | $(\neg(A \wedge B)) \Leftrightarrow((\neg A) \vee(\neg B))$  |
+| --- | --- | --- | --- | --- |
+|  W | W | F | F | W  |
+|  W | F | W | W | W  |
+|  F | W | W | W | W  |
+|  F | F | W | W | W  |
+
+# --- PAGE page_70 ---
+
+$\rightarrow$ bei Maxima / Minima ändert sich das Vorzeichen der Ableitung $\leftrightarrow$ wir müssen die 2. Ableitung behachten, um zu entscheiden, ob Maximum, Minimum oder Sattelpunkt vorliegt
+
+# Anreichende Bedingung für lokale Bhema 
+
+$f: D \subseteq \mathbb{R} \rightarrow \mathbb{R}$ sei 2 mal stetig differenzierbar
+Für $a \in D$ gilt : $f^{\prime}(a)=0$. Dann gilt :
+a) $f^{\prime \prime}(a)<0 \Rightarrow f$ hat in a lokales Maximum
+b) $f^{\prime \prime}(a)>0 \Rightarrow f$ hat in a lokales Minimum
+c) $f^{\prime \prime}(a)=0$ und $f^{\prime \prime \prime}(a) \neq 0 \Rightarrow f$ hat in a Sattelpunkt
+$\rightarrow$ falls gilt $f^{\prime \prime}(a)=f^{\prime \prime \prime}(a)=0$, müssen erweiterte Kriterien behachtet werden : es gelte $f^{\prime}(a)=f^{\prime \prime}(a)=\ldots=f^{(m-1)}(a)=0$ und $f^{(m)} \neq 0$
+
+
+
+## Chunk 65
+--------------------------------------------------------------------------------
+a) $m$ sei gerade und $f^{(m)}(a)<0$ :
+an (a, fla)) liegt lokales Maximum vor
+b) $m$ sei gerade und $f^{(m)}(a)>0$ :
+an (a, fla)) liegt lokales Minimum vor
+c) $m$ sei ungerade : (a, fla)) ist Sattelpunkt
+
+Bsp: $\quad f(x)=x^{2}$
+
+
+# --- PAGE page_71 ---
+
+Hauptsatz der Algebra:
+Ein Polynom vom Grad n mit
+
+$$
+\rho(x)=x^{n}+a_{n-1} x^{n-1}+\ldots+a_{1} x+a_{0}
+$$
+
+mit $a_{i} \in \mathbb{R}$ besitat höchstens $n$ Nullstellen
+$\rightarrow$ zwischen 2 Nullstellen liegt ein lokales Extremum
+$\rightarrow$ 1. Ableitung $p^{\prime}(x)$ hat den Grad $n-1$ und somit höchstens ( $n-1$ ) Nullstellen, d.h. f hat höchstens ( $n-1$ ) Extremstellen
+
+Bsp: $\quad f(x)=x^{3}-4 x^{2}+4 x$
+
+$$
+\begin{aligned}
+& f^{\prime}(x)=3 x^{2}-8 x+4 \\
+& f^{\prime \prime}(x)=6 x-8 \\
+& f^{\prime}(x) \stackrel{!}{=} 0: 3 x^{2}-8 x+4=0 \\
+& x_{1,2}=\frac{8 \pm \sqrt{64-4 \cdot 3 \cdot 4}}{2 \cdot 3}=\frac{8 \pm 4}{6} \\
+& x_{1}=2 \quad x_{2}=\frac{2}{3} \\
+& f^{\prime \prime}(2)=6 \cdot 2-8=4>0 \\
+& f^{\prime \prime}\left(\frac{2}{3}\right)=6 \cdot \frac{2}{3}-8=-4<0
+\end{aligned}
+$$
+
+# --- PAGE page_72 ---
+
+- an $(2 ; 0)$ liegt Tiefpunkt vor
+- an $(\frac{2}{3} ; \frac{33}{33})$ liegt Hochpunkt vor
+
+
+
+## Chunk 66
+--------------------------------------------------------------------------------
+\end{aligned}
+$$
+
+# --- PAGE page_72 ---
+
+- an $(2 ; 0)$ liegt Tiefpunkt vor
+- an $(\frac{2}{3} ; \frac{33}{33})$ liegt Hochpunkt vor
+- $\lim _{x \rightarrow-\infty} f(x) \rightarrow-\infty \int$ keine globalen Extremstellen
+- $\lim _{x \rightarrow+\infty} f(x) \rightarrow+\infty \int$ keine globalen Extremstellen
+
+
+# Bestimmung der Extremstellen einer differenzierbaren Funktion 
+
+Reelle Funktion $f$ ist gegeben und $f$ ist auf einer Menge $D$ definiert.
+
+- Man bestimmt die Nullstellen $f^{\prime}(x)$.
+- Ist a eine Nullstelle von $f^{\prime}$, so berechnet man $f^{\prime \prime}(a)$.
+- Ist $f^{\prime \prime}(a)>0$, so ist a eine lokale Minimalstelle; ist $f^{\prime \prime}(a)<0$, so ist a eine lokale Maximalstelle.
+- Ist $f^{\prime \prime}(a)=0$, so berechnet man die höheren Ableitungen beginnend mit $f^{\prime \prime \prime}(a)$, bis das erste Mal ein Wert ungleich 0 auftritt und bestimmt dann, ob Extremstelle oder Sattelpunkt vorliegt.
+- Hat die Menge D Randpunkte, so muss man diese separat untersuchen. Hierzu berechnet man die Funktionswerte der Randpunkte und vergleicht sie mit den lokalen Extremwerten.
+
+# --- PAGE page_73 ---
+
+
+
+## Chunk 67
+--------------------------------------------------------------------------------
+# --- PAGE page_73 ---
+
+- $\mathfrak{f}(x)$ heisst konvex bzw. linksgekrümmt, wenn gelt : $\mathfrak{f}^{\prime \prime}(x)>0$
+- $\mathfrak{f}(x)$ heisst konkar bzw. rechtsgekrümmt, wenn gilt: $\mathfrak{f}^{\prime \prime}(x)<0$
+$\rightarrow$ Punkt an denen die Krümmung ifu vorzeichen wechselt, heissen Wendepunkte
+notwendige Bealingung : $\mathfrak{f}^{\prime \prime}(x)=0$
+hinreichende Bedingung: $\mathfrak{f}^{\prime \prime \prime}(x) \neq 0$
+$\hookrightarrow$ falls gilt : $\mathfrak{f}^{\prime}(x)=\mathfrak{f}^{\prime \prime}(x)=0$ und $\mathfrak{f}^{\prime \prime \prime}(x) \neq 0$, dann ist $(x, f(x))$ ein Sattelpunkt
+
+
+Wendepunkte
+
+Analytische Krümmung : $K_{A}(x)=\mathfrak{f}^{\prime \prime}(x)$
+Bsp: $\quad \cdot f(x)=m x+q$
+$f^{\prime}(x)=m$
+$f^{\prime \prime}(x)=0$
+$\rightarrow$ Gerade hat keine Krümmung
+
+- $\mathfrak{f}(x)=a x^{2}+b x+c$
+$\mathfrak{f}^{\prime}(x)=2 a x+b$
+$\mathfrak{f}^{\prime \prime}(x)=2 a=K_{a}(x)$
+
+# --- PAGE page_74 ---
+
+$\rightarrow$ Parabel hat konstanle krümmung
+$\rightarrow$ sollte aus geometrischer Sicht nicht so sein : Kurve
+konstanten Kuimmung, solltke kreis oder Kuusbogen sein
+Geometrische Krümmung :
+
+$$
+
+
+
+## Chunk 68
+--------------------------------------------------------------------------------
+$\rightarrow$ sollte aus geometrischer Sicht nicht so sein : Kurve
+konstanten Kuimmung, solltke kreis oder Kuusbogen sein
+Geometrische Krümmung :
+
+$$
+k_{6}(x)=\frac{f^{\prime \prime}(x)}{\left[1+\left(f^{\prime}(x)\right)^{2}\right]^{3 / 2}}
+$$
+
+
+in Punkt $P$ wird der Graph von $f(x)$ duch Keis angenahelt: Krümmung ist $K_{6}=\frac{7}{r}$,
+$r=$ Radius
+
+# Symmetrie : 
+
+- $f(-x)=f(x): f(x)$ ist gerade, d. h. symmetrisch zu $y$-Achse $\left(z . B . f(x)=x^{2}\right)$
+- $f(-x)=-f(x): f(x)$ ist ungerade, d.h. symmetrisch zum wspprung $\left(2 . B . f(x)=x^{3}\right)$
+
+# --- PAGE page_75 ---
+
+# Kurvendiskussion 
+
+Man sammelt Informationen über den Verlauf einer Funktion, um sie skizzieren zu können.
+
+- Ableitung enthält Informationen, in welchen Bereichen die Funktion steigt bzw. fällt, wo Extremwerte wie Maxima und Minima vorliegen.
+- Ableitung beschreibt das Krümmungsverhalten der Funktion, wo eventuelle Wendepunkte vorliegen.
+
+Typischerweise werden folgende Schritte bei der Kurvendiskussion durchgeführt:
+
+- Nullstellen bestimmen
+- Ordinatenabschnitt (y-Achsenabschnitt) bestimmen
+- Extremwerte bestimmen
+- Krümmungsverhalten und Wendepunkte
+
+
+
+## Chunk 69
+--------------------------------------------------------------------------------
+- Nullstellen bestimmen
+- Ordinatenabschnitt (y-Achsenabschnitt) bestimmen
+- Extremwerte bestimmen
+- Krümmungsverhalten und Wendepunkte
+- Verhalten der Funktion an den Rändern des Definitionsbereichs, um festzustellen, an welchen Stellen globale Maxima bzw. Minima vorliegen
+- Skizze
+nützlich: eventuelle Symmetrie der Funktion bestimmen, indem $f(-x)$ gebildet wird
+
+Bsp: $\quad f(x)=\left(x^{2}-x\right) \cdot e^{-x}, \quad f: R \rightarrow R$
+Exkemsstellen und Wendestellen bestimmen
+
+$$
+\begin{aligned}
+f^{\prime}(x) & =(2 x-1) \cdot e^{-x}+\left(x^{2}-x\right) \cdot\left(-e^{-x}\right) \\
+& =e^{-x}\left(2 x-1-x^{2}+x\right) \\
+& =e^{-x}\left(-x^{2}+3 x-1\right) \\
+f^{\prime \prime}(x) & =-e^{-x}\left(-x^{2}+3 x-1\right)+e^{-x}(-2 x+3) \\
+& =e^{-x}\left(x^{2}-3 x+1-2 x+3\right) \\
+& =e^{-x}\left(x^{2}-5 x+4\right) \\
+f^{\prime \prime \prime}(x) & =-e^{-x}\left(x^{2}-5 x+4\right)+e^{-x}(2 x-5) \\
+& =e^{-x}\left(-x^{2}+5 x-4+2 x-5\right) \\
+& =e^{-x}\left(-x^{2}+7 x-9\right)
+\end{aligned}
+$$
+
+# --- PAGE page_76 ---
+
+Exkemsstellen : $f^{\prime}(x) \doteq 0$
+
+$$
+\begin{aligned}
+& e^{-x}\left(-x^{2}+3 x-1\right)=0 \\
+
+
+
+## Chunk 70
+--------------------------------------------------------------------------------
+\end{aligned}
+$$
+
+# --- PAGE page_76 ---
+
+Exkemsstellen : $f^{\prime}(x) \doteq 0$
+
+$$
+\begin{aligned}
+& e^{-x}\left(-x^{2}+3 x-1\right)=0 \\
+& \rightarrow \forall x \in \mathbb{R} \text { gilt : } e^{-x} \neq 0 \\
+& \rightarrow-x^{2}+3 x-1=0 \\
+& x_{1,2}=\frac{-3 \pm \sqrt{9-4 \cdot(-1) \cdot(-1)^{2}}}{2 \cdot(-1)}=\frac{-3 \pm \sqrt{5^{\prime}}}{-2} \\
+& x_{1}=\frac{3}{2}+\frac{15}{2} \quad x_{2}=\frac{3}{2}-\frac{15}{2}
+\end{aligned}
+$$
+
+$f^{\prime \prime}\left(x_{1}\right)=-1,53<0 \Rightarrow$ lokales Maximum bei $\left(\frac{3}{2}+\frac{15}{2} ; 0,31\right)$ $f^{\prime \prime}\left(x_{2}\right)=1,53>0 \Rightarrow$ lokales kinimum bei $\left(\frac{3}{2}-\frac{15}{2} ;-0,16\right)$
+
+Wendestellen: $f^{\prime \prime}(x) \doteq 0$
+
+$$
+\begin{aligned}
+& e^{-x}\left(x^{2}-5 x+4\right)=0 \\
+& x^{2}-5 x+4=0 \\
+& x_{1,2}=\frac{5 \pm \sqrt{25-4 \cdot 1 \cdot 4^{\prime}}}{2 \cdot 1}=\frac{5 \pm 3}{2} \\
+& x_{1}=4 \quad x_{2}=1
+\end{aligned}
+$$
+
+$f^{\prime \prime \prime}\left(x_{1}\right)=0,55 \neq 0 \Rightarrow$ Wendepunkt bei $(4 ; 0,22)$
+$f^{\prime \prime \prime}\left(x_{2}\right)=-1,10 \neq 0 \Rightarrow$ Wendepunkt bei $(1 ; 0)$
+Ränder des Definitionbereichs untersuchen :
+
+$$
+
+
+
+## Chunk 71
+--------------------------------------------------------------------------------
+$f^{\prime \prime \prime}\left(x_{2}\right)=-1,10 \neq 0 \Rightarrow$ Wendepunkt bei $(1 ; 0)$
+Ränder des Definitionbereichs untersuchen :
+
+$$
+\lim _{x \rightarrow-\infty} f(x)=+\infty \quad \lim _{x \rightarrow \infty} f(x)=0
+$$
+
+$f(0)=0$
+
+# --- PAGE page_77 ---
+
+Bsp: $\quad f(x)=\frac{x^{2}+1}{x-3} \quad f: R \backslash \xi 35 \rightarrow \mathbb{R}$
+Nullstellen : $f(x) \doteq 0 \rightarrow$ keine Nullstelle
+
+$$
+\begin{aligned}
+& f^{\prime}(x)=\frac{2 x(x-3)-\left(x^{2}+1\right) \cdot 1}{(x-3)^{2}}=\frac{2 x^{2}-6 x-x^{2}-1}{(x-3)^{2}}=\frac{x^{2}-6 x-1}{(x-3)^{2}} \\
+& f^{\prime \prime}(x)=\frac{(2 x-6)(x-3)^{2}-\left(x^{2}-6 x-1\right) \cdot 2(x-3) \cdot 1}{(x-3)^{4}} \\
+& =\frac{2 x^{2}-6 x-6 x+18-2 x^{2}+12 x+2}{(x-3)^{3}}=\frac{20}{(x-3)^{3}} \\
+& f^{\prime \prime \prime}(x)=\frac{-20 \cdot 3(x-3)^{2}}{(x-3)^{6}}=-\frac{60}{(x-3)^{4}} \neq 0
+\end{aligned}
+$$
+
+Extemstellen : $f^{\prime}(x) \doteq 0$
+
+$$
+\begin{aligned}
+& x^{2}-6 x-1=0 \\
+& x_{1,2}=\frac{6 \pm \sqrt{36+4}}{2}=3 \pm \frac{\sqrt{40}}{2} \\
+& x_{1}=3+\sqrt{10}, \quad x_{2}=3-\sqrt{10}
+\end{aligned}
+$$
+
+$f^{\prime \prime}\left(x_{1}\right)>0: \quad$ Lokales Minimum bei $(6,16 ; 12,32)$
+
+
+
+## Chunk 72
+--------------------------------------------------------------------------------
+& x_{1}=3+\sqrt{10}, \quad x_{2}=3-\sqrt{10}
+\end{aligned}
+$$
+
+$f^{\prime \prime}\left(x_{1}\right)>0: \quad$ Lokales Minimum bei $(6,16 ; 12,32)$
+$f^{\prime \prime}\left(x_{2}\right)<0: \quad$ Lokales Haximum bei $\left(-0,16 ;-0,32\right)$
+
+Wendestellen nicht möglich
+Randverhalten :
+$\lim _{x \rightarrow-\infty} f(x)=-\infty$
+$\lim _{x \rightarrow+\infty} f(x)=+\infty$
+$\lim _{\substack{x \rightarrow 3 \\ x>0}} f(x)=+\infty$
+$\lim _{\substack{x \rightarrow 3 \\ x<3}} f(x)=-\infty$
+
+
+# --- PAGE page_8 ---
+
+# Mengenlehre 
+
+Begründer der naiven Mengenlehre: Georg Cantor (1845 - 1918), dt. Mathematiker
+Definition:
+Eine Menge ist eine wohldefinierte Zusammenfassung bestimmter unterscheidbarer Objekte zu einer Gesamtheit. Die (realen oder abstrakten) Objekte nennen wir Elemente.
+$\rightarrow$ Es muss eindeutig sein, ob ein Objekt Element einer Menge ist oder nicht.
+Grundlegende Aussage:
+
+- $x \in M$ oder $M \ni x$, d. h. Element $x$ ist in Menge $M$ enthalten
+- $x \notin M$ oder $M \ni x$, d. h. $x$ ist nicht Element der Menge $M$
+
+Generell:
+
+- Für Elemente werden Kleinbuchstaben verwendet
+- Für Mengen werden Grossbuchstaben verwendet
+
+Schreibweisen:
+
+
+
+## Chunk 73
+--------------------------------------------------------------------------------
+Generell:
+
+- Für Elemente werden Kleinbuchstaben verwendet
+- Für Mengen werden Grossbuchstaben verwendet
+
+Schreibweisen:
+
+- Aufzählende Form: $A=\{1,2,3,4,5\}$
+- Beschreibende Form: $A=\{x \in \mathbb{N} \mid 1 \leq x \leq 10\}$
+
+# --- PAGE page_9 ---
+
+# Mengenlehre 
+
+Bemerkung:
+
+- Mengen müssen nicht Zahlen als Elemente haben.
+- Angabe der Grundmenge nicht zwingend.
+
+Bemerkung:
+Eine Menge A kann Element einer Menge B sein. Dann sind jedoch die Elemente von A keine Elemente von B.
+
+Beispiel:
+
+- $1 \in\{1,2,3\}$
+- $\{1\} \notin\{1,2,3\}$
+$\{1\} \in\{£ 15,1,2: 3\}$; $\{1,2\} \in\{£ 1,25,1,2: 3\}$
+
+Leere Menge: $\emptyset=\{ \}$, enthält keine Elemente
+

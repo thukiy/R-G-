@@ -1,0 +1,10 @@
+{
+    "index": 16,
+    "markdown": "# Zahlenmengen \n\n## Intervalle\n\n- Geschlossen: $[a, b]=\\{x \\in \\mathbb{R} \\mid a \\leq x \\leq b\\}$\n- Offen: $] a, b[=\\{x \\in \\mathbb{R} \\mid a<x<b\\}$\n- Halboffen: $[a, b[=\\{x \\in \\mathbb{R} \\mid a \\leq x<b\\}$\n$] a, b]=\\{x \\in \\mathbb{R} \\mid a<x \\leq b\\}$\n\nBeispiele:\n\n- $\\mathbb{R}_{0}^{+}=[0,+\\infty[$\n- $\\mathbb{R}^{+}=] 0,+\\infty[$\n- $\\mathbb{R}^{-}=]-\\infty ; 0[$\n\n\n## Beispiele:\n\n- 1\n- 3,2\n- -8\n- $\\sqrt{10}$\n- $\\frac{1}{7}$\n- 0\n$\\epsilon \\mathbb{N}_{0}, \\mathbb{Z}, \\mathbb{Q}, \\mathbb{R}$",
+    "images": [],
+    "dimensions": {
+        "dpi": 200,
+        "height": 1500,
+        "width": 2667
+    }
+}

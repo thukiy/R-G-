@@ -1,0 +1,10 @@
+{
+    "index": 13,
+    "markdown": "Es gibt daher zwei Punkte auf der Parabel, welche den minimalen Abstand zum Punkt $Q$ haben. Es sind dies\n\n$$\n\\begin{aligned}\n& \\underline{\\underline{P_{2}}}=\\left(-\\sqrt{\\frac{3}{2}} ; f\\left(-\\sqrt{\\frac{3}{2}}\\right)\\right)=\\left(-\\sqrt{\\frac{3}{2}} ;\\left(-\\sqrt{\\frac{3}{2}}\\right)^{2}\\right)=\\underline{\\left(-\\sqrt{\\frac{3}{2}} ; \\frac{3}{2}\\right)} \\\\\n& \\underline{\\underline{P_{3}}}=\\left(+\\sqrt{\\frac{3}{2}} ; f\\left(+\\sqrt{\\frac{3}{2}}\\right)\\right)=\\left(+\\sqrt{\\frac{3}{2}} ;\\left(+\\sqrt{\\frac{3}{2}}\\right)^{2}\\right)=\\underline{\\left(+\\sqrt{\\frac{3}{2}} ; \\frac{3}{2}\\right)}\n\\end{aligned}\n$$\n\nBeide Punkte haben zum Punkt $Q$ jeweils einen Abstand von\n\n$$\n\\underline{\\underline{d}}=g\\left( \\pm \\sqrt{\\frac{3}{2}}\\right)=\\sqrt{G\\left( \\pm \\sqrt{\\frac{3}{2}}\\right)}=\\sqrt{\\frac{7}{4}}=\\underline{\\underline{\\sqrt{7}}}\n$$",
+    "images": [],
+    "dimensions": {
+        "dpi": 200,
+        "height": 2339,
+        "width": 1654
+    }
+}

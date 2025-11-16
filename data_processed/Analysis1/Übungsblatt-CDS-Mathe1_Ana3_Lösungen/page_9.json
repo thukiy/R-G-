@@ -1,0 +1,10 @@
+{
+    "index": 8,
+    "markdown": "# 9. Aussagen \u00fcber die Konvergenz von Folgen \n\n| Welche der folgenden Aussagen sind wahr und welche falsch? | wahr | falsch |\n| :-- | :-- | :-- |\n| a) Die Folge $a_{n}:=n^{3}$ konvergiert gegen $\\infty$. | $\\bigcirc$ | $\\bullet$ |\n| b) Jede beschr\u00e4nkte, reelle Zahlenfolge ist konvergent. | $\\bigcirc$ | $\\bullet$ |\n| c) Jede konvergente, reelle Zahlenfolge ist monoton. | $\\bigcirc$ | $\\bullet$ |\n| d) Ist eine reelle Zahlenfolge monoton und beschr\u00e4nkt, dann ist sie konver- <br> gent. | $\\bullet$ | $\\bigcirc$ |\n| e) Eine streng monoton steigende, konvergente, reelle Zahlenfolge n\u00e4hert sich <br> ihrem Grenzwert an, ohne ihn jemals anzunehmen. | $\\bullet$ | $\\bigcirc$ |",
+    "images": [],
+    "dimensions": {
+        "dpi": 200,
+        "height": 2339,
+        "width": 1654
+    }
+}

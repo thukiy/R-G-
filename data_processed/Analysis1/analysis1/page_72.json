@@ -1,0 +1,10 @@
+{
+    "index": 71,
+    "markdown": "- an $(2 ; 0)$ liegt Tiefpunkt vor\n- an $(\\frac{2}{3} ; \\frac{33}{33})$ liegt Hochpunkt vor\n- $\\lim _{x \\rightarrow-\\infty} f(x) \\rightarrow-\\infty \\int$ keine globalen Extremstellen\n- $\\lim _{x \\rightarrow+\\infty} f(x) \\rightarrow+\\infty \\int$ keine globalen Extremstellen\n\n\n# Bestimmung der Extremstellen einer differenzierbaren Funktion \n\nReelle Funktion $f$ ist gegeben und $f$ ist auf einer Menge $D$ definiert.\n\n- Man bestimmt die Nullstellen $f^{\\prime}(x)$.\n- Ist a eine Nullstelle von $f^{\\prime}$, so berechnet man $f^{\\prime \\prime}(a)$.\n- Ist $f^{\\prime \\prime}(a)>0$, so ist a eine lokale Minimalstelle; ist $f^{\\prime \\prime}(a)<0$, so ist a eine lokale Maximalstelle.\n- Ist $f^{\\prime \\prime}(a)=0$, so berechnet man die h\u00f6heren Ableitungen beginnend mit $f^{\\prime \\prime \\prime}(a)$, bis das erste Mal ein Wert ungleich 0 auftritt und bestimmt dann, ob Extremstelle oder Sattelpunkt vorliegt.\n- Hat die Menge D Randpunkte, so muss man diese separat untersuchen. Hierzu berechnet man die Funktionswerte der Randpunkte und vergleicht sie mit den lokalen Extremwerten.",
+    "images": [],
+    "dimensions": {
+        "dpi": 200,
+        "height": 2338,
+        "width": 1654
+    }
+}

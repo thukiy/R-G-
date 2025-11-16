@@ -1,0 +1,10 @@
+{
+    "index": 42,
+    "markdown": "# Eigenschaften Lineale Funktion \n\n- Monotomie: $\\quad \\mathrm{m}>0$ streng monoton steigend $\\mathrm{m}<0$ streng monoton fallend $\\mathrm{m}=0$ monoton fallend $\\&$ steigend\n- Umkehrfunktion :\n$m \\neq 0: f$ ist bijektiv, also umkehrbar\n$\\rightarrow f(x)=m x+q$ nach $x$ aufl\u00f6sen\n\n$$\n\\begin{aligned}\n& y-q=m x \\\\\n& x=\\frac{y}{m}-\\frac{q}{m}=f^{-1}(y) \\\\\n& \\rightarrow \\text { umkehrfunktion hat steigung } \\frac{1}{m}\n\\end{aligned}\n$$\n\nBsp: $\\quad \\cdot f(x)=2 x-4$\n$m=2$, d.h. streng monoton steigend\numkehrfunktion $f^{-1}(y)=\\frac{1}{2} y-\\frac{-4}{2}=\\frac{1}{2} y+2$\n$m=0: f(x)=$ konstant $\\rightarrow f(x)$ ist nicht bijektiv und somit nicht umkehrbar\n\n## Verallgemeinerte Exponentialfunktion\n\nBsp: Population besteht um 7:00 aus 500 Individuen und verdoppelt sich alle 3 h .\na) Wie viele Individuen um 13:00? 2000\nb) Wann waren es 125 Individuen? 1:00\nc) In welcher Zeit Vervierfachung? 13:00\nd) Populationsgr\u00f6sse als Funktion der Zeit. $f(t)=500 \\cdot 2^{\\frac{2 \\cdot t}{}}$",
+    "images": [],
+    "dimensions": {
+        "dpi": 200,
+        "height": 2338,
+        "width": 1654
+    }
+}

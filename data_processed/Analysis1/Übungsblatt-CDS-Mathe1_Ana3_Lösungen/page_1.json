@@ -1,0 +1,10 @@
+{
+    "index": 0,
+    "markdown": "# \u00dcbungsblatt Ana 3 \n\n## 1. Aussagen \u00fcber Folgen\n\n| Welche der folgenden Aussagen sind wahr und welche falsch? | wahr | falsch |\n| :-- | :-- | :-- |\n| a) Jede Folge ist eine Funktion mit ganzzahligen Argumenten. | - | $\\bigcirc$ |\n| b) Eine Funktion des Typs $a: \\mathbb{N} \\rightarrow \\mathbb{N}$ beschreibt eine Folge von nat\u00fcrlichen <br> Zahlen. | - | $\\bigcirc$ |\n| c) Jede Folge hat unendlich viele, voneinander verschiedene Funktionswerte. | $\\bigcirc$ | $\\bullet$ |\n| d) Jede reelle Zahlenfolge ist entweder eine arithmetische oder geometrische <br> Folge. | $\\bigcirc$ | $\\bullet$ |\n\n## 2. Untersuchung einer einfachen Folge\n\nBetrachten Sie die Folge, welche definiert ist durch\n\n$$\na_{n}:=\\frac{2 n}{n+1} \\text { f\u00fcr alle } n \\in \\mathbb{N} \\text {. }\n$$\n\na) Wir berechnen einige Folgeglieder der Folge $a_{n}$ und stellen die Ergebnisse in einer Tabelle zusammen.\n\n| $n$ | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 |\n| :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: |\n| $a_{n}$ | 0 | 1 | $\\frac{4}{3}$ | $\\frac{3}{2}$ | $\\frac{8}{5}$ | $\\frac{5}{3}$ | $\\frac{12}{7}$ | $\\frac{7}{4}$ | $\\frac{16}{9}$ | $\\frac{9}{5}$ | $\\frac{20}{11}$ | $\\frac{11}{6}$ | $\\frac{24}{13}$ | $\\frac{13}{7}$ | $\\frac{28}{15}$ | $\\frac{15}{8}$ |\n\nb) Aufgrund unserer Ergebnisse aus Teilaufgabe a) vermuten wir, dass die Folge $a_{n}$ nach unten beschr\u00e4nkt ist durch die untere Schranke $a_{\\mathrm{U}}:=0$. F\u00fcr alle $n \\in \\mathbb{N}$ gilt offensichtlich\n\n$$\n2 n \\geq n \\geq 0 \\quad \\text { und } \\quad n+1>n \\geq 0\n$$\n\nDa gem\u00e4ss (3) sowohl Z\u00e4hler als auch Nenner in (1) positiv sind, muss gelten\n\n$$\n\\underline{a_{n}}=\\frac{2 n}{n+1} \\geq \\underline{0=a_{\\mathrm{U}}}\n$$",
+    "images": [],
+    "dimensions": {
+        "dpi": 200,
+        "height": 2339,
+        "width": 1654
+    }
+}

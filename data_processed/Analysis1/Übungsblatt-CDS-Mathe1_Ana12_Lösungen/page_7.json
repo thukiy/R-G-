@@ -1,0 +1,10 @@
+{
+    "index": 6,
+    "markdown": "# 5. Maximierung einer Rechteck-Fl\u00e4che \n\nWir betrachten ein Rechteck mit Umfang $U>0$ und suchen die Seiten $a$ und $b$ derart, dass die Fl\u00e4che des Rechtecks maximal wird. Zun\u00e4chst formulieren wir die Aufgabe als Optimierungsproblem. Dazu w\u00e4hlen wir\n\n$$\n\\begin{array}{ll}\nx:=a & \\text { (unabh\u00e4ngige Variable) } \\\\\nA: \\equiv \\text { Fl\u00e4che des Rechtecks } & \\text { (zu optimierende Variable). }\n\\end{array}\n$$\n\nAus der Elementargeometrie kennen wir die Zusammenh\u00e4nge\n\n$$\n\\begin{aligned}\n& U=2 \\cdot(a+b) \\\\\n& A=a b .\n\\end{aligned}\n$$\n\nMit Hilfe dieser Informationen k\u00f6nnen wir die Variablen $a, b$ und $A$ durch die unabh\u00e4ngige Variable $x$ und die gegebene Konstante $U$ ausdr\u00fccken. Wir erhalten\n\n$$\n\\begin{aligned}\n& a(x)=x \\\\\n& b(x)=\\frac{U}{2}-a=\\frac{U}{2}-x \\\\\n& A(x)=a b=x \\cdot\\left(\\frac{U}{2}-x\\right)=\\frac{U}{2} x-x^{2}\n\\end{aligned}\n$$\n\nDie Seiten eines Rechtecks sind immer positiv, d.h. es muss gelten\n\n$$\na, b \\geq 0 \\Leftrightarrow 0 \\leq x \\leq \\frac{U}{2}\n$$\n\nWir suchen somit das globale Maximum der Funktion $A(x)$ auf dem geschlossenen Intervall\n\n$$\nI:=\\left[x_{0}, x_{\\mathrm{E}}\\right]=[0, U / 2]\n$$\n\nDabei gehen wir gem\u00e4ss den folgenden Schritten vor.\nS1 Kritische Stellen: F\u00fcr die erste Ableitung von $A$ erhalten wir\n\n$$\nA^{\\prime}(x)=\\frac{U}{2} \\cdot 1-2 x^{2-1}=\\frac{U}{2}-2 x\n$$\n\nDa $A^{\\prime}$ linear ist, hat $A$ h\u00f6chstens eine kritische Stelle. Aus\n\n$$\n\\begin{aligned}\n0 & =A^{\\prime}(x)=\\frac{U}{2}-2 x & & +2 x \\\\\n2 x & =\\frac{U}{2} & & 2\n\\end{aligned}\n$$\n\nerhalten wir\n\n$$\nx_{1}=\\frac{U}{4}\n$$\n\nFerner finden wir den Wert\n\n$$\nA_{1}=A\\left(x_{1}\\right)=A\\left(\\frac{U}{4}\\right)=\\frac{U}{4}\\left(\\frac{U}{2}-\\frac{U}{4}\\right)=\\frac{U}{4} \\cdot \\frac{U}{4}=\\frac{U^{2}}{16}\n$$",
+    "images": [],
+    "dimensions": {
+        "dpi": 200,
+        "height": 2339,
+        "width": 1654
+    }
+}

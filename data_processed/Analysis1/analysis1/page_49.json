@@ -1,0 +1,10 @@
+{
+    "index": 48,
+    "markdown": "# Ableitung mittels Differenzquotient: \n\n$$\n\\begin{aligned}\n& f(x)=x^{2} \\\\\n& \\frac{\\Delta y}{\\Delta x}=\\frac{f(x+\\Delta x)-f(x)}{\\Delta x}=\\frac{(x+\\Delta x)^{2}-x^{2}}{\\Delta x} \\\\\n& =\\frac{x^{2}+2 \\cdot \\Delta x \\cdot x+\\Delta x^{2}-x^{2}}{\\Delta x}=\\frac{2 \\Delta x \\cdot x+\\Delta x^{2}}{\\Delta x}=\\frac{\\Delta x(2 x+\\Delta x)}{\\Delta x}=2 x+\\Delta x \\\\\n& f^{\\prime}(x)=\\lim _{\\Delta x \\rightarrow 0} \\frac{\\Delta y}{\\Delta x}=\\lim _{\\Delta x \\rightarrow 0}(2 x+\\Delta x)=2 x \\\\\n& \\rightarrow f(x)=x^{2}, f^{\\prime}(x)=2 x\n\\end{aligned}\n$$\n\n## Monom - Regel:\n\n$$\n\\begin{aligned}\n& f: A \\subseteq \\mathbb{R} \\rightarrow \\mathbb{R}, f(x)=x^{p} \\quad \\text { mit } p \\in \\mathbb{R} \\backslash \\mathbb{E O} \\text {; } \\\\\n& f^{\\prime}(x)=p \\cdot x^{p-1}\n\\end{aligned}\n$$\n\n## Bep:\n\n- $f(x)=x^{5}$\n\n$$\nf^{\\prime}(x)=5 \\cdot x^{4}\n$$\n\n- $f(x)=\\frac{1}{x}=x^{-1}$\n$f^{\\prime}(x)=-x^{-2}=-\\frac{1}{x^{2}}$\n- $f(x)=\\sqrt{x}=x^{\\pi / 2}$\n$f^{\\prime}(x)=\\frac{1}{2} x^{\\pi / 2-1}=\\frac{1}{2} x^{-\\pi / 2}=\\frac{1}{2} \\frac{1}{x^{2 / 2}}=\\frac{1}{2 \\cdot \\sqrt{x^{2}}}$\n\nRegeln:\n\n- $f(x)=a \\cdot g(x)$\n$f^{\\prime}(x)=a \\cdot g^{\\prime}(x)$\n$f(x)=g(x)+h(x)$\n$f^{\\prime}(x)=g^{\\prime}(x)+h^{\\prime}(x)$\n$f(x)=a^{\\prime}(x)+h^{\\prime}(x)$\n$f(x)=5 \\cdot x^{4}$\n$f(x)=x^{-1}$\n$f^{\\prime}(x)=-x^{-2}=-\\frac{1}{x^{2}}$\n- $f(x)=\\sqrt{x}=x^{\\pi / 2}$\n$f^{\\prime}(x)=\\frac{1}{2} x^{\\pi / 2-1}=\\frac{1}{2} x^{-\\pi / 2}=\\frac{1}{2} \\frac{1}{x^{2 / 2}}=\\frac{1}{2 \\cdot \\sqrt{x^{2}}}$\n\n\n## $\\int$ Summenregel",
+    "images": [],
+    "dimensions": {
+        "dpi": 200,
+        "height": 2338,
+        "width": 1654
+    }
+}

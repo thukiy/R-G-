@@ -1,0 +1,10 @@
+{
+    "index": 55,
+    "markdown": "# Ableitung Exponentialfunktion \n\n$$\nf(x)=a^{x} \\quad f^{\\prime}(x)=2\n$$\n\nmit Differentialquotient :\n\n$$\n\\begin{aligned}\n& f^{\\prime}(x)=\\lim _{\\Delta x \\rightarrow 0} \\frac{f(x+\\Delta x)-f(x)}{\\Delta x}=\\lim _{\\Delta x \\rightarrow 0} \\frac{a^{x+\\Delta x}-a^{x}}{\\Delta x}=\\lim _{\\Delta x \\rightarrow 0} \\frac{a^{x} \\cdot a^{\\Delta x}-a^{x}}{\\Delta x} \\\\\n& =\\lim _{\\Delta x \\rightarrow 0} \\frac{a^{x}\\left(a^{\\Delta x}-1\\right)}{\\Delta x}=a^{x} \\cdot \\underbrace{\\lim _{\\Delta x \\rightarrow 0} \\frac{a^{\\Delta x}-1}{\\Delta x}}_{=2 a}=a^{x} \\cdot 2 a=2 a \\cdot f(x)\n\\end{aligned}\n$$\n\nN\u00e4herungswerte f\u00fcr $2 a$ bestimmen :\n\n$$\n\\begin{aligned}\n& a=2: 2_{2}=\\lim _{\\Delta x \\rightarrow 0} \\frac{2^{\\Delta x}-1}{\\Delta x} \\approx \\frac{2^{0,001}-1}{0,001}=0,69 \\\\\n& \\rightarrow\\left(2^{x}\\right)^{2}=0,69 \\cdot 2^{x} \\\\\n& a=3: 2_{3}=\\lim _{\\Delta x \\rightarrow 0} \\frac{3^{\\Delta x}-1}{\\Delta x} \\approx \\frac{3^{0,001}-1}{0,001}=1,1 \\\\\n& \\rightarrow\\left(3^{x}\\right)^{\\prime}=1,1 \\cdot 3^{x} \\\\\n& \\rightarrow \\text { es gibt eine Basis a, f\u00fcr die gilt : } \\\\\n& \\left(a^{x}\\right)^{\\prime}=a^{x} \\\\\n& \\quad \\longmapsto \\text { dies ist die culursche Zahl (nach deonard Euler) } \\\\\n& \\quad e=2,7182 \\ldots \\quad \\in R \\backslash Q\n\\end{aligned}\n$$\n\nnat\u00fcrliche Exponential - und logarithmustunktion :\n$f: R \\rightarrow R^{+}$\n$f(x)=e^{x}$\n$f^{\\prime}(x)=e^{x}$\nUmkehrfunktion von $f(x)=e^{x}: x=\\log _{e} y$\n\n$$\n\\begin{aligned}\n& =\\ln y \\\\\n& =f^{-1}(y)\n\\end{aligned}\n$$",
+    "images": [],
+    "dimensions": {
+        "dpi": 200,
+        "height": 2338,
+        "width": 1654
+    }
+}

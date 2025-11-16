@@ -1,0 +1,10 @@
+{
+    "index": 29,
+    "markdown": "# Summenzeichen: $\\sum$ \n\nverwendet, um eine Summe mit gleichartigen Summanden\nkure aufschreiben\n\n$$\n\\sum_{k=1}^{n} a_{k}:=a_{1}+a_{2}+a_{3}+\\ldots+a_{n}\n$$\n\n$k$ : Laufvariable, durchl\u00e4uft Werte von 1...n\n$\\rightarrow$ Laufvariable kann ge\u00e4ndert werden\n\n$$\n\\sum_{k=1}^{n} a_{k}=\\sum_{m=1}^{n} a_{m}\n$$\n\n$\\rightarrow$ Indexverschiebung kann durchgefuhrt werden\n\n$$\n\\sum_{k=1}^{n} a_{k}=\\sum_{k=1+5}^{n+5} a_{k-5}\n$$\n\n$\\rightarrow$ hilfreich beim Zusammenfassen von 2 oder mehr Summen\n\n$$\n\\begin{aligned}\n& \\rightarrow \\text { Regeln: } \\quad \\circ \\sum_{k=1}^{n}\\left(a_{k}+b_{k}\\right)=\\sum_{k=1}^{n} a_{k}+\\sum_{k=1}^{n} b_{k} \\\\\n& \\circ \\sum_{k=1}^{n}\\left(c \\cdot a_{k}\\right)=c \\cdot \\sum_{k=1}^{n} a_{k}\n\\end{aligned}\n$$\n\nBsp: $\\quad \\sum_{k=1}^{5} k^{2}=1^{2}+2^{2}+3^{2}+4^{2}+5^{2}=55$\n\n$$\n\\begin{aligned}\n& \\circ \\sum_{k=m}^{n} c=c \\cdot \\sum_{k=m}^{n} 1=c \\cdot(n-m+1) \\quad C \\in \\mathbb{R} \\\\\n& \\circ \\sum_{k=1}^{5} \\frac{(-1)^{k}}{2^{k}}=\\frac{-1}{2}+\\frac{1}{4}+\\frac{-1}{8}+\\frac{1}{16}+\\frac{-1}{32} \\\\\n& \\circ \\sum_{k=5}^{8} a_{k}=\\sum_{k=0}^{3} a_{k+5} \\quad \\rightarrow \\text { Indexverschiebung } \\\\\n& \\circ \\sum_{k=4}^{40}(k+4)^{2}=\\sum_{k=8}^{40} k^{2} \\\\\n& \\circ \\sum_{k=1}^{n} a_{k}=\\sum_{k=1}^{n} a_{n+1-k}\n\\end{aligned}\n$$",
+    "images": [],
+    "dimensions": {
+        "dpi": 200,
+        "height": 2338,
+        "width": 1654
+    }
+}

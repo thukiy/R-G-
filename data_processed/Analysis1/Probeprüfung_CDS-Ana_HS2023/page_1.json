@@ -1,0 +1,10 @@
+{
+    "index": 0,
+    "markdown": "# Probepr\u00fcfung f\u00fcr Mathematik 1 \n\n## Computational and Data Science BSc, Teil Analysis\n\n## 1. Aussagen \u00fcber das Verhalten einer Funktion (6 Punkte)\n\nGegeben sei die Funktion $f: \\mathbb{R} \\rightarrow \\mathbb{R}$\n\n$$\nx \\rightarrow f(x)=\\left(x^{2}-9\\right)\\left(x^{2}-16\\right)\n$$\n\nWelche der folgenden Aussagen sind wahr bzw. falsch?\n\n|  | Wahr | Falsch |\n| :-- | :-- | :-- |\n| a) Es gilt $f(0)=0$. |  |  |\n| b) Die Funktion $f$ ist injektiv. |  |  |\n| c) Die Funktion $f$ ist bijektiv. |  |  |\n| d) Die Funktion hat genau drei Extrema. |  |  |\n| e) Die Funktion $f$ hat auf $\\mathbb{R}$ kein globales Minimum. |  |  |\n| f) Das globale Maximum der Funktion $f$ auf dem Intervall $[3 ; 4]$ <br> ist 0. |  |  |\n\n## 2. Aussagen \u00fcber die nat\u00fcrliche Exponentialfunktion (6 Punkte)\n\nWelche der folgenden Aussagen sind wahr bzw. falsch?\n\n|  | Wahr | Falsch |\n| :-- | :-- | :-- |\n| a) Es gilt $\\exp (0)=1$. |  |  |\n| b) Es gilt $\\exp ^{-}(x)=\\left(e^{x}\\right)$. |  |  |\n| c) Es gilt $\\exp (0,25)=\\sqrt[3]{e^{2}}$. |  |  |\n| d) F\u00fcr all $x \\in \\mathbb{R}$ gilt $\\exp (2 x)=2 \\cdot \\exp (x)$. |  |  |\n| e) F\u00fcr alle $x, y \\in \\mathbb{R}$ gilt: $\\exp (x-y)=\\exp (x) / \\exp (y)$. |  |  |\n| f) Eigentliche Exponentialfunktionen sind immer streng <br> monoton steigend. |  |  |\n\n## 3. Vermischte Aufgaben (7 Punkte)\n\na) Schreiben Sie die Menge $\\operatorname{sgn}(] 0 ; 7])$ in aufz\u00e4hlender Form.\nb) Berechnen Sie f\u00fcr $n \\rightarrow \\infty$ den Grenzwert der Folge $a_{n}=\\frac{2 n-5-4 n^{2}}{3-8 n^{2}-10 n}$.\nc) Berechnen Sie die Ableitung der Funktion $f(x)=\\sqrt{3 x^{2}+3^{2 x}}$.\nd) Berechnen Sie das folgende bestimmte Integral $\\int_{u}^{-v}\\left(2 w u-6 v w^{2}+1\\right) d w$.",
+    "images": [],
+    "dimensions": {
+        "dpi": 200,
+        "height": 2339,
+        "width": 1654
+    }
+}

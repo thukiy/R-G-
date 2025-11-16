@@ -1,0 +1,10 @@
+{
+    "index": 7,
+    "markdown": "# 8. Aussagen \u00fcber hyperbolische Funktionen \n\n| Welche der folgenden Aussagen sind wahr und welche falsch? | wahr | falsch |\n| :-- | :--: | :--: |\n| a) Es gilt $\\cosh (0) \\in \\mathbb{N}$. | $\\bullet$ | $\\bigcirc$ |\n| b) Es gilt $\\cosh (3)-\\sinh (3)=1$. | $\\bigcirc$ | $\\bullet$ |\n| c) Die Funktion $\\sinh : \\mathbb{R} \\rightarrow \\mathbb{R}$ ist injektiv. | $\\bullet$ | $\\bigcirc$ |\n| d) Die Funktion $\\cosh : \\mathbb{R} \\rightarrow[1, \\infty[$ ist bijektiv. | $\\bigcirc$ | $\\bullet$ |\n\n## 9. Pythagoras-Satz f\u00fcr hyperbolische Funktionen\n\nWir betrachten den Pythagoras-Satz f\u00fcr hyperbolische Funktionen gem\u00e4ss\n\n$$\n\\cosh ^{2}(x)-\\sinh ^{2}(x)=1\n$$\n\na) F\u00fcr $x=0$ gilt\n\n$$\n\\begin{aligned}\n\\underline{\\cosh ^{2}(0)-\\sinh ^{2}(0)} & =\\left(\\frac{\\mathrm{e}^{0}+\\mathrm{e}^{-0}}{2}\\right)^{2}-\\left(\\frac{\\mathrm{e}^{0}-\\mathrm{e}^{-0}}{2}\\right)^{2}=\\left(\\frac{1+1}{2}\\right)^{2}-\\left(\\frac{1-1}{2}\\right)^{2} \\\\\n& =\\left(\\frac{2}{2}\\right)^{2}-\\left(\\frac{0}{2}\\right)^{2}=1^{2}-0^{2}=\\underline{1}\n\\end{aligned}\n$$\n\nb) F\u00fcr alle $x \\in \\mathbb{R}$ gilt\n\n$$\n\\begin{aligned}\n\\underline{\\cosh ^{2}(x)-\\sinh ^{2}(x)} & =\\left(\\frac{\\mathrm{e}^{x}+\\mathrm{e}^{-x}}{2}\\right)^{2}-\\left(\\frac{\\mathrm{e}^{x}-\\mathrm{e}^{-x}}{2}\\right)^{2}=\\frac{\\left(\\mathrm{e}^{x}+\\mathrm{e}^{-x}\\right)^{2}}{2^{2}}-\\frac{\\left(\\mathrm{e}^{x}-\\mathrm{e}^{-x}\\right)^{2}}{2^{2}} \\\\\n& =\\frac{\\left(\\mathrm{e}^{x}\\right)^{2}+2 \\cdot \\mathrm{e}^{x} \\cdot \\mathrm{e}^{-x}+\\left(\\mathrm{e}^{-x}\\right)^{2}}{4}-\\frac{\\left(\\mathrm{e}^{x}\\right)^{2}-2 \\cdot \\mathrm{e}^{x} \\cdot \\mathrm{e}^{-x}+\\left(\\mathrm{e}^{-x}\\right)^{2}}{4} \\\\\n& =\\frac{\\mathrm{e}^{2 x}+2 \\cdot 1+\\mathrm{e}^{-2 x}-\\mathrm{e}^{2 x}+2 \\cdot 1-\\mathrm{e}^{-2 x}}{4}=\\frac{2+2}{4}=\\frac{4}{4}=\\underline{1}\n\\end{aligned}\n$$",
+    "images": [],
+    "dimensions": {
+        "dpi": 200,
+        "height": 2339,
+        "width": 1654
+    }
+}

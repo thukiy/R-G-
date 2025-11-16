@@ -1,0 +1,10 @@
+{
+    "index": 33,
+    "markdown": "# Elementarffunktionen \n\nDef: reele Funktion\nAbbildung von $D \\subseteq \\mathbb{R}$ auf $W \\subseteq \\mathbb{R}$ mit reeler Variable\n$f: D \\rightarrow W, f(x)=y$\nD: Definitionsbereich\nW: Wertebereich\n$x$ : unabh\u00e4ngige Variable, Argument\n$y$ : abh\u00e4ngige Variable, Funktionswert\neindeutige zuordnung : zu jedem $x$ ein $f(x)$\nBsp: $\\quad f(x)=\\mathbb{R} \\rightarrow[0, \\infty[$\n$f(x)=x^{2}$\n$\\circ f(x):[1, \\infty[ \\rightarrow[0, \\infty[$\n$f(x)=\\sqrt{x-1}$\n\n## Beschr\u00e4nkte Funktion\n\n$f: A \\rightarrow B$ sei reele Funktion\na) $f$ ist nach oben beschr\u00e4nkt, wenn ein $M \\in \\mathbb{R}$ existiert mit $f(x) \\leq M \\quad \\forall x \\in A$.\nb) $f$ ist nach unten beschr\u00e4nkt, wenn ein $m \\in \\mathbb{R}$ existiert mit $f(x) \\geqslant m \\quad \\forall x \\in A$.\nc) $f$ heisst beschr\u00e4nkt, wenn a) und b) zutreffen $m \\leq f(x) \\leq M$",
+    "images": [],
+    "dimensions": {
+        "dpi": 200,
+        "height": 2338,
+        "width": 1654
+    }
+}

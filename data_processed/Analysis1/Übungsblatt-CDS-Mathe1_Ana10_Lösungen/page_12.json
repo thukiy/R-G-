@@ -1,0 +1,10 @@
+{
+    "index": 11,
+    "markdown": "Variante 1: Mit Hilfe der Quotienten-Regel, der Sinus-Ableitung und der ExponentialAbleitung erhalten wir\n\n$$\n\\underline{\\underline{f^{\\prime}(x)}}=\\frac{\\sin ^{\\prime}(x) \\cdot \\mathrm{e}^{x}-\\sin (x) \\cdot\\left(\\mathrm{e}^{x}\\right)^{\\prime}}{\\left(\\mathrm{e}^{x}\\right)^{2}}=\\frac{\\cos (x) \\cdot \\mathrm{e}^{x}-\\sin (x) \\cdot \\mathrm{e}^{x}}{\\left(\\mathrm{e}^{x}\\right)^{2}}=\\underline{\\underline{\\cos (x)-\\sin (x)} \\mathrm{e}^{x}}\n$$\n\nVariante 2: Mit Hilfe der Produkt-Regel, der Sinus-Ableitung und der Exponential-Ableitung (mit Minuszeichen) erhalten wir\n\n$$\n\\begin{aligned}\n\\underline{\\underline{f^{\\prime}(x)}} & =\\sin ^{\\prime}(x) \\cdot \\mathrm{e}^{-x}+\\sin (x) \\cdot\\left(\\mathrm{e}^{-x}\\right)^{\\prime}=\\cos (x) \\cdot \\mathrm{e}^{-x}+\\sin (x) \\cdot\\left(-\\mathrm{e}^{-x}\\right) \\\\\n& =\\cos (x) \\cdot \\mathrm{e}^{-x}-\\sin (x) \\cdot \\mathrm{e}^{-x}=\\underline{(\\cos (x)-\\sin (x)) \\mathrm{e}^{-x}}\n\\end{aligned}\n$$",
+    "images": [],
+    "dimensions": {
+        "dpi": 200,
+        "height": 2339,
+        "width": 1654
+    }
+}

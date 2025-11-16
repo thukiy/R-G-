@@ -1,0 +1,10 @@
+{
+    "index": 66,
+    "markdown": "# Anwendung der Differentialrechnung \n\nMonotonie und Beschr\u00e4nktheit von Funktionen k\u00f6nnen mit Differentialrechnung untersucht werden: 1. Ableitung vor allem.\n\n## Monotonie\n\nf sei auf $I \\subseteq R$ definiert und differenzierbar. Dann gilt :\na) $f^{\\prime}(x) \\geqslant 0 \\quad \\forall x \\in I: f$ ist monoton steigend\nb) $f^{\\prime}(x)>0 \\quad \\forall x \\in I: f$ ist streng monoton steigend\nc) $f^{\\prime}(x) \\leqslant 0 \\quad \\forall x \\in I: f$ ist monoton fallend\nd) $f^{\\prime}(x)<0 \\quad \\forall x \\in I: f$ ist streng monoton fallend\n$\\rightarrow$ es gibt \u00c4quivalenz\nBsp: $\\quad f(x)=x^{2}$\n\n$$\nf^{\\prime}(x)=2 x\n$$\n\n$$\n\\begin{aligned}\n& I=]-\\infty ; 0[: f^{\\prime}(x)<0 \\\\\n& \\rightarrow f \\text { ist streng monoton fallend }\n\\end{aligned}\n$$\n\n- $f(x)=\\frac{1}{x} \\quad x \\neq 0$\n\n$$\nf^{\\prime}(x)=-\\frac{1}{x^{2}}\n$$\n\n$$\nI=]-\\infty ; 0[: \\quad f^{\\prime}(x)<0\n$$\n\n$\\rightarrow$ f ist stieng monoton fallend",
+    "images": [],
+    "dimensions": {
+        "dpi": 200,
+        "height": 2338,
+        "width": 1654
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "index": 14,
+    "markdown": "\\# Parameter:\n$f=2 * x+1 ;$\nGem\u00e4ss Ausgabe erhalten wir die Aufleitung\n$\\underline{F(x)=x^{2}+x+c .}$\nb) Wir modifizieren den Code.\n\\# Parameter:\n$f=4 * x-8 ;$\nGem\u00e4ss Ausgabe erhalten wir die Aufleitung\n$\\underline{F(x)=2 x^{2}-8 x+c .}$\nc) Wir modifizieren den Code.\n\\# Parameter:\n$f=12 * x * * 2+17 ;$\nGem\u00e4ss Ausgabe erhalten wir die Aufleitung\n$\\underline{F(x)=4 x^{3}+17 x+c .}$\nd) Wir modifizieren den Code.\n\\# Parameter:\n$f=3 * x * * 2-6 * x ;$\nGem\u00e4ss Ausgabe erhalten wir die Aufleitung\n$\\underline{F(x)=x^{3}-3 x^{2}+c .}$\ne) Wir modifizieren den Code.\n\\# Parameter:\n$f=6 * x * * 2-4 * x+3 ;$\nGem\u00e4ss Ausgabe erhalten wir die Aufleitung\n$\\underline{F(x)=2 x^{3}-2 x^{2}+3 x+c .}$\nf) Wir modifizieren den Code.\n\\# Parameter:\n$f=8 * x-1+9 * x * * 2 ;$\nGem\u00e4ss Ausgabe erhalten wir die Aufleitung\n$\\underline{F(x)=3 x^{3}+4 x^{2}-x+c .}$",
+    "images": [],
+    "dimensions": {
+        "dpi": 200,
+        "height": 2339,
+        "width": 1654
+    }
+}

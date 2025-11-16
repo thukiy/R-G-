@@ -1,0 +1,10 @@
+{
+    "index": 51,
+    "markdown": "$$\n\\begin{aligned}\n& =\\lim _{\\Delta x \\rightarrow 0} h(x+\\Delta x) \\cdot \\underbrace{\\lim _{\\Delta x \\rightarrow 0}} \\frac{g(x+\\Delta x)-g(x)}{\\Delta x}+g(x) \\cdot \\underbrace{\\lim _{x \\rightarrow 0}} \\frac{h(x+\\Delta x-h(x)}{\\Delta x} \\\\\n& =h(x) \\\\\n& =g^{\\prime}(x) \\\\\n& =h^{\\prime}(x) \\\\\n& =h(x) \\cdot g^{\\prime}(x)+g(x) \\cdot h^{\\prime}(x)\n\\end{aligned}\n$$\n\nBsp: $\\quad f(x)=x^{3}=x^{2} \\cdot x$\n\n$$\nf^{\\prime}(x)=2 x \\cdot x+x^{2} \\cdot 1=2 x^{2}+x^{2}=3 x^{2}\n$$\n\n$$\n\\begin{aligned}\n& \\text { - } f(x)=\\underbrace{\\left(4 x^{3}-3 x\\right)(\\sqrt{x}-7)}_{g(x)} \\\\\n& f^{\\prime}(x)=\\left(4 \\cdot 3 \\cdot x^{2}-3\\right)(\\sqrt{x}-7)+\\left(4 x^{3}-3 x\\right)\\left(\\frac{7}{2} x^{-\\frac{7}{2}}\\right) \\\\\n& =\\left(12 x^{2}-3\\right)(\\sqrt{x}-7)+\\left(4 x^{3}-3 x\\right)\\left(\\frac{4}{2 \\sqrt{x}}\\right)\n\\end{aligned}\n$$\n\n# Quotiententegel: \n\n$f: \\mathbb{R} \\backslash \\xi \\in \\mathbb{R} \\mid h(x)=0 \\xi \\rightarrow \\mathbb{R}$\n\n$$\nx \\rightarrow f(x)=\\frac{g(x)}{h(x)}\n$$\n\n$g(x)$ und $h(x)$ sind differenzierbar\n$f^{\\prime}(x)=\\frac{g^{\\prime}(x) \\cdot h(x)-g(x) \\cdot h^{\\prime}(x)}{h(x)^{2}}$\n\nBsp: $\\quad f(x)=\\frac{1}{x} \\quad g(x)=1, h(x)=x$\n\n$$\nf^{\\prime}(x)=\\frac{0 \\cdot x-1 \\cdot 1}{x^{2}}=-\\frac{1}{x^{2}}\n$$\n\nmit Kononregel : $f(x)=x^{-1}$\n\n$$\nf^{\\prime}(x)=-1 \\cdot x^{-2}=-\\frac{1}{x^{2}}\n$$\n\n- $f(x)=\\frac{x^{2}}{1+x} \\quad g(x)=x^{2}, h(x)=1+x$\n\n$$\n\\begin{aligned}\nf^{\\prime}(x) & =\\frac{2 x \\cdot(1+x)-x^{2}-x^{2} \\cdot 1}{(1+x)^{2}}=\\frac{2 x+2 x^{2}-x^{2}}{(1+x)^{2}} \\\\\n& =\\frac{2 x+x^{2}}{(1+x)^{2}}\n\\end{aligned}\n$$",
+    "images": [],
+    "dimensions": {
+        "dpi": 200,
+        "height": 2338,
+        "width": 1654
+    }
+}

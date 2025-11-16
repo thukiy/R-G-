@@ -1,0 +1,10 @@
+{
+    "index": 13,
+    "markdown": "# 6. Aufleitungen von Polynom-Funktionen \n\nWir berechnen die folgenden unbestimmten Integrale durch elementares Aufleiten.\na) Wir erhalten\n\n$$\n\\underline{F(x)}=\\int(2 x+1) \\mathrm{d} x=2 \\cdot \\frac{1}{2} x^{2}+1 \\cdot x+c=\\underline{x^{2}+x+c}\n$$\n\nb) Wir erhalten\n\n$$\n\\underline{F(x)}=\\int(4 x-8) \\mathrm{d} x=4 \\cdot \\frac{1}{2} x^{2}-8 x+c=\\underline{2 x^{2}-8 x+c}\n$$\n\nc) Wir erhalten\n\n$$\n\\underline{F(x)}=\\int\\left(12 x^{2}+17\\right) \\mathrm{d} x=12 \\cdot \\frac{1}{3} x^{3}+17 x+c=\\underline{4 x^{3}+17 x+c}\n$$\n\nd) Wir erhalten\n\n$$\n\\underline{F(x)}=\\int\\left(3 x^{2}-6 x\\right) \\mathrm{d} x=3 \\cdot \\frac{1}{3} x^{3}-6 \\cdot \\frac{1}{2} x^{2}+c=\\underline{x^{3}-3 x^{2}+c}\n$$\n\ne) Wir erhalten\n\n$$\n\\underline{F(x)}=\\int\\left(6 x^{2}-4 x+3\\right) \\mathrm{d} x=6 \\cdot \\frac{1}{3} x^{3}-4 \\cdot \\frac{1}{2} x^{2}+3 x+c=\\underline{2 x^{3}-2 x^{2}+3 x+c}\n$$\n\nf) Wir erhalten\n\n$$\n\\underline{F(x)}=\\int\\left(8 x-1+9 x^{2}\\right) \\mathrm{d} x=8 \\cdot \\frac{1}{2} x^{2}-1 \\cdot x+9 \\cdot \\frac{1}{3} \\cdot x^{3}+c=\\underline{4 x^{2}-x+3 x^{3}+c}\n$$\n\n## 7. Aufleitungen von Polynom-Funktionen mit Python/Sympy\n\nWir berechnen die unbestimmten Integrale aus Aufgabe 7 mit Python/Sympy. Dazu implementieren wir den folgenden Code, den wir f\u00fcr jede Teilaufgabe modifizieren.\n\n```\n# Python initialisieren:\nimport IPython.display as dp;\nimport sympy as sp;\n# Python konfigurieren:\nsp.init_printing();\nx=sp.symbols('x');\n# Parameter:\nf=...;\n# Berechnungen:\nF=sp.expand(sp.integrate(f,x));\n# Ausgabe:\ndp.display(f);\ndp.display(F);\n```\n\na) Wir modifizieren den Code.",
+    "images": [],
+    "dimensions": {
+        "dpi": 200,
+        "height": 2339,
+        "width": 1654
+    }
+}

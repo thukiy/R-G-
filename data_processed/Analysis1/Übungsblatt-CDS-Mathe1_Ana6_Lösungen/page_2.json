@@ -1,0 +1,10 @@
+{
+    "index": 1,
+    "markdown": "# 2. Parit\u00e4t von Funktionen \n\nWir bestimmen jeweils die Parit\u00e4t des angegebenen Funktionsterms.\na) Wir betrachten $f(x)=x^{2}$. Es gilt\n\n$$\n\\underline{f(-x)}=(-x)^{2}=(-1)^{2} \\cdot x^{2}=1 \\cdot x^{2}=x^{2}=\\underline{f(x)}\n$$\n\nDie Funktion hat demnach positive Parit\u00e4t.\nb) Wir betrachten $f(x)=1 / x$. Es gilt\n\n$$\n\\underline{f(-x)}=\\underline{1}=-\\underline{1}=\\underline{-f(x)}\n$$\n\nDie Funktion hat demnach negative Parit\u00e4t.\nc) Wir betrachten $f(x)=-2^{|x|}$. Es gilt\n\n$$\n\\underline{f(-x)}=-2^{|-x|}=-2^{|x|}=\\underline{f(x)}\n$$\n\nDie Funktion hat demnach positive Parit\u00e4t.\nd) Wir betrachten $f(x)=\\sin (3 x)$. Es gilt\n\n$$\n\\underline{f(-x)}=\\sin (3 \\cdot(-x))=\\sin (-3 x)=-\\sin (3 x)=\\underline{-f(x)}\n$$\n\nDie Funktion hat demnach negative Parit\u00e4t.\ne) Wir betrachten $f(x)=x \\cdot \\cos (5 x)$. Es gilt\n\n$$\n\\underline{f(-x)}=(-x) \\cdot \\cos (5 \\cdot(-x))=-x \\cdot \\cos (-5 x)=-x \\cdot \\cos (5 x)=\\underline{-f(x)}\n$$\n\nDie Funktion hat demnach negative Parit\u00e4t.\nf) Wir betrachten $f(x)=\\cosh (x) \\cdot \\sinh \\left(x^{2}\\right)$. Es gilt\n\n$$\n\\underline{f(-x)}=\\cosh (-x) \\cdot \\sinh \\left((-x)^{2}\\right)=\\cosh (x) \\cdot \\sinh \\left(x^{2}\\right)=\\underline{f(x)}\n$$\n\nDie Funktion hat demnach positive Parit\u00e4t.\n\n## 3. Aussagen \u00fcber lineare Funktionen\n\n| Welche der folgenden Aussagen sind wahr und welche falsch? | wahr | falsch |\n| :-- | :-- | :-- |\n| a) Der Graph einer linearen Funktion ist in jedem Fall eine Gerade. | $\\bullet$ | $\\bigcirc$ |\n| b) Jede lineare Funktion ist injektiv. | $\\bigcirc$ | $\\bullet$ |\n| c) Eine lineare Funktion ist genau dann bijektiv, wenn ihre Steigung nicht <br> verschwindet. | $\\bullet$ | $\\bigcirc$ |\n| d) Der Graph jeder linearen Funktion schneidet die $y$-Achse. | $\\bullet$ | $\\bigcirc$ |",
+    "images": [],
+    "dimensions": {
+        "dpi": 200,
+        "height": 2339,
+        "width": 1654
+    }
+}

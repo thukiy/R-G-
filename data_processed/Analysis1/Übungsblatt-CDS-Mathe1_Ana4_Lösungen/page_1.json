@@ -1,0 +1,10 @@
+{
+    "index": 0,
+    "markdown": "# \u00dcbungsblatt Ana 4 \n\n## 1. Aussagen \u00fcber Summen und das Summen-Zeichen\n\n| Welche der folgenden Aussagen sind wahr und welche falsch? | wahr | falsch |\n| :-- | :--: | :--: |\n| a) Das Summen-Zeichen ist ein vergr\u00f6ssertes altgriechisches Sigma. | $\\bullet$ | $\\bigcirc$ |\n| b) Mit Hilfe des Summen-Zeichens kann jede Summe mit vielen Summanden <br> effizient geschrieben werden. | $\\bigcirc$ | $\\bullet$ |\n| c) Mit Hilfe des Summen-Zeichens kann eine geeignete Summe mit vielen <br> gleichartigen Summanden effizient geschrieben werden. | $\\bullet$ | $\\bigcirc$ |\n| d) Mit Hilfe des Summen-Zeichens kann eine geeignete Summe mit vielen <br> gleichartigen Summanden effizient berechnet werden. | $\\bigcirc$ | $\\bullet$ |\n| e) Es gilt $\\sum_{k=1}^{3} k=6$. | $\\bullet$ | $\\bigcirc$ |\n| f) Es gilt $\\sum_{k=7}^{500}\\left(3 k^{2}+6 k^{3}\\right)=3 \\sum_{k=7}^{500}\\left(k^{2}+2 k^{3}\\right)$. | $\\bullet$ | $\\bigcirc$ |\n\n## 2. Summen ausschreiben und berechnen\n\nWir berechnen, die folgenden Summen.\na) Wir erhalten\n\n$$\n\\sum_{k=1}^{10} k=4+5+6+7+8+9+10=\\underline{\\underline{49}}\n$$\n\nb) Wir zeigen mehrere Varianten, um diese Teilaufgabe zu bearbeiten.\n\nVariante 1: Wir erhalten\n\n$$\n\\begin{aligned}\n\\sum_{\\underline{k=4}}^{10} 2 k & =2 \\cdot 4+2 \\cdot 5+2 \\cdot 6+2 \\cdot 7+2 \\cdot 8+2 \\cdot 9+2 \\cdot 10 \\\\\n& =8+10+12+14+16+18+20=\\underline{\\underline{98}}\n\\end{aligned}\n$$\n\nVariante 2: Durch Ausklammern von 2 erhalten wir\n\n$$\n\\underline{\\sum_{k=4}^{10} 2 k}=2 \\sum_{k=4}^{10} k=2 \\cdot(4+5+6+7+8+9+10)=2 \\cdot 49=\\underline{\\underline{98}}\n$$",
+    "images": [],
+    "dimensions": {
+        "dpi": 200,
+        "height": 2339,
+        "width": 1654
+    }
+}

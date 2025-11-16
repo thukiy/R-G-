@@ -1,0 +1,10 @@
+{
+    "index": 16,
+    "markdown": "# 9. Integrale von Polynom-Funktionen mit Python/Sympy \n\nWir berechnen die Integrale aus Aufgabe 9 mit Python/Sympy. Dazu implementieren wir den folgenden Code, den wir f\u00fcr jede Teilaufgabe modifizieren.\n\n```\n# Python initialisieren:\nimport IPython.display as dp;\nimport sympy as sp;\n# Python konfigurieren:\nsp.init_printing();\nx=sp.symbols('x');\n# Parameter:\nf=...; x_0=...; x_E=...;\n# Berechnungen:\nI=sp.integrate(f,(x,x_0,x_E));\n# Ausgabe:\ndp.display(I);\n```\n\na) Wir modifizieren den Code.\n\n```\n# Parameter:\nf=2*x-1; x_0=0; x_E=3;\n```\n\nGem\u00e4ss Ausgabe erhalten wir das Integral\n\n$$\n\\underline{I=6}\n$$\n\nb) Wir modifizieren den Code.\n\n```\n# Parameter:\nf=2*x-1; x_0=-1; x_E=1;\n```\n\nGem\u00e4ss Ausgabe erhalten wir das Integral\n\n$$\n\\underline{I=-2}\n$$\n\nc) Wir modifizieren den Code.\n\n```\n# Parameter:\nf=6*x**2-8*x**3+1; x_0=-2; x_E=1;\n```\n\nGem\u00e4ss Ausgabe erhalten wir das Integral\n\n$$\n\\underline{I=51}\n$$\n\nd) Wir modifizieren den Code.\n\n```\n# Parameter:\nf=6*x**2-8*x**3+1; x_0=-2; x_E=-1;\n```\n\nGem\u00e4ss Ausgabe erhalten wir das Integral\n\n$$\n\\underline{I=45}\n$$\n\ne) Wir modifizieren den Code.\n\n```\n# Parameter:\nf=2/3-16*x**4; x_0=1; x_E=3/2;\n```",
+    "images": [],
+    "dimensions": {
+        "dpi": 200,
+        "height": 2339,
+        "width": 1654
+    }
+}

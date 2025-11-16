@@ -1,0 +1,10 @@
+{
+    "index": 1,
+    "markdown": "# Aussagenlogik \n\n$>$ Lehre vom folgerichtigen Denken\n$>$ Befasst sich mit Aussagen: es wird \u00fcberpr\u00fcft, ob eine Aussage wahr oder falsch ist (es gibt keine weiteren M\u00f6glichkeiten)\n$>$ Die Aussagen werden typischerweise mit Buchstaben abgek\u00fcrzt\n\nBeispiel:\nWenn die Sonne scheint und er keinen Besuch bekommt, dann geht Peter am Sonntag Pilze sammeln.\n\nWenn die Sonne scheint und er keinen Besuch bekommt, dann geht Peter am Sonntag Pilze sammeln.\n$\\rightarrow 3$ Aussagen, die miteinander verkn\u00fcpft sind: A, B, C\nA: w\ndann C: w\nB: w",
+    "images": [],
+    "dimensions": {
+        "dpi": 200,
+        "height": 1500,
+        "width": 2667
+    }
+}

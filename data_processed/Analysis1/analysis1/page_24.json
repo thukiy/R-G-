@@ -1,0 +1,10 @@
+{
+    "index": 23,
+    "markdown": "betrachte $\\xi 4,98<N$ :\ndann ist wioled von $\\xi 4,98$ :\n\n$$\nf^{-1}(\\xi 4,98)=\\xi-3,-2,2,38\n$$\n\n# Umkehrabbildung \n\naus jedem Bildelement soll eindeutig das Ausgangselement rekonstruiert werden\n$\\rightarrow$ dies ist nicht immer m\u00f6glich\nobriges Bsp: - nicht alle Elemente von $N$ haben Entsprechung in $M$\n\n- Problem mit Gindeutigkeit :\n$-2$ und +2 werden auf 4 abgebildet\n$\\Rightarrow$ Abbildung $\\xi$ muss bijektiv sein, damit sie umkehrbar ist\n$\\leftrightarrow$ Funktionstum wird nach dem Argument aufgel\u00f6st\nobriges Bsp: $\\quad M^{\\prime}=\\xi 0,1,2,38, N^{\\prime}=\\xi 0,1,4,98$\n\n$$\n\\begin{aligned}\n& f: M^{\\prime} \\rightarrow N^{\\prime} \\quad f(m)=m^{2}=n \\\\\n& m^{2}=n \\quad \\Leftrightarrow \\quad m=\\sqrt{n} \\\\\n& f^{-1}: N^{\\prime} \\rightarrow M \\quad f^{\\prime}(n)=\\sqrt{n}\n\\end{aligned}\n$$",
+    "images": [],
+    "dimensions": {
+        "dpi": 200,
+        "height": 2338,
+        "width": 1654
+    }
+}

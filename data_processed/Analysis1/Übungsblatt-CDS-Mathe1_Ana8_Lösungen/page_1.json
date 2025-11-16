@@ -1,0 +1,10 @@
+{
+    "index": 0,
+    "markdown": "# -`sleq`j_rr ?1_ 8 Amknsr_r\u0304m1_j _1b B_r_ Qa\u015fc1ac @Qa FQ 0.01 \n\n## J-qslec1\n\nK_rfck_r\u0304\u0304i 1\n\n## 1. Aussagen \u00fcber die Produkt-Regel\n\n| Welche der folgenden Aussagen sind wahr und welche falsch? | wahr | falsch |\n| :-- | :--: | :--: |\n| a) Mit Hilfe der Produkt-Regel l\u00e4sst sich die Monom-Regel f\u00fcr ganzzahlige <br> Exponenten beweisen. | $\\bullet$ | $\\bigcirc$ |\n| b) Die Faktor-Regel ist ein Spezialfall der Produkt-Regel. | $\\bullet$ | $\\bigcirc$ |\n| c) Gilt $f(x)=x^{2} \\cdot g(x)$, dann folgt $f^{\\prime}(x)=2 \\cdot x \\cdot g^{\\prime}(x)$. | $\\bigcirc$ | $\\bullet$ |\n| d) Gilt $f(x)=x^{2} \\cdot g(x)$, dann folgt $f^{\\prime}(x)=2 \\cdot x \\cdot g(x)+x^{2} \\cdot g^{\\prime}(x)$. | $\\bullet$ | $\\bigcirc$ |\n\n## 2. Ableitung von Produkten\n\nWir berechnen jeweils die Ableitung der gegebenen Funktion $f$ mit Hilfe der Produktregel.\na) Wir betrachten die Funktion\n\n$$\nf(x)=x \\cdot\\left(x^{3}-1\\right)\n$$\n\nF\u00fcr die Ableitung erhalten wir\n\n$$\n\\begin{aligned}\nf^{\\prime}(x) & =x^{\\prime} \\cdot\\left(x^{3}-1\\right)+x \\cdot\\left(x^{3}-1\\right)^{\\prime}=1 \\cdot\\left(x^{3}-1\\right)+x \\cdot\\left(3 x^{2}-0\\right)=x^{3}-1+3 x^{3} \\\\\n& =\\underline{\\underline{4 x^{3}-1}}\n\\end{aligned}\n$$\n\nb) Wir betrachten die Funktion\n\n$$\nf(x)=(x+2) \\cdot(x+3)\n$$\n\nF\u00fcr die Ableitung erhalten wir\n\n$$\n\\underline{\\underline{f^{\\prime}(x)}}=(x+2)^{\\prime} \\cdot(x+3)+(x+2) \\cdot(x+3)^{\\prime}=1 \\cdot(x+3)+(x+2) \\cdot 1=\\underline{\\underline{2 x+5}}\n$$",
+    "images": [],
+    "dimensions": {
+        "dpi": 200,
+        "height": 2339,
+        "width": 1654
+    }
+}

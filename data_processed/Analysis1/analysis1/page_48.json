@@ -1,0 +1,10 @@
+{
+    "index": 47,
+    "markdown": "Grenawert nennt sich Ableitung der Funktion $f(x)$ an $x_{0}$.\nMan schreibt: $f^{\\prime}\\left(x_{0}\\right), y^{\\prime}\\left(x_{0}\\right), \\frac{d y}{d x} \\mid x=x_{0}$\n$\\frac{d y}{d x}:$ Differentialquotient\nDef: $f: \\mathbb{R} \\rightarrow \\mathbb{R}$ heisst an $x_{0}$ differenzierbar, wenn Grenawert $\\lim _{\\Delta x \\rightarrow 0} \\frac{f(x 0+\\Delta x)-f(x 0)}{\\Delta x}$ vorhanden ist.\n$\\rightarrow f^{\\prime}(x)$ nennt sich 1. Ableitung von $f(x)$\n$\\rightarrow$ Ableitung ordnet jedem $x$-Wert von $f(x)$ den Steigungswert zu\n$\\rightarrow$ w\u00e4hlt man a rechts (links) von P , so eth\u00e4lt man die rechtzeitige (linksseitige) Ableitung\n$\\rightarrow$ stimmen beide \u00fcberein, dann ist $f$ an $P$ differenzierbar $\\rightarrow$ ist $f$ auf Intervall I differenzierbar, so ist $f$ stetig auf I $\\rightarrow$ Stetigkeit ist notwendig f\u00fcr Differenzierbarkeit\n$\\rightarrow$ h\u00f6here Ableitungen : $\\cdot f^{\\prime \\prime}(x): 2$. Ableitung\n\n- $f^{\\prime \\prime \\prime}(x): 3$. Ableitung\n- $f^{(n)}(x): n$. Ableitung\n\nAbleitung lineare Funktion\n\n$$\n\\begin{aligned}\n& f(x)=m x+q \\\\\n& f^{\\prime}(x)=m\n\\end{aligned}\n$$\n\nBsp: $\\quad f(x)=3 x+5$\n\n$$\nf^{\\prime}(x)=3\n$$\n\n$$\n\\begin{aligned}\n& \\circ f(x)=8 \\\\\n& f^{\\prime}(x)=0\n\\end{aligned}\n$$",
+    "images": [],
+    "dimensions": {
+        "dpi": 200,
+        "height": 2338,
+        "width": 1654
+    }
+}

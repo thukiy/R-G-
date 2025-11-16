@@ -1,0 +1,10 @@
+{
+    "index": 3,
+    "markdown": "$\\underline{\\underline{A \\cup C}}=\\{a, e, g, h, i, l, m, n, t\\}$\n$\\underline{\\underline{C \\cup B}}=\\underline{\\{a, e, g, i, l, m, n, t, s\\}}$\nund\n$\\underline{E=\\{a, e, g, h, i, l, m, n, t, s\\}}$.\nd) F\u00fcr das Komplement der Schnittmenge $D$ erhalten wir\n\n$$\n\\underline{\\bar{D}}=G \\backslash D=\\{a, \\ldots, z\\} \\backslash\\{a, e\\}=\\underline{\\{b, c, d, f, \\ldots, z\\}}\n$$\n\nMit Hilfe des Venn-Diagramms aus Teilaufgabe a) bestimmen wir das Komplement der Vereinigungsmenge E. Es gilt\n\n$$\n\\underline{\\bar{E}}=G \\backslash E=\\underline{\\{b, c, d, f, j, k, o, p, q, r, u, v, w, x, y, z\\}}\n$$\n\n# 4. Aussagen \u00fcber rationale Zahlen \n\n| Welche der folgenden Aussagen sind wahr und welche falsch? | wahr | falsch |\n| :-- | :-- | :-- |\n| a) Jede rationale Zahl kann als Bruch von zwei ganzen Zahlen dargestellt <br> werden. | $\\bullet$ | $\\bigcirc$ |\n| b) Es gilt $\\mathbb{Q} \\supset \\mathbb{Z}$. | $\\bullet$ | $\\bigcirc$ |\n| c) Es gilt $\\sqrt{9} \\notin \\mathbb{Q}$. | $\\bigcirc$ | $\\bullet$ |\n| d) Die Wurzel einer rationalen Zahl ist selbst auch rational. | $\\bigcirc$ | $\\bullet$ |\n| e) Alle periodischen Dezimalbr\u00fcche sind rational. | $\\bullet$ | $\\bigcirc$ |\n\n## 5. Aussagen \u00fcber reelle Zahlen\n\n| Welche der folgenden Aussagen sind wahr und welche falsch? | wahr | falsch |\n| :-- | :-- | :-- |\n| a) Jede rationale Zahl ist auch eine reelle Zahl, aber nicht umgekehrt. | $\\bullet$ | $\\bigcirc$ |\n| b) Es gilt $\\infty \\in \\mathbb{R}$. | $\\bigcirc$ | $\\bullet$ |\n| c) Falls $x, y \\in \\mathbb{R}$ und $x \\leq y$ sowie $y \\leq x$, dann gilt $x=y$. | $\\bullet$ | $\\bigcirc$ |\n| d) Die Wurzel jeder reellen Zahl ist auch eine reelle Zahl. | $\\bigcirc$ | $\\bullet$ |\n| e) Alle Dezimalbr\u00fcche sind reelle Zahlen. | $\\bullet$ | $\\bigcirc$ |",
+    "images": [],
+    "dimensions": {
+        "dpi": 200,
+        "height": 2339,
+        "width": 1654
+    }
+}

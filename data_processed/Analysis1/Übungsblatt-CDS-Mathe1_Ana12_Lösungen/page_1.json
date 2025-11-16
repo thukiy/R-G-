@@ -1,0 +1,10 @@
+{
+    "index": 0,
+    "markdown": "# -`sleq`j_rr ?1_12 Computational and Data Science BSc HS 2023 \n\n## L\u00f6sungen\n\nMathematik 1\n\n1. Aussagen \u00fcber lokale Extremalstellen\n\n| Welche der folgenden Aussagen sind wahr und welche falsch? | wahr | falsch |\n| :-- | :--: | :--: |\n| a) Null ist ein lokales Minimum der quadratischen Standardfunktion. | $\\bullet$ | $\\bigcirc$ |\n| b) Null ist ein lokales Minimum der kubischen Standardfunktion. | $\\bigcirc$ | $\\bullet$ |\n| c) Die Funktion $2^{x}$ hat keine lokalen Extremstellen. | $\\bullet$ | $\\bigcirc$ |\n| d) Der h\u00f6chstm\u00f6gliche Funktionswert einer Funktion liegt immer an einem <br> lokalen Maximum der Funktion. | $\\bigcirc$ | $\\bullet$ |\n| e) Ein Polynom vom Grade 1'000 kann bis zu 1'000 lokale Extremstellen <br> haben. | $\\bigcirc$ | $\\bullet$ |\n| f) Falls gilt $f^{\\prime}(-3)=0$, dann hat $f$ an der Stelle $x=-3$ ein lokales Mini- <br> mum oder ein lokales Maximum. | $\\bigcirc$ | $\\bullet$ |\n\n2. Analysis einer quadratischen Funktion\n\nEs seien $a, b, c \\in \\mathbb{R}$ mit $a \\neq 0$. Wir bestimmen die lokalen Extremstellen der allgemeinen, quadratischen Funktion\n\n$$\nf(x):=a x^{2}+b x+c\n$$\n\nF\u00fcr die erste und zweite Ableitung von $f$ erhalten wir\n\n$$\n\\begin{aligned}\n& f^{\\prime}(x)=a \\cdot 2 x+b+0=2 a x+b \\\\\n& f^{\\prime \\prime}(x)=2 a+0=2 a\n\\end{aligned}\n$$\n\nDa $f^{\\prime}$ linear ist, kann $f$ h\u00f6chstens eine kritische Stelle haben. Aus\n\n$$\n\\begin{aligned}\n0 & =f^{\\prime}(x)=2 a x+b & \\mid-b \\\\\n\\Leftrightarrow \\quad-b & =2 a x & \\mid:(2 a)\n\\end{aligned}\n$$\n\nfolgt, dass $f$ genau eine kritische Stelle hat bei\n\n$$\nx_{\\mathrm{S}}=-\\frac{b}{2 a}\n$$",
+    "images": [],
+    "dimensions": {
+        "dpi": 200,
+        "height": 2339,
+        "width": 1654
+    }
+}

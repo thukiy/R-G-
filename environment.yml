@@ -19,6 +19,11 @@ dependencies:
       - google-generativeai
 
 
+# ollama installieren https://ollama.com/download
+# ollama serve
+# ollama pull nomic-embed-text / ollama pull mxbai-embed-large
+# curl http://localhost:11434/api/tags  --> prüfen, welche Modelle geladen sind
+
 
   
 

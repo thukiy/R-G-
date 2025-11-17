@@ -32,14 +32,6 @@ Beispiele:
 
 # Mengenlehre
 
-## Darstellung mittels Venn-Diagrammen
-
-
-
-# --- PAGE page_12 ---
-
-# Mengenlehre
-
 
 
 ## Chunk 2
@@ -77,6 +69,10 @@ Beispiele:
 
 # Mengenlehre
 
+
+
+## Chunk 3
+--------------------------------------------------------------------------------
 ## Mengenoperationen
 
 Mengendifferenz: $$A \backslash B = \{x \mid x \in A \land x \notin B\}$$
@@ -104,7 +100,7 @@ Beispiel:
 
 
 
-## Chunk 3
+## Chunk 4
 --------------------------------------------------------------------------------
 ## Mengenoperationen
 
@@ -157,6 +153,17 @@ $$
 
 $$
 \begin{aligned}
+
+
+
+## Chunk 5
+--------------------------------------------------------------------------------
+$$
+
+5. Falls $B, C \subset A$, dann gelten die DE MORGANschen Regeln:
+
+$$
+\begin{aligned}
 & A \backslash(B \cap C)=(A \backslash B) \cup(A \backslash C) \\
 & A \backslash(B \cup C)=(A \backslash B) \cap(A \backslash C)
 \end{aligned}
@@ -169,20 +176,18 @@ $$
 N: natürliche Zahlen $\{1,2,3,4 \ldots\}$
 $\mathrm{N}_{0}$ : natürliche Zahlen mit 0
 2: ganze Zahlen $\{\ldots-2,-1,0,1,2 \ldots\}$
-
-
-
-## Chunk 4
---------------------------------------------------------------------------------
-# Zahlenmengen 
-
-N: natürliche Zahlen $\{1,2,3,4 \ldots\}$
-$\mathrm{N}_{0}$ : natürliche Zahlen mit 0
-2: ganze Zahlen $\{\ldots-2,-1,0,1,2 \ldots\}$
 Q: rationale Zahlen $\left\{\frac{m}{n} \mid m \in \mathbb{Z}, n \in \mathbb{Z}, \mathrm{n} \neq 0\right\}$
 R: reelle Zahlen = rationale + irrationale Zahlen
 Irrationale Zahlen $=\mathbb{R} \backslash Q$ :
 Nachkommastellen laufen unendlich weiter ohne periodisch zu werden
+Bemerkung: $\infty \notin \mathbb{R},-\infty \notin \mathbb{R}$
+
+$$
+
+
+
+## Chunk 6
+--------------------------------------------------------------------------------
 Bemerkung: $\infty \notin \mathbb{R},-\infty \notin \mathbb{R}$
 
 $$
@@ -195,7 +200,7 @@ $$
 
 
 
-## Chunk 5
+## Chunk 7
 --------------------------------------------------------------------------------
 ## Intervalle
 
@@ -212,7 +217,7 @@ Beispiele:
 
 
 
-## Chunk 6
+## Chunk 8
 --------------------------------------------------------------------------------
 ## Beispiele:
 
@@ -252,6 +257,13 @@ Beispiel: $A=\{1,2\}, B=\{3,4\}$
 - $B \times A=\{(3 ; 1),(3 ; 2),(4 ; 1),(4 ; 2)\}$
 $\rightarrow A \times B \neq B \times A$
 
+
+
+## Chunk 9
+--------------------------------------------------------------------------------
+- $B \times A=\{(3 ; 1),(3 ; 2),(4 ; 1),(4 ; 2)\}$
+$\rightarrow A \times B \neq B \times A$
+
 Bemerkung:
 Falls $A \neq B$, dann $A \times B \neq B \times A$
 
@@ -266,16 +278,19 @@ $>$ Lehre vom folgerichtigen Denken
 $>$ Befasst sich mit Aussagen: es wird überprüft, ob eine Aussage wahr oder falsch ist (es gibt keine weiteren Möglichkeiten)
 $>$ Die Aussagen werden typischerweise mit Buchstaben abgekürzt
 
-
-
-## Chunk 7
---------------------------------------------------------------------------------
-$>$ Die Aussagen werden typischerweise mit Buchstaben abgekürzt
-
 Beispiel:
 Wenn die Sonne scheint und er keinen Besuch bekommt, dann geht Peter am Sonntag Pilze sammeln.
 
 Wenn die Sonne scheint und er keinen Besuch bekommt, dann geht Peter am Sonntag Pilze sammeln.
+$\rightarrow 3$ Aussagen, die miteinander verknüpft sind: A, B, C
+A: w
+dann C: w
+B: w
+
+
+
+## Chunk 10
+--------------------------------------------------------------------------------
 $\rightarrow 3$ Aussagen, die miteinander verknüpft sind: A, B, C
 A: w
 dann C: w
@@ -308,17 +323,13 @@ Schreibweise : $\xi: A \rightarrow B$
 $$
 \begin{aligned}
 & a \rightarrow \xi(a) \\
-& b \rightarrow \xi(b)
-\end{aligned}
-$$
-
-a: unabhängige Variable, Argument
-b : abhängige Variable
 
 
 
-## Chunk 8
+## Chunk 11
 --------------------------------------------------------------------------------
+Schreibweise : $\xi: A \rightarrow B$
+
 $$
 \begin{aligned}
 & a \rightarrow \xi(a) \\
@@ -352,6 +363,12 @@ $f(-1)=1 \quad f(2-1 ; 12)=1$
 $f([-2 ; 2])=[0 ; 4]$
 - sei $A=\xi x_{1} ; x_{2} \xi$ und $B=\xi y 3$, dann ist
 $f: A \rightarrow B$ mit $f\left(x_{1}\right)=y$ und $f\left(x_{2}\right)=y$ eine Abbildung
+
+
+
+## Chunk 12
+--------------------------------------------------------------------------------
+$f: A \rightarrow B$ mit $f\left(x_{1}\right)=y$ und $f\left(x_{2}\right)=y$ eine Abbildung
 - sei $A=\xi x 3$ und $B \xi y_{1}, y_{2} 3$, dann ist
 $f: A \rightarrow B$ mit $f(x)=y_{1}$ und $f(x)=y_{2}$ keine Abbildung
 
@@ -368,20 +385,20 @@ $f_{2}$ nach $f_{1}$
 
 # --- PAGE page_22 ---
 
-
-
-## Chunk 9
---------------------------------------------------------------------------------
-Verketting : $\left(f_{2} \circ f_{1}\right)(x)=f_{2}\left(f_{1}(x)\right)$
-$f_{2}$ nach $f_{1}$
-
-
-# --- PAGE page_22 ---
-
 Bsp: $\quad f_{1}: \mathbb{N} \rightarrow \mathbb{R} \quad f_{2}: \mathbb{R}^{+} \rightarrow \mathbb{R}^{+}$
 
 $$
 n \rightarrow \frac{1}{n} \quad \times \rightarrow \sqrt{x}
+$$
+
+$f_{2}=f_{1}: \mathbb{N} \rightarrow \mathbb{R}^{+}$
+
+$$
+
+
+
+## Chunk 13
+--------------------------------------------------------------------------------
 $$
 
 $f_{2}=f_{1}: \mathbb{N} \rightarrow \mathbb{R}^{+}$
@@ -407,12 +424,12 @@ bijektiv: jedes element der Wertemenge genau einmal angenommen
 # --- PAGE page_23 ---
 
 $\rightarrow$ Injekttivität kann durch Verkleinern ale Definitionsmenge erveicht werden
-$\rightarrow$ Sujetutivität kann duch Verkeainern der Werte - auf Bildmenge erreicht werden
 
 
 
-## Chunk 10
+## Chunk 14
 --------------------------------------------------------------------------------
+$\rightarrow$ Injekttivität kann durch Verkleinern ale Definitionsmenge erveicht werden
 $\rightarrow$ Sujetutivität kann duch Verkeainern der Werte - auf Bildmenge erreicht werden
 
 Bsp: $\quad f: N \rightarrow N \quad f(x)=x^{2}$
@@ -435,6 +452,13 @@ $f: R_{0}-\rightarrow R_{0}^{+}$
 
 enthält all jene Elemente ale Definitionsmenge $A$, die nach $Y$ abgelbilder werden :
 
+$$
+f^{-1}(Y)=\xi \times \in A \mid f(x) \in Y \xi
+
+
+
+## Chunk 15
+--------------------------------------------------------------------------------
 $$
 f^{-1}(Y)=\xi \times \in A \mid f(x) \in Y \xi
 $$
@@ -460,22 +484,17 @@ $$
 
 aus jedem Bildelement soll eindeutig das Ausgangselement rekonstruiert werden
 $\rightarrow$ dies ist nicht immer möglich
-
-
-
-## Chunk 11
---------------------------------------------------------------------------------
-$$
-
-# Umkehrabbildung 
-
-aus jedem Bildelement soll eindeutig das Ausgangselement rekonstruiert werden
-$\rightarrow$ dies ist nicht immer möglich
 obriges Bsp: - nicht alle Elemente von $N$ haben Entsprechung in $M$
 
 - Problem mit Gindeutigkeit :
 $-2$ und +2 werden auf 4 abgebildet
 $\Rightarrow$ Abbildung $\xi$ muss bijektiv sein, damit sie umkehrbar ist
+$\leftrightarrow$ Funktionstum wird nach dem Argument aufgelöst
+
+
+
+## Chunk 16
+--------------------------------------------------------------------------------
 $\leftrightarrow$ Funktionstum wird nach dem Argument aufgelöst
 obriges Bsp: $\quad M^{\prime}=\xi 0,1,2,38, N^{\prime}=\xi 0,1,4,98$
 
@@ -499,9 +518,8 @@ Veränderung der See - und Algenflasche :
 
 
 
-## Chunk 12
+## Chunk 17
 --------------------------------------------------------------------------------
-| wochenzahl n | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 |
 | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: |
 | Seefläche in $\mathrm{m}^{2}$ | 1500 | 1700 | 1900 | 2100 | 2300 | 2500 | 2700 | 2900 | 3100 |
 | Algenfläche in $\mathrm{m}^{2}$ | 1 | 3 | 9 | 27 | 81 | 243 | 729 | 2187 | 6561 |
@@ -519,6 +537,13 @@ $$
 $$
 
 die jedem $n$ eindeutig ein $a_{n}$ zuordnet.
+$a_{n}:$ Folgeglieder
+$\rightarrow$ jede Folge hat einen Startwert
+
+
+
+## Chunk 18
+--------------------------------------------------------------------------------
 $a_{n}:$ Folgeglieder
 $\rightarrow$ jede Folge hat einen Startwert
 $\rightarrow$ jeder $a_{k}$ hat einen eindeutigen Nachfolger $a_{k+1}$
@@ -539,27 +564,21 @@ $a_{n}=n$
 $a_{1}=1 \quad a_{2}=2 \quad a_{3}=3$
 - alternierende Folge
 $a_{n}=(-1)^{n}$
-
-
-
-## Chunk 13
---------------------------------------------------------------------------------
-\end{aligned}
-$$
-
-# --- PAGE page_26 ---
-
-- identische Folge
-$a_{n}=n$
-$a_{1}=1 \quad a_{2}=2 \quad a_{3}=3$
-- alternierende Folge
-$a_{n}=(-1)^{n}$
 $a_{1}=-1 \quad a_{2}=+1 \quad a_{3}=-1 \quad \ldots$
 - rekurative Folge
 $a_{n+1}=a_{n}+a_{n-1}$
 2.B. $a_{1}=0 \quad a_{2}=1$
 $\rightarrow a_{3}=1 \quad a_{4}=2 \quad a_{5}=3 \quad \ldots$
 - arithmetische Folge
+$a_{n}=a_{0}+n \cdot d \quad d \in R$
+$\rightarrow$ Differenz der Folgeglieder konstant
+
+$$
+
+
+
+## Chunk 19
+--------------------------------------------------------------------------------
 $a_{n}=a_{0}+n \cdot d \quad d \in R$
 $\rightarrow$ Differenz der Folgeglieder konstant
 
@@ -584,14 +603,11 @@ c) an ist beschrankt, wenn sie nach oben und unten beschrankt ist.
 
 $$
 \begin{aligned}
-& m \leqslant a_{n} \leqslant M \\
 
 
 
-## Chunk 14
+## Chunk 20
 --------------------------------------------------------------------------------
-# --- PAGE page_27 ---
-
 c) an ist beschrankt, wenn sie nach oben und unten beschrankt ist.
 
 $$
@@ -627,6 +643,16 @@ $$
 
 Konvergenz / Divergenz von Folgen
 
+
+
+## Chunk 21
+--------------------------------------------------------------------------------
+$$
+
+# --- PAGE page_28 ---
+
+Konvergenz / Divergenz von Folgen
+
 Bsp: Flächeninhalt eines kreises mit Radius $r$
 
 - Quadrat mit Seitenlänge $2 \pi$
@@ -638,15 +664,16 @@ $c_{n}=b_{n} \cdot\left(\frac{2 r}{n}\right)^{2}=b_{n} \cdot \frac{4 r^{2}}{n^{2
 $n \rightarrow \infty$, um kreis optimal zu beschreiben
 $c_{n} \rightarrow \pi r^{2}$
 
-
-
-## Chunk 15
---------------------------------------------------------------------------------
-$n \rightarrow \infty$, um kreis optimal zu beschreiben
-$c_{n} \rightarrow \pi r^{2}$
-
 Def: an heisst genau dann konvergent, wenn $\exists a \in \mathbb{R}$ gibt, so dass gilt: zu jedem $E>0$ gibt es ein $n_{0}(E)$, so dass $t n>n_{0}(E)$ gilt : $1 a_{n}-a 1<E$. a heisst Grenzwert /Limes der Folge an / Ansonsten ist an divergent.
 
+# Folgen 
+
+Folge: $n \rightarrow\left(a_{n}\right) \quad n \in \mathbb{N}$
+
+
+
+## Chunk 22
+--------------------------------------------------------------------------------
 # Folgen 
 
 Folge: $n \rightarrow\left(a_{n}\right) \quad n \in \mathbb{N}$
@@ -679,9 +706,8 @@ ist beschränkt, konvergiert aber nicht
 
 
 
-## Chunk 16
+## Chunk 23
 --------------------------------------------------------------------------------
-- $a_{n}=(1,0,1,0 \ldots)$
 ist beschränkt, konvergiert aber nicht
 - $a_{n}=\frac{28 n^{4}-20 n^{3}+10 n}{14 n^{4}+200}$
 $=\frac{n^{4}\left(28-\frac{20}{n}+\frac{10}{n^{2}}\right)}{n^{4}\left(14+\frac{200}{n^{2}}\right)} \rightarrow 0$ für $n \rightarrow \infty$
@@ -696,7 +722,7 @@ $\rightarrow$ nicht beschränkt : divergent
 
 
 
-## Chunk 17
+## Chunk 24
 --------------------------------------------------------------------------------
 ## Verbindungen von Aussagen
 
@@ -742,6 +768,14 @@ $$
 \sum_{k=1}^{n} a_{k}=\sum_{k=1+5}^{n+5} a_{k-5}
 $$
 
+
+
+## Chunk 25
+--------------------------------------------------------------------------------
+$$
+\sum_{k=1}^{n} a_{k}=\sum_{k=1+5}^{n+5} a_{k-5}
+$$
+
 $\rightarrow$ hilfreich beim Zusammenfassen von 2 oder mehr Summen
 
 $$
@@ -755,21 +789,14 @@ Bsp: $\quad \sum_{k=1}^{5} k^{2}=1^{2}+2^{2}+3^{2}+4^{2}+5^{2}=55$
 
 $$
 \begin{aligned}
-
-
-
-## Chunk 18
---------------------------------------------------------------------------------
-\end{aligned}
-$$
-
-Bsp: $\quad \sum_{k=1}^{5} k^{2}=1^{2}+2^{2}+3^{2}+4^{2}+5^{2}=55$
-
-$$
-\begin{aligned}
 & \circ \sum_{k=m}^{n} c=c \cdot \sum_{k=m}^{n} 1=c \cdot(n-m+1) \quad C \in \mathbb{R} \\
 & \circ \sum_{k=1}^{5} \frac{(-1)^{k}}{2^{k}}=\frac{-1}{2}+\frac{1}{4}+\frac{-1}{8}+\frac{1}{16}+\frac{-1}{32} \\
 & \circ \sum_{k=5}^{8} a_{k}=\sum_{k=0}^{3} a_{k+5} \quad \rightarrow \text { Indexverschiebung } \\
+
+
+
+## Chunk 26
+--------------------------------------------------------------------------------
 & \circ \sum_{k=4}^{40}(k+4)^{2}=\sum_{k=8}^{40} k^{2} \\
 & \circ \sum_{k=1}^{n} a_{k}=\sum_{k=1}^{n} a_{n+1-k}
 \end{aligned}
@@ -798,7 +825,7 @@ $$
 
 
 
-## Chunk 19
+## Chunk 27
 --------------------------------------------------------------------------------
 & m, n \in \mathbb{N}, \quad x \in \mathbb{R} \backslash\{0 ; 1\} \\
 & \text { Bsp: } \quad \cdot \sum_{k=1}^{n}\left(\frac{1}{2}\right)^{k}=\frac{\left(\frac{1}{2}\right)-\left(\frac{1}{2}\right)^{m}}{1-\frac{1}{2}}=\frac{\frac{1}{2}-\frac{1}{2 m}}{-\frac{1}{2}}=2 \cdot\left(\frac{1}{2}-\frac{1}{2 m}\right)=1-\frac{1}{2^{3}} \\
@@ -815,6 +842,10 @@ Die einzelnen $s_{n}$ bilden auch eine Folge : $\left(s_{n}\right)$.
 $\rightarrow$ Die unendliche Summe $\sum_{k=1}^{m} a_{k}$ heisst Reihe.
 $\rightarrow$ Die Reihe konvergiert gegen ein $s \in \mathbb{R}$, wenn gilt : $\lim _{n \rightarrow \infty} s_{n}=s$
 
+
+
+## Chunk 28
+--------------------------------------------------------------------------------
 # --- PAGE page_32 ---
 
 Eine nicht konvergente Reihe divergert.
@@ -834,18 +865,6 @@ $$
 Bsp: $\quad \sum_{k=1}^{\infty} 3^{k}=\lim _{n \rightarrow \infty} \sum_{k=1}^{n} 3^{k}$
 
 $$
-
-
-
-## Chunk 20
---------------------------------------------------------------------------------
-\text { divergent } & |x|>1\end{cases}
-\end{aligned}
-$$
-
-Bsp: $\quad \sum_{k=1}^{\infty} 3^{k}=\lim _{n \rightarrow \infty} \sum_{k=1}^{n} 3^{k}$
-
-$$
 =\lim _{n \rightarrow \infty}\left(3^{n}+3^{2}+3^{3} \ldots\right) \rightarrow \infty \quad \text { divergent }
 $$
 
@@ -853,6 +872,14 @@ $$
 
 $$
 =\lim _{n \rightarrow \infty} \frac{(\frac{1}{3})^{n}}{1-\frac{1}{3}}=\frac{1}{3} \cdot \frac{3}{2}=\frac{1}{2}
+$$
+
+- Basler Reihen
+
+
+
+## Chunk 29
+--------------------------------------------------------------------------------
 $$
 
 - Basler Reihen
@@ -874,7 +901,7 @@ $$
 
 
 
-## Chunk 21
+## Chunk 30
 --------------------------------------------------------------------------------
 \end{aligned}
 $$
@@ -892,13 +919,18 @@ $$
 \begin{aligned}
 & \sum_{k=1}^{n} \frac{1}{k}=1+\frac{1}{2}+\frac{1}{3}+\frac{1}{4}+\frac{1}{5}+\frac{1}{6}+\frac{1}{7}+\frac{1}{8}+\ldots+\frac{1}{2^{m}} \\
 & \geqslant 1+\frac{1}{2}+\underbrace{1}_{1}+\frac{1}{4}+\underbrace{\frac{1}{8}+\frac{1}{8}+\frac{1}{8}+\frac{1}{8}}_{=2 \cdot \frac{1}{2^{2}}}=\frac{1}{2}=4 \cdot \frac{1}{2^{2}}=\frac{1}{2} \\
+
+
+
+## Chunk 31
+--------------------------------------------------------------------------------
 & =1+m \cdot \frac{1}{2} \xrightarrow{m \rightarrow \infty} \infty
 \end{aligned}
 $$
 
 
 
-## Chunk 22
+## Chunk 32
 --------------------------------------------------------------------------------
 ## Sympy
 
@@ -914,6 +946,10 @@ $$
 \rightarrow \lim _{k \rightarrow \infty} \frac{1}{k}
 $$
 
+
+
+## Chunk 33
+--------------------------------------------------------------------------------
 ## Geometrische Summenformel
 
 $G_{(m ; n)}(x):=\sum_{k=m}^{n} x^{k}$
@@ -938,7 +974,7 @@ $f(x)=\sqrt{x-1}$
 
 
 
-## Chunk 23
+## Chunk 34
 --------------------------------------------------------------------------------
 ## Beschränkte Funktion
 
@@ -960,18 +996,17 @@ Honotonie bei einer Funktion
 $f: A \rightarrow B$ sei reelle Funktion
 a) $\int$ heisst monoton wachsend /steigend, wenn
 $f\left(x_{1}\right) \leq f\left(x_{2}\right) \quad$ für $x_{1}<x_{2}$
+
+
+
+## Chunk 35
+--------------------------------------------------------------------------------
+$f\left(x_{1}\right) \leq f\left(x_{2}\right) \quad$ für $x_{1}<x_{2}$
 b) $\int$ heisst streng monoton wachsend, wenn
 $f\left(x_{1}\right) \leq f\left(x_{2}\right) \quad$ für $x_{1}<x_{2}$
 c) $\int$ heisst monoton fallend, wenn
 $f\left(x_{1}\right) \gg f\left(x_{2}\right) \quad$ für $x_{1}<x_{2}$
 d) $\int$ heisst streng monoton fallend, wenn
-$f\left(x_{1}\right)>f\left(x_{2}\right) \quad$ für $x_{1}<x_{2}$
-$\rightarrow$ Funktionen haben oftmals auf Teilbereichen Honoronieeigenschaften
-
-
-
-## Chunk 24
---------------------------------------------------------------------------------
 $f\left(x_{1}\right)>f\left(x_{2}\right) \quad$ für $x_{1}<x_{2}$
 $\rightarrow$ Funktionen haben oftmals auf Teilbereichen Honoronieeigenschaften
 Bsp: $\quad f(x)=3 x \quad x \in \mathbb{R}$
@@ -987,7 +1022,7 @@ für $x \leq 0$ : streng monoton fallend
 
 
 
-## Chunk 25
+## Chunk 36
 --------------------------------------------------------------------------------
 ## Visualisierung
 
@@ -999,7 +1034,7 @@ $\rightarrow$ schneidet Parallele zu $x$ - Achse die Funktion $f$ mehr als einma
 
 
 
-## Chunk 26
+## Chunk 37
 --------------------------------------------------------------------------------
 ## Funktionen
 
@@ -1035,6 +1070,12 @@ es gilt: $\cdot x=\operatorname{sgn}(x) \cdot|x|$
 Del: Potenzfunktion
 $f: x \rightarrow a \cdot x^{n} \quad x \in \mathbb{R} \quad a, n \in \mathbb{R}$
 
+
+
+## Chunk 38
+--------------------------------------------------------------------------------
+$f: x \rightarrow a \cdot x^{n} \quad x \in \mathbb{R} \quad a, n \in \mathbb{R}$
+
 - für $n \in \mathbb{N}$ heisst $a \cdot x^{n}$ ein Monom
 $\rightarrow$ Graph für $a \cdot x^{n}$ mit $n \in \mathbb{N}$ heisst Parabel $n$-ter Ordnung, für $n \in-\mathbb{N}$ heisst der Graph Hyperbel $n$-ter Ordnung
 
@@ -1054,23 +1095,22 @@ $$
 \end{aligned}
 $$
 
-
-
-## Chunk 27
---------------------------------------------------------------------------------
-$$
-\begin{aligned}
-& f: R \rightarrow R^{+} \\
-& x \rightarrow f(x)=a^{x} \quad a \in R^{+} \backslash\{1\}
-\end{aligned}
-$$
-
 $\rightarrow$ nun positive Funktionswerte
 $\rightarrow$ alle eigentlichen Exponenkielfunktionen gehen duuch $f(0)=1$
 
 $$
 \begin{aligned}
 \rightarrow f(x+1) & =a \cdot f(x) \\
+& =a^{x+1}=a^{x}+a^{1}=a \cdot f(x)
+\end{aligned}
+$$
+
+$\rightarrow 0<a<1$ : streng monoton fallend
+
+
+
+## Chunk 39
+--------------------------------------------------------------------------------
 & =a^{x+1}=a^{x}+a^{1}=a \cdot f(x)
 \end{aligned}
 $$
@@ -1106,11 +1146,10 @@ $$
 $\rightarrow$ sind über Exponenkielfunktionen definiert
 $\rightarrow$ sind nicht periodische Funktionen - im Gegensatz zu trigonometrischen Funktionen
 $\rightarrow$ bis auf $\cosh (x)$ alle bijektiv
-$\rightarrow$ Umkehrfunktionen heissen Area-Funktionen
 
 
 
-## Chunk 28
+## Chunk 40
 --------------------------------------------------------------------------------
 $\rightarrow$ bis auf $\cosh (x)$ alle bijektiv
 $\rightarrow$ Umkehrfunktionen heissen Area-Funktionen
@@ -1122,7 +1161,7 @@ $\rightarrow$ Pythagoras - Satz : $\cos \beta^{2}(x)-\sin \beta^{2}(x)=1$
 
 
 
-## Chunk 29
+## Chunk 41
 --------------------------------------------------------------------------------
 ## Verbindungen von Aussagen
 
@@ -1139,6 +1178,11 @@ $$
 
 1. Fall: Huber spielt Ball mit der Hand bevor das Spiel zu Ende ist A: $\mathrm{w} \Rightarrow \mathrm{B}: \mathrm{w}$
 2. Fall: Huber spielt den Ball nicht mit der Hand bis Ende des Spiels A: $f \Rightarrow B: w$, d. h. er erhält die rote Karte z. B. wegen einem Foul $\Rightarrow$ B: f, d. h. er erhält keine rote Karte, begeht also kein Foul, spielt den Ball nicht mit der Hand
+
+
+
+## Chunk 42
+--------------------------------------------------------------------------------
 $\rightarrow$ Es können also die Fälle B: w und B: f eintreten, wenn A: f vorausgeht
 
 # --- PAGE page_40 ---
@@ -1149,7 +1193,7 @@ $f(x)$ sei reelle Funktion
 
 
 
-## Chunk 30
+## Chunk 43
 --------------------------------------------------------------------------------
 ## Symmetrie
 
@@ -1167,7 +1211,7 @@ $f(-x)=(-x)^{3}=-x^{3} \rightarrow$ ungerade
 
 
 
-## Chunk 31
+## Chunk 44
 --------------------------------------------------------------------------------
 ## Verschiebung
 
@@ -1207,6 +1251,12 @@ $$
 # Skalierung (Dehnung/Stauchung) 
 
 - entlang der $x$-Achse um Faktor $k: g(x)=f\left(\frac{x}{k}\right)$
+
+
+
+## Chunk 45
+--------------------------------------------------------------------------------
+- entlang der $x$-Achse um Faktor $k: g(x)=f\left(\frac{x}{k}\right)$
 - entlang der $y$-Achse um Faktor $k: g(x)=k \cdot f(x)$
 
 Bsp: $\quad f(x)=x^{2} \quad k=3$ entlang $x$
@@ -1217,7 +1267,7 @@ $$
 
 
 
-## Chunk 32
+## Chunk 46
 --------------------------------------------------------------------------------
 ## Lineare Funktion
 
@@ -1264,6 +1314,17 @@ Bsp: $\quad \mathrm{m}=0,5 \quad \mathrm{P}(1 ; 3)$
 
 $$
 \begin{aligned}
+
+
+
+## Chunk 47
+--------------------------------------------------------------------------------
+$$
+
+Bsp: $\quad \mathrm{m}=0,5 \quad \mathrm{P}(1 ; 3)$
+
+$$
+\begin{aligned}
 f(x) & =0,5(x-1)+3=0,5 x-0,5+3 \\
 & =0,5 x+2,5
 \end{aligned}
@@ -1279,15 +1340,6 @@ $$
 \end{aligned}
 $$
 
-
-
-## Chunk 33
---------------------------------------------------------------------------------
-& \rightarrow f(x)=m\left(x-x_{1}\right)+y_{1} \\
-& =m\left(x-x_{2}\right)+y_{2}
-\end{aligned}
-$$
-
 Bsp: $\quad \mathrm{P}_{1}(1 ; 3) \quad \mathrm{P}_{2}(4 ; 5)$
 
 $$
@@ -1295,6 +1347,17 @@ $$
 & m=\frac{5-3}{4-1}=\frac{5}{3} \\
 & f(x)=\frac{5}{3}(x-1)+3=\frac{5}{3} x-\frac{5}{3}+3 \\
 & =\frac{5}{3} x+\frac{5}{3}
+\end{aligned}
+$$
+
+# --- PAGE page_43 ---
+
+# Eigenschaften Lineale Funktion
+
+
+
+## Chunk 48
+--------------------------------------------------------------------------------
 \end{aligned}
 $$
 
@@ -1322,7 +1385,7 @@ $m=0: f(x)=$ konstant $\rightarrow f(x)$ ist nicht bijektiv und somit nicht umke
 
 
 
-## Chunk 34
+## Chunk 49
 --------------------------------------------------------------------------------
 ## Verallgemeinerte Exponentialfunktion
 
@@ -1353,21 +1416,19 @@ Anwendungen :
 - Biclogie (Wachstum von Populationen von Bakterien etc.)
 - Kapitalentwicklung (Zinsersains...)
 - radioaktiver 2erfall
+
+
+
+## Chunk 50
+--------------------------------------------------------------------------------
+- Kapitalentwicklung (Zinsersains...)
+- radioaktiver 2erfall
 - elektrische Schallungen (SpannungsStromverläufe)
 $\rightarrow f\left(t_{0}\right)=A_{0}$
 $\rightarrow f(t+\Sigma)=a \cdot f(t)=A_{0} \cdot a^{\frac{t+\Sigma-t_{0}}{2}}$
 
 $$
 =\underbrace{A_{0} \cdot a^{\frac{t-t_{0}}{2}}}_{f(t)} \cdot \underbrace{a^{\frac{t}{2}}}
-$$
-
-$\rightarrow f(t-\Sigma)=\frac{1}{a} \cdot f(t)$
-$\rightarrow$ falls die Zielmenge der Bildmenge B entspricht, ist $f(t)$ umkehrbar
-
-
-
-## Chunk 35
---------------------------------------------------------------------------------
 $$
 
 $\rightarrow f(t-\Sigma)=\frac{1}{a} \cdot f(t)$
@@ -1379,6 +1440,13 @@ $f^{-1}: B \rightarrow \mathbb{R}, f^{-1}(y)=t_{0} \cdot \sum \cdot \log _{a}\le
 fürs Anfangsbeispiel könnte man auch
 $A_{0}=125$ und $t_{0}=1 \mathrm{~h}$ wählen: $A_{0}$ und $t_{0}$ müssen zusammen geändert werden
 
+ODER
+man könnte Vervielfachung in 6 h wählen :
+
+
+
+## Chunk 51
+--------------------------------------------------------------------------------
 ODER
 man könnte Vervielfachung in 6 h wählen :
 a und $\Sigma$ müssen gemeinsam gewählt werden
@@ -1398,7 +1466,7 @@ Def: Eine in $x_{0}$ und einer gewissen Umgebung von $x_{0}$ definierte Funktion
 
 
 
-## Chunk 36
+## Chunk 52
 --------------------------------------------------------------------------------
 $\lim _{x \rightarrow x_{0}} f(x)=f\left(x_{0}\right)$
 Bsp: $\quad$ f $(x)=x^{2} \quad$ f: $R \rightarrow R$
@@ -1415,6 +1483,11 @@ Unstetigkeitsstellen : - Lücken im Definitionsbereich
 
 Bsp: $\quad f(x)=\frac{x^{2}-1}{x+1} \quad$ bei $x_{0}=-1$ Definitionslücke
 $\lim _{x \rightarrow-1} \frac{x^{2}-1}{x+1}=\lim _{x \rightarrow-1} \frac{(x+1)(x-1)}{x+1}=\lim _{x \rightarrow-1}(x-1)=-2$
+
+
+
+## Chunk 53
+--------------------------------------------------------------------------------
 Beheben der Lücke : Funktionswert = Grenzwert
 
 $$
@@ -1426,14 +1499,6 @@ $$
 
 # --- PAGE page_47 ---
 
-- Prestelle
-$f(x)=\frac{1}{(x-3)^{2}} \quad$ Definitionsdicke bei $x_{0}=3$
-$\lim _{x \rightarrow 3} \frac{1}{(x-3)^{2}} \rightarrow \infty$
-
-
-
-## Chunk 37
---------------------------------------------------------------------------------
 - Prestelle
 $f(x)=\frac{1}{(x-3)^{2}} \quad$ Definitionsdicke bei $x_{0}=3$
 $\lim _{x \rightarrow 3} \frac{1}{(x-3)^{2}} \rightarrow \infty$
@@ -1450,6 +1515,15 @@ $\Rightarrow$ an $x_{0}=0$ ist $f(x)$ nicht stetig
 
 
 
+$$
+\begin{aligned}
+& P\left(x_{0}, y_{0}\right) \\
+& Q\left(x_{0}+\Delta x, y_{0}+\Delta y\right)
+
+
+
+## Chunk 54
+--------------------------------------------------------------------------------
 $$
 \begin{aligned}
 & P\left(x_{0}, y_{0}\right) \\
@@ -1473,7 +1547,7 @@ Grenawert nennt sich Ableitung der Funktion $f(x)$ an $x_{0}$.
 
 
 
-## Chunk 38
+## Chunk 55
 --------------------------------------------------------------------------------
 # --- PAGE page_48 ---
 
@@ -1484,6 +1558,11 @@ Def: $f: \mathbb{R} \rightarrow \mathbb{R}$ heisst an $x_{0}$ differenzierbar, w
 $\rightarrow f^{\prime}(x)$ nennt sich 1. Ableitung von $f(x)$
 $\rightarrow$ Ableitung ordnet jedem $x$-Wert von $f(x)$ den Steigungswert zu
 $\rightarrow$ wählt man a rechts (links) von P , so ethält man die rechtzeitige (linksseitige) Ableitung
+
+
+
+## Chunk 56
+--------------------------------------------------------------------------------
 $\rightarrow$ stimmen beide überein, dann ist $f$ an $P$ differenzierbar $\rightarrow$ ist $f$ auf Intervall I differenzierbar, so ist $f$ stetig auf I $\rightarrow$ Stetigkeit ist notwendig für Differenzierbarkeit
 $\rightarrow$ höhere Ableitungen : $\cdot f^{\prime \prime}(x): 2$. Ableitung
 
@@ -1492,26 +1571,6 @@ $\rightarrow$ höhere Ableitungen : $\cdot f^{\prime \prime}(x): 2$. Ableitung
 
 Ableitung lineare Funktion
 
-$$
-\begin{aligned}
-& f(x)=m x+q \\
-& f^{\prime}(x)=m
-\end{aligned}
-$$
-
-Bsp: $\quad f(x)=3 x+5$
-
-$$
-f^{\prime}(x)=3
-$$
-
-$$
-\begin{aligned}
-
-
-
-## Chunk 39
---------------------------------------------------------------------------------
 $$
 \begin{aligned}
 & f(x)=m x+q \\
@@ -1540,6 +1599,11 @@ $$
 \begin{aligned}
 & f(x)=x^{2} \\
 & \frac{\Delta y}{\Delta x}=\frac{f(x+\Delta x)-f(x)}{\Delta x}=\frac{(x+\Delta x)^{2}-x^{2}}{\Delta x} \\
+
+
+
+## Chunk 57
+--------------------------------------------------------------------------------
 & =\frac{x^{2}+2 \cdot \Delta x \cdot x+\Delta x^{2}-x^{2}}{\Delta x}=\frac{2 \Delta x \cdot x+\Delta x^{2}}{\Delta x}=\frac{\Delta x(2 x+\Delta x)}{\Delta x}=2 x+\Delta x \\
 & f^{\prime}(x)=\lim _{\Delta x \rightarrow 0} \frac{\Delta y}{\Delta x}=\lim _{\Delta x \rightarrow 0}(2 x+\Delta x)=2 x \\
 & \rightarrow f(x)=x^{2}, f^{\prime}(x)=2 x
@@ -1548,7 +1612,7 @@ $$
 
 
 
-## Chunk 40
+## Chunk 58
 --------------------------------------------------------------------------------
 ## Monom - Regel:
 
@@ -1559,6 +1623,10 @@ $$
 \end{aligned}
 $$
 
+
+
+## Chunk 59
+--------------------------------------------------------------------------------
 ## Bep:
 
 - $f(x)=x^{5}$
@@ -1587,7 +1655,7 @@ $f^{\prime}(x)=\frac{1}{2} x^{\pi / 2-1}=\frac{1}{2} x^{-\pi / 2}=\frac{1}{2} \f
 
 
 
-## Chunk 41
+## Chunk 60
 --------------------------------------------------------------------------------
 ## $\int$ Summenregel
 
@@ -1615,6 +1683,12 @@ $$
 & f^{\prime}(x)=10.4 x^{3}=40 x^{3} \\
 & f^{\prime \prime}(x)=40.3 x^{2}=120 x^{2} \\
 & o f(x)=7 x^{3}-\frac{1}{2} x+\sqrt{3 x}-\frac{1}{x^{2}} \\
+& =7 x^{3}-\frac{1}{2} x+\sqrt{3} x^{\frac{1}{2}}-x^{-2} \\
+
+
+
+## Chunk 61
+--------------------------------------------------------------------------------
 & =7 x^{3}-\frac{1}{2} x+\sqrt{3} x^{\frac{1}{2}}-x^{-2} \\
 & f^{\prime}(x)=21 x^{2}-\frac{1}{2}+\frac{\sqrt{3}}{2 \cdot 1 x}+\frac{2}{x^{3}}
 \end{aligned}
@@ -1646,7 +1720,7 @@ $$
 
 
 
-## Chunk 42
+## Chunk 62
 --------------------------------------------------------------------------------
 ## Produktregel
 
@@ -1666,16 +1740,31 @@ behachte Differenzquotient:
 
 $$
 \begin{aligned}
+
+
+
+## Chunk 63
+--------------------------------------------------------------------------------
+behachte Differenzquotient:
+
+$$
+\begin{aligned}
 & f^{\prime}(x)=\lim _{\Delta x \rightarrow 0} \frac{f(x+\Delta x)-f(x)}{\Delta x}=\lim _{\Delta x \rightarrow 0} \frac{g(x+\Delta x) \cdot h(x+\Delta x)-g(x) \cdot h(x)}{\Delta x} \\
 & =\lim _{\Delta x \rightarrow 0} \frac{g(x+\Delta x) \cdot h(x+\Delta x)+g(x) \cdot h(x+\Delta x)-g(x) \cdot h(x+\Delta x)-g(x) \cdot h(x)}{\Delta x} \\
 & =\lim _{\Delta x \rightarrow 0} \frac{h(x+\Delta x) \cdot[g(x+\Delta x)-g(x)]+g(x) \cdot[h(x+\Delta x)-h(x)]}{\Delta x} \\
-
-
-
-## Chunk 43
---------------------------------------------------------------------------------
-& =\lim _{\Delta x \rightarrow 0} \frac{h(x+\Delta x) \cdot[g(x+\Delta x)-g(x)]+g(x) \cdot[h(x+\Delta x)-h(x)]}{\Delta x} \\
 & =\lim _{\Delta x \rightarrow 0} \frac{h(x+\Delta x)[g(x+\Delta x)-g(x)]}{\Delta x}+\lim _{\Delta x \rightarrow 0} \frac{g(x)[h(x+\Delta x)-h(x)]}{\Delta x}
+\end{aligned}
+$$
+
+# --- PAGE page_52 ---
+
+$$
+\begin{aligned}
+
+
+
+## Chunk 64
+--------------------------------------------------------------------------------
 \end{aligned}
 $$
 
@@ -1701,15 +1790,10 @@ $$
 \begin{aligned}
 & \text { - } f(x)=\underbrace{\left(4 x^{3}-3 x\right)(\sqrt{x}-7)}_{g(x)} \\
 & f^{\prime}(x)=\left(4 \cdot 3 \cdot x^{2}-3\right)(\sqrt{x}-7)+\left(4 x^{3}-3 x\right)\left(\frac{7}{2} x^{-\frac{7}{2}}\right) \\
-& =\left(12 x^{2}-3\right)(\sqrt{x}-7)+\left(4 x^{3}-3 x\right)\left(\frac{4}{2 \sqrt{x}}\right)
-\end{aligned}
-$$
-
-# Quotiententegel:
 
 
 
-## Chunk 44
+## Chunk 65
 --------------------------------------------------------------------------------
 & =\left(12 x^{2}-3\right)(\sqrt{x}-7)+\left(4 x^{3}-3 x\right)\left(\frac{4}{2 \sqrt{x}}\right)
 \end{aligned}
@@ -1743,6 +1827,11 @@ $$
 $$
 \begin{aligned}
 f^{\prime}(x) & =\frac{2 x \cdot(1+x)-x^{2}-x^{2} \cdot 1}{(1+x)^{2}}=\frac{2 x+2 x^{2}-x^{2}}{(1+x)^{2}} \\
+
+
+
+## Chunk 66
+--------------------------------------------------------------------------------
 & =\frac{2 x+x^{2}}{(1+x)^{2}}
 \end{aligned}
 $$
@@ -1755,12 +1844,6 @@ Behagsfunktion: $|x|=\operatorname{abs}(x)=\left\{\begin{array}{ll}x & x>0 \\ 0 
 Vorzeichenfunktion: $\operatorname{sgn}(x)=\left\{\begin{array}{ll}1 & x>0 \\ 0 & x=0 \\ -1 & x<0\end{array}\right.$
 
 
-
-## Chunk 45
---------------------------------------------------------------------------------
-Vorzeichenfunktion: $\operatorname{sgn}(x)=\left\{\begin{array}{ll}1 & x>0 \\ 0 & x=0 \\ -1 & x<0\end{array}\right.$
-
-
 Für alle $x \in \mathbb{R} \backslash \xi 0 \xi$ sind $|x|$ und $\operatorname{sgn}(x)$ differenzierbar. Es gilt :
 a) $f(x)=|x|$
 b) $f(x)=\operatorname{sgn}(x)$
@@ -1769,6 +1852,15 @@ $f^{\prime}(x)=0$
 
 Bsp: $\quad f(x)=\operatorname{sgn}(x) \cdot x^{2}$
 Fallunterscheidung: a) $x \neq 0$
+b) $x=0$
+a) $f^{\prime}(x)=0 \cdot x^{2}+\operatorname{sgn}(x) \cdot 2 x$
+
+$$
+
+
+
+## Chunk 67
+--------------------------------------------------------------------------------
 b) $x=0$
 a) $f^{\prime}(x)=0 \cdot x^{2}+\operatorname{sgn}(x) \cdot 2 x$
 
@@ -1801,15 +1893,8 @@ $f(x)=g(h(x))$
 
 
 
-## Chunk 46
+## Chunk 68
 --------------------------------------------------------------------------------
-$$
-
-# --- PAGE page_54 ---
-
-$f(x)$ ist an $x=0$ stetig und differenzierbar
-
-
 # Ketentregel: 
 
 $g, h$ seien auf $R$ differenzierbar
@@ -1835,22 +1920,15 @@ $$
 \begin{aligned}
 & f^{\prime}(x)=g^{\prime}(h(x)) \cdot h^{\prime}(x) \\
 & =8 \cdot(3 x-4)^{7} \cdot 3=24(3 x-4)^{7} \\
+
+
+
+## Chunk 69
+--------------------------------------------------------------------------------
+& =8 \cdot(3 x-4)^{7} \cdot 3=24(3 x-4)^{7} \\
 & =f(x)=\sqrt{h(x)} \quad g(h)=\sqrt{h}=h^{\frac{2}{7}} \\
 & g^{\prime}(h)=\frac{1}{2 \pi h} \\
 & f^{\prime}(x)=\frac{1}{27 x^{7}} \cdot h^{\prime}(x) \quad \text { Wurzelregel }
-\end{aligned}
-$$
-
-# --- PAGE page_55 ---
-
-# Aheitung der umkelhufunhition : 
-
-$f: R \rightarrow R$ sei differenzierbar und bijektiv
-
-
-
-## Chunk 47
---------------------------------------------------------------------------------
 \end{aligned}
 $$
 
@@ -1866,6 +1944,13 @@ $$
 \begin{aligned}
 & g(h)=h^{4} \quad g^{\prime}(h)=4 h^{3} \\
 & h(x)=x^{2}-x+1 \quad h^{\prime}(x)=2 x-1 \\
+& f^{\prime}(x)=4\left(x^{2}-x+1\right)^{3} \cdot(2 x-1) \\
+& f(x)=\frac{x}{x^{2}+3} \\
+
+
+
+## Chunk 70
+--------------------------------------------------------------------------------
 & f^{\prime}(x)=4\left(x^{2}-x+1\right)^{3} \cdot(2 x-1) \\
 & f(x)=\frac{x}{x^{2}+3} \\
 & f^{\prime}(x)=\frac{1 \cdot\left(x^{2}+3\right)-x \cdot 2 x}{\left(x^{2}+3\right)^{2}}=\frac{x^{2}+3-2 x^{2}}{\left(x^{2}+3\right)^{2}}=\frac{-x^{2}+3}{\left(x^{2}+3\right)^{2}}
@@ -1888,7 +1973,7 @@ $$
 
 
 
-## Chunk 48
+## Chunk 71
 --------------------------------------------------------------------------------
 & =\lim _{\Delta x \rightarrow 0} \frac{a^{x}\left(a^{\Delta x}-1\right)}{\Delta x}=a^{x} \cdot \underbrace{\lim _{\Delta x \rightarrow 0} \frac{a^{\Delta x}-1}{\Delta x}}_{=2 a}=a^{x} \cdot 2 a=2 a \cdot f(x)
 \end{aligned}
@@ -1903,6 +1988,12 @@ $$
 & a=3: 2_{3}=\lim _{\Delta x \rightarrow 0} \frac{3^{\Delta x}-1}{\Delta x} \approx \frac{3^{0,001}-1}{0,001}=1,1 \\
 & \rightarrow\left(3^{x}\right)^{\prime}=1,1 \cdot 3^{x} \\
 & \rightarrow \text { es gibt eine Basis a, für die gilt : } \\
+& \left(a^{x}\right)^{\prime}=a^{x} \\
+
+
+
+## Chunk 72
+--------------------------------------------------------------------------------
 & \left(a^{x}\right)^{\prime}=a^{x} \\
 & \quad \longmapsto \text { dies ist die culursche Zahl (nach deonard Euler) } \\
 & \quad e=2,7182 \ldots \quad \in R \backslash Q
@@ -1926,26 +2017,17 @@ $$
 
 Ableitung von natürlichen Logarithmusfunktionen:
 $f(x)=l n x$
-
-
-
-## Chunk 49
---------------------------------------------------------------------------------
-$$
-\begin{aligned}
-& =\ln y \\
-& =f^{-1}(y)
-\end{aligned}
-$$
-
-# --- PAGE page_57 ---
-
-Ableitung von natürlichen Logarithmusfunktionen:
-$f(x)=l n x$
 $f^{\prime}(x)$ durch Nutzung der Inversenregel :
 $\left(f^{-1}(y)\right)^{\prime}=\frac{1}{f^{\prime}\left(f^{-1}(y)\right)}$
 $(l n y)^{\prime}=\frac{1}{e^{l n y}}=\frac{1}{y}$
 $\rightarrow f(x)=l n x$
+$f^{\prime}(x)=\frac{1}{x}$
+$\rightarrow$ natürliche Exponenhialfunktion sehr wichtig zum Lösen von
+
+
+
+## Chunk 73
+--------------------------------------------------------------------------------
 $f^{\prime}(x)=\frac{1}{x}$
 $\rightarrow$ natürliche Exponenhialfunktion sehr wichtig zum Lösen von
 Differentialgleichungen
@@ -1979,12 +2061,8 @@ $$
 
 
 
-## Chunk 50
+## Chunk 74
 --------------------------------------------------------------------------------
-$$
-
-$f^{\prime}(x)=y_{0} \cdot \ln a \cdot \frac{1}{2} \cdot a^{\frac{x-x_{0}}{2}}$
-
 $$
 =\frac{y_{0} \cdot \ln a}{2} \cdot a^{\frac{x-x_{0}}{2}}
 $$
@@ -2004,18 +2082,20 @@ f^{\prime \prime}(x) & =2 \cdot \frac{1}{x}=\frac{2}{x}
 \end{aligned}
 $$
 
+
+
+## Chunk 75
+--------------------------------------------------------------------------------
+f^{\prime \prime}(x) & =2 \cdot \frac{1}{x}=\frac{2}{x}
+\end{aligned}
+$$
+
 b) $f(x)=x^{n} \cdot e^{x}$
 
 $$
 \begin{aligned}
 f^{\prime}(x) & =n \cdot x^{n-1} \cdot e^{x}+x^{n} \cdot e^{x} \\
 & =x^{n-1} \cdot e^{x} \cdot(n+1) \\
-f^{\prime \prime}(x) & =(n-1) \cdot x^{n-2} \cdot e^{x} \cdot(n+x)+x^{n-1} \cdot\left[e^{x}(n+1)+e^{x} \cdot 1\right] \\
-
-
-
-## Chunk 51
---------------------------------------------------------------------------------
 f^{\prime \prime}(x) & =(n-1) \cdot x^{n-2} \cdot e^{x} \cdot(n+x)+x^{n-1} \cdot\left[e^{x}(n+1)+e^{x} \cdot 1\right] \\
 & =(n-1) \cdot x^{n-2} \cdot e^{x}(n+x)+x^{n-1} \cdot e^{x}(n+1)+x^{n-1} \cdot e^{x} \\
 & =x^{n-2} \cdot e^{x} \cdot[-(n-1)(n+x)+x \cdot(n+x)+x]
@@ -2027,6 +2107,11 @@ c) $f(x)=\underbrace{\left(x^{2}-1\right)^{2}}_{2\left(x^{2}-1\right) \cdot 2 x}
 $$
 \begin{aligned}
 f^{\prime}(x) & =4 x\left(x^{2}-1\right) \cdot(x+5)^{3}+\left(x^{2}-1\right)^{2} \cdot 3(x+5)^{2} \\
+
+
+
+## Chunk 76
+--------------------------------------------------------------------------------
 & =\left(x^{2}-1\right)(x+5)^{2} \cdot\left[4 x \cdot(x+5)+3 \cdot\left(x^{2}-1\right)\right] \\
 & =\left(x^{2}-1\right)(x+5)^{2} \cdot\left[4 x^{2}+20 x+3 x^{2}-3\right] \\
 & =\left(x^{2}-1\right)(x+5)^{2} \cdot\left[7 x^{2}+20 x-3\right]
@@ -2041,13 +2126,14 @@ um Ableitung von $\sin (x)$ zu bestimmen, müssen wir den Grenzwert von $\lim _{
 
 beliebiger Punkt $P$ auf Einheitskreis : $P(\cos x, \sin x)$
 $\rightarrow$ betachlele Feache fleines Dreieck : $A_{1}=\frac{1}{2} \sin x \cdot \cos x$
-
-
-
-## Chunk 52
---------------------------------------------------------------------------------
-$\rightarrow$ betachlele Feache fleines Dreieck : $A_{1}=\frac{1}{2} \sin x \cdot \cos x$
 Kreisausschnitt : $A_{2}=\frac{x}{2 \pi} \cdot \pi \cdot 1^{2}=\frac{x}{2}$
+$A_{3}=\frac{1}{2} \cdot 1 \cdot \tan x=\frac{\tan x}{2}$
+$A_{1} \leqslant A_{2} \leqslant A_{3}$
+
+
+
+## Chunk 77
+--------------------------------------------------------------------------------
 $A_{3}=\frac{1}{2} \cdot 1 \cdot \tan x=\frac{\tan x}{2}$
 $A_{1} \leqslant A_{2} \leqslant A_{3}$
 $\frac{1}{2} \cdot \sin x \cdot \cos x \leqslant \frac{x}{2} \leqslant \frac{1}{2} \tan x \quad 1.2$
@@ -2066,19 +2152,20 @@ $\frac{f(x+\Delta x)-f(x)}{\Delta x}=\frac{\sin (x+\Delta x)-\sin x}{\Delta x}$
 Häufig verwendete Abkürzungen = Quantoren:
 ㅐ: es existiert, es gibt
 ㄹ: es existiert kein
+
+
+
+## Chunk 78
+--------------------------------------------------------------------------------
+Häufig verwendete Abkürzungen = Quantoren:
+ㅐ: es existiert, es gibt
+ㄹ: es existiert kein
 ㅒ, oder ㅓ!: es existiert genau ein
 ㅜ: für alle
 
 # --- PAGE page_60 ---
 
 Additionstheorem nutzen :
-$\sin (\alpha+\beta)=\sin \alpha \cos \beta+\sin \beta \cos \alpha$
-$\sin (\alpha-\beta)=\sin \alpha \cos \beta-\sin \beta \cos \alpha$
-
-
-
-## Chunk 53
---------------------------------------------------------------------------------
 $\sin (\alpha+\beta)=\sin \alpha \cos \beta+\sin \beta \cos \alpha$
 $\sin (\alpha-\beta)=\sin \alpha \cos \beta-\sin \beta \cos \alpha$
 (1) - (2) : $\sin (\alpha+\beta)-\sin (\alpha-\beta)=2 \sin \beta \cos \alpha$
@@ -2091,6 +2178,11 @@ Differenzquotient
 $$
 \begin{aligned}
 & \frac{\sin (x+\Delta x)-\sin x}{\Delta x}=2 \cdot \sin \frac{\Delta x}{2} \cdot \cos \frac{2 x+\Delta x}{2} \\
+
+
+
+## Chunk 79
+--------------------------------------------------------------------------------
 & f^{\prime}(x)=\lim _{\Delta x \rightarrow 0} 2 \cdot \sin \frac{\Delta x}{2} \cdot \cos \frac{2 x+\Delta x}{2} \\
 & =\lim _{\Delta x \rightarrow 0} \frac{2 \cdot \sin \frac{\Delta x}{2}}{2} \cdot \cos \left(\frac{2 x+\Delta x}{2}\right)=\cos x
 \end{aligned}
@@ -2110,20 +2202,17 @@ $f^{\prime}(x)=-1-\cot ^{2} x=-\frac{1}{\sin ^{2} x}$
 Ableitung der Accus-Funktion: (wichtig für Integration)
 
 - $f(x)=a r c \sin x$
-
-
-
-## Chunk 54
---------------------------------------------------------------------------------
-# --- PAGE page_61 ---
-
-Ableitung der Accus-Funktion: (wichtig für Integration)
-
-- $f(x)=a r c \sin x$
 - $f(x)=a r c \sinh x$
 $f^{\prime}(x)=\frac{1}{\sqrt{1-x^{2}}}$
 - $f(x)=a r c \cos x$
 - $f(x)=a r c \cosh x$
+$f^{\prime}(x)=-\frac{1}{\sqrt{1-x^{2}}}$
+$f^{\prime}(x)=\frac{1}{\sqrt{x^{2}-1}}$
+
+
+
+## Chunk 80
+--------------------------------------------------------------------------------
 $f^{\prime}(x)=-\frac{1}{\sqrt{1-x^{2}}}$
 $f^{\prime}(x)=\frac{1}{\sqrt{x^{2}-1}}$
 - $f(x)=a r c \tan x$
@@ -2142,16 +2231,12 @@ $\rightarrow$ exponentielle Schreibweise nutzen
 - $\tanh (x)=\frac{\sinh (x)}{\cosh (x)} \rightarrow \tanh ^{\prime}(x)=1-\tanh ^{2}(x)=\frac{1}{\cosh ^{2}(x)}$
 - $\operatorname{coth}(x)=\frac{\cosh (x)}{\sinh (x)} \rightarrow \operatorname{coth}^{\prime}(x)=1-\operatorname{coth}^{2}(x)=-\frac{1}{\sinh ^{2}(x)}$
 
+
+
+## Chunk 81
+--------------------------------------------------------------------------------
 Bsp: $\quad f(x)=\frac{1+\cos x}{1-\sin x}$
 
-$$
-\begin{aligned}
-f^{\prime}(x) & =\frac{(-\sin x) \cdot(1-\sin x)-(1+\cos x) \cdot(-\cos x)}{(1-\sin x)^{2}} \\
-
-
-
-## Chunk 55
---------------------------------------------------------------------------------
 $$
 \begin{aligned}
 f^{\prime}(x) & =\frac{(-\sin x) \cdot(1-\sin x)-(1+\cos x) \cdot(-\cos x)}{(1-\sin x)^{2}} \\
@@ -2166,7 +2251,7 @@ $$
 
 
 
-## Chunk 56
+## Chunk 82
 --------------------------------------------------------------------------------
 ## Motivation :
 
@@ -2183,6 +2268,15 @@ $\hookrightarrow$ wenn $F(x)$ Stammfunktion ist, dann auch $F(x)+c$ :
 
 $$
 \begin{aligned}
+& F^{\prime}(x)=f(x) \\
+& (F(x)+c)^{\prime}=F^{\prime}(x)+c^{\prime}=f(x)
+\end{aligned}
+$$
+
+
+
+## Chunk 83
+--------------------------------------------------------------------------------
 & F^{\prime}(x)=f(x) \\
 & (F(x)+c)^{\prime}=F^{\prime}(x)+c^{\prime}=f(x)
 \end{aligned}
@@ -2208,21 +2302,17 @@ $$
 
 - Annäherung durch Rechtecke: $f(x i) \cdot \Delta x_{i}$
 
-
-
-## Chunk 57
---------------------------------------------------------------------------------
-$$
-f(f(x) d x=f(x)+c
-$$
-
-# Bestimmung von Flächeninhalten 
-
-- Annäherung durch Rechtecke: $f(x i) \cdot \Delta x_{i}$
-
 $\rightarrow$ wir bilden Unter- und Obersumme, wobei $\Delta x_{i}$ immer kleiner werden, um Genauigkeit zu erhöhen
 $\rightarrow$ Grenzwertbildung: Untersumme $\leqslant$ Flächeninhalts $\leqslant$ Obersumme
 
+(c) Obersumme $n=10$.
+
+(d) Untersumme $n=10$.
+
+
+
+## Chunk 84
+--------------------------------------------------------------------------------
 (c) Obersumme $n=10$.
 
 (d) Untersumme $n=10$.
@@ -2240,11 +2330,10 @@ Unbestimmtes Integral und Feachenfunktion
 $\rightarrow$ a sei feste Integrationsgrenze (Referenzstelle),
 $x$ sei variabel : Weit des Integrals hängt von $x$ ab
 $\rightarrow F(x)={ }_{a}^{x} f(x) d x \quad$ zuerst $F(x)$ ermitteln
-$\rightarrow$ Bestimmung der Fläche in den Grenzen $x_{0}$ und $x_{e}$ :
 
 
 
-## Chunk 58
+## Chunk 85
 --------------------------------------------------------------------------------
 $\rightarrow F(x)={ }_{a}^{x} f(x) d x \quad$ zuerst $F(x)$ ermitteln
 $\rightarrow$ Bestimmung der Fläche in den Grenzen $x_{0}$ und $x_{e}$ :
@@ -2264,6 +2353,13 @@ c muss nicht zwischen a und b liegen
 e) Potenzregel : $\int x^{n} d x=\frac{1}{n+1} x^{n+1}$
 weitere Stammfunktionen :
 
+
+
+## Chunk 86
+--------------------------------------------------------------------------------
+e) Potenzregel : $\int x^{n} d x=\frac{1}{n+1} x^{n+1}$
+weitere Stammfunktionen :
+
 - $\int a^{x} d x=\frac{1}{\ln (a)} \cdot a^{x}+c$
 - $\int e^{x} d x=e^{x}+c$
 - $\int \frac{1}{x} d x=\ln |x|+c$
@@ -2272,12 +2368,6 @@ weitere Stammfunktionen :
 Integrationskonstante
 Bsp: $\quad \int 3 x d x=3 \int x d x=3 \cdot \frac{3}{2} x^{2}+c=\frac{3}{2} x^{2}+c$ unbeskimmtes 1.
 
-- $\int\left(4 x^{3}-3 x^{2}\right) d x=4 \cdot \frac{7}{4} x^{4}-3 \cdot \frac{7}{3} x^{3}+c=x^{4}-x^{3}+c$
-
-
-
-## Chunk 59
---------------------------------------------------------------------------------
 - $\int\left(4 x^{3}-3 x^{2}\right) d x=4 \cdot \frac{7}{4} x^{4}-3 \cdot \frac{7}{3} x^{3}+c=x^{4}-x^{3}+c$
 - $\int^{3} x^{2} d x=\left[\frac{7}{3} x^{3}\right]_{1}^{3}=\frac{7}{3} \cdot 3^{3}-\frac{7}{3} \cdot 1^{3}=9-\frac{7}{3}=\frac{36}{3}$ beskimmtes 1 .
 
@@ -2289,6 +2379,14 @@ Bsp: $\quad \int 3 x d x=3 \int x d x=3 \cdot \frac{3}{2} x^{2}+c=\frac{3}{2} x^
 $$
 \begin{aligned}
 & \int \cos x \mathrm{~d} x=\sin x \quad \text { auf } \mathbb{R} \\
+
+
+
+## Chunk 87
+--------------------------------------------------------------------------------
+$$
+\begin{aligned}
+& \int \cos x \mathrm{~d} x=\sin x \quad \text { auf } \mathbb{R} \\
 & \int \sin x \mathrm{~d} x=-\cos x \quad \text { auf } \mathbb{R} \\
 & \int \cosh x \mathrm{~d} x=\sinh x \quad \text { auf } \mathbb{R} \\
 & \int \sinh x \mathrm{~d} x=\cosh x \quad \text { auf } \mathbb{R} \\
@@ -2297,13 +2395,12 @@ $$
 & \int \frac{1}{\sqrt{1+x^{2}}} \mathrm{~d} x=\operatorname{arsinh} x \quad \text { auf } \mathbb{R} \\
 & \int \frac{1}{\sqrt{1-x^{2}}} \mathrm{~d} x=\arcsin x \quad \text { auf }(-1,1) \\
 & \int \frac{1}{\sqrt{x^{2}-1}} \mathrm{~d} x=\left\{\begin{array}{ll}
-\arcosh x & \text { auf } \mathbb{R}_{>1} \\
--\operatorname{arcosh}(-x) & \text { auf } \mathbb{R}_{<-1}
 
 
 
-## Chunk 60
+## Chunk 88
 --------------------------------------------------------------------------------
+& \int \frac{1}{\sqrt{x^{2}-1}} \mathrm{~d} x=\left\{\begin{array}{ll}
 \arcosh x & \text { auf } \mathbb{R}_{>1} \\
 -\operatorname{arcosh}(-x) & \text { auf } \mathbb{R}_{<-1}
 \end{array}\right. \\
@@ -2312,6 +2409,12 @@ $$
 & \int \frac{1}{\cosh ^{2} x} \mathrm{~d} x=\tanh x \quad \text { auf } \mathbb{R} \\
 & \int \frac{1}{\sinh ^{2} x} \mathrm{~d} x=-\operatorname{coth} x \quad \text { auf } \mathbb{R} \\
 & \int \tan x \mathrm{~d} x=-\ln |\cos x| \quad \text { auf }\left(-\frac{\pi}{2}, \frac{\pi}{2}\right) \\
+& \int \cot x \mathrm{~d} x=\ln |\sin x| \quad \text { auf }(0, \pi) \\
+
+
+
+## Chunk 89
+--------------------------------------------------------------------------------
 & \int \cot x \mathrm{~d} x=\ln |\sin x| \quad \text { auf }(0, \pi) \\
 & \int \tanh x \mathrm{~d} x=\ln (\cosh x) \quad \text { auf } \mathbb{R} \\
 & \int \operatorname{coth} x \mathrm{~d} x=\ln |\sinh x| \quad \text { auf } \mathbb{R}_{>0} \text { oder } \mathbb{R}_{<0}
@@ -2326,7 +2429,7 @@ Monotonie und Beschränktheit von Funktionen können mit Differentialrechnung un
 
 
 
-## Chunk 61
+## Chunk 90
 --------------------------------------------------------------------------------
 ## Monotonie
 
@@ -2364,16 +2467,21 @@ $\rightarrow$ f ist stieng monoton fallend
 # --- PAGE page_68 ---
 
 Maxima / Minima
+
+
+
+## Chunk 91
+--------------------------------------------------------------------------------
+$$
+
+$\rightarrow$ f ist stieng monoton fallend
+
+# --- PAGE page_68 ---
+
+Maxima / Minima
 $f: R \rightarrow R, a \in R$
 a) $f(x) \leq f(a) \quad$ Ya in Umgebung von a:
 a heisst lokale Maximalstelle und f(a) heisst lokales Maximum oder Hochpunkt
-b) $f(x) \geqslant f(a) \quad$ $Y_{x}$ in umgebung von a:
-a heisst lokale Minimalstelle und f(a) heisst lokales Minimum oder Tiefpunkt
-
-
-
-## Chunk 62
---------------------------------------------------------------------------------
 b) $f(x) \geqslant f(a) \quad$ $Y_{x}$ in umgebung von a:
 a heisst lokale Minimalstelle und f(a) heisst lokales Minimum oder Tiefpunkt
 c) gilt a) bzw. b) auf gesamten Definitionsbereich, so ist a eine globale Maximal - bzw. Minimalstelle und f(a) ein globales Maximum bzw. Minimum
@@ -2381,6 +2489,12 @@ d) $x=a$ heisst auch kritische bzw. Exhemstelle. f(a) ist Exhemum oder kritische
 
 Bsp: $\quad f(x)=x^{2}$
 $x=0$ ist Exhemstelle und stellt globale Minimalstelle dar, $f(0)=0$ ist globales Minimum
+$\rightarrow$ bekannte Intervall $[1 ; 2], f:[1 ; 2] \rightarrow R$
+
+
+
+## Chunk 92
+--------------------------------------------------------------------------------
 $\rightarrow$ bekannte Intervall $[1 ; 2], f:[1 ; 2] \rightarrow R$
 
 $f(1)=1$ ist globales Minimum
@@ -2401,13 +2515,12 @@ Bsp: $\quad f(x)=\frac{7}{4} x^{4}-\frac{1}{3} x^{3}+\frac{1}{2} x^{2}$
 $f^{\prime}(x)=x^{3}-2 x^{2}+x=x\left(x^{2}-2 x+1\right)=x \cdot(x-1)^{2}$
 $f^{\prime}(x) \doteq 0$
 $x_{1}=0 \quad x_{2}=1$
+$\rightarrow$ bei $x=1$ liegt weder lokale Maximal- noch Minimalstelle
 
 
 
-## Chunk 63
+## Chunk 93
 --------------------------------------------------------------------------------
-$f^{\prime}(x)=x^{3}-2 x^{2}+x=x\left(x^{2}-2 x+1\right)=x \cdot(x-1)^{2}$
-$f^{\prime}(x) \doteq 0$
 $x_{1}=0 \quad x_{2}=1$
 $\rightarrow$ bei $x=1$ liegt weder lokale Maximal- noch Minimalstelle
 vor: es handelt sich um einen Sattelpunkt
@@ -2436,14 +2549,15 @@ $$ \begin{gathered} (A \wedge B) \Leftrightarrow(B \wedge A) \ L \end{gathered} 
 $A \vee B) \Leftrightarrow(B \vee A)$.
 4. De Morganschen Regeln:
 
+
+
+## Chunk 94
+--------------------------------------------------------------------------------
+$A \vee B) \Leftrightarrow(B \vee A)$.
+4. De Morganschen Regeln:
+
 $$ \begin{gathered} (\neg(A \vee B)) \Leftrightarrow((\neg A) \wedge(\neg B)) \ L \end{gathered} $$
 
-Beweis. Stellvertretend überprüfen wir die Regeln von DE MORGAN ${ }^{1}$.
-
-
-
-## Chunk 64
---------------------------------------------------------------------------------
 Beweis. Stellvertretend überprüfen wir die Regeln von DE MORGAN ${ }^{1}$.
 
 |  $A$ | $B$ | $\neg(A \wedge B)$ | $(\neg A) \vee(\neg B)$ | $(\neg(A \wedge B)) \Leftrightarrow((\neg A) \vee(\neg B))$  |
@@ -2457,6 +2571,12 @@ Beweis. Stellvertretend überprüfen wir die Regeln von DE MORGAN ${ }^{1}$.
 
 $\rightarrow$ bei Maxima / Minima ändert sich das Vorzeichen der Ableitung $\leftrightarrow$ wir müssen die 2. Ableitung behachten, um zu entscheiden, ob Maximum, Minimum oder Sattelpunkt vorliegt
 
+# Anreichende Bedingung für lokale Bhema
+
+
+
+## Chunk 95
+--------------------------------------------------------------------------------
 # Anreichende Bedingung für lokale Bhema 
 
 $f: D \subseteq \mathbb{R} \rightarrow \mathbb{R}$ sei 2 mal stetig differenzierbar
@@ -2465,13 +2585,15 @@ a) $f^{\prime \prime}(a)<0 \Rightarrow f$ hat in a lokales Maximum
 b) $f^{\prime \prime}(a)>0 \Rightarrow f$ hat in a lokales Minimum
 c) $f^{\prime \prime}(a)=0$ und $f^{\prime \prime \prime}(a) \neq 0 \Rightarrow f$ hat in a Sattelpunkt
 $\rightarrow$ falls gilt $f^{\prime \prime}(a)=f^{\prime \prime \prime}(a)=0$, müssen erweiterte Kriterien behachtet werden : es gelte $f^{\prime}(a)=f^{\prime \prime}(a)=\ldots=f^{(m-1)}(a)=0$ und $f^{(m)} \neq 0$
-
-
-
-## Chunk 65
---------------------------------------------------------------------------------
 a) $m$ sei gerade und $f^{(m)}(a)<0$ :
 an (a, fla)) liegt lokales Maximum vor
+b) $m$ sei gerade und $f^{(m)}(a)>0$ :
+an (a, fla)) liegt lokales Minimum vor
+
+
+
+## Chunk 96
+--------------------------------------------------------------------------------
 b) $m$ sei gerade und $f^{(m)}(a)>0$ :
 an (a, fla)) liegt lokales Minimum vor
 c) $m$ sei ungerade : (a, fla)) ist Sattelpunkt
@@ -2499,22 +2621,17 @@ $$
 & f^{\prime}(x)=3 x^{2}-8 x+4 \\
 & f^{\prime \prime}(x)=6 x-8 \\
 & f^{\prime}(x) \stackrel{!}{=} 0: 3 x^{2}-8 x+4=0 \\
+
+
+
+## Chunk 97
+--------------------------------------------------------------------------------
+& f^{\prime \prime}(x)=6 x-8 \\
+& f^{\prime}(x) \stackrel{!}{=} 0: 3 x^{2}-8 x+4=0 \\
 & x_{1,2}=\frac{8 \pm \sqrt{64-4 \cdot 3 \cdot 4}}{2 \cdot 3}=\frac{8 \pm 4}{6} \\
 & x_{1}=2 \quad x_{2}=\frac{2}{3} \\
 & f^{\prime \prime}(2)=6 \cdot 2-8=4>0 \\
 & f^{\prime \prime}\left(\frac{2}{3}\right)=6 \cdot \frac{2}{3}-8=-4<0
-\end{aligned}
-$$
-
-# --- PAGE page_72 ---
-
-- an $(2 ; 0)$ liegt Tiefpunkt vor
-- an $(\frac{2}{3} ; \frac{33}{33})$ liegt Hochpunkt vor
-
-
-
-## Chunk 66
---------------------------------------------------------------------------------
 \end{aligned}
 $$
 
@@ -2530,6 +2647,12 @@ $$
 
 Reelle Funktion $f$ ist gegeben und $f$ ist auf einer Menge $D$ definiert.
 
+
+
+## Chunk 98
+--------------------------------------------------------------------------------
+Reelle Funktion $f$ ist gegeben und $f$ ist auf einer Menge $D$ definiert.
+
 - Man bestimmt die Nullstellen $f^{\prime}(x)$.
 - Ist a eine Nullstelle von $f^{\prime}$, so berechnet man $f^{\prime \prime}(a)$.
 - Ist $f^{\prime \prime}(a)>0$, so ist a eine lokale Minimalstelle; ist $f^{\prime \prime}(a)<0$, so ist a eine lokale Maximalstelle.
@@ -2540,7 +2663,7 @@ Reelle Funktion $f$ ist gegeben und $f$ ist auf einer Menge $D$ definiert.
 
 
 
-## Chunk 67
+## Chunk 99
 --------------------------------------------------------------------------------
 # --- PAGE page_73 ---
 
@@ -2558,6 +2681,14 @@ Analytische Krümmung : $K_{A}(x)=\mathfrak{f}^{\prime \prime}(x)$
 Bsp: $\quad \cdot f(x)=m x+q$
 $f^{\prime}(x)=m$
 $f^{\prime \prime}(x)=0$
+
+
+
+## Chunk 100
+--------------------------------------------------------------------------------
+Bsp: $\quad \cdot f(x)=m x+q$
+$f^{\prime}(x)=m$
+$f^{\prime \prime}(x)=0$
 $\rightarrow$ Gerade hat keine Krümmung
 
 - $\mathfrak{f}(x)=a x^{2}+b x+c$
@@ -2572,16 +2703,6 @@ konstanten Kuimmung, solltke kreis oder Kuusbogen sein
 Geometrische Krümmung :
 
 $$
-
-
-
-## Chunk 68
---------------------------------------------------------------------------------
-$\rightarrow$ sollte aus geometrischer Sicht nicht so sein : Kurve
-konstanten Kuimmung, solltke kreis oder Kuusbogen sein
-Geometrische Krümmung :
-
-$$
 k_{6}(x)=\frac{f^{\prime \prime}(x)}{\left[1+\left(f^{\prime}(x)\right)^{2}\right]^{3 / 2}}
 $$
 
@@ -2591,6 +2712,12 @@ $r=$ Radius
 
 # Symmetrie : 
 
+- $f(-x)=f(x): f(x)$ ist gerade, d. h. symmetrisch zu $y$-Achse $\left(z . B . f(x)=x^{2}\right)$
+
+
+
+## Chunk 101
+--------------------------------------------------------------------------------
 - $f(-x)=f(x): f(x)$ ist gerade, d. h. symmetrisch zu $y$-Achse $\left(z . B . f(x)=x^{2}\right)$
 - $f(-x)=-f(x): f(x)$ ist ungerade, d.h. symmetrisch zum wspprung $\left(2 . B . f(x)=x^{3}\right)$
 
@@ -2612,10 +2739,8 @@ Typischerweise werden folgende Schritte bei der Kurvendiskussion durchgeführt:
 
 
 
-## Chunk 69
+## Chunk 102
 --------------------------------------------------------------------------------
-- Nullstellen bestimmen
-- Ordinatenabschnitt (y-Achsenabschnitt) bestimmen
 - Extremwerte bestimmen
 - Krümmungsverhalten und Wendepunkte
 - Verhalten der Funktion an den Rändern des Definitionsbereichs, um festzustellen, an welchen Stellen globale Maxima bzw. Minima vorliegen
@@ -2633,6 +2758,13 @@ f^{\prime}(x) & =(2 x-1) \cdot e^{-x}+\left(x^{2}-x\right) \cdot\left(-e^{-x}\ri
 f^{\prime \prime}(x) & =-e^{-x}\left(-x^{2}+3 x-1\right)+e^{-x}(-2 x+3) \\
 & =e^{-x}\left(x^{2}-3 x+1-2 x+3\right) \\
 & =e^{-x}\left(x^{2}-5 x+4\right) \\
+
+
+
+## Chunk 103
+--------------------------------------------------------------------------------
+& =e^{-x}\left(x^{2}-3 x+1-2 x+3\right) \\
+& =e^{-x}\left(x^{2}-5 x+4\right) \\
 f^{\prime \prime \prime}(x) & =-e^{-x}\left(x^{2}-5 x+4\right)+e^{-x}(2 x-5) \\
 & =e^{-x}\left(-x^{2}+5 x-4+2 x-5\right) \\
 & =e^{-x}\left(-x^{2}+7 x-9\right)
@@ -2646,24 +2778,17 @@ Exkemsstellen : $f^{\prime}(x) \doteq 0$
 $$
 \begin{aligned}
 & e^{-x}\left(-x^{2}+3 x-1\right)=0 \\
-
-
-
-## Chunk 70
---------------------------------------------------------------------------------
-\end{aligned}
-$$
-
-# --- PAGE page_76 ---
-
-Exkemsstellen : $f^{\prime}(x) \doteq 0$
-
-$$
-\begin{aligned}
-& e^{-x}\left(-x^{2}+3 x-1\right)=0 \\
 & \rightarrow \forall x \in \mathbb{R} \text { gilt : } e^{-x} \neq 0 \\
 & \rightarrow-x^{2}+3 x-1=0 \\
 & x_{1,2}=\frac{-3 \pm \sqrt{9-4 \cdot(-1) \cdot(-1)^{2}}}{2 \cdot(-1)}=\frac{-3 \pm \sqrt{5^{\prime}}}{-2} \\
+& x_{1}=\frac{3}{2}+\frac{15}{2} \quad x_{2}=\frac{3}{2}-\frac{15}{2}
+\end{aligned}
+$$
+
+
+
+## Chunk 104
+--------------------------------------------------------------------------------
 & x_{1}=\frac{3}{2}+\frac{15}{2} \quad x_{2}=\frac{3}{2}-\frac{15}{2}
 \end{aligned}
 $$
@@ -2683,13 +2808,10 @@ $$
 
 $f^{\prime \prime \prime}\left(x_{1}\right)=0,55 \neq 0 \Rightarrow$ Wendepunkt bei $(4 ; 0,22)$
 $f^{\prime \prime \prime}\left(x_{2}\right)=-1,10 \neq 0 \Rightarrow$ Wendepunkt bei $(1 ; 0)$
-Ränder des Definitionbereichs untersuchen :
-
-$$
 
 
 
-## Chunk 71
+## Chunk 105
 --------------------------------------------------------------------------------
 $f^{\prime \prime \prime}\left(x_{2}\right)=-1,10 \neq 0 \Rightarrow$ Wendepunkt bei $(1 ; 0)$
 Ränder des Definitionbereichs untersuchen :
@@ -2710,6 +2832,12 @@ $$
 & f^{\prime}(x)=\frac{2 x(x-3)-\left(x^{2}+1\right) \cdot 1}{(x-3)^{2}}=\frac{2 x^{2}-6 x-x^{2}-1}{(x-3)^{2}}=\frac{x^{2}-6 x-1}{(x-3)^{2}} \\
 & f^{\prime \prime}(x)=\frac{(2 x-6)(x-3)^{2}-\left(x^{2}-6 x-1\right) \cdot 2(x-3) \cdot 1}{(x-3)^{4}} \\
 & =\frac{2 x^{2}-6 x-6 x+18-2 x^{2}+12 x+2}{(x-3)^{3}}=\frac{20}{(x-3)^{3}} \\
+
+
+
+## Chunk 106
+--------------------------------------------------------------------------------
+& =\frac{2 x^{2}-6 x-6 x+18-2 x^{2}+12 x+2}{(x-3)^{3}}=\frac{20}{(x-3)^{3}} \\
 & f^{\prime \prime \prime}(x)=\frac{-20 \cdot 3(x-3)^{2}}{(x-3)^{6}}=-\frac{60}{(x-3)^{4}} \neq 0
 \end{aligned}
 $$
@@ -2725,22 +2853,18 @@ $$
 $$
 
 $f^{\prime \prime}\left(x_{1}\right)>0: \quad$ Lokales Minimum bei $(6,16 ; 12,32)$
-
-
-
-## Chunk 72
---------------------------------------------------------------------------------
-& x_{1}=3+\sqrt{10}, \quad x_{2}=3-\sqrt{10}
-\end{aligned}
-$$
-
-$f^{\prime \prime}\left(x_{1}\right)>0: \quad$ Lokales Minimum bei $(6,16 ; 12,32)$
 $f^{\prime \prime}\left(x_{2}\right)<0: \quad$ Lokales Haximum bei $\left(-0,16 ;-0,32\right)$
 
 Wendestellen nicht möglich
 Randverhalten :
 $\lim _{x \rightarrow-\infty} f(x)=-\infty$
 $\lim _{x \rightarrow+\infty} f(x)=+\infty$
+$\lim _{\substack{x \rightarrow 3 \\ x>0}} f(x)=+\infty$
+
+
+
+## Chunk 107
+--------------------------------------------------------------------------------
 $\lim _{\substack{x \rightarrow 3 \\ x>0}} f(x)=+\infty$
 $\lim _{\substack{x \rightarrow 3 \\ x<3}} f(x)=-\infty$
 
@@ -2767,11 +2891,8 @@ Schreibweisen:
 
 
 
-## Chunk 73
+## Chunk 108
 --------------------------------------------------------------------------------
-Generell:
-
-- Für Elemente werden Kleinbuchstaben verwendet
 - Für Mengen werden Grossbuchstaben verwendet
 
 Schreibweisen:

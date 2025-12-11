@@ -1,0 +1,50 @@
+<|ref|>text<|/ref|><|det|>[[115, 81, 140, 98]]<|/det|>
+6. 
+
+<|ref|>text<|/ref|><|det|>[[115, 97, 755, 117]]<|/det|>
+Sie erhalten die folgenden 8 Datenwerte: 34, 45, 11, 42, 49, 33, 27, 11. 
+
+<|ref|>text<|/ref|><|det|>[[115, 115, 622, 134]]<|/det|>
+a) Bestimmen Sie die empirische Verteilungsfunktion F. 
+
+<|ref|>text<|/ref|><|det|>[[115, 132, 652, 151]]<|/det|>
+b) Geben Sie arithmetisches Mittel, Median und Modus an. 
+
+<|ref|>text<|/ref|><|det|>[[115, 149, 857, 184]]<|/det|>
+c) Berechnen Sie die Varianz i) aus den ungruppierten Originalwerten, ii) aus den geordneten Werten und iii) mit dem Verschiebungssatz. 
+
+<|ref|>text<|/ref|><|det|>[[115, 181, 860, 216]]<|/det|>
+d) Berechnen Sie die Standardabweichung, die mittlere absolute Abweichung vom Median und die Spannweite. 
+
+<|ref|>text<|/ref|><|det|>[[115, 231, 145, 248]]<|/det|>
+a) 
+
+<|ref|>image<|/ref|><|det|>[[122, 248, 494, 410]]<|/det|>
+ 
+
+<|ref|>text<|/ref|><|det|>[[115, 410, 339, 429]]<|/det|>
+b) Arithmetisches Mittel: 
+
+<|ref|>equation<|/ref|><|det|>[[120, 434, 668, 504]]<|/det|>
+\[ \bar{x} = \frac{1}{n} \sum_{i=1}^{n} x_i = \frac{1}{8} (34 + 45 + 11 + 42 + 49 + 33 + 27 + 11) \\ = 31.5 \]
+
+<|ref|>text<|/ref|><|det|>[[120, 507, 683, 526]]<|/det|>
+Bestimmung des Medians: Die geordneten Daten sind: \(x_{(1)} = 11\), \(x_{(2)} = 11\), \(x_{(3)} = 27\), \(x_{(4)} = 33\), \(x_{(5)} = 34\), \(x_{(6)} = 42\), 
+
+<|ref|>equation<|/ref|><|det|>[[120, 544, 312, 564]]<|/det|>
+\[ x_{(7)} = 45, x_{(8)} = 49, \]
+
+<|ref|>equation<|/ref|><|det|>[[192, 572, 606, 608]]<|/det|>
+\[ x_{\text{med}} = \frac{1}{2} (x_{(4)} + x_{(5)}) = \frac{1}{2} (33 + 34) = 33.5. \]
+
+<|ref|>text<|/ref|><|det|>[[115, 610, 683, 648]]<|/det|>
+Bestimmung des Modus: Der Modus liegt bei 11, da dieser Wert zweimal auftritt und alle anderen nur einmal. 
+
+<|ref|>text<|/ref|><|det|>[[115, 648, 140, 666]]<|/det|>
+c) 
+
+<|ref|>text<|/ref|><|det|>[[115, 665, 476, 684]]<|/det|>
+Bestimmung der Varianz aus der Urliste: 
+
+<|ref|>equation<|/ref|><|det|>[[192, 691, 595, 890]]<|/det|>
+\[ \begin{aligned} \text{var}(x) &= \frac{1}{n} \sum_{i=1}^{n} (x_i - \bar{x})^2 \\ &= \frac{1}{8} \left( (34 - 31.5)^2 + (45 - 31.5)^2 + (11 - 31.5)^2 + (42 - 31.5)^2 + (49 - 31.5)^2 + (33 - 31.5)^2 + (27 - 31.5)^2 + (11 - 31.5)^2 \right) \\ &= \frac{1}{8} \cdot 1468 = 183.5 \end{aligned} \]

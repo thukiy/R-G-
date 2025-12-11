@@ -1,0 +1,15 @@
+<|ref|>equation<|/ref|><|det|>[[218, 84, 744, 202]]<|/det|>
+\[
+= \begin{pmatrix} \frac{\partial \delta x_1}{\partial x_2} \\ \frac{\partial \delta x_2}{\partial x_3} \end{pmatrix} \left( \frac{\partial u_1}{\partial x_1} + \frac{\partial u_2}{\partial x_2} + \frac{\partial u_3}{\partial x_3} \right) \\
+= \begin{pmatrix} \frac{\partial^2 u_1}{\partial x_1^2} + \frac{\partial^2 u_2}{\partial x_1 \partial x_2} + \frac{\partial^2 u_3}{\partial x_1 \partial x_3} \\ \frac{\partial^2 u_1}{\partial x_1 \partial x_2} + \frac{\partial^2 u^2_2}{\partial x_2^2} + \frac{\partial^2 u_3}{\partial x_2 \partial x_3} \\ \frac{\partial^2 u_1}{\partial x^2_1} + \frac{\partial^2 u_2}{\partial x_2 \partial x_3} + \frac{\partial^2 u_3}{\partial x_3^2} \end{pmatrix}
+\] 
+
+<|ref|>equation<|/ref|><|det|>[[128, 384, 860, 562]]<|/det|>
+\[
+\nabla \times \vec{v} = \begin{pmatrix} \frac{\partial \delta x_1}{\partial x_2} & \times & \begin{pmatrix} u_1 \\ u_2 \\ u_3 \end{pmatrix} \\ \frac{\partial \delta x_2}{\partial x_3} & & \begin{pmatrix} \frac{\partial u_1}{\partial x_1} & - & \frac{\partial u_2}{\partial x_3} \\ \frac{\partial u_1}{\partial x_2} & - & \frac{\partial u_3}{\partial x_1} \\ \frac{\partial u_2}{\partial x_1} & - & \frac{\partial u_1}{\partial x_2} \end{pmatrix} \end{pmatrix}
+\]
+
+<|ref|>equation<|/ref|><|det|>[[128, 580, 760, 737]]<|/det|>
+\[
+\nabla \times (\nabla \times \vec{v}) = \begin{pmatrix} \frac{\partial \delta x_1}{\partial x_2}\\ \frac{\partial \delta x_2}{\partial x_3} \end{pmatrix} x \begin{pmatrix} \frac{\partial u_3}{\partial x_2} - \frac{\partial u_2}{\partial x_3} \\ \frac{\partial u_m}{\partial x_3} - \frac{\partial u_3}{\partial x_1} \\ \frac{\partial u_z}{\partial x_1} - \frac{\partial u_1}{\partial x_2} \end{pmatrix}
+\]

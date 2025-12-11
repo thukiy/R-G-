@@ -1,0 +1,3 @@
+{
+  "markdown": "<|ref|>sub_title<|/ref|><|det|>[[24, 40, 283, 85]]<|/det|>\nBeispiel: Urne mit 5 Kugeln \n\n<|ref|>text<|/ref|><|det|>[[106, 125, 350, 181]]<|/det|>\n3 weisse, 2 schwarze \n\n<|ref|>text<|/ref|><|det|>[[106, 179, 816, 245]]<|/det|>\n\u2192 ziehen mit dunkelgr\u00fcn ohne Reihen folge mit Notieren die Tasse \n\n<|ref|>equation<|/ref|><|det|>[[115, 273, 572, 376]]<|/det|>\n\\[n = 1000 : \\text{ewenstung} : \\frac{400 \\text{ mol schwarz}}{600 \\text{ mol weiss}}\\]\n\n<|ref|>equation<|/ref|><|det|>[[117, 404, 445, 475]]<|/det|>\n\\[h_{1000} (w) \\approx \\frac{3}{5} \\quad h_{1000} (s) \\approx \\frac{2}{5}\\]"
+}

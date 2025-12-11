@@ -1,0 +1,68 @@
+<|ref|>sub_title<|/ref|><|det|>[[114, 81, 536, 100]]<|/det|>
+## 3. Aussagen über eine Fourier-Entwicklung 
+
+<|ref|>text<|/ref|><|det|>[[114, 98, 720, 117]]<|/det|>
+Gegeben sei eine periodische Funktion \(x(t)\) mit Fourier-Entwicklung 
+
+<|ref|>equation<|/ref|><|det|>[[114, 116, 460, 150]]<|/det|>
+\[x_n(t) = \frac{4}{\pi^2} \sum_{k=1}^n \frac{(-1)^{k-1}}{k^3} \cdot \cos(\pi kt).\]
+
+<|ref|>text<|/ref|><|det|>[[114, 154, 680, 173]]<|/det|>
+Welche der folgenden Aussagen sind wahr und welche falsch? 
+
+<|ref|>table<|/ref|><|det|>[[114, 171, 880, 260]]<|/det|>
+<table><tr><td></td><td>wahr</td><td>falsch</td></tr><tr><td>a) Es gilt: \(x_{17}(t) = x_{18}(t)\).</td><td>X</td><td></td></tr><tr><td>b) Die Periode von \(x\) ist 1.</td><td></td><td>X</td></tr><tr><td>c) Es gilt: \(x_n(t) = x_n(-t)\).</td><td>X</td><td></td></tr><tr><td>d) Die Funktion \(x(t)\) hat negative Parität.</td><td></td><td>X</td></tr></table>
+
+<|ref|>sub_title<|/ref|><|det|>[[114, 274, 388, 292]]<|/det|>
+## 4. Grenzwerte von Summen 
+
+<|ref|>text<|/ref|><|det|>[[114, 291, 380, 309]]<|/det|>
+Gegeben seien die Summen 
+
+<|ref|>equation<|/ref|><|det|>[[114, 308, 511, 342]]<|/det|>
+\[A(n) = \sum_{k=1}^n \frac{(-1)^k}{k^2} \text{ und } B(n) = \sum_{k=1}^n \frac{1}{k^2}.\]
+
+<|ref|>text<|/ref|><|det|>[[114, 339, 616, 358]]<|/det|>
+a) Es sei \(\omega > 0\). Berechnen Sie das bestimmte Integral 
+
+<|ref|>equation<|/ref|><|det|>[[144, 356, 295, 375]]<|/det|>
+\[\int t^2 \cdot \cos(\omega t) dt.\]
+
+<|ref|>text<|/ref|><|det|>[[114, 372, 803, 392]]<|/det|>
+b) Stellen Sie \(f(t) = t^2\) auf dem Intervall \([-\pi, \pi]\) durch eine Fourier-Reihe dar. 
+
+<|ref|>text<|/ref|><|det|>[[114, 390, 860, 425]]<|/det|>
+c) Betrachten Sie die Fourier-Reihe aus b) an der Stelle \(t = 0\) und zeigen Sie, dass gilt 
+
+<|ref|>equation<|/ref|><|det|>[[144, 422, 298, 453]]<|/det|>
+\[\lim_{n \to \infty} A(n) = -\frac{\pi^2}{12}.\]
+
+<|ref|>text<|/ref|><|det|>[[114, 451, 860, 487]]<|/det|>
+d) Betrachten Sie die Fourier-Reihe aus b) an der Stelle \(t = \pi\) und zeigen Sie, dass gilt 
+
+<|ref|>equation<|/ref|><|det|>[[144, 485, 283, 516]]<|/det|>
+\[\lim_{n \to \infty} B(n) = \frac{\pi^2}{6}.\]
+
+<|ref|>text<|/ref|><|det|>[[114, 530, 144, 547]]<|/det|>
+a) 
+
+<|ref|>text<|/ref|><|det|>[[120, 547, 615, 567]]<|/det|>
+Es sei \(\omega > 0\). Durch partielle Integration erhalten wir 
+
+<|ref|>equation<|/ref|><|det|>[[120, 580, 755, 630]]<|/det|>
+\[\int t^2 \cos(\omega t) dt = \int t^2 \cdot \cos(\omega t) dt = \frac{t^2}{\omega} \sin(\omega t) - \frac{2}{\omega} \int t \cdot \sin(\omega t) dt\]
+
+<|ref|>equation<|/ref|><|det|>[[260, 644, 685, 686]]<|/det|>
+\[= \frac{t^2}{\omega} \sin(\omega t) + \frac{2t}{\omega^2} \cos(\omega t) - \frac{2}{\omega^2} \int \cos(\omega t) dt\]
+
+<|ref|>equation<|/ref|><|det|>[[260, 690, 666, 732]]<|/det|>
+\[= \frac{t^2}{\omega} \sin(\omega t) - \frac{2t}{\omega^2} \cos(\omega t) - \frac{\omega^3}{2} \sin(\omega t) + c\]
+
+<|ref|>equation<|/ref|><|det|>[[260, 736, 655, 779]]<|/det|>
+\[= \left(\frac{t^2}{\omega} - \frac{2}{\omega^3}\right) \cdot \sin(\omega t) + \frac{2t}{\omega^2} \cdot \cos(\omega t) + c.\]
+
+<|ref|>text<|/ref|><|det|>[[114, 787, 144, 803]]<|/det|>
+b) 
+
+<|ref|>text<|/ref|><|det|>[[114, 802, 880, 839]]<|/det|>
+Zur Bestimmung der Fourier-Reihe von \(f(t) = t^2\) mit Periode \(T = 2\pi\) erweitern wir die Funktion periodisch. \(f(t)\) hat positive Parität.

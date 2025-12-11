@@ -1,0 +1,3 @@
+{
+  "markdown": "<|ref|>text<|/ref|><|det|>[[32, 38, 368, 80]]<|/det|>\nBeispiel: 4maliger Wurf einer M\u00fcnze \n\n<|ref|>text<|/ref|><|det|>[[95, 128, 630, 180]]<|/det|>\n- Elementaleignisse : Kopf (K) und Zahl (Z) \n\n<|ref|>text<|/ref|><|det|>[[95, 199, 600, 251]]<|/det|>\n- insgesamt : \\(24 = 16\\) verschiedene Ergebnisse \n\n<|ref|>text<|/ref|><|det|>[[95, 271, 531, 323]]<|/det|>\n- Ereignis \\(A = 2\\) mal Zahl bei 4 Waffen \n\n<|ref|>equation<|/ref|><|det|>[[232, 333, 760, 399]]<|/det|>\n\\[ = \\{\\mathbb{Z} \\mathbb{Z} \\mathbb{Z} \\mathbb{K}, \\mathbb{Z} \\mathbb{K} \\mathbb{Z} \\mathbb{K}, \\mathbb{K} \\mathbb{Z} \\mathbb{Z} \\mathbb{K}, \\mathbb{K} \\mathbb{K} \\mathbb{Z} \\mathbb{Z} \\mathbb{K}\\} \\]"
+}

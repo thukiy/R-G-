@@ -1,0 +1,3 @@
+{
+  "markdown": "<|ref|>text<|/ref|><|det|>[[46, 12, 522, 39]]<|/det|>\nZylinder - in wortesische Koordinaten : \n\n<|ref|>equation<|/ref|><|det|>[[78, 52, 325, 80]]<|/det|>\n\\[r, \\varphi, z \\quad gegeben\\]\n\n<|ref|>equation<|/ref|><|det|>[[78, 90, 580, 118]]<|/det|>\n\\[x = r \\cdot \\cos \\varphi, \\quad y = r \\cdot \\sin \\varphi, \\quad z = z\\]\n\n<|ref|>text<|/ref|><|det|>[[46, 149, 525, 177]]<|/det|>\nKartesische in Zylindelkoordinaten : \n\n<|ref|>equation<|/ref|><|det|>[[78, 189, 450, 257]]<|/det|>\n\\[x, y, z \\quad gegeben\\]\n\n\\[r = \\sqrt{x^2 + y^2}, \\quad \\tan \\varphi = \\frac{y}{x}\\]\n\n<|ref|>text<|/ref|><|det|>[[51, 304, 280, 331]]<|/det|>\nbei Integration : \n\n<|ref|>image<|/ref|><|det|>[[55, 345, 842, 696]]<|/det|>"
+}

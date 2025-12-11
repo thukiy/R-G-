@@ -1,0 +1,79 @@
+<|ref|>text<|/ref|><|det|>[[170, 66, 317, 85]]<|/det|>
+v) Wir erhalten 
+
+<|ref|>equation<|/ref|><|det|>[[196, 92, 827, 207]]<|/det|>
+\[
+\begin{align*}
+(1 - x) \cdot G_{(1;9)}(x) &= (1 - x) \cdot \left( x + x^2 + x^3 + x^4 + x^5 + x^6 + x^7 + x^8 + x^9 \right) \\
+&= x - x^2 + x^2 - x^3 + x^3 - x^4 + x^4 - x^5 + x^5 - x^6 + x^6 \\
+&\quad - x^7 + x^7 - x^8 + x^8 - x^9 + x^9 - x^{10} \\
+&= x - x^{10}.
+\end{align*}
+\]
+
+<|ref|>text<|/ref|><|det|>[[164, 218, 317, 236]]<|/det|>
+vi) Wir erhalten 
+
+<|ref|>equation<|/ref|><|det|>[[196, 243, 923, 330]]<|/det|>
+\[
+\begin{align*}
+(1 - x) \cdot G_{(13;16)}(x) &= (1 - x) \cdot \left( x^{13} + x^{14} + x^{15} + x^{16} \right) \\
+&= x^{13} - x^{14} + x^{14} - x^{15} + x^{15} - x^{16} + x^{16} - x^{17} \\
+&= x^{13} - x^{17}.
+\end{align*}
+\]
+
+<|ref|>text<|/ref|><|det|>[[122, 344, 923, 398]]<|/det|>
+c) Bei der Multiplikation einer geometrischen Summe \(G_{(m;n)}(x)\) mit dem Faktor \((1 - x)\) in Teilaufgabe b) beobachten wir, dass nur gerade die Terme \(x^m\) und \(-x^{n+1}\) übrig bleiben, während alle anderen Terme sich gegenseitig kompensieren. Allgemein gilt 
+
+<|ref|>equation<|/ref|><|det|>[[196, 404, 923, 491]]<|/det|>
+\[
+\begin{align*}
+(1 - x) \cdot G_{(m;n)}(x) &= (1 - x) \cdot \left( x^m + x^{m+1} + \ldots + x^{n-1} + x^n \right) \\
+&= x^m - x^{m+1} + x^{m+1} - \ldots - x^{n-1} + x^{n-1} - x^n + x^n - x^{n+1} \\
+&= x^m - x^{n+1}.
+\end{align*}
+\]
+
+<|ref|>text<|/ref|><|det|>[[122, 504, 923, 541]]<|/det|>
+d) Durch Auflösen der Formel (33) nach \(G_{(m;n)}(x)\) können wir die geometrische Summen-Formel herleiten. Für \((1 - x) \neq 0\) gilt 
+
+<|ref|>equation<|/ref|><|det|>[[354, 548, 923, 569]]<|/det|>
+\[
+(1 - x) \cdot G_{(m;n)}(x) = x^m - x^{n+1} \qquad | : (1 - x). \quad (34)
+\]
+
+<|ref|>text<|/ref|><|det|>[[150, 577, 330, 593]]<|/det|>
+Daraus erhalten wir 
+
+<|ref|>equation<|/ref|><|det|>[[428, 598, 923, 636]]<|/det|>
+\[
+G_{(m;n)}(x) = \frac{x^m - x^{n+1}}{1 - x}. \quad (35)
+\]
+
+<|ref|>text<|/ref|><|det|>[[122, 653, 923, 688]]<|/det|>
+e) Wir wenden die geometrische Summen-Formel aus (35) an, um die folgenden geometrischen Summen zu berechnen. 
+
+<|ref|>text<|/ref|><|det|>[[172, 693, 317, 711]]<|/det|>
+i) Wir erhalten 
+
+<|ref|>equation<|/ref|><|det|>[[196, 719, 923, 755]]<|/det|>
+\[
+G_{(0;5)}(3) = \frac{3^0 - 3^{5+1}}{1 - 3} = \frac{1 - 729}{-2} = \frac{728}{2} = 364. \quad (36)
+\]
+
+<|ref|>text<|/ref|><|det|>[[170, 764, 317, 781]]<|/det|>
+ii) Wir erhalten 
+
+<|ref|>equation<|/ref|><|det|>[[196, 789, 923, 828]]<|/det|>
+\[
+G_{(1;2'539)}(-1) = \frac{(-1)^1 - (-1)^{2'539+1}}{1 - (-1)} = \frac{-1 - 1}{2} = \frac{-2}{2} = \frac{-1}{2}. \quad (37)
+\]
+
+<|ref|>text<|/ref|><|det|>[[170, 836, 317, 853]]<|/det|>
+iii) Wir erhalten 
+
+<|ref|>equation<|/ref|><|det|>[[196, 861, 923, 910]]<|/det|>
+\[
+\sum_{k=0}^{10} 2^k = G_{(0;10)}(2) = \frac{2^0 - 2^{10+1}}{1 - 2} = \frac{1 - 2'048}{-1} = 2'048 - 1 = \frac{2'047}{2}. \quad (38)
+\]

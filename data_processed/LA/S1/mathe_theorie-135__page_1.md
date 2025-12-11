@@ -1,0 +1,62 @@
+<|ref|>text<|/ref|><|det|>[[20, 10, 565, 42]]<|/det|>
+Bsp: Geade : P₁(0; 1; -1), a = (-1/2) 
+
+<|ref|>text<|/ref|><|det|>[[135, 48, 560, 81]]<|/det|>
+Ebene : P₀(1; 5; 2), n = (1/3) 
+
+<|ref|>equation<|/ref|><|det|>[[135, 105, 656, 135]]<|/det|>
+\[ \langle n, a \rangle = \langle (1/3), (-1/2) \rangle = -2 - 4 + 6 = 0 \]
+
+<|ref|>text<|/ref|><|det|>[[150, 145, 777, 175]]<|/det|>
+→ n ⊥ a, d.h. Geade ist parallel zu Ebene 
+
+<|ref|>text<|/ref|><|det|>[[150, 185, 810, 214]]<|/det|>
+→ Abstand de Geaden von de Ebene bestimmen 
+
+<|ref|>text<|/ref|><|det|>[[150, 224, 583, 253]]<|/det|>
+→ Herse Normalform de Ebene 
+
+<|ref|>equation<|/ref|><|det|>[[234, 260, 540, 293]]<|/det|>
+\[ n = \frac{1}{\sqrt{4+1+9}} \cdot (1/3) = \frac{1}{14} \cdot (1/3) \]
+
+<|ref|>equation<|/ref|><|det|>[[234, 303, 500, 328]]<|/det|>
+\[ \langle n, n \rangle - \langle n, n \rangle = 0 \]
+
+<|ref|>equation<|/ref|><|det|>[[234, 338, 714, 390]]<|/det|>
+\[ \frac{1}{14} \cdot (2x + y + 3z) - \frac{1}{14} \cdot \langle (1/3), (1/3) \rangle = 0 \]
+
+<|ref|>text<|/ref|><|det|>[[198, 400, 384, 427]]<|/det|>
+P₁ einstellen : 
+
+<|ref|>equation<|/ref|><|det|>[[234, 435, 720, 468]]<|/det|>
+\[ \frac{1}{14} \cdot (2 \cdot 0 + 1 + 3 \cdot (-1)) - \frac{1}{14} \cdot 13 = -\frac{15}{14} \]
+
+<|ref|>equation<|/ref|><|det|>[[238, 476, 480, 504]]<|/det|>
+\[ d = |-\frac{15}{14}| \approx 4,01 \]
+
+<|ref|>text<|/ref|><|det|>[[20, 536, 543, 568]]<|/det|>
+Bsp: q : P₁(2; 1; 5) a = (1/3) 
+
+<|ref|>equation<|/ref|><|det|>[[135, 574, 777, 606]]<|/det|>
+\[ E : P₀(3; 4; 1) n = (-1/3) \rightarrow 2x - y + z \]
+
+<|ref|>equation<|/ref|><|det|>[[129, 628, 909, 663]]<|/det|>
+\[ \langle n, a \rangle = \langle (-1/3), (1/3) \rangle = 6 + 4 + 0 = 10 \neq 0 \rightarrow q \# E \]
+
+<|ref|>equation<|/ref|><|det|>[[135, 670, 520, 714]]<|/det|>
+\[ n \cdot n = n^2 + \frac{\langle n, n \rangle \cdot \langle n, n \rangle - \langle n, n \rangle^2}{\langle n, n \rangle} \cdot n \]
+
+<|ref|>equation<|/ref|><|det|>[[165, 723, 650, 777]]<|/det|>
+\[ = \frac{1}{3} + \frac{\langle (1/3), (1/3) \rangle - \langle (1/3), (1/3) \rangle}{\langle (1/3), (1/3) \rangle} \cdot \frac{1}{3} \]
+
+<|ref|>equation<|/ref|><|det|>[[165, 789, 864, 833]]<|/det|>
+\[ = \frac{1}{3} + \frac{3 - 8}{10} \cdot \frac{1}{3} = \frac{1}{3} \cdot \frac{1}{2} \cdot \frac{1}{3} = \frac{1}{3} \left( \frac{1}{2} \right) \cdot \frac{1}{3} = \frac{1}{3} \cdot 0.5 = \frac{1}{3} \cdot \frac{1}{3} \]
+
+<|ref|>text<|/ref|><|det|>[[125, 845, 585, 878]]<|/det|>
+→ Schnittpunkt : (-1,6; 5,8; 5) 
+
+<|ref|>equation<|/ref|><|det|>[[165, 885, 720, 928]]<|/det|>
+\[ \sin \varphi = \frac{|\langle n, a \rangle|}{|\langle n, |a| \rangle|} = \frac{110}{\sqrt{6} \cdot \sqrt{25}} = \frac{10^2}{\sqrt{6} \cdot 5} = \frac{2}{\sqrt{6}} \]
+
+<|ref|>equation<|/ref|><|det|>[[215, 944, 580, 978]]<|/det|>
+\[ \varphi = \arcsin \left( \frac{2}{\sqrt{6}} \right) \approx 54,74^\circ \]

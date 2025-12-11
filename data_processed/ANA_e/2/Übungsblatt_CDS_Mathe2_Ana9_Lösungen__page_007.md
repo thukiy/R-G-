@@ -1,0 +1,77 @@
+<|ref|>text<|/ref|><|det|>[[115, 81, 144, 99]]<|/det|>
+a) 
+
+<|ref|>text<|/ref|><|det|>[[115, 97, 612, 116]]<|/det|>
+Wir berechnen zuerst die beiden partiellen Ableitungen 
+
+<|ref|>equation<|/ref|><|det|>[[365, 115, 636, 159]]<|/det|>
+\[f_x = \frac{3x^2}{y+3}, \quad f_y = -\frac{x^3}{(y+3)^2}\]
+
+<|ref|>text<|/ref|><|det|>[[115, 169, 533, 191]]<|/det|>
+und setzen dort den Punkt \((x_0, y_0) = (2, 1)\) ein: 
+
+<|ref|>equation<|/ref|><|det|>[[308, 199, 692, 226]]<|/det|>
+\[f_x(2, 1) = \frac{12}{4} = 3, \quad f_y(2, 1) = -\frac{8}{16} = -0,5\]
+
+<|ref|>text<|/ref|><|det|>[[115, 222, 755, 247]]<|/det|>
+Zusammen mit \(f(2, 1) = \frac{8}{4} = 2\) ergeben diese Werte die Tangentialebene 
+
+<|ref|>equation<|/ref|><|det|>[[373, 258, 629, 283]]<|/det|>
+\[z = 2 + 3(x - 2) - \frac{1}{2}(y - 1)\]
+
+<|ref|>text<|/ref|><|det|>[[115, 284, 144, 303]]<|/det|>
+b) 
+
+<|ref|>equation<|/ref|><|det|>[[120, 303, 845, 325]]<|/det|>
+\[z_x = (2x - x^2 - y^2) \cdot e^{-x}; \quad z_y = 2y \cdot e^{-x}; \quad z_x(0; 1) = -1; \quad z_y(0; 1) = 2\]
+
+<|ref|>equation<|/ref|><|det|>[[120, 338, 671, 359]]<|/det|>
+\[z - 1 = -1(x - 0) + 2(y - 1) \quad \Rightarrow \quad z = -x + 2y - 1\]
+
+<|ref|>text<|/ref|><|det|>[[115, 358, 144, 376]]<|/det|>
+c) 
+
+<|ref|>equation<|/ref|><|det|>[[115, 375, 884, 410]]<|/det|>
+\[z_x = 3y^{-1/2} - 2\pi \cdot \sin(\pi x + 2\pi y); \quad z_y = -\frac{3}{2}xy^{-3/2} - 4\pi \cdot \sin(\pi x + 2\pi y);\]
+
+<|ref|>equation<|/ref|><|det|>[[120, 416, 740, 438]]<|/det|>
+\[z_x(2; 1) = 3; \quad z_y(2; 1) = -3; \quad P = (2; 1; 8); \quad z = 3x - 3y + 5\]
+
+<|ref|>text<|/ref|><|det|>[[115, 440, 144, 458]]<|/det|>
+d) 
+
+<|ref|>text<|/ref|><|det|>[[115, 455, 880, 497]]<|/det|>
+Die gesuchte Tangentialebene muss in der \(x\)- bzw. \(y\)-Richtung den *gleichen* Anstieg haben wie die Ebene \(z = 8x + 2y\), d. h. im (noch unbekannten) Flächenpunkt \(P_0\) müssen die partiellen Ableitungen 1. Ordnung die Werte \(f_x(x_0; y_0) = 8\) und \(f_y(x_0; y_0) = 2\) haben. Mit \(f_x(x; y) = z_x = 2x\) und \(f_y(x; y) = z_y = 2y\) folgt also: 
+
+<|ref|>equation<|/ref|><|det|>[[160, 500, 518, 540]]<|/det|>
+\[\begin{aligned} f_x(x_0; y_0) &= 2x_0 = 8 \\ f_y(x_0; y_0) &= 2y_0 = 2 \end{aligned} \quad \Rightarrow \quad x_0 = 4, \quad y_0 = 1\]
+
+<|ref|>text<|/ref|><|det|>[[115, 546, 681, 563]]<|/det|>
+Die zugehörige Höhenkoordinate ist \(z_0 = f(x_0; y_0) = f(4; 1) = 16 + 1 - 7 = 10\). 
+
+<|ref|>text<|/ref|><|det|>[[115, 565, 435, 583]]<|/det|>
+Flächenpunkt: \(P_0 = (x_0; y_0; z_0) = (4; 1; 10)\) 
+
+<|ref|>text<|/ref|><|det|>[[115, 591, 560, 608]]<|/det|>
+Gleichung der Tangentialebene in \(P_0 = (x_0; y_0; z_0) = 4; 1; 10\) 
+
+<|ref|>equation<|/ref|><|det|>[[160, 612, 540, 630]]<|/det|>
+\[z - z_0 = f_x(x_0; y_0) \cdot (x - x_0) + f_y(x_0; y_0) \cdot (y - y_0)\]
+
+<|ref|>equation<|/ref|><|det|>[[160, 637, 852, 655]]<|/det|>
+\[z - 10 = 8(x - 4) + 2(y - 1) = 8x - 32 + 2y - 2 = 8x + 2y - 34 \quad \Rightarrow \quad z = 8x + 2y - 24\]
+
+<|ref|>sub_title<|/ref|><|det|>[[115, 669, 330, 688]]<|/det|>
+## 6. Totales Differenzial 
+
+<|ref|>text<|/ref|><|det|>[[115, 686, 866, 775]]<|/det|>
+a) Berechnen Sie das totale Differenzial df der Funktion \(F(x, y, z) = x^4 + 2x \cos y - \sqrt{2} \sin y \cos z\). Durch die Gleichung \(F(x, y, z) = 0\) ist lokal um die Stelle \((1; \pi/2; \pi/4)\) eine Funktion \(z = f(x, y)\) gegeben. Berechnen Sie das totale Differenzial \(dz = df\) dieser Funktion an der genannten Stelle. Wie ändert sich demzufolge näherungsweise die Variable \(z\), wenn man \(x\) und \(y\) jeweils um 0,1 erhöht? 
+
+<|ref|>text<|/ref|><|det|>[[115, 772, 600, 791]]<|/det|>
+b) Bestimmen Sie das totale Differential der Funktion 
+
+<|ref|>equation<|/ref|><|det|>[[145, 790, 500, 810]]<|/det|>
+\[u = u(x, y, z) = \ln \sqrt{(2x^2 + 2y^2 + 2z^2)^3}.\]
+
+<|ref|>text<|/ref|><|det|>[[145, 808, 872, 860]]<|/det|>
+Wie lautet es an der Stelle (-1;2;-2)? Welchen Näherungswert für die abhängige Variable \(u\) liefert das totale Differential für die Änderungen \(dx = 0,1\), \(dy = -0,2\) und \(dz = -0,1\)?

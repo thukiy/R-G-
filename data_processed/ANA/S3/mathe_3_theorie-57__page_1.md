@@ -1,0 +1,5 @@
+<|ref|>sub_title<|/ref|><|det|>[[25, 12, 592, 44]]<|/det|>
+## Entwicklung einer p-periodischen Funktion 
+
+<|ref|>table<|/ref|><|det|>[[0, 0, 999, 997]]<|/det|>
+<table><tr><td>f(x) = f(x+p)</td><td>p ist Periode</td></tr><tr><td>f(x) sei stückweise stetig differenzierbar auf ]x₀, x₀ + p [.</td><td></td></tr><tr><td>Die Fourier-Reihe ergibt sich an:</td><td></td></tr><tr><td>f(x) = \(\frac{a_0}{2} + \sum_{k=1}^{\infty} [a_k \cos(\frac{2\pi k}{p} \cdot x) + b_k \sin(\frac{2\pi k}{p} \cdot x)]\)</td><td></td></tr><tr><td>a₀ = \(\frac{1}{p} \int_{x_0}^{x_0+p} f(x) \, dx\)</td><td></td></tr><tr><td>a_k = \(\frac{1}{p} \int_{x_0}^{x_0+p}f(x) \cdot \cos(\frac{2\pi k}{p} \cdot x) \, dx\)</td><td></td></tr><tr><td>b_k = \(\frac{1}{p} \int_{x_0}^{x_0 + p} f(x) \cdot \sin(\frac{2\pi k}{p} \cdot x) \, dx\)</td><td></td><td></td></tr></table>

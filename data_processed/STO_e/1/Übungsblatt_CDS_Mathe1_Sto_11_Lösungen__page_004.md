@@ -1,0 +1,14 @@
+<|ref|>equation<|/ref|><|det|>[[117, 81, 880, 265]]<|/det|>
+\[
+\begin{align*}
+\text{Mindestpunktzahl: } a &\Rightarrow P(X \ge a) = 0,6; \quad U = \frac{X - \mu}{\sigma} = \frac{X - 20}{4} \\
+P(X \ge a) &= P\left(U \ge \frac{a - 20}{4}\right) = P(U \ge c) = 0,6 \quad \left(\text{mit } c = \frac{a - 20}{4}\right) \\
+P(U \ge c) &= 1 - P(U \le c) = 1 - \phi(c) = 0,6 \Rightarrow \phi(c) = 0,4 < 0,5 \Rightarrow \\
+c < 0 \quad (\text{Wir setzen } c = -k \text{ mit } k > 0) \Rightarrow \phi(c) = \phi(-k) = 1 - \phi(k) = 0,4 \Rightarrow \\
+\phi(k) = 0,6 \Rightarrow k = 0,253 \Rightarrow c = -k = -0,253 \Rightarrow c = \frac{a - 20}{4} = -0,253 \Rightarrow \\
+a = 4c + 20 = -1,012 + 20 = 18,988 \approx 19
+\end{align*}
+\]
+
+<|ref|>text<|/ref|><|det|>[[117, 271, 583, 290]]<|/det|>
+Daher: Die geforderte Mindestpunktzahl betrug 19 Punkte.

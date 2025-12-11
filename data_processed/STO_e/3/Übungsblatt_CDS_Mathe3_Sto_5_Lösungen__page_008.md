@@ -1,0 +1,5 @@
+<|ref|>table<|/ref|><|det|>[[118, 99, 636, 290]]<|/det|>
+<table><tr><td>Y<br/>X</td><td>5</td><td>10</td><td>15</td><td>Σ</td></tr><tr><td>1</td><td>0,075</td><td>0,300</td><td>0,125</td><td>0,500</td></tr><tr><td>2</td><td>0,045</td><td>0,180</td><td>0,075</td><td>0,300</td></tr><tr><td>3</td><td>0,030</td><td>0,120</td><td>0,050</td><td>0,200</td></tr><tr><td>Σ</td><td>0,150</td><td>0,600</td><td>0,250</td><td></td></tr><tr><td colspan="5">f<sub>2</sub> (y)</td></tr></table>
+
+<|ref|>text<|/ref|><|det|>[[620, 175, 686, 197]]<|/det|>
+\(f_{1}(x)\)

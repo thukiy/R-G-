@@ -1,0 +1,3 @@
+{
+  "markdown": "<|ref|>sub_title<|/ref|><|det|>[[24, 40, 281, 85]]<|/det|>\nBeispiel: Wurf einer M\u00fcnze \n\n<|ref|>text<|/ref|><|det|>[[57, 117, 422, 175]]<|/det|>\n- Elemente ereignisse : \\(z \\& K\\) \n\n<|ref|>text<|/ref|><|det|>[[57, 202, 390, 260]]<|/det|>\n- \\(n = 1000\\) Durchf\u00fchrungen \n\n<|ref|>text<|/ref|><|det|>[[57, 288, 440, 414]]<|/det|>\n- Ewaltung : \\(Anzahl K = 500\\)\n  Anzahl \\(z = 500\\) \n\n<|ref|>text<|/ref|><|det|>[[67, 472, 816, 540]]<|/det|>\n- absolute H\u00e4ufigkeit kann wirst von Ewaltung abweichen ? \n\n<|ref|>text<|/ref|><|det|>[[67, 545, 598, 688]]<|/det|>\n- relative H\u00e4ufigkeit : \\(h_n(z) \\approx h_n(k) \\approx \\frac{1}{2}\\)\n  f\u00fcr grosses \\(n\\)"
+}

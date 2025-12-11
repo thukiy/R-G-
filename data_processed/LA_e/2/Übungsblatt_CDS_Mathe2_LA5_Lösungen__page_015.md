@@ -1,0 +1,34 @@
+<|ref|>text<|/ref|><|det|>[[115, 83, 144, 100]]<|/det|>
+c) 
+
+<|ref|>text<|/ref|><|det|>[[115, 99, 863, 170]]<|/det|>
+Hintereinanderausführung von Drehung um denselben Winkel \(\alpha\), jedoch in entgegengesetzte Richtung, sollte zur Ausgangssituation führen. D. h., dass \(R_\alpha\) und \(R_{-\alpha}\) zueinander inverse Matrizen sein sollten. Dies können wir mittels Matrixmultiplikation nachrechnen: 
+
+<|ref|>equation<|/ref|><|det|>[[120, 170, 780, 510]]<|/det|>
+\[
+\begin{align*}
+R_\alpha \cdot R_{-\alpha} &= \begin{bmatrix} \cos(\alpha) & -\sin(\alpha) \\ \sin(\alpha) & \cos(\alpha) \end{bmatrix} \cdot \begin{bmatrix} \cos(\alpha) & \sin(\alpha) \\ -\sin(\alpha) & \cos(\alpha) \end{bmatrix} \\
+&= \begin{bmatrix} \cos(\alpha) \cos(\alpha) + (-\sin(\alpha))(-\sin(\alpha)) & \cos(\alpha) \sin(\alpha) - \sin(\alpha) \cos(\alpha) \\ \sin(\alpha) \cos(\alpha) + \cos(\alpha)(-\sin(\alpha)) & \sin(\alpha) \sin(\alpha) + \cos(\alpha) \cos(\alpha) \end{bmatrix} \\
+&= \begin{bmatrix} \cos^2(\alpha) + \sin^2(\alpha) & \cos(\alpha) \sin(\alpha) - \sin(\alpha) \cos (\alpha) \\ \sin(\alpha) \cos(\alpha) - \cos(\alpha) \sin(\alpha) & \sin^2(\alpha) + \cos^2(\alpha) \end{bmatrix} \\
+&= \begin{bmatrix} 1 & 0 \\ 0 & 1 \end{bmatrix} = \mathbb{1} \\
+R_{-\alpha} \cdot R_\alpha &= \begin{bmatrix} \cos(\alpha) & \sin(\alpha) \\ -\sin(\beta) & \cos(\alpha) \end{bmatrix} \cdot \begin{bmatrix} \cos (\alpha) & -\sin(\alpha) \\ \sin(\alpha) & \cos(\alpha)\end{bmatrix} \\
+&= \begin{bmatrix} \cos(\alpha) \cos(\alpha) & +\sin(\alpha) \sin(\alpha) & \cos(\alpha)(-\sin(\alpha)) & +\sin(\alpha) \cos(\alpha) \\ (-\sin(\alpha)) \cos(\alpha) & +\cos(\alpha) \sin(\alpha) & (-\sin(\alpha))(-\sin(\alpha)) & +\cos(\alpha) \cos(\alpha) \end{bmatrix} \\
+&= \begin{bmatrix} 1 & 0 \\ \sin(\alpha) & 1 \end{bmatrix} = \mathbb{1} \\
+\end{align*}
+\]
+
+<|ref|>text<|/ref|><|det|>[[115, 512, 147, 529]]<|/det|>
+d) 
+
+<|ref|>text<|/ref|><|det|>[[115, 527, 868, 600]]<|/det|>
+Die Hintereinanderausführung der Matrizen \(R_\alpha\) und \(R_\beta\) sollte aus geometrischer Sicht bedeuten, dass zuerst eine Drehung um \(\alpha\) und anschliessend eine Drehung um \(\beta\) (bzw. umgekehrt) ausgeführt wird \(\Rightarrow\) insgesamt also um den Winkel \(\alpha+\beta\). Dies bedeutet, dass gelten sollte: \(R_\alpha \cdot R_\beta = R_\beta \cdot R_\alpha = R_{\alpha+\beta}\). 
+
+<|ref|>equation<|/ref|><|det|>[[115, 600, 800, 770]]<|/det|>
+\[
+\begin{align*}
+R_\alpha \cdot R_\beta &= \begin{bmatrix} \cos(\alpha) & -\sin(\alpha) \\ \sin( \alpha) & \cos(\alpha) \end{bmatrix} \cdot \begin{bmatrix} \sin(\beta) & -\sin(\beta) \\ \sin(\beta) & \cos(\beta) \end{bmatrix} \\
+&= \begin{bmatrix} \cos(\alpha) \cos(\beta) + (-\sin(\alpha)) \sin(\beta) & \cos(\alpha)(-\sin(\beta)) + (-\sin(\alpha)) \cos(\beta) \\ \sin(\alpha) \cos(\beta) + \cos(\alpha) \sin(\beta) & \sin(\alpha)(-\sin(\beta)) + \cos(\alpha) \cos(\beta) \end{bmatrix} \\
+&= \begin{bmatrix} \cos(\alpha)\cos(\beta) - \sin(\alpha)\sin(\beta) & -\cos(\alpha)\sin(\beta) - \sin(\alpha)\cos(\beta) \\ \sin(\alpha)\cos(\beta) + \cos(\alpha)\sin(\beta) & \cos(\alpha)\cos(\beta) - \sin(\alpha)\sin(\beta) \end{bmatrix} \\
+&= \begin{bmatrix} \cos(\alpha + \beta) & -\sin(\alpha + \beta) \\ \sin(\alpha + \beta) & \cos(\alpha + \beta) \end{bmatrix} = R_{\alpha+\beta}
+\end{align*}
+\]

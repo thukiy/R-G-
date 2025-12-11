@@ -1,0 +1,54 @@
+<|ref|>equation<|/ref|><|det|>[[123, 85, 875, 236]]<|/det|>
+\[
+\begin{align*}
+a_n &= \frac{1}{\pi} \cdot \int_0^{2\pi} (2\pi x - x^2) \cdot \cos(nx) \, dx = 2 \cdot \int_0^{2\pi} x \cdot \cos(nx) \, dx - \frac{1}{\pi} \cdot \int_0^{2\pi} x^2 \cdot \cos(nx) \, dx \\
+&= 2 \left[ \frac{\cos(nx)}{n^2} + \frac{x \cdot \sin(nx)}{n} \right]_0^{2\pi} - \frac{1}{\pi} \left[ \frac{2x \cdot \cos(nx)}{n^2} + \frac{(n^2x^2 - 2) \cdot \sin(nx)}{n^3} \right]_0^{2\pi} \\
+&= 2 \left( \frac{1}{n^2} - \frac{1}{n^2} \right) - \frac{1}{\pi} \left( \frac{4\pi}{n^2} \right) = -\frac{4}{n^2} \quad (n \in \mathbb{N}^*) 
+\end{align*}
+\]
+
+<|ref|>text<|/ref|><|det|>[[125, 244, 498, 263]]<|/det|>
+(Integrale: 232 und 233, jeweils mit \(a = n\)) 
+
+<|ref|>text<|/ref|><|det|>[[125, 275, 696, 295]]<|/det|>
+\(b_n = 0 \quad (f(x) \text{ ist eine gerade Funktion, daher keine Sinusglieder})\)
+
+<|ref|>equation<|/ref|><|det|>[[123, 304, 725, 343]]<|/det|>
+\[
+f(x) = \frac{2}{3}\pi^2 - 4\left(\frac{1}{1^2} \cdot \cos x + \frac{1}{2^2} \cdot \cos(2x) + \frac{1}{3^2} \cdot \cos(3x) + \ldots\right)
+\]
+
+<|ref|>text<|/ref|><|det|>[[115, 348, 144, 365]]<|/det|>
+c) 
+
+<|ref|>text<|/ref|><|det|>[[115, 364, 839, 384]]<|/det|>
+\(f(x) = |x|, -\pi \le x \le \pi; \text{ gerade Funktion (Integration von } 0 \text{ bis } \pi, \text{ daher Faktor } 2)\) 
+
+<|ref|>equation<|/ref|><|det|>[[125, 390, 880, 560]]<|/det|>
+\[
+\begin{align*}
+a_0 &= \frac{1}{\pi} \cdot \int_{-\pi}^{\pi} |x| \, dx = \frac{2}{\pi} \cdot \int_{0}^{\pi} x \, dx = \frac{2}{\pi} \left[ \frac{1}{2} x^2 \right]_0^{\pi} = \pi \\
+a_n &= \frac{1}{\pi} \cdot \int_{-\pi}^{\pi} |x|\cdot\cos(nx)\,dx = \frac{2}{\pi} \cdot \int_{0}^{\pi} x \cdot \cos(nx)\,dx = \frac{2}{\pi} \left[ \frac{\cos(nx)}{n^2} + \frac{x \sin(nx)}{n} \right]_0^{\pi} = \\
+&= \frac{2}{\pi} \left( \frac{\cos(n\pi)}{n^2} - \frac{1}{n^2} \right) = \frac{2\left[(-1)^n - 1\right]}{\pi n^2} = \begin{cases} -\frac{4}{\pi} \cdot \frac{1}{n^2} & n = 1, 3, 5, \dots \\ 0 & n = 2, 4, 6, \dots \end{cases}
+\end{align*}
+\]
+
+<|ref|>text<|/ref|><|det|>[[130, 565, 519, 584]]<|/det|>
+(Integral: 232 mit \(a = n\); \(\cos(n\pi) = (-1)^n\)) 
+
+<|ref|>text<|/ref|><|det|>[[130, 595, 680, 615]]<|/det|>
+\(b_n = 0 \quad (f(x) \text{ ist ein gerade Funktion, daher keine Sinusglieder})\) 
+
+<|ref|>equation<|/ref|><|det|>[[125, 625, 692, 664]]<|/det|>
+\[
+f(x) = \frac{\pi}{2} - \frac{4}{\pi} \left( \frac{1}{1^2} \cdot \cos x + \frac{1}{3^2} \cdot \cos(3x) +  \frac{1}{5^2} \cdot \cos(5x) + \ldots \right)
+\]
+
+<|ref|>text<|/ref|><|det|>[[115, 721, 207, 739]]<|/det|>
+Integrale: 
+
+<|ref|>equation<|/ref|><|det|>[[120, 747, 718, 842]]<|/det|>
+\[
+(232) \quad \int x \cdot \cos(ax) \, dx = \frac{\cos(ax)}{a^2} + \frac{x \cdot \sin(ax)}{a} \\
+(233) \quad \int x^2 \cdot \cos(ax) \, dx = \frac{2x \cdot \cos(ax)}{a^2} + \frac{(a^2x^2 - 2) \cdot \sin(ax)}{a^3}
+\]

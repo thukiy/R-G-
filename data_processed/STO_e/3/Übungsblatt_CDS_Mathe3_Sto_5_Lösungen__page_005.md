@@ -1,0 +1,56 @@
+<|ref|>text<|/ref|><|det|>[[115, 84, 141, 100]]<|/det|>
+c) 
+
+<|ref|>equation<|/ref|><|det|>[[115, 100, 475, 120]]<|/det|>
+\[f_1(2) \cdot f_2(0) = 0,4 \cdot 0,7 = 0,28 = f(2; 0)\]
+
+<|ref|>equation<|/ref|><|det|>[[115, 127, 475, 147]]<|/det|>
+\[f_1(2) \cdot f_3(1) = 0,4 \cdot 0,2 = 0,08 = f(2; 1)\]
+
+<|ref|>equation<|/ref|><|det|>[[115, 154, 525, 173]]<|/det|>
+\[f_1(2) \cdot f_4(2) = 0,4 \cdot 0,1 = 0,04 = f(2; 2) \text{ usw.}\]
+
+<|ref|>text<|/ref|><|det|>[[119, 178, 690, 196]]<|/det|>
+Es gilt: \(f(x; y) = f_1(x) \cdot f_2(y)\) (für \(x = 2,4,6\) und \(y = 0,1,2\)) ⇒ 
+
+<|ref|>text<|/ref|><|det|>[[119, 195, 561, 211]]<|/det|>
+\(X\) und \(Y\) sind stochastisch unabhängige Zufallsvariable. 
+
+<|ref|>sub_title<|/ref|><|det|>[[115, 228, 511, 246]]<|/det|>
+## 6. Stetige 2-dimensionale Zufallsvariable 
+
+<|ref|>text<|/ref|><|det|>[[115, 246, 816, 280]]<|/det|>
+Die Verteilung einer stetigen zweidimensionalen Zufallsvariablen (X,Y) besitze die Dichtefunktion 
+
+<|ref|>equation<|/ref|><|det|>[[115, 278, 652, 333]]<|/det|>
+\[f(x,y) = \begin{cases} k^* e^{-2x-y} & x \ge 0, y \ge 0 \\ 0 & \text{alle übrigen (x, y)} \end{cases}\]
+
+<|ref|>text<|/ref|><|det|>[[115, 330, 770, 348]]<|/det|>
+a) Bestimmen Sie die Konstante k durch Normierung der Dichtefunktion. 
+
+<|ref|>text<|/ref|><|det|>[[115, 346, 686, 364]]<|/det|>
+b) Wie lauten die Dichten \(f_1(x)\) und \(f_2(y)\) der Randverteilungen? 
+
+<|ref|>text<|/ref|><|det|>[[115, 362, 856, 397]]<|/det|>
+c) Bestimmen Sie die Erwartungswerte E(X) und E(Y) sowie die Varianzen Var(X) und Var(Y). 
+
+<|ref|>text<|/ref|><|det|>[[115, 395, 694, 414]]<|/det|>
+d) Berechnen Sie die Wahrscheinlichkeit P(0 ≤ X ≤ 2; 0 ≤ Y ≤ 3). 
+
+<|ref|>equation<|/ref|><|det|>[[115, 428, 866, 530]]<|/det|>
+\[ \begin{align*} a) \quad & \int_{x=0}^{\infty} \int_{y=0}^{\infty} k \cdot e^{-2x-y} \, dy \, dx = k \cdot \int_{0}^{\infty} e^{-2x} \, dx \cdot \int_{0}^{\infty} e^{-y} \, dy = \\ &= k \left[ -\frac{1}{2} \cdot e^{-x} \right]_{0}^{\infty} \cdot \left[ -e^{-y} \right]_{0}^{\infty} = k \left( 0 + \frac{1}{2} \right) (0 + 1) = \frac{1}{2} k = 1 \Rightarrow k = 2 \end{align*} \]
+
+<|ref|>text<|/ref|><|det|>[[156, 532, 533, 550]]<|/det|>
+(Integrale: 312 mit \(a = -2\) bzw. \(a = -1\)) 
+
+<|ref|>equation<|/ref|><|det|>[[115, 562, 816, 640]]<|/det|>
+\[ \begin{align*} b) \quad & f_1(x) = 2 \cdot \int_{y=0}^{\infty} e^{-2x-y} \, dy = 2 \cdot e^{-2x} \cdot \int_{0}^{\infty} e^{-y} \, dy = 2 \cdot e^{-2x} \left[ -e^{-y} \right]_{0}^{\infty} = \\ &= 2 \cdot e^{-2x} (0 + 1) = 2 \cdot e^{-2x} \quad (\text{Integral } 312 \text{ mit } a = -1) \end{align*} \]
+
+<|ref|>equation<|/ref|><|det|>[[155, 653, 844, 740]]<|/det|>
+\[ \begin{align*} f_2(y) = 2 \cdot \int_{x=0}^{\infty} e^{-2x-y} \, dx = 2 \cdot e^{-y} \cdot \int_{0}^{\infty} e^{-2x} \, dx = 2 \cdot e^{-y} \left[ -\frac{1}{2} \cdot e^{-2x} \right]_{0}^{\infty} = \\ &= 2 \cdot e^{-y} \left( 0 + \frac{1}{2} \right) = e^{-y} \quad (\text{Integral } 312 \text{ mit } a = -2) \end{align*} \]
+
+<|ref|>equation<|/ref|><|det|>[[115, 744, 802, 810]]<|/det|>
+\[ \begin{align*} c) \quad & E(X) = 2 \cdot \int_{0}^{\infty} x \cdot e^{-2x} \, dx = 2 \left[ -\frac{2x-1}{4} \cdot e^{-2x} \right]_{0}^{\infty} = 2 \left( 0 + \frac{1}{4} \right) = \frac{1}{2} \\ & \qquad \text{Integral } 313 \text{ mit } a = -2 \end{align*} \]
+
+<|ref|>equation<|/ref|><|det|>[[156, 825, 863, 900]]<|/det|>
+\[ \begin{align*} E(X^2) = 2 \cdot \int_{0}^{\infty} x^2 \cdot e^{-2x} \, dx = 2 \left[ \frac{4x^2 + 4x + 2}{-8} \cdot e^{-2x} \right]_{0}^{\infty} = 2\left( 0 + \frac{2}{8} \right) = \frac{1}{2} \\ & \qquad \text{ Integral } 314 \text{ mit } a = -2 \end{align*} \]

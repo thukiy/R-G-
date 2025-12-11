@@ -1,0 +1,3 @@
+{
+  "markdown": "<|ref|>sub_title<|/ref|><|det|>[[333, 15, 658, 66]]<|/det|>\n## Differentialgleichungen \n\n<|ref|>text<|/ref|><|det|>[[44, 138, 450, 177]]<|/det|>\nAnwendung auf (technische) Fragestellung: \n\n<|ref|>text<|/ref|><|det|>[[45, 225, 679, 262]]<|/det|>\n1. Mathematische Modellierung und Aufstellen der DGL bzw. PDGL \n\n<|ref|>text<|/ref|><|det|>[[44, 291, 551, 328]]<|/det|>\n2. Formulierung von AB und RB, also AWP und RWP \n\n<|ref|>text<|/ref|><|det|>[[44, 358, 590, 395]]<|/det|>\n3. L\u00f6sen der DGL unter Ber\u00fccksichtigung von AB und RB \n\n<|ref|>text<|/ref|><|det|>[[44, 425, 626, 463]]<|/det|>\n4. R\u00fcck\u00fcbertragung der L\u00f6sung auf eigentliche Fragestellung"
+}

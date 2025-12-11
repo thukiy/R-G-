@@ -1,0 +1,3 @@
+{
+  "markdown": "<|ref|>text<|/ref|><|det|>[[47, 29, 320, 61]]<|/det|>\nmit Pythagoreos : \n\n<|ref|>equation<|/ref|><|det|>[[67, 67, 640, 199]]<|/det|>\n\\[\n\\begin{align*}\nA^2 &= (u_1 + u_2)^2 + (v_1 + v_2)^2 \\\\\n&= A_1^2 + A_2^2 + 2A_1A_2 \\cos(p_2 - p_1) \\\\\nA &= \\sqrt{A_1^2 + A_2^2 + 2A_1A_2\\cos(p_2 - p_1)}\n\\end{align*}\n\\]\n\n<|ref|>equation<|/ref|><|det|>[[67, 220, 310, 260]]<|/det|>\n\\[\n\\tan \\varphi = \\frac{v_1 + v_2}{u_1 + u_2}\n\\]\n\n<|ref|>text<|/ref|><|det|>[[110, 285, 833, 394]]<|/det|>\n\u2192 \u03c6 munn mittels Skizze \u00fcberpr\u00fcft werden, da\nresulterender deger z.B. im 3. Quadranten\neigen kann \n\n<|ref|>image<|/ref|><|det|>[[113, 447, 800, 914]]<|/det|>"
+}

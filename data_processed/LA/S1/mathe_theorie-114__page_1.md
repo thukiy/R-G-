@@ -1,0 +1,8 @@
+<|ref|>image<|/ref|><|det|>[[100, 8, 390, 163]]<|/det|>
+ 
+
+<|ref|>equation<|/ref|><|det|>[[101, 179, 595, 220]]<|/det|>
+Ortsvektor: \(\overrightarrow{OP} = \left(\frac{p_1}{p_2}\right) \overrightarrow{OQ} = \left(\frac{q_1}{q_2}\right)\)
+
+<|ref|>equation<|/ref|><|det|>[[101, 235, 831, 316]]<|/det|>
+Verbindungsvektor: \(\overrightarrow{PQ} = -\overrightarrow{OP} + \overrightarrow{OQ} = -\left(\frac{p_1}{p_2}\right) + \left(\frac{q_1}{q_2}\right) = \left(\frac{q_1 - p_1}{q_2 - p_2}\right)\)

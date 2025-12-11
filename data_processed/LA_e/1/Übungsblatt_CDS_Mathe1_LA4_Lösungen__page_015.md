@@ -1,0 +1,72 @@
+<|ref|>table<|/ref|><|det|>[[120, 83, 380, 197]]<|/det|>
+<table><tr><td>2 -1</td><td>0</td><td>0</td><td>0</td><td>5</td></tr><tr><td>1</td><td>2 -1</td><td>0</td><td>0</td><td>1</td></tr><tr><td>0</td><td>1</td><td>2 -1</td><td>0</td><td>-2</td></tr><tr><td>0</td><td>0</td><td>1</td><td>2 -1</td><td>-5</td></tr><tr><td>0</td><td>0</td><td>0</td><td>1</td><td>2</td></tr></table>
+
+<|ref|>table<|/ref|><|det|>[[390, 83, 710, 197]]<|/det|>
+<table><tr><td>1</td><td>2 -1</td><td>0</td><td>0</td><td>1</td></tr></table>
+
+<|ref|>table<|/ref|><|det|>[[120, 207, 380, 321]]<|/det|>
+<table><tr><td>1</td><td>2 -1</td><td>0</td><td>0<td>1</td></td></tr><tr><td>0</td><td>-5</td><td>2</td><td>0</td><td>0</td><td>3</td></tr><tr><td>0</td><td>1</td><td>2 -1</td><td>0</td><td>-3</td></tr><tr><td>0</td><td>0</td><td>1</td><td>2 -1</td><td>-4</td></tr><tr><td>0</td><td>0</td><td>0</td><td>1</td><td>2</td></tr><tr><td></td><td></td><td></td><td></td><td></td></tr></table>
+
+<|ref|>table<|/ref|><|det|>[[120, 330, 380, 444]]<|/det|>
+<table><tr><td>1</td><td>2 -1</td><td>0</td><td>0<br/>1</td></tr><tr><td>0</td><td>[1]</td><td>2 -1</td><td>0</td></tr><tr><td>0</td><td>0</td><td>12 -5</td><td>0</td></tr><tr><td>0</td><td>0</td><td>1</td><td>2 -1</td></tr><tr><td>0</td><td>0</td><td>0</td><td>1</td></tr></table>
+
+<|ref|>table<|/ref|><|det|>[[390, 207, 710, 321]]<|/det|>
+<table><tr><td>1</td><td>2 -1</td><td>0<td>0</td><td>1</td></td></tr><tr><td>0</td><td>[1]</td><td>2 -1</td><td>0</td><td>-2</td></tr><tr><td>0</td><td>-5</td><td>2</td><td>0</td><td>0</td></tr><tr><td>0</td><td>0</td><td>1</td><td>2 -1<td>-5</td></td></tr><tr><td>0</td><td>0</td><td>0</td><td>1</td><td>2</td></tr><td></td><td></td><td></td><td></td></table>
+
+<|ref|>table<|/ref|><|det|>[[390, 330, 710, 444]]<|/det|>
+<table><tr><td>1</td><td>2 -1</td><td>0<td>0</td></td></tr><tr><td>0</td><td>[1]</td><td>2 -1</td><td>-2</td></tr><tr><td>0</td><td>0</td><td>[1]</td><td>2 -1</td></tr><tr><td>0</td><td>0</td><td>12</td><td>-5</td></tr><tr><td>0</td><td>0</td><td>0</td><td>1</td></tr><tr><td></td><td></td><td></td><td></td></tr></table>
+
+<|ref|>table<|/ref|><|det|>[[120, -2, 380, 197]]<|/det|>
+<table><tr><td>2 -1</td><td>0<td>0</td><td>0</td><td>5</td></td></tr><tr><td>1</td><td>2 -1</td><td>0</td><td>0</td><td>1<br/>-2</td></tr><tr><td>0</td><td>1</td><td>2 -1</td><td>0</td><td>-5</td></tr><tr><td>0</td><td>0</td><td>1</td><td>2 -1</td><td>-3</td></tr><tr><td>0</td><td>0</td><td>0</td><td>1</td><td>2</td></tr></tr></table>
+
+<|ref|>table<|/ref|><|det|>[[120, 454, 380, 568]]<|/det|>
+<table><tr><td>1</td><td>2 -1</td><td>0</td><td>0<!--<td-->1</td></tr><tr><td>0</td><td>[1]</td><td>2 -1</td><td>0<br/>-2</td></tr><tr><td>0</td><td>0</td><td>[1]</td><td>2 -2</td></tr><tr><td>0</td><td>0</td><td>0</td><td>-29</td></tr><tr><td>0</td><td>0</td><td>0</td><td>1</td></tr></table>
+
+<table><tr><td>1</td><td>2 -1</td><td>0</td><td>0</td><td>1<br/>2</td></tr><tr><td>0</td><td>[1]</td><td>2 -1</td><td>0</td><tr><td>0</td><td>0</td><td>[1]</td><td>2 -1</td></tr><tr><tr><td>0</td><td>0</td><td>0</td><td>[1]</td></tr><tr><td>0</td><td>0</td><td>0</td><td>[1]</td></tr><tr><td></td><td></td><td></td><td></td></tr></table>
+
+<|ref|>table<|/ref|><|det|> [[390, 454, 710, 568]]<|/det|>
+<table><tr><td>1</td><td>2 -1</td><td>0<td>0</td>1</td></tr><tr><td>0</td><td>[1]</td><td>2 -1</td><td>0 -2</td></tr><tr><td>0</td><td>0</td><td>[1]</td><td>2 -1 -5</td></tr><tr><td>0</td><td>0</td><td>0</td><td>[1]</td></tr><tr><tr><td></td><td></td><td></td><td></td></tr></table>
+
+<|ref|>table<|/ref|><|det|>[[1200, 83, 380, 197]]<|/det|>
+<table><tr><td>2 -1<td>0</td><td>0</td><td>0</td><td>5</td></td></tr><tr><td>1</td><td>2 -1<td>0</td><td>0</td><td>-2</td></td></tr><tr><td>0</td><td>1</td><td>2 -1<td>0</td><td>-5</td></td></tr><tr><td>0</td><td>0</td><td>1</td><td>2 -1</td><td>-2</td></tr><tr><td>0</td><td>0</td><td>0</td><td>1</td><td>2</td></tr></td></tr></table>
+
+<|ref|>table<|/ref|><|det|>[[120, 577, 380, 703]]<|/det|>
+<table><tr><td>1</td><td>2 -1</td><td>0</td><td>0 1</td></tr><tr><td>0</td><td>[1]</td><td>2 -1</td><td>-2 0</td></tr><tr><td>0</td><td>0</td><td>[1]</td><td>2 -1 -2</td></tr><tr><td>0</td><td>0</td><td>0</td><td>[1]</td></tr><tr></tr><tr><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr><td>0</td><td>0</td><td>0</td><td>70</td></tr></table>
+
+<|ref|>table<|/ref|><|det|>[[390, 577, 710, 703]]<|/det|>
+<table><tr><td>1</td><td>2 -1</td><td>0<td>0</td><br/>1</td></tr><tr><td>0</td><td>[1]</td><td>2 -1</td></tr><tr><td>0</td><td>[1]</td><td>2 -1</td></tr><tr><tr><td>0</td></tr><tr><td>0</td><td>0</td><td>0</td></tr><tr><td>0</td><td>0</td><td>0<br/>1</td></tr><tr><td></td><td></td><td></td></tr></table>
+
+<|ref|>table<|/ref|><|det|>[[120, 0, 380, 197]]<|/det|>
+<table><tr><td>2 -1</td><td>0<br/>-2</td><td>0</td><td>1</td></tr><tr><td>0</td><td>1</td><td>2 -1<br/>-5</td><td>0</td></tr><tr><td>0</td><td>0</td><td>1</td><td>2</td></tr><tr><td>0</td><td>0</td><td>0</td><td>1</td></tr><tr><td></td></tr><tr><td></td></tr></table>
+
+<|ref|>table<|/ref|><|det|>[[120, 0, 380, <br/> 0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0<td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr><td>0</td><td>0<td>0</td><td>0</td><td>0</td><td>0</td><td>0<td>0</td><td>0<td>0</td><td>0</td><td>0</td><td>0</td><td>0<br/>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0<br/>0</td><td>1</td><td>0</td></td></tr><tr><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><tr><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr></tr></table>
+
+<|ref|>table<|/ref|><|det|>[[120, 0, 380, 1970]]<|/det|>
+<table><tr><td>2 -1</td><td>0</td><td>0</td><td>0<td>1</td></td></tr><tr><td>0</td><td>-5</td></tr><tr><td>0</td><td>0</td><td>1</td><td>-2</td></tr><tr><td>0</td><td>0</td><td>0</td><td>1<td>-5</td></td></tr><tr><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td></tr><tr><td></td><td></td><td>0</td><td>0</td><td>0</td></tr><tr><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td></tr><tr><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr><td>0<td>0</td><td>0</td><td>0</td><td>0</td></td></tr><tr><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr><td>0</td></tr><tr><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr><td>0<td>0</td></tr><tr><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr></tr><tr><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr></tr><tr><td></td><td></td><td>0</td><td>0</td></tr><tr><td>0</td><td>0</td><td>0</td><td>1</td></tr><tr><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr><td>0<br/>0</td><td>0</td><td>0</td><td>0</td></tr><tr><td>0</td><td>0</td></tr><tr><td>0</td><td>0</td><td>0</td><td>0<br/>0</td></tr><tr><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr><td></td><td></td><td>0</td><td>0</td></tr><tr><td>0</td><td>0<br/>0</td><td>0</td><td>0</td></tr><tr><td>0</td><td>0</td><td>0</td></tr><tr><td>0</td></tr><tr><td>0</td></tr><tr><td>0</td></tr><tr><td>0</td></tr></table>
+
+<|ref|>table<|/ref|><|det|>[[390, 0, 710, 197]]<|/det|>
+<table><tr><td>1</td><td>2 -1<td>0</td><td>0</td><td>1</td></td></tr><tr><td>0</td><td>[1]</td><td>2-1</td><td>0</td><td>-2</td></tr><tr><td>0</td><td>0</td><td>[1]</td><td>-2</td><td>-5</td></tr><tr><td>0</td><td>0</td><td>0</td><td>[1]</td><td>-2</td></tr><tr><td>0</td><td>0</td><td>0</td><td>[1]</td><td>2</td></tr><tr><td>0</td><td>0</td><td>0</td><td>[1]</td><td>3</td></tr><tr><td>0</td><td>0</td><td>0</td><td>[1]</td><td>2<br/>0</td></tr><tr><td>0</td><td>0</td><td>0</td><td>[1]</td><td>2 -1</td></tr><tr><td></td><td></td><td></td><td></td><td></td></tr></table>
+
+<|ref|>table_caption<|/ref|><|det|>[[120, 710, 470, 728]]<|/det|>
+Durch Rückwärtseinsetzen erhalten wir 
+
+<|ref|>equation<|/ref|><|det|>[[470, 735, 536, 753]]<|/det|>
+\(x_5 = 2\)
+
+<|ref|>equation<|/ref|><|det|>[[288, 758, 710, 777]]<|/det|>
+\(x_4 + 2x_5 = 3 \quad \Rightarrow \quad x_4 = 3 - 2x_5 = 3 - 4 = -1\)
+
+<|ref|>equation<|/ref|><|det|>[[244, 782, 822, 801]]<|/det|>
+\(x_3 + 2x_4 - x_5 = -5 \quad \Rightarrow \quad x_3 = -5 - 2x_4 + x_5 = -5 + 2 + 2 = -1\)
+
+<|ref|>equation<|/ref|><|det|>[[244, 806, 822, 825]]<|/det|>
+\(x_2 + 2x_3 - x_4 = -2 \quad \Rightarrow \quad x_2 = -2 - 2x_3 + x_4 = -2 + 2 - 1 = -1\)
+
+<|ref|>equation<|/ref|><|det|>[[244, 830, 778, 849]]<|/det|>
+\(x_1 + 2x_2 - x_3 = 1 \quad \Rightarrow \quad x_1 = 1 - 2x_2 + x_3 = 1 + 2 - 1 = 2\).
+
+<|ref|>text<|/ref|><|det|>[[120, 858, 494, 876]]<|/det|>
+Die Lösungsmenge des LGLS ist demnach 
+
+<|ref|>equation<|/ref|><|det|>[[405, 885, 655, 908]]<|/det|>
+\[L = \{(2; -1; -1; -1; 2)\}.\]

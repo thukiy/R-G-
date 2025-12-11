@@ -1,0 +1,20 @@
+<|ref|>sub_title<|/ref|><|det|>[[333, 7, 673, 60]]<|/det|>
+# Beschreibende Statistik 
+
+<|ref|>text<|/ref|><|det|>[[25, 115, 360, 157]]<|/det|>
+Klassifizierte Häufigkeitsverteilung: 
+
+<|ref|>text<|/ref|><|det|>[[25, 156, 777, 201]]<|/det|>
+Tabellarische Darstellung nur möglich, wenn Anzahl der Merkmalswerte ca. ≤ 15 
+
+<|ref|>text<|/ref|><|det|>[[25, 199, 600, 245]]<|/det|>
+→ sonst: Zusammenfassung von Merkmalswerten in Klassen 
+
+<|ref|>text of text<|/ref|><|det|>[[25, 241, 456, 288]]<|/det|>
+→ identische Klassenbreite ist zu bevorzugen 
+
+<|ref|>text<|/ref|><|det|>[[25, 345, 370, 388]]<|/det|>
+Rechnungsbeträge von 140 Kunden 
+
+<|ref|>table<|/ref|><|det|>[[370, 395, 893, 999]]<|/det|>
+<table><tr><td>j</td><td>Rechnungsbetrag (EUR) von ... bis unter ...</td><td>hj</td><td>Hj</td><td>fj</td><td>Fj</td></tr><tr><td>1</td><td>0 20</td><td>10</td><td>10</td><td>0,07</td><td>0,07</td></tr><tr><td>2</td><td>20 40</td><td>20</td><td>30</td><td>0,14</td><td>0,21</td></tr><tr><td>3</td><td>40 60</td><td>60</td><td>90</td><td>0,43</td><td>0,64</td></tr><tr><td>4</td><td>60 80</td><td>35</td><td>125</td><td>0,25</td><td>0,89</td></tr><tr><td>5</td><td>80 100</td><td>10</td><td>135</td><td>0,07</td><td>0,96</td></tr><tr><td>6</td><td>100 120</td><td>5</td><td>140</td><td>0,04</td><td>1,00</td></tr><tr><td></td><td></td><td>140</td><td></td><td>1,00</td><td></td></tr></table>

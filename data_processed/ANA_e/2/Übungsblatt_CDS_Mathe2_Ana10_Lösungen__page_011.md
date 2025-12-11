@@ -1,0 +1,17 @@
+<|ref|>text<|/ref|><|det|>[[118, 85, 722, 130]]<|/det|>
+iv) \(a = b = c\) und \(\lambda = -\frac{-a^2}{8 + 12a}\). Jetzt kommt endlich etwas Vernünftiges heraus. Aus der Nebenbedingung ergibt sich 
+
+<|ref|>equation<|/ref|><|det|>[[346, 142, 520, 158]]<|/det|>
+\[24a + 18a^2 - 50 = 0.\]
+
+<|ref|>text<|/ref|><|det|>[[147, 171, 320, 187]]<|/det|>
+Die Lösungen lauten 
+
+<|ref|>equation<|/ref|><|det|>[[241, 197, 630, 231]]<|/det|>
+\[a = \frac{-24 \pm \sqrt{24^2 + 4 \cdot 50 \cdot 18}}{36} = -\frac{2}{3} \pm \sqrt{\frac{4}{9} + \frac{25}{9}}.\]
+
+<|ref|>text<|/ref|><|det|>[[147, 241, 640, 257]]<|/det|>
+Also ist das Volumen maximal bei den positiven Seitenlängen 
+
+<|ref|>equation<|/ref|><|det|>[[335, 268, 539, 303]]<|/det|>
+\[a = b = c = -\frac{2}{3} + \sqrt{\frac{29}{9}}.\]

@@ -1,0 +1,50 @@
+<|ref|>sub_title<|/ref|><|det|>[[20, 12, 383, 40]]<|/det|>
+Spaltenvektor Konstruktion 
+
+<|ref|>text<|/ref|><|det|>[[48, 49, 857, 81]]<|/det|>
+es liege Abo. \(L: \mathbb{R}^2 \to \mathbb{R}^2\) mit \(L(\vec{x}) = A \cdot \vec{x}\) mit \(A = \begin{pmatrix} a & b \\ c & d \end{pmatrix}\) vor 
+
+<|ref|>text<|/ref|><|det|>[[48, 110, 525, 137]]<|/det|>
+Bilder des Einheitsvektoren \(\hat{e}_1\) und \(\hat{e}_2\): 
+
+<|ref|>equation<|/ref|><|det|>[[55, 145, 485, 175]]<|/det|>
+\[L(\hat{e}_1) = A \cdot \hat{e}_1 = \begin{pmatrix} a & b \\ c & d \end{pmatrix} \cdot \begin{pmatrix} 1 \\ 0 \end{pmatrix} = \begin{pmatrix} a \\ c \end{pmatrix}\]
+
+<|ref|>equation<|/ref|><|det|>[[55, 183, 485, 213]]<|/det|>
+\[L(\hat{e}_2) = A \cdot \hat{e}_2 = \begin{pmatrix} a & b \\ c & d \end{pmatrix} \cdot \left( \begin{pmatrix} 0 \\ 1 \end{pmatrix} \right) = \begin{pmatrix} b \\ d \end{pmatrix}\]
+
+<|ref|>text<|/ref|><|det|>[[48, 249, 896, 312]]<|/det|>
+⇒ allgemein: Bild von \(\hat{e}_u\) ist \(k\)-te Spalte des Abbildungsmatrix \(A\) bzw. Spaltenvektoren \(\hat{d}_u\) und die Bilder des Einheitsvektoren \(\hat{e}_k\) 
+
+<|ref|>text<|/ref|><|det|>[[15, 366, 678, 393]]<|/det|>
+Bsp.: Streckung um Faktor ausgehend vom Ursprung 
+
+<|ref|>image<|/ref|><|det|>[[163, 400, 380, 512]]<|/det|>
+ 
+
+<|ref|>equation<|/ref|><|det|>[[416, 400, 561, 430]]<|/det|>
+\[A \cdot \hat{e}_1 = \begin{pmatrix} 3 \\ 0 \end{pmatrix}\]
+
+<|ref|>equation<|/ref|><|det|>[[416, 440, 560, 470]]<|/det|>
+\[A \cdot \hat{e}_2 = \begin{pmatrix} 0 \\ 3 \end{pmatrix}\]
+
+<|ref|>equation<|/ref|><|det|>[[440, 479, 640, 521]]<|/det|>
+\[\rightarrow A = \begin{pmatrix} 3 & 3 \\ 0 & 0 \end{pmatrix}\]
+
+<|ref|>equation<|/ref|><|det|>[[122, 553, 606, 584]]<|/det|>
+\[\cdot L: \mathbb{R}^2 \to \mathbb{R}^2 \quad L = ((\vec{x})) = (\vec{x} \cdot \vec{y})\]
+
+<|ref|>equation<|/ref|><|det|>[[156, 593, 420, 622]]<|/det|>
+\[L(\hat{e}_1) = L((\vec{0})) = (\vec{1})\]
+
+<|ref|>equation<|/ref|><|det|>[[156, 617, 720, 664]]<|/det|>
+\[L(\hat{e}_2) = L((\vec{0})) = (\vec{-1})\]
+
+<|ref|>equation<|/ref|><|det|>[[122, 692, 315, 721]]<|/det|>
+\[\cdot L: \mathbb{R}^2 \to \mathbb{R}^3\]
+
+<|ref|>equation<|/ref|><|det|>[[156, 725, 797, 770]]<|/det|>
+\[L((\vec{x})) = \begin{pmatrix} \vec{x} \\ \vec{x} \cdot \vec{y} \end{pmatrix}\]
+
+<|ref|>equation<|/ref|><|det|>[[156, 760, 797, 820]]<|/det|>
+\[L(\hat{e}_1) = \begin{pmatrix} 0 \\ 1 \end{pmatrix} \quad L_2(\hat{e}_2) = \begin{pmatrix} 3 \\ -1 \end{pmatrix} \rightarrow A = \begin{pmatrix} 0 & 3 \\ 1 & -1 \end{pmatrix}\]

@@ -1,0 +1,3 @@
+{
+  "markdown": "<|ref|>text<|/ref|><|det|>[[120, 88, 412, 104]]<|/det|>\nAubere Integration (nach der Variablen \\(\\phi\\) )  \n\n<|ref|>equation<|/ref|><|det|>[[162, 110, 750, 155]]<|/det|>\n\\[V = \\frac{1}{2} (\\mathsf{e} - 1)\\cdot \\int_{\\phi = 0}^{2\\pi}1d\\phi = \\frac{1}{2} (\\mathsf{e} - 1)\\left[\\phi \\right]_{0}^{2\\pi} = \\frac{1}{2} (\\mathsf{e} - 1)(2\\pi -0) = (\\mathsf{e} - 1)\\pi\\]  \n\n<|ref|>text<|/ref|><|det|>[[120, 167, 357, 183]]<|/det|>\nVolumen: \\(V = (\\mathsf{e} - 1)\\pi = 5,398\\)"
+}

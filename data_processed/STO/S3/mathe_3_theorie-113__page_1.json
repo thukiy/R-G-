@@ -1,0 +1,3 @@
+{
+  "markdown": "<|ref|>sub_title<|/ref|><|det|>[[330, 12, 661, 60]]<|/det|>\n# Beschreibende Statistik \n\n<|ref|>text<|/ref|><|det|>[[24, 188, 784, 315]]<|/det|>\nQualitatives Merkmal:\nDen m\u00f6glichen Merkmalswerten werden Namen bzw. Bezeichnungen zugeordnet.\nBeispiel: Farbe \u00b1 rot, gelb, blau, usw. \n\n<|ref|>text<|/ref|><|det|>[[24, 355, 368, 483]]<|/det|>\nQuantitatives Merkmal:\nBesitzt messbare Dimension.\nBeispiel: Alter oder Mitarbeiteranzahl \n\n<|ref|>text<|/ref|><|det|>[[24, 563, 918, 650]]<|/det|>\nMerkmal kann stetig oder diskret sein, genauso auch h\u00e4ufigbar (Interessengebiete, Wohnsitz) oder nicht-h\u00e4ufbar (K\u00f6rpergr\u00f6sse, Augenfarbe)"
+}

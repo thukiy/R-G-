@@ -1,0 +1,47 @@
+<|ref|>sub_title<|/ref|><|det|>[[115, 165, 489, 201]]<|/det|>
+# Übungsblatt Sto 10 
+
+<|ref|>text<|/ref|><|det|>[[576, 179, 880, 196]]<|/det|>
+Computational and Data Science 
+
+<|ref|>text<|/ref|><|det|>[[755, 199, 880, 215]]<|/det|>
+BSc HS2024 
+
+<|ref|>sub_title<|/ref|><|det|>[[115, 232, 270, 260]]<|/det|>
+## Lösungen 
+
+<|ref|>text<|/ref|><|det|>[[750, 240, 880, 257]]<|/det|>
+Mathematik 3 
+
+<|ref|>text<|/ref|><|det|>[[115, 285, 210, 303]]<|/det|>
+Lernziele: 
+
+<|ref|>text<|/ref|><|det|>[[115, 303, 870, 352]]<|/det|>
+- Sie kennen die Begriffe Regressionsanalyse, Regressor, Regressand, Regressionskoeffizient und Methode der kleinsten Quadrate und ihre wichtigsten Eigenschaften. 
+
+<|ref|>text<|/ref|><|det|>[[115, 351, 740, 370]]<|/det|>
+- Sie können für gegebene Daten eine Regressionskurve aufstellen. 
+
+<|ref|>sub_title<|/ref|><|det|>[[115, 401, 333, 420]]<|/det|>
+### 1. Regressionsgerade 
+
+<|ref|>text<|/ref|><|det|>[[115, 418, 816, 452]]<|/det|>
+Bestimmen und zeichnen Sie die jeweilige Ausgleichsgerade für die folgenden Messwerte: 
+
+<|ref|>text<|/ref|><|det|>[[115, 453, 145, 469]]<|/det|>
+a) 
+
+<|ref|>table<|/ref|><|det|>[[115, 467, 690, 522]]<|/det|>
+<table><tr><td>i</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td></tr><tr><td>xi</td><td>0</td><td>1</td><td>2</td><td>3</td><td>4</td></tr><tr><td>yi</td><td>2,10</td><td>0,85</td><td>-0,64</td><td>-2,20</td><td>-3,60</td></tr></table>
+
+<|ref|>text<|/ref|><|det|>[[115, 536, 145, 552]]<|/det|>
+b) 
+
+<|ref|>table<|/ref|><|det|>[[115, 550, 880, 606]]<|/det|>
+<table><tr><td>i</td><td>1</td><td>2</td><td>3</td><td></td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td></tr><tr><td>xi</td><td>1,5</td><td>1,7</td><td>2,5</td><td></td><td>3,1</td><td>3,5</td><td>4,0</td><td>4,6</td><td>5,9</td></tr><tr><td>yi</td><td>1,9</td><td>2,2</td><td>2,7</td><td></td><td>3,4</td><td>4,1</td><td>4,2</td><td>5,3</td><td>6,1</td></tr></table>
+
+<|ref|>text<|/ref|><|det|>[[115, 636, 145, 653]]<|/det|>
+a) 
+
+<|ref|>table<|/ref|><|det|>[[115, 651, 630, 840]]<|/det|>
+<table><tr><td>i</td><td>xi</td><td>yi</td><td>xi²</td><td>yi²</td><td>xi yi</td></tr><tr><td>1</td><td>0</td><td>2,10</td><td>0</td><td>4,41</td><td>0</td></tr><tr><td>2</td><td>1</td><td>0,85</td><td>1</td><td>0,7225</td><td>0,85</td></tr><tr><td>3</td><td>2</td><td>-0,64</td><td>4</td><td>0,4096</td><td>-1,28</td></tr><tr><td>4</td><td>3</td><td>-2,20</td><td>9</td><td>4,84</td><td>-6,60</td></tr><tr><td>5</td><td>4</td><td>-3,60</td><td>16</td><td>12,96</td><td>-14,40</td></tr><tr><td>Σ</td><td>10</td><td>-3,49</td><td>30</td><td>23,3421</td><td>-21,43</td></tr></table>

@@ -1,0 +1,3 @@
+{
+  "markdown": "<|ref|>text<|/ref|><|det|>[[24, 40, 293, 87]]<|/det|>\nBeispiel: Wurf eines W\u00fcrfels \n\n<|ref|>equation<|/ref|><|det|>[[108, 112, 384, 170]]<|/det|>\n\\[ \\Omega = \\xi 1, 2, 3, 4, 5, 6 \\}\n\n\\[ P(\\omega_i) = \\frac{1}{6} \\]\n\n<|ref|>equation<|/ref|><|det|>[[117, 290, 535, 437]]<|/det|>\n\\[ \\text{gesucht Augenzahl: } A = \\xi 2, 4, 6 \\}\n\\[ P(A) = \\frac{3}{6} = \\frac{1}{2} \\]\n\n<|ref|>text<|/ref|><|det|>[[20, 572, 703, 870]]<|/det|>\nBsp: zweimaliges Wegen eine M\u00fcnze\n\u2192 mindestens 1mal z\u00e4hlt: \\( A = \\{\\xi \\xi \\xi, \\xi K, K \\xi \\} \\)\n\\[ \\Omega = \\{\\xi \\xi \\xi, \\xi K, K \\xi, K \\xi \\} \\]\n\\[ P(A) = \\frac{3}{4} \\cong 75\\% \\]"
+}

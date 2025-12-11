@@ -1,0 +1,53 @@
+<|ref|>text<|/ref|><|det|>[[114, 83, 140, 99]]<|/det|>
+a) 
+
+<|ref|>equation<|/ref|><|det|>[[120, 101, 620, 142]]<|/det|>
+\[ \underline{v} = \frac{\langle \mathbf{v}, \mathbf{w} \rangle}{\langle \mathbf{w}, \mathbf{w} \rangle} \cdot \mathbf{w} = \frac{2 \cdot 6 + 3 \cdot 0}{6^2 + 0^2} \cdot \begin{bmatrix} 6 \\ 0 \end{bmatrix} = \frac{2 \cdot 6}{6 \cdot 6} \cdot \begin{bmatrix} 6 \\ 0 \end{bmatrix} = \begin{bmatrix} 2 \\ 0 \end{bmatrix} \]
+
+<|ref|>equation<|/ref|><|det|>[[117, 156, 437, 197]]<|/det|>
+\[ \underline{v}_{\perp} = \mathbf{v} - \mathbf{v}_{\parallel} = \begin{bmatrix} 2 \\ 3 \end{bmatrix} - \begin{bmatrix} 2 \\ 0 \end{bmatrix} = \begin{bmatrix} 0 \\ 3 \end{bmatrix}. \]
+
+<|ref|>text<|/ref|><|det|>[[114, 201, 140, 217]]<|/det|>
+b) 
+
+<|ref|>equation<|/ref|><|det|>[[120, 220, 627, 260]]<|/det|>
+\[ \underline{v}_{\parallel} = \frac{\langle \mathbf{v}, \mathbf{w} \rangle}{\langle \overline{\mathbf{w}}, \mathbf{w} \rangle} \cdot \mathbf{w} = \frac{2 \times 0 + 3 \times 6}{0^2 + 6^2} \cdot \begin{bmatrix} 0 \\ 6 \end{bmatrix} = \frac{3 \times 6}{6 \times 6} \cdot \begin{bmatrix} 0 \\ 6 \end{bmatrix} = \begin{bmatrix} 0 \\ 3 \end{bmatrix} \]
+
+<|ref|>equation<|/ref|><|det|>[[120, 275, 440, 316]]<|/det|>
+\[ \underline{v}_{\perp} = \mathbf{v} - \mathbf{v}_{||} = \begin{bmatrix} 2 \\ 3 \end{bmatrix} - \begin{bmatrix}\phantom{-}0 \\ 3 \end{bmatrix} = \begin{bmatrix} 2 \\ 0 \end{bmatrix}. \]
+
+<|ref|>text<|/ref|><|det|>[[114, 320, 140, 336]]<|/det|>
+c) 
+
+<|ref|>equation<|/ref|><|det|>[[117, 339, 770, 379]]<|/det|>
+\[ \underline{v}_{\parallel} = \frac{\langle \mathbf{v}, w \rangle}{\langle \mathbf{w}, w \rangle} \cdot \mathbf{w} = \frac{1 \cdot 6 + (-7) \cdot 8}{6^2 + 8^2} \cdot \begin{bmatrix} 6 \\ 8 \end{bmatrix} = \frac{-50}{100} \cdot \begin{bmatrix} 6 \\ 8 \end{bmatrix} = -\frac{1}{2} \cdot \begin{bmatrix} 6 \\ 8 \end{bmatrix} = -\begin{bmatrix} -3 \\ -4 \end{bmatrix} \]
+
+<|ref|>equation<|/ref|><|det|>[[114, 393, 475, 434]]<|/det|>
+\[ \underline{v}_{\perp} = \mathbf{v} - \mathbf{v}_\parallel = \begin{bmatrix} 1 \\ -7 \end{bmatrix} - \begin{bmatrix} -3 \\ -4 \end{bmatrix} = \begin{bmatrix} 4 \\ -3 \end{bmatrix}. \]
+
+<|ref|>text<|/ref|><|det|>[[114, 439, 140, 455]]<|/det|>
+d) 
+
+<|ref|>equation<|/ref|><|det|>[[117, 456, 755, 515]]<|/det|>
+\[ \underline{v}_{\parallel} = \langle \mathbf{v}, \hat{\mathbf{w}} \rangle \cdot \hat{\mathbf{w}} = \frac{(-2) \cdot 1 + (-3) \cdot 0 + 6 \cdot 1}{\sqrt{2}} \cdot \frac{1}{\sqrt{2}} \cdot \begin{bmatrix} 1 \\ 0 \end{bmatrix} = \frac{4}{2} \cdot \begin{bmatrix} 1 \\ 0 \end{bmatrix} = \begin{bmatrix} 2 \\ 0 \end{ bmatrix} \]
+
+<|ref|>equation<|/ref|><|det|>[[114, 528, 475, 589]]<|/det|>
+\[ \underline{v}_{\perp} = \mathbf{v} - \mathbf{v} = \begin{bmatrix} -2 \\ -3 \\ 6 \end{bmatrix} - \begin{bmatrix} 2 \\ 0 \\ 2 \end{bmatrix} = \begin{bmatrix} -4 \\ -3 \\ 4 \end{bmatrix}. \]
+
+<|ref|>text<|/ref|><|det|>[[114, 593, 140, 608]]<|/det|>
+e) 
+
+<|ref|>equation<|/ref|><|det|>[[117, 610, 768, 670]]<|/det|>
+\[ \underline{v}_{\parallel} = \frac{\langle \mathbf{v},w \rangle}{\langle \mathbf{w},w \rangle} \cdot \mathbf{w} = \frac{2 \cdot (-3) + 0 \cdot 1 + 2 \cdot 4}{(-3)^2 + 1^2 + 4^2} \cdot \begin{bmatrix} -3 \\ 1 \\ 4 \end{bmatrix} = \frac{2}{26} \cdot \begin{bmatrix} -3 \\ 1 \\ 4 \end{bmatrix} \cdot \begin{bmatrix} -3 \\ 1 \\ 4 \end{bmatrix} - \frac{1}{13} \cdot \begin{bmatrix} -3 \\ 1 \\ 4 \end{bmatrix} + \frac{29}{22} \cdot \begin{bmatrix} 29 \\ -1 \\ 22 \end{bmatrix}. \]
+
+<|ref|>equation<|/ref|><|det|>[[114, 684, 768, 744]]<|/det|>
+\[ \underline{v}_{\perp} = \mathbf{v} - \mathbf{v}\parallel = \begin{bmatrix} 2 \\ 0 \\ 2 \end{bmatrix} - \frac{1}{13} \begin{bmatrix} -3 \\ 1 \\ 4 \end{bmatrix} = \frac{-1}{13} \cdot \begin{bmatrix} 26 \\ 0 \\ 26 \end{bmatrix} - \frac{-1}{13} \cdot \begin{bmatrix} -3 \\ 1 \\ 4 \right) = \frac{1}{13} \cdot \begin{bmatrix} 29 \\ -1 \\ 22 \end{bmatrix}.} \]
+
+<|ref|>text<|/ref|><|det|>[[114, 749, 140, 764]]<|/det|>
+f) 
+
+<|ref|>equation<|/ref|><|det|>[[117, 767, 728, 842]]<|/det|>
+\[ \underline{v}_{\parallel} = \frac{\langle \mathbf{v}, W \rangle}{\langle \mathbf{w}, W \rangle} \cdot \mathbf{w} = \frac{1 \cdot (-1) + 2 \cdot 1 + 3 \cdot (-1) + 4 \cdot 1}{(-1)^2 + 1^2 + (-1)^2 + 1^2} \cdot \begin{bmatrix} -1 \\ 1 \\ -1 \\ 1 \end{bmatrix} = \frac{2}{4} \cdot \begin{bmatrix} -1 \\ 1 \\ -1 \\ 1 \right) = \frac{1}{4} \cdot \begin{bmatrix} -1 \\ 1 \\ -1 \\ 2 \end{bmatrix}.} \]
+
+<|ref|>equation<|/ref|><|det|>[[144, 848, 250, 927]]<|/det|>
+\[ = \begin{bmatrix} -0.5 \\ 0.5 \\ -0.5 \\ 0.5 \end{bmatrix} \]

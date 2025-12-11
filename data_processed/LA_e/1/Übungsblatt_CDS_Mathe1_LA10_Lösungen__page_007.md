@@ -1,0 +1,59 @@
+<|ref|>equation<|/ref|><|det|>[[115, 80, 339, 118]]<|/det|>
+\[s_0 := Q = \begin{bmatrix} 0 \\ q \end{bmatrix} = \begin{bmatrix} 0 \\ -3 \end{bmatrix}\]
+
+<|ref|>equation<|/ref|><|det|>[[120, 127, 293, 166]]<|/det|>
+\[v := \begin{bmatrix} 1 \\ S \end{bmatrix} = \begin{bmatrix} 1 \\ 2 \end{bmatrix}.\]
+
+<|ref|>text<|/ref|><|det|>[[115, 166, 441, 184]]<|/det|>
+Und wir erhalten die Parameterform 
+
+<|ref|>equation<|/ref|><|det|>[[115, 182, 433, 222]]<|/det|>
+\[\frac{s(\tau)}{s} = s_0 + \tau \cdot v = \begin{bmatrix} 0 \\ -3 \end{bmatrix} + \tau \cdot \begin{bmatrix} 1 \\ 2 \end{bmatrix}\]
+
+<|ref|>text<|/ref|><|det|>[[115, 227, 141, 244]]<|/det|>
+f) 
+
+<|ref|>text<|/ref|><|det|>[[115, 243, 835, 277]]<|/det|>
+Der x-Achsenabschnitt der Geraden ist \(p = 2\) und die Steigung ist \(S = -5\). Daraus erhalten wir 
+
+<|ref|>equation<|/ref|><|det|>[[115, 275, 320, 315]]<|/det|>
+\[s_0 := P = \begin{bmatrix} p \\ 0 \end{bmatrix} = \begin{bmatrix} 2 \\ 0 \end{bmatrix}\]
+
+<|ref|>equation<|/ref|><|det|>[[120, 321, 310, 360]]<|/det|>
+\[v := \begin{bmatrix} 1 \\ S \end{bmatrix} = -5 \begin{bmatrix} 1 \\ -5 \end{bmatrix}.\]
+
+<|ref|>text<|/ref|><|det|>[[115, 356, 473, 373]]<|/det|>
+Die Parameterdarstellung ergibt sich zu 
+
+<|ref|>equation<|/ref|><|det|>[[115, 371, 440, 410]]<|/det|>
+\[\frac{s(\tau)}{s} = s_0 + \tau \times v = \begin{bmatrix} 2 \\ 0 \end{bmatrix} + \tau \cdot \begin{bmatrix} 1 \\ -5 \end{bmatrix}\]
+
+<|ref|>text<|/ref|><|det|>[[115, 412, 612, 430]]<|/det|>
+Als Normalen- und Einheitsnormalenvektor erhalten wir 
+
+<|ref|>equation<|/ref|><|det|>[[120, 428, 290, 469]]<|/det|>
+\[\underline{n} = R_{\frac{\pi}{2}}(v) = \begin{bmatrix} 5 \\ 1 \end{bmatrix}\]
+
+<|ref|>equation<|/ref|><|det|>[[115, 481, 390, 502]]<|/det|>
+\[|n| = \sqrt{5^2 + 1^2} = \sqrt{25 + 1} = \sqrt{26}\]
+
+<|ref|>equation<|/ref|><|det|>[[120, 510, 345, 550]]<|/det|>
+\[\hat{\underline{n}} = \frac{1}{|n|} \cdot n = \frac{1}{\sqrt{26}} \begin{bmatrix} 5 \\ 1 \end{bmatrix}.\]
+
+<|ref|>text<|/ref|><|det|>[[120, 554, 246, 570]]<|/det|>
+Wir berechnen 
+
+<|ref|>equation<|/ref|><|det|>[[120, 576, 711, 615]]<|/det|>
+\[c = - \langle n, s_0 \rangle = - \left\langle \begin{bmatrix} 5 \\ 1 \end{bmatrix}, \begin{bmatrix} 2 \\ 0 \end{bmatrix} \right\rangle = -(5 \cdot 2 + 1 \cdot 0) = -(10 + 0) = -10.\]
+
+<|ref|>text<|/ref|><|det|>[[120, 623, 329, 640]]<|/det|>
+Entlang der *Geraden* gilt 
+
+<|ref|>equation<|/ref|><|det|>[[115, 647, 500, 710]]<|/det|>
+\[0 = \langle n, r \rangle + c \\ 0 = \left\langle \begin{bmatrix} 5 \\ 1 \end{bmatrix}, \begin{bmatrix}x \\ y \end{bmatrix} \right\rangle - 10\]
+
+<|ref|>text<|/ref|><|det|>[[115, 710, 863, 728]]<|/det|>
+Die Normalengleichung ergibt sich zu \(5x + y - 10 = 0\). Die Hessesche Normalform ist 
+
+<|ref|>equation<|/ref|><|det|>[[115, 728, 351, 767]]<|/det|>
+\[\frac{5}{\sqrt{26}} x + \frac{1}{\sqrt{26}} y - \frac{10}{\sqrt{26}} = 0.\]

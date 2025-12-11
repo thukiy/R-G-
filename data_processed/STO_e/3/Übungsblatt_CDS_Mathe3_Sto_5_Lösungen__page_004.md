@@ -1,0 +1,44 @@
+<|ref|>table<|/ref|><|det|>[[115, 81, 500, 325]]<|/det|>
+<table><tr><td>Y<br/>X</td><td>0</td><td>1</td><td>2</td></tr><tr><td>2</td><td></td><td>0,08</td><td>0,04</td><td>0,4</td></tr><tr><td>4</td><td>0,14</td><td></td><td></td><td>0,2</td></tr><tr><td>6</td><td></td><td></td><td>0,04</td><td></td></tr><tr><td></td><td>0,7</td><td></td><td>0,1</td><td></td></tr></table>
+
+<|ref|>equation<|/ref|><|det|>[[265, 308, 320, 327]]<|/det|>
+\(f_{2}(y)\)
+
+<|ref|>text<|/ref|><|det|>[[115, 346, 140, 362]]<|/det|>
+a) 
+
+<|ref|>equation<|/ref|><|det|>[[120, 363, 636, 381]]<|/det|>
+\(f_{1}(6) = 1 - 0,4 - 0,2 = 0,4; \quad f_{2}(1) = 1 - 0,7 - 0,1 = 0,2\)
+
+<|ref|>equation<|/ref|><|det|>[[120, 386, 770, 425]]<|/det|>
+\(f(2;0) = 0,4 - 0,08 - 0,04 = 0,28; \quad f(6;0) = 0,7 - \underbrace{f(2;0)}_{0,28} - 0,14 = 0,28\)
+
+<|ref|>equation<|/ref|><|det|>[[120, 430, 825, 470]]<|/det|>
+\(f(6;1) = \underbrace{f_{1}(6)}_{0,4} - \underbrace{f(6;0)}_{0,28} - 0,04 = 0,08; \quad f(4;1) = \underbrace{f_{2}(1)}_{0,2} - 0,08 - \underbrace{f(6;1)}_{0,08} = 0,04\)
+
+<|ref|>equation<|/ref|><|det|>[[120, 481, 416, 500]]<|/det|>
+\(f(4;2) = 0,1 - 0,04 - 0,04 = 0,02\)
+
+<|ref|>table<|/ref|><|det|>[[120, 508, 512, 666]]<|/det|>
+<table><tr><td>Y<br/>X</td><td>0</td><td>1</td><td>\(2\)</td><td>\(\sum\)</td></tr><tr><td>2</td><td>0,28</td><td>0,08</td><td>0,04</td><td>0,40</td></tr><tr><td>4</td><td>0,14</td><td>0,04</td><td>0,02</td><td>0,20</td></tr><tr><td>6</td><td>0,28</td><td>0,08</td><td>0,04</td><td>0,30</td></tr><tr><td>\(\sum\)</td><td>0,70</td><td>0,20</td><td>0,10</td><td></td></tr></table>
+
+<|ref|>equation<|/ref|><|det|>[[285, 677, 343, 696]]<|/det|>
+\(f_{2}(y)\)
+
+<|ref|>text<|/ref|><|det|>[[115, 700, 140, 716]]<|/det|>
+b) 
+
+<|ref|>table<|/ref|><|det|>[[120, 714, 728, 760]]<|/det|>
+<table><tr><td>\(x_{i}\)</td><td>2</td><td>4</td><td>6</td></tr><tr><td>\(f_{1}(x_{i})\)</td><td>0,4</td><td>0,2</td><td>0,4</td></tr></table>
+
+<|ref|>equation<|/ref|><|det|>[[456, 714, 690, 732]]<|/det|>
+\(y_{i}\) 0 1 2
+
+<|ref|>table<|/ref|><|det|>[[456, 732, 707, 760]]<|/det|>
+<table><tr><td>\(f_{2}(y_{i})\)</td><td>0,7</td><td>0,2</td><td>0,1</td></tr></table>
+
+<|ref|>equation<|/ref|><|det|>[[120, 770, 780, 792]]<|/det|>
+\(\mu_{X} = 0,8 + 0,8 + 2,4 = 4; \quad \sigma_{X}^{2} = (-2)^{2} \cdot 0,4 + 0^{2} \cdot 0,2 + 2^{2} \cdot 0,4 = 3,2\]
+
+<|ref|>equation<|/ref|><|det|>[[120, 800, 829, 823]]<|/det|>
+\(\mu_{Y} = 0 + 0,2 + 0,2 = 0,4; \quad \sigma_{Y}^{2} = (-0,4)^{2} \cdot 0,7 + 0,6^{2} \cdot 0,2 + 1,6^{2} \cdot 0,1 = 0,44\)

@@ -1,0 +1,3 @@
+{
+  "markdown": "<|ref|>text<|/ref|><|det|>[[179, 12, 685, 40]]<|/det|>\nErgebnisraum \u00fcber Ereignisbaum : \n\n<|ref|>text<|/ref|><|det|>[[224, 51, 911, 80]]<|/det|>\n1. Wurf 2. Wurf 3. Wurf ... i. Wurf \n\n<|ref|>equation<|/ref|><|det|>[[231, 92, 920, 440]]<|/det|>\n\\[\n\\begin{align*}\np(z) &= p(w) \\\\\np(A_1) &= \\frac{1}{2} \\\\\np(A_2) &= \\frac{1}{2} \\cdot \\frac{1}{2} = \\frac{1}{4} \\\\\np(A_3) &= \\frac{1}{2} \\cdot \\frac{1}{2} \\cdot \\frac{1}{2} = \\frac{\\frac{1}{8}}{i \\text{-mal}}\n\\end{align*}\n\\]"
+}

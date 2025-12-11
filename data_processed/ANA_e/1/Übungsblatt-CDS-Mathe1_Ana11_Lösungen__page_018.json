@@ -1,0 +1,3 @@
+{
+  "markdown": "<|ref|>text<|/ref|><|det|>[[118, 66, 490, 85]]<|/det|>\nGem\u00e4ss Ausgabe erhalten wir das Integral \n\n<|ref|>equation<|/ref|><|det|>[[118, 98, 225, 115]]<|/det|>\n\\[I \\approx -20.8.\\]\n\n<|ref|>text<|/ref|><|det|>[[91, 135, 364, 154]]<|/det|>\nf) Wir modifizieren den Code. \n\n<|ref|>text<|/ref|><|det|>[[118, 162, 260, 176]]<|/det|>\n# Parameter: \n\n<|ref|>equation<|/ref|><|det|>[[118, 178, 480, 194]]<|/det|>\n\\[f = 2/3 - 16 * x**4; \\quad x_0 = -3/2; \\quad x_E = 0;\\]\n\n<|ref|>text<|/ref|><|det|>[[118, 203, 490, 221]]<|/det|>\nGem\u00e4ss Ausgabe erhalten wir das Integral \n\n<|ref|>equation<|/ref|><|det|>[[118, \u201c 235, 222, 251]]<|/det|>\n\\[I = -23.3.\\]"
+}

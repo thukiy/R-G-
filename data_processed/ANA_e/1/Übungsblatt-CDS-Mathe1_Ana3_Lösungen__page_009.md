@@ -1,0 +1,5 @@
+<|ref|>sub_title<|/ref|><|det|>[[107, 66, 532, 85]]<|/det|>
+9. Aussagen über die Konvergenz von Folgen 
+
+<|ref|>table<|/ref|><|det|>[[107, 94, 920, 277]]<|/det|>
+<table><tr><td>Welche der folgenden Aussagen sind wahr und welche falsch?</td><td>wahr</td><td>falsch</td></tr><tr><td>a) Die Folge \(a_n := n^3\) konvergiert gegen \(\infty\).</td><td>○</td><td>●</td></tr><tr><td>b) Jede beschränkte, reelle Zahlenfolge ist konvergent.</td><td>○</td><td>●</td></tr><tr><td>c) Jede konvergente, reelle Zahlenfolge ist monoton.</td><td>○</td><td>●</td></tr><tr><td>d) Ist eine reelle Zahlenfolge monoton und beschränkt, dann ist sie konvergent.</td><td>●</td><td>○</td></tr><tr><td>e) Eine streng monoton steigende, konvergente, reelle Zahlenfolge nähert sich ihrem Grenzwert an, ohne ihn jemals anzunehmen.</td><td>●</td><td>○</td></tr></table>

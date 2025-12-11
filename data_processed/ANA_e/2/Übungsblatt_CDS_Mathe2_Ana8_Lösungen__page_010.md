@@ -1,0 +1,20 @@
+<|ref|>image<|/ref|><|det|>[[260, 115, 730, 767]]<|/det|>
+ 
+
+<|ref|>text<|/ref|><|det|>[[114, 768, 150, 784]]<|/det|>
+d) 
+
+<|ref|>text<|/ref|><|det|>[[114, 783, 264, 799]]<|/det|>
+# Parameter: 
+
+<|ref|>text<|/ref|><|det|>[[114, 799, 468, 816]]<|/det|>
+x_0=-3; x_E=3; y_0=-3; y_E=3; 
+
+<|ref|>text<|/ref|><|det|>[[114, 815, 816, 832]]<|/det|>
+N_x=401; N_y=401; N_g=10; N_l=31; az=-35-70; el=15; fig=1; 
+
+<|ref|>text<|/ref|><|det|>[[114, 831, 277, 847]]<|/det|>
+# Funktionen: 
+
+<|ref|>text<|/ref|><|det|>[[114, 846, 504, 864]]<|/det|>
+def f(x,y): z=(x*y)/4; return z;

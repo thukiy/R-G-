@@ -1,0 +1,3 @@
+{
+  "markdown": "<|ref|>text<|/ref|><|det|>[[111, 16, 546, 45]]<|/det|>\nstation\u00e4re d\u00f6sung : \\(u' = 0 = 2 - u\\) \n\n<|ref|>equation<|/ref|><|det|>[[381, 58, 465, 80]]<|/det|>\n\\(u = 2\\)\n\n<|ref|>text<|/ref|><|det|>[[111, 92, 615, 123]]<|/det|>\n\u21d2 allgemeine d\u00f6sung : \\(u(x) = 2 + K \\cdot e^{-x}\\) \n\n<|ref|>equation<|/ref|><|det|>[[671, 99, 743, 120]]<|/det|>\n\\(K \\in \\mathbb{R}\\)\n\n<|ref|>text<|/ref|><|det|>[[111, 133, 631, 159]]<|/det|>\nR\u00fccksubstitution : \\(2x - y = u = 2 + K \\cdot e^{-x}\\) \n\n<|ref|>equation<|/ref|><|det|>[[348, 170, 576, 196]]<|/det|>\n\\(y = 2x - 2 - K \\cdot e^{-x}\\)"
+}

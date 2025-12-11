@@ -1,0 +1,79 @@
+<|ref|>text<|/ref|><|det|>[[117, 81, 785, 118]]<|/det|>
+Die direkte Berechnung der gesuchten Wahrscheinlichkeit für mindestens vier Ausschussteile, also 4 oder mehr defekte Güter, 
+
+<|ref|>equation<|/ref|><|det|>[[214, 123, 711, 144]]<|/det|>
+\[P(X \ge 4) = f(4) + f(5) + f(6) + f(7) + \ldots + f(18) + f(19) + f(20),\]
+
+<|ref|>text<|/ref|><|det|>[[117, 151, 784, 186]]<|/det|>
+ist aufwendig zu ermitteln. Es bietet sich deshalb an, die Gegenwahrscheinlichkeit zu verwenden: 
+
+<|ref|>equation<|/ref|><|det|>[[214, 190, 678, 234]]<|/det|>
+\[
+\begin{align*}
+P(X \ge 4) &= 1 - P(X < 4) \\
+&= 1 - [P(X = 0) + P(X = 1) + P(X = 2) + P(X = 3)].
+\end{align*}
+\]
+
+<|ref|>text<|/ref|><|det|>[[117, 240, 551, 259]]<|/det|>
+Man erhält mit Hilfe der Einzelwahrscheinlichkeiten: 
+
+<|ref|>equation<|/ref|><|det|>[[129, 264, 675, 308]]<|/det|>
+\[
+\cdot P(X = 0) = f(0) = \binom{20}{0} \cdot 0,1^0 \cdot 0,9^{20} = \frac{20!}{0!20!} \cdot 0,1^0 \cdot 0,9^{20} = 0,1216
+\]
+
+<|ref|>equation<|/ref|><|det|>[[129, 312, 660, 356]]<|/det|>
+\[
+\cdot P(X = 1) = f(1) = \binom{20}{1} \cdot 0,1^1 \cdot 0,9^{19} = \frac{20!}{1!19!} \cdot 0,1^1 \cdot 0,9^{19} = 0,2702
+\]
+
+<|ref|>equation<|/ref|><|det|>[[129, 359, 675, 403]]<|/det|>
+\[
+\cdot P(X = 2) = f(2) = \binom{20}{2} \cdot 0,1^2 \cdot 0,9^{18} = \frac{20!}{2!18!} \cdot 0,1^2 \cdot 0,9^{18} = 0,2852
+\]
+
+<|ref|>equation<|/ref|><|det|>[[129, 406, 666, 450]]<|/det|>
+\[
+\cdot P(X = 3) = f(3) = \binom{20}{3} \cdot 0,1^3 \cdot 0,9^{17} = \frac{20!}{3!17!} \cdot 0,1^3 \cdot 0,9^{17} = 0,1901
+\]
+
+<|ref|>text<|/ref|><|det|>[[117, 459, 283, 478]]<|/det|>
+folgendes Ergebnis: 
+
+<|ref|>equation<|/ref|><|det|>[[214, 483, 694, 504]]<|/det|>
+\[
+P(X \ge 4) = 1 - (0,1216 + 0,2702 + 0,2852 + 0,1901) = 0,1329.
+\]
+
+<|ref|>sub_title<|/ref|><|det|>[[117, 520, 432, 539]]<|/det|>
+4. Skatspiel --> Papula S. 463 A5 
+
+<|ref|>text<|/ref|><|det|>[[117, 537, 870, 606]]<|/det|>
+Aus einem Skatspiel mit 32 Karten wird eine Karte zufällig entnommen und nach der
+Ziehung wieder zurückgelegt. Dann werden die Karten neu gemischt. Wie oft muss
+man eine Karte ziehen, damit die Wahrscheinlichkeit dafür, mindestens ein „rotes
+Ass“ zu ziehen, grösser als 0,5 ist? 
+
+<|ref|>text<|/ref|><|det|>[[117, 621, 825, 686]]<|/det|>
+Ein „rotes Ass“ (d. h. Herz- oder Karo-Ass) wird im Einzelversuch mit der Wahrscheinlichkeit \(p = 1/16\) gezogen. Die Zufallsvariable \(X\) (= Anzahl der gezogenen „roten Asse“ bei \(n\) Ziehungen) ist daher **binomialverteilt** mit den Parametern \(n\) (noch unbekannt), \(p = 1/16\) und \(q = 15/16\): 
+
+<|ref|>equation<|/ref|><|det|>[[155, 692, 707, 732]]<|/det|>
+\[
+P(X = x) = f(x) = \binom{n}{x} \left( \frac{1}{16} \right)^x \left( \frac{15}{16} \right)^{n-x} \quad (x = 0, 1, 2, \dots, n)
+\]
+
+<|ref|>equation<|/ref|><|det|>[[117, 732, 820, 772]]<|/det|>
+\[
+\text{Ereignis } X = 0 \text{ (kein „rotes Ass“): } P(X = 0) = f(0) < 0,5 \quad \Rightarrow \quad \left( \frac{15}{16} \right)^n < 0,5 \quad \Rightarrow
+\]
+
+<|ref|>equation<|/ref|><|det|>[[117, 767, 565, 805]]<|/det|>
+\[
+\text{Logarithmieren: } n \cdot \ln \left( \frac{15}{16} \right) < \ln 0,5 \quad \Rightarrow \quad n > 10,74
+\]
+
+<|ref|>equation<|/ref|><|det|>[[117, 803, 481, 822]]<|/det|>
+\[
+Lösung: n \ge 11 \quad (n \text{ muss ganzzahlig sein})
+\]

@@ -1,0 +1,3 @@
+{
+  "markdown": "<|ref|>image<|/ref|><|det|>[[115, 78, 880, 720]]<|/det|>\n \n\n<|ref|>text<|/ref|><|det|>[[114, 720, 144, 737]]<|/det|>\nI) \n\n<|ref|>text<|/ref|><|det|>[[114, 735, 866, 789]]<|/det|>\nF\u00fcr die statischen L\u00f6sungen muss gelten: \\(0 = |y|(y + 1)\\). Daraus ergeben sich die L\u00f6sungen \\(y_{s1}(x) = -1\\) (Repellor und instabile L\u00f6sung) und \\(y_{s2}(x) = 0\\) (weder Attraktor noch Repellor). Die Komponenten des Richtungsvektorfeldes sind \n\n<|ref|>equation<|/ref|><|det|>[[123, 803, 692, 846]]<|/det|>\n\\[ \\hat{v}(x; y) = \\frac{1}{\\sqrt{1 + f^2(x; y)}} \\left[ f(x; y) \\right] = \\frac{1}{\\sqrt{1 + (|y| \\cdot (y + 1))^2}} \\left[ |y| \\cdot (y + 1) \\right]. \\]"
+}

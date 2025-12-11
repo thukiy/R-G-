@@ -1,0 +1,3 @@
+{
+  "markdown": "<|ref|>text<|/ref|><|det|>[[115, 83, 866, 199]]<|/det|>\na) Richtig. Eine L\u00f6sung muss die partielle Differenzialgleichung erf\u00fcllen. Um das zu pr\u00fcfen, sind die in der Gleichung auftretenden partiellen Ableitungen zu bilden und auf diese Weise die Funktion \u201eganz normal\u201c in die Gleichung einzusetzen. b) Falsch. Die L\u00f6sung einer partiellen Differenzialgleichung h\u00e4ngt von mindestens zwei Variablen ab. Aufgrund dieses weiteren Freiheitsgrads k\u00f6nnen die Aussagen, die f\u00fcr gew\u00f6hnliche lineare Differenzialgleichungen von Funktionen einer Ver\u00e4nderlichen gelten, nicht auf partielle Gleichungen \u00fcbertragen werden."
+}

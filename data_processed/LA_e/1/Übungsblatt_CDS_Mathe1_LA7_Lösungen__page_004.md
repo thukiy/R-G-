@@ -1,0 +1,92 @@
+<|ref|>sub_title<|/ref|><|det|>[[114, 81, 550, 100]]<|/det|>
+## 6. Vektoren in Linearkombinationen zerlegen 
+
+<|ref|>text<|/ref|><|det|>[[114, 99, 808, 133]]<|/det|>
+Zerlegen Sie den Vektor \(\vec{r}\) in eine Linearkombination der anderen gegebenen Vektoren. 
+
+<|ref|>text<|/ref|><|det|>[[114, 133, 145, 150]]<|/det|>
+a) 
+
+<|ref|>equation<|/ref|><|det|>[[114, 147, 371, 180]]<|/det|>
+\[
+\vec{r} = \begin{pmatrix} 4 \\ 5 \end{pmatrix}, \vec{v} = \begin{pmatrix} 2 \\ 1 \end{pmatrix}, \vec{w} = \begin{pmatrix} -1 \\ 1 \end{pmatrix}.
+\]
+
+<|ref|>text<|/ref|><|det|>[[114, 178, 145, 195]]<|/det|>
+b) 
+
+<|ref|>equation<|/ref|><|det|>[[114, 193, 528, 245]]<|/det|>
+\[
+\vec{r} = \begin{pmatrix} 10 \\ -18 \\ -27 \end{pmatrix}, \vec{u} = \begin{pmatrix} 2 \\ -1 \\ 1 \end{pmatrix}, \vec{v} = \begin{pmatrix} 1 \\ -2 \\ -3 \end{pmatrix}, \vec{w} = \begin{pmatrix} -2 \\ 3 \\ 4 \end{pmatrix}.
+\]
+
+<|ref|>text<|/ref|><|det|>[[114, 256, 145, 273]]<|/det|>
+a) 
+
+<|ref|>equation<|/ref|><|det|>[[114, 271, 639, 310]]<|/det|>
+\[
+a \cdot \begin{bmatrix} 2 \\ 1 \end{bmatrix} + b \cdot \begin{bmatrix} -1 \\ 1 \end{bmatrix} = \begin{bmatrix} 2a \\ a \end{bmatrix} + \begin{bmatrix} -b \\ b \end{bmatrix} = \begin{bmatrix} 2a - b \\ a + b \end{bmatrix} = \begin{bmatrix} 4 \\ 5 \end{bmatrix}.
+\]
+
+<|ref|>text<|/ref|><|det|>[[114, 310, 416, 327]]<|/det|>
+Wir erhalten ein LGS für a und b: 
+
+<|ref|>equation<|/ref|><|det|>[[114, 328, 670, 380]]<|/det|>
+\[
+\begin{bmatrix} 2 & -1 & 4 \\ 1 & 1 & 5 \end{bmatrix} \Leftrightarrow \begin{bmatrix} 1 & 1 & 5 \\ 2 & -1 & 4 \end{bmatrix} \Leftrightarrow \begin{bmatrix} 1 & 1 & 5 & 0 & -3 & -6 \end{bmatrix} \Leftrightarrow \begin{bmatrix} 1 & 1 & 5 \end{bmatrix} \begin{bmatrix} 1 & 1 & 5 \end{bmatrix} \\
+1 \cdot b = 2 \Rightarrow b = 2
+\]
+
+<|ref|>equation<|/ref|><|det|>[[120, 400, 432, 416]]<|/det|>
+\[
+a + b = 5 \Rightarrow a = 5 - b = 5 - 2 = 3.
+\]
+
+<|ref|>text<|/ref|><|det|>[[114, 417, 247, 435]]<|/det|>
+Es ergibt sich: 
+
+<|ref|>equation<|/ref|><|det|>[[114, 433, 238, 451]]<|/det|>
+\[
+\vec{r} = 3\vec{v} + 2\vec{w}
+\]
+
+<|ref|>text<|/ref|><|det|>[[114, 451, 145, 468]]<|/det|>
+b) 
+
+<|ref|>equation<|/ref|><|det|>[[114, 466, 636, 519]]<|/det|>
+\[
+a \cdot \begin{bmatrix} 2 \\ -1 \end{bmatrix} + b \cdot \begin{bmatrix} 1 \\ -2 \end{bmatrix} + c \cdot \begin{bmatrix} -2 \\ 3 \end{bmatrix} = \begin{bmatrix} 10 \\ -18 \\ -27 \end{bmatrix}
+\]
+
+<|ref|>equation<|/ref|><|det|>[[114, 525, 636, 578]]<|/det|>
+\[
+\begin{bmatrix} 2a \\ -a \\ a \end{bmatrix} + \begin{bmatrix} b \\ -2b \\ -3b \end{bmatrix} + \begin{bmatrix} -2c \\ 3c \\ 4c \end{bmatrix} = \begin{bmatrix} 2a + b - 2c \\ -a - 2b + 3c \\ a - 3b + 4c \end{bmatrix} = \begin{bmatrix} 10 \\ -18 \\ -27 \end{ bmatrix}
+\]
+
+<|ref|>text<|/ref|><|det|>[[114, 577, 446, 594]]<|/det|>
+Wir erhalten ein LGS für a, b und c: 
+
+<|ref|>equation<|/ref|><|det|>[[114, 593, 710, 655]]<|/det|>
+\[
+\begin{bmatrix} 2 & 1 & -2 & 10 \\ -1 & -2 & 3 & -18 \\ 1 & -3 & 4 & -27 \end{bmatrix} \Leftrightarrow \begin{bmatrix} 1 & 2 & -3 & 18 \\ 1 & -3 & 4 & -27 \\ 2 & 1 & -2 & 10 \end{bmatrix} \Leftrightarrow \begin{bmatrix} 1 & 2 & -3 \\ 0 & -5 & 7 & -45 \\ 0 & -3 & 4 & -26 \end{bmatrix} \Leftrightarrow \begin{bmatrix} 1 & 2 & -3 \end{bmatrix} \begin{bmatrix} 1 & 2 & -3 \\ 0 & -5 & -7 \\ 0 & -3 & 4 \end{bmatrix} \begin{bmatrix} 1 & 2 & -3 \end{bmatrix} \begin{bmatrix}
+1 & 2 & -3 \\ 0 & -5 & 7 \\ 0 & -3 & 4 \end{bmatrix} \begin{bmatrix} 0 & 5 & -7 \\ 0 & 0 & 1 \end{bmatrix} \begin{bmatrix} 1 & 2 & -3 \end{bmatrix}
+\]
+
+<|ref|>equation<|/ref|><|det|>[[114, 663, 707, 735]]<|/det|>
+\[
+\Leftrightarrow \begin{bmatrix} 1 & 2 & -3 & 18 \\ 0 & 5 & -7 & 45 \\ 0 & 3 & -4 & 26 \end{bmatrix} \Leftrightarrow \begin{bmatrix} 1 & 2 & -2 & 18 \\ 0 & 5 & -7 & 45 \\ 0 & -3 & 4 & -26 \end{bmatrix} \Leftarrow \begin{bmatrix} 1 & 2 & -3 \\ 0 & 5 & -7 \\ 0 & 0 & 1 \end{ bmatrix} \Leftrightarrow \begin{bmatrix} 1 & 2 & -3 \\ 0 \\ 0 \end{bmatrix} \begin{bmatrix} 1 & 2 & -3 \\ 0 \\ 0 \begin{bmatrix} 1 & 2 & -3 \\ 0 \\ 0 \right] \end{bmatrix} \begin{bmatrix} 1 & 2 & -3 \\ 0 \end{bmatrix} \begin{bmatrix} 1 & 2 & -3 \end{bmatrix}.
+\]
+
+<|ref|>equation<|/ref|><|det|>[[114, 735, 626, 789]]<|/det|>
+\[
+\Leftrightarrow \begin{bmatrix} 1 & 2 & -2 & 18 \\ 1 & 2 & -3 & 18 \\ 0 & 5 & -2 & 45 \\ 0 & 3 & -4 & 26 \end{bmatrix} \\
+\Leftrightarrow \begin{bmatrix} 1 & 2 & -3 \\ 0 & 5 & 0 & 45 \\ 0 & 3 & -4 & 26 \end{bmatrix} = \begin{bmatrix} 1 & 2 & -3 \\ 0 & 5 & \frac{1}{5} & 45 \\ 0 & 3 & -4 & 26 \end{bmatrix} - \begin{bmatrix} 1 & 2 & -3 \\ 0 & 5 & -\frac{1}{5} & 45 \\ 0 & 3 & -4 & -26 \end{bmatrix} = \begin{bmatrix} 1 & 2 & -3 \\ \frac{1}{5} & 45 \\ 0 & 3 & -4 \end{bmatrix} - \begin{bmatrix} 1 & 2 & -3 \\ 1 & 2 & -3 \\ 0 & 5 & -\frac{1} {5} \end{bmatrix} = \begin{bmatrix} 1 & 2 & -3 \\ 1 & 2 & 0 \\ 0 & 5 & -\frac{1}{5} \end{bmatrix} = \begin{bmatrix} 1 & 2 & -3 \end{bmatrix} - \begin{bmatrix} 1 & 2 & -3 \end{bmatrix} = \begin{bmatrix} 1 & 2 & -3 \end{ bmatrix} = \begin{bmatrix} 1 & 2 & -3 \end{bmatrix} = \begin{ bmatrix} 1 & 2 & -3 \end{bmatrix} = \begin{bmatrix} 0 & 5 & -\frac{1}{5} \end{bmatrix} = \frac{10}{5} = 2
+\]
+
+<|ref|>equation<|/ref|><|det|>[[114, 787, 678, 823]]<|/det|>
+\[
+\begin{align*}
+1a + 2b - 3c &= 18 \Rightarrow a = 18 - 2b + 3c = 18 - 2 \cdot 2 + 3 \cdot (-5) = -1. \\
+\vec{r} &= -\vec{u} + 2\vec{v} - 5\vec{w}.
+\end{align*}
+\]

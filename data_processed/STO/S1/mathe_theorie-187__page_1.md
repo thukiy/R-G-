@@ -1,0 +1,27 @@
+<|ref|>equation<|/ref|><|det|>[[130, 13, 440, 40]]<|/det|>
+\[n = 2000 \quad p = 0,001\]
+
+<|ref|>equation<|/ref|><|det|>[[130, 45, 690, 78]]<|/det|>
+\[P(X = x) = f(x) = \left( \frac{2000}{x} \right) \cdot 0,001^x \cdot 0,999^{2000-x}\]
+
+<|ref|>text<|/ref|><|det|>[[130, 108, 440, 137]]<|/det|>
+Famstregel überprüfen : 
+
+<|ref|>equation<|/ref|><|det|>[[150, 142, 456, 175]]<|/det|>
+\[ \cdot p = 0,001 < 0,1 \quad \checkmark \]
+
+<|ref|>equation<|/ref|><|det|>[[150, 182, 456, 214]]<|/det|>
+\[ \cdot n \cdot p = 2 < 5 \quad \checkmark \]
+
+<|ref|>text<|/ref|><|det|>[[180, 227, 777, 254]]<|/det|>
+→ wir können Poisson-Verteilung verwenden 
+
+<|ref|>equation<|/ref|><|det|>[[155, 280, 568, 350]]<|/det|>
+\[f(x) = \begin{cases} \left( \frac{2^x}{x!} \cdot e^{-2} \right) & x = 0,1 \dots \\ 0 & \text{sons} \end{cases}\]
+
+<|ref|>table<|/ref|><|det|>[[48, 371, 592, 547]]<|/det|>
+<table><tr><td>Vergleich</td><td>Poisson</td><td>Binomial</td></tr><tr><td>\(P(X=0)\)</td><td>0,1352</td><td>0,1352</td></tr><tr><td>\(P(X=1)\)</td><td>0,2707</td><td>0,2707</td></tr><tr><td>\(P(X=2)\)</td><td>0,2707</td><td>0,2708</td></tr></table>
+
+<|ref|>text<|/ref|><|det|>[[666, 460, 960, 530]]<|/det|>
+bei kleinen weiteren funktionell-
+Anstrengung sehr gut

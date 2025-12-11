@@ -1,0 +1,23 @@
+<|ref|>text<|/ref|><|det|>[[114, 81, 855, 117]]<|/det|>
+Anzahl (in Tausend) der im letzten Jahr dort geborenen Babys, Sᵢ die Anzahl der Störche und Wᵢ die Gesamtgrösse der Wasserfläche in km² (die Zahlen sind fiktiv). 
+
+<|ref|>table<|/ref|><|det|>[[114, 145, 880, 355]]<|/det|>
+<table><tr><td rowspan="2">Land</td><td rowspan="2">Fᵢ</td><td rowspan="2">Bᵢ</td><td rowspan="2">Sᵢ</td><td rowspan="2">Wᵢ</td><td colspan="3">Quoten mal 100</td></tr><tr><td>SF</td><td>BF</td><td>SW</td></tr><tr><td>1</td><td>8624</td><td>370</td><td>213</td><td>157</td><td>2,47</td><td>4,3</td><td>135</td></tr><tr><td>2</td><td>9936</td><td>210</td><td>48</td><td>150</td><td>0,48</td><td>2,1</td><td>32</td></tr><tr><td>3</td><td>2093</td><td>323</td><td>100</td><td>190</td><td>4,78</td><td>15,4</td><td>53</td></tr><tr><td>4</td><td>3150</td><td>306</td><td>152</td><td>185</td><td>4,83</td><td>9,7</td><td>82</td></tr><tr><td>5</td><td>4584</td><td>373</td><td>146</td><td>177</td><td>3,18</td><td>8,1</td><td>82</td></tr><tr><td>6</td><td>4294</td><td>556</td><td>95</td><td>179</td><td>2,21</td><td>13,0</td><td>53</td></tr><tr><td>7</td><td>15570</td><td>520</td><td>85</td><td>122</td><td>0,55</td><td>3,3</td><td>69</td></tr><tr><td>8</td><td>9260</td><td>300</td><td>149</td><td>154</td><td>1,61</td><td>3,2</td><td>97</td></tr><tr><td>9</td><td>2377</td><td>580</td><td>149</td><td>288</td><td>6,27</td><td>24,4</td><td>52</td></tr><tr><td>10</td><td>12149</td><td>287</td><td>192</td><td>139</td><td>1,58</td><td>2,4</td><td>138</td></tr></table>
+
+<|ref|>text<|/ref|><|det|>[[114, 370, 666, 389]]<|/det|>
+a) Bestimmen Sie die Korrelationen r(F,B), r(F,S) und r(B,S). 
+
+<|ref|>text<|/ref|><|det|>[[114, 387, 850, 454]]<|/det|>
+b) Beziehen Sie dann die jeweilige Anzahl der Babys und der Störche auf die zur Verfügung stehende Fläche. Es sei (SFᵢ) = Sᵢ/Fᵢ und (BFᵢ) = Bᵢ/Fᵢ die Anzahl der Störche pro km² bzw. die Anzahl der Babys pro km². Bestimmen Sie die Korrelation r(SF,BF). 
+
+<|ref|>text<|/ref|><|det|>[[114, 451, 866, 520]]<|/det|>
+c) Nun beziehen Sie die Anzahl der Störche nicht auf die Grösse des Landes, sondern auf die Größe der nahrungsspendenden Wasserfläche W. Jetzt ist (SWᵢ) = Sᵢ/Wᵢ die Anzahl der Störche pro km² Wasserfläche. Bestimmen Sie die Korrelation r(SW,BF). 
+
+<|ref|>text<|/ref|><|det|>[[114, 518, 551, 536]]<|/det|>
+Was lässt sich aus diesen Korrelationen lernen? 
+
+<|ref|>text<|/ref|><|det|>[[117, 552, 688, 644]]<|/det|>
+Wir berechnen die Korrelation r(F, B) zwischen den Merkmalen F und B. Die folgende Tabelle zeigt alle notwendigen Rechenschritte. Dabei sind alle Zahlen auf ganze Zahlen gerundet angegeben. Gerechnet wurde aber mit 4 Dezimalstellen nach dem Komma. 
+
+<|ref|>table<|/ref|><|det|>[[117, 646, 688, 897]]<|/det|>
+<table><tr><td>i</td><td>Fi</td><td>Bi</td><td>(Fi - F)²</td><td>(Bi - B)²</td><td>(Fi - F)(Bi - B)</td></tr><tr><td>1</td><td>8624</td><td>370</td><td>2017252</td><td>156</td><td>-17754</td></tr><tr><td>2</td><td>9936</td><td>210</td><td>7465463</td><td>29756</td><td>-471322</td></tr><tr><td>3</td><td>2093</td><td>323</td><td>26119254</td><td>3540</td><td>304087</td></tr><tr><td>4</td><td>3150</td><td>306</td><td>16432484</td><td>5852</td><td>310108</td></tr><tr><td>5</td><td>4584</td><td>373</td><td>6862828</td><td>90</td><td>24887</td></tr><tr><td>6</td><td>4294</td><td>556</td><td>8466354</td><td>30102</td><td>-504833</td></tr><tr><td>7</td><td>15570</td><td>520</td><td>6999476</td><td>18906</td><td>1150366</td></tr><tr><td>8</td><td>9260</td><td>300</td><td>4228370</td><td>6806</td><td>-169645</td></tr><tr><td>9</td><td>2377</td><td>580</td><td>23297033</td><td>39006</td><td>-953273</td></tr><tr><td>10</td><td>12149</td><td>287</td><td>24455992</td><td>9120</td><td>-472276</td></tr><tr><td>∑</td><td>72037</td><td>3825</td><td></td><td>143337</td><td>-799655</td></tr><tr><td></td><td></td><td></td><td>189340006</td><td></td><td></td></tr></table>

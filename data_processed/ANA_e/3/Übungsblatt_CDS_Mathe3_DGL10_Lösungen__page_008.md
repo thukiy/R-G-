@@ -1,0 +1,28 @@
+<|ref|>equation<|/ref|><|det|>[[135, 82, 840, 355]]<|/det|>
+\[
+\begin{align*}
+&= -\frac{T}{2\pi k} \cdot \left( \cos\left(\frac{2\pi k}{T} \cdot \frac{T}{2}\right) - \cos\left(\frac{2\pi k}{T} \cdot \frac{T}{4}\right) \right) = \frac{T}{2\pi k} \cdot \left( \cos\left(\frac{\pi k}{2}\right) - \cos(\pi k) \right) \\
+I_3 &= \int_{\frac{T}{4}}^{\frac{T}{2}} t \cdot \sin\left(\frac{2\pi k}{T} t\right) dt = \left[ \frac{T^2}{4\pi^2 k^2} \cdot \sin\left(\frac{2\pi k}{T} t\right) - \frac{T}{2\pi k} \cdot t \cdot \cos\left(\frac{2\pi k}{T} t\right) \right]_{\frac{T}{4}}^{\frac{T}{2}} \\
+&= \frac{T^2}{4\pi^2 k^2} \cdot \sin\left( \frac{2\pi k}{T} \cdot \frac{T}{2} \right) - \frac{T}{2\pi k} \cdot \frac{T}{2} \cdot \cos\left(\frac{2\pi k}{T} \cdot \frac{T}{2} \right) \cdot \sin\left(\frac{2\pi k}{T} \cdot \frac{T}{4}\right)
+\end{align*}
+\]
+
+<|ref|>equation<|/ref|><|det|>[[118, 360, 850, 644]]<|/det|>
+\[
+\begin{align*}
+b_k &= \frac{16A}{T^2} \cdot I_1 + \frac{8A}{T} \cdot I_2 - \frac{16A}{T^2} \cdot I_3 = \frac{8A}{T} \cdot I_2 + \frac{16A}{T^2} \cdot (I_1 - I_3) \\
+&= \frac{8A}{T} \cdot \frac{T}{2\pi k} \cdot \left( \cos\left(\frac{\frac{\pi k}{2}}{2}\right) - \cos(\frac{\pi k}{2}) \right) + \frac{16A}{T^2} \cdot \left( \frac{T^2}{4\pi^2 k^2} \cdot \sin\left({\frac{\pi k}{2}}\right) \right. \\
+&\qquad \left. - \frac{T^2}{8\pi k} \cdot \cos\left({\frac{\pi k}{2}}\right) - \frac{T^2}{8\pi k} \cdot \cos\left({\frac{\frac{\pi k}{2}}{2}}\right) + \frac{T^2}{4\pi k} \cdot \cos(\pi k) + \frac{T^2}{4\pi^2 k^2} \cdot \sin\left({{\frac{\pi k}{2}}}\right) \right) \\
+&= \frac{4A}{\pi k} \cdot \cos\left({\frac{\pi k}{2}}\right) - \left. \frac{4A}{\pi k} \cdot \cos(\pi k) + \frac{4A}{\pi^2 k^2} \cdot \sin\left({\frac{\pi k}{2}}\middle| - 2 \cdot \frac{2A}{\pi k} \cdot \cos\left({\frac{\pi k}{2}}\right)\right) \right. \\
+&\qquad \left. + \frac{4A}{\pi k} \cdot \cos(\pi k) + \left. \frac{4A}{\pi^2 k^2} \cdot \sin\left({\pi k}\middle| - \frac{8A}{\pi^2 k^2} \cdot \sin\left({\frac{\pi k}{\pi}}\right)\right) \right) \\
+&= \frac{8A}{\pi^2 k^2} \cdot \frac{1}{2} \cdot \left( (-1)^k - 1 \right) \cdot (-1)^{\frac{k+1}{2}} = \frac{4A}{\pi^2} \cdot \frac{\left((-1)^k - 1\right) \cdot (-1)^{\frac{k+1}{2}}}{k^2}.
+\end{align*}
+\]
+
+<|ref|>equation<|/ref|><|det|>[[135, 650, 770, 730]]<|/det|>
+\[
+\begin{align*}
+\text{Die reelle Fourier-Entwicklung des Signals ist daher} \\
+x_n(t) &= \sum_{k=1}^{n} b_k \cdot \sin\left(\frac{2\pi k}{T} t\right) = \frac{4A}{\pi^2} \sum_{k=1}^{n} \frac{\left((-1)^k - 1\right) \cdot (-1)^{\frac{1}{2}}}{\frac{k^2}{2}} \cdot \sin\left(\frac{2\pi k}{T} t\right).
+\end{align*}
+\]

@@ -38,7 +38,7 @@ BASE_DATA_DIR_EXE = Path("/Users/.../R-G-/data_processed/")
 ollama serve
 ```
 
-## now you need to pull all the models from ollama which you need
+## now you need to pull all the models from ollama which you need (can take some minutes because the models are quite large
 ```bash
 ollama pull deepseek-r1:32b #(this model is mandatory)
 ollama pull qwen2.5-vl #(optional for vision)

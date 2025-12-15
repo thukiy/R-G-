@@ -40,8 +40,8 @@ ollama serve
 
 ## now you need to pull all the models from ollama which you need
 ```bash
-ollama pull deepseek-r1:32b (this model is mandatory)
-ollama pull qwen2.5-vl (optional for vision)
+ollama pull deepseek-r1:32b #(this model is mandatory)
+ollama pull qwen2.5-vl #(optional for vision)
 ```
 
 ## finally you need to start the app.py file in your terminal 

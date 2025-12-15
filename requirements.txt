@@ -1,0 +1,25 @@
+# --- Core / Utilities ---
+requests
+python-dotenv
+tqdm
+pydantic
+
+# --- Frontend ---
+streamlit
+Pillow
+
+# --- OCR / PDF ---
+pdf2image
+replicate
+
+# --- Retrieval: BM25 ---
+rank-bm25
+
+# --- Vektorstores & LangChain-Stack ---
+chromadb
+
+langchain==0.3.7
+langchain-core==0.3.63
+langchain-community==0.3.7
+langchain-text-splitters==0.3.8
+langchain-ollama==0.3.3

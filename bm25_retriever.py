@@ -15,9 +15,8 @@ from rank_bm25 import BM25Okapi
 # =========================
 
 # Basis-Ordner, unter dem deine Chunks liegen
-BASE_DATA_DIR_THE = Path("/Users/thuvarakayograjah/Documents/RAG/R-G-/data_processed/")
-BASE_DATA_DIR_EXE = Path("/Users/thuvarakayograjah/Documents/RAG/R-G-/data_processed/")
-
+BASE_DATA_DIR_THE = Path("/Users/isabellenachbaur/Documents/GitHub/R-G-/data_processed/")
+BASE_DATA_DIR_EXE = Path("/Users/isabellenachbaur/Documents/GitHub/R-G-/data_processed/")
 
 """
 BM25_SOURCES:

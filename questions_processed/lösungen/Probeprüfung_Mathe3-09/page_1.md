@@ -1,0 +1,48 @@
+<|ref|>text<|/ref|><|det|>[[28, 15, 99, 46]]<|/det|>
+4) e) 
+
+<|ref|>equation<|/ref|><|det|>[[150, 12, 740, 70]]<|/det|>
+\[f(x) = \frac{\binom{N}{x} \binom{N-x}{n-x}}{\binom{N}{n}} \quad \text{100 Artikel, 5 entnehmen} \rightarrow \text{OK, wenn } \leq 1 \text{ Defekt}\]
+
+<|ref|>equation<|/ref|><|det|>[[150, 72, 671, 123]]<|/det|>
+\[f(x) = \frac{\binom{4}{x} \binom{60-x}{100}}{\binom{100}{5}} \quad 4 \text{ defekte in Liste}\]
+
+<|ref|>equation<|/ref|><|det|>[[150, 130, 585, 160]]<|/det|>
+\[P(X \le 1) = f(0) + f(1) \approx 0,9984\]
+
+<|ref|>text<|/ref|><|det|>[[90, 185, 343, 214]]<|/det|>
+f) \(\mu = 0, \lambda = 1\) 
+
+<|ref|>equation<|/ref|><|det|>[[135, 222, 888, 255]]<|/det|>
+\[(i) P(Z < -2) = 1 - \Phi(2) = 1 - 0,9772 = 0,0228\]
+
+<|ref|>equation<|/ref|><|det|>[[135, 262, 459, 293]]<|/det|>
+\[(ii) P(Z > x) = 0,1\]
+
+<|ref|>equation<|/ref|><|det|>[[198, 300, 459, 330]]<|/det|>
+\[1 - \Phi(x) = 0,1\]
+
+<|ref|>equation<|/ref|><|det|>[[248, 337, 700, 368]]<|/det|>
+\[\Phi(x) = 0,9 \iff x \approx 1,2817\]
+
+<|ref|>equation<|/ref|><|det|>[[125, 373, 930, 410]]<|/det|>
+\[\text{Lineare Interpolation: } x = 1,28 + \frac{0,9 - 0,8897}{0,9045 - 0,8997} \cdot (1,29 - 1,28)\]
+
+<|ref|>text<|/ref|><|det|>[[90, 432, 620, 465]]<|/det|>
+g) binomial: \(p = 0,05\) \(n = 100\) 
+
+<|ref|>equation<|/ref|><|det|>[[145, 465, 999, 610]]<|/det|>
+\[P(X \le 3) = f(0) + f(1) + f(2) = \sum_{k=0}^{3} \binom{100}{k} \cdot 0,05^k \cdot 0,95^{100-k} \\
+= \binom{100}{0} \cdot 0,05^0 \cdot 0,95^{100} + \binom{100}{1} \cdot 0,05^1 \cdot 0,95^{99} \\
++ \binom{100}{2} \cdot 0,05^2 \cdot 0,95^{98} \\
+\approx 0,2578 \quad \text{25,78%}\]
+
+<|ref|>equation<|/ref|><|det|>[[145, 614, 777, 660]]<|/det|>
+\[\text{Poisson } 2 \quad p = 0,05 \le 0,01 \quad \int \to \text{Poisson } -V.\]
+
+<|ref|>equation<|/ref|><|det|>[[145, 660, 480, 700]]<|/det|>
+\[\mu = n \cdot p = 5 \le 5\]
+
+<|ref|>equation<|/ref|><|det|>[[145, 700, 500, 760]]<|/det|>
+\[P(X \le 3) = \sum_{k=0}^{3} \frac{\mu^k}{k!} \cdot e^{-\mu} \\
+\approx 0,2650 \quad \text{26,50%}\]

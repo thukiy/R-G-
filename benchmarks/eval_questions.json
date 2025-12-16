@@ -1,0 +1,802 @@
+[
+  {
+    "id": 1,
+    "frage": "1a) Es gilt: ∫_1^2 sin(2x) dx = ∫_2^4 sin(u) du."
+  },
+  {
+    "id": 2,
+    "frage": "1b) Für a > 0 ist I = ∫_a^∞ 1/x dx konvergent."
+  },
+  {
+    "id": 3,
+    "frage": "1c) Die Fläche eines Gebiets in 2D lässt sich mit Hilfe eines Zweifachintegrals berechnen."
+  },
+  {
+    "id": 4,
+    "frage": "2a) Es sei f(x,y) = √(5 + x² + y²). Es gilt f(0,2) = 3."
+  },
+  {
+    "id": 5,
+    "frage": "2b) Es sei f(x,y) = √(5 + x² + y²). Der Graph von f ist eine Kurve in der xy-Ebene."
+  },
+  {
+    "id": 6,
+    "frage": "2c) Es sei f(x,y) = √(5 + x² + y²). Die Einheitssphäre in 3D ist eine Niveau-Menge von f."
+  },
+  {
+    "id": 7,
+    "frage": "3a) Es sei v(x,y,z) = (2x, −y, −z). Das Vektorfeld v ist konservativ."
+  },
+  {
+    "id": 8,
+    "frage": "3b) Es sei v(x,y,z) = (2x, −y, −z). Das Vektorfeld v ist quellenfrei."
+  },
+  {
+    "id": 9,
+    "frage": "3c) Es sei v(x,y,z) = (2x, −y, −z). Es gibt eine reellwertige Funktion φ, so dass v = ∇φ."
+  },
+  {
+    "id": 10,
+    "frage": "4a) Gegeben seien die Matrizen A = [[1, −1, 0],[2, 0, 2],[0, 3, 3]] und B = (1/3)·[[2, −1, 2],[−1, 2, 2],[2, 2, −1]]. A ist regulär."
+  },
+  {
+    "id": 11,
+    "frage": "4b) Gegeben seien die Matrizen A und B. B ist symmetrisch und orthogonal."
+  },
+  {
+    "id": 12,
+    "frage": "4c) Gegeben sei A wie oben. Es gilt dim(img(A)) = 2 * dim(ker(A))."
+  },
+  {
+    "id": 13,
+    "frage": "5a) Sind die Matrizen A und B invertierbar, dann sind auch AB und BA invertierbar."
+  },
+  {
+    "id": 14,
+    "frage": "5b) Für eine symmetrische invertierbare n×n-Matrix A mit Eigenwerten λ_i gilt: A³ besitzt die Eigenwerte λ_i³."
+  },
+  {
+    "id": 15,
+    "frage": "5c) Zu zwei verschiedenen Eigenwerten einer n×n-Matrix A lassen sich stets zwei verschiedene Eigenvektoren finden."
+  },
+  {
+    "id": 16,
+    "frage": "6a) Seien z1 und z2 komplexe Zahlen. Aus z1* = z2* folgt genau dann, dass z1 = z2."
+  },
+  {
+    "id": 17,
+    "frage": "6b) Gegeben sei die Potenzgleichung zⁿ = w mit w ∈ ℂ, n ∈ ℕ. Ist n gerade und z eine Lösung, dann ist auch -z eine Lösung."
+  },
+  {
+    "id": 18,
+    "frage": "6c) Der Gradient einer Funktion f ist tangential zu den Höhenlinien von f."
+  },
+  {
+    "id": 19,
+    "frage": "6d) Aus der linearen Unabhängigkeit der Vektoren u und v folgt auch die lineare Unabhängigkeit von u + v und u − v."
+  },
+  {
+    "id": 20,
+    "frage": "6e) Die Funktion f: ℝ → ℝ mit f(x) = 3x + 1 ist eine lineare Abbildung im Sinne der linearen Algebra."
+  },
+  {
+    "id": 21,
+    "frage": "6f) Der Term 5 cis(π/2) ist eine trigonometrische Form der Zahl 5."
+  },
+  {
+    "id": 22,
+    "frage": "7a) Bestimmen Sie alle Lösungen der Gleichung z⁴ = 16 · e^{iπ} und geben Sie diese in arithmetischer Form an."
+  },
+  {
+    "id": 23,
+    "frage": "7b) Bestimmen Sie die Matrixpotenz B = A¹⁵ mit A = (1/2)·[[√3, −1],[1, √3]]."
+  },
+  {
+    "id": 24,
+    "frage": "7c) Vertauschen Sie die Integrationsreihenfolge für das Integral ∫_0^4 ∫_0^{√x} f(x,y) dy dx."
+  },
+  {
+    "id": 25,
+    "frage": "7d) Es sei f(x,y) = (1/ln 2) · 2^{2x−y} und v = (−3, 4)^T. Berechnen Sie die Richtungsableitung von f im Punkt P(1,2) in Richtung v."
+  },
+  {
+    "id": 26,
+    "frage": "7e) Eine Kurve K habe die Parameterdarstellung γ(t) = ((cos t)/t, (sin t)/t) für 0 < t < 1. Berechnen Sie das skalare Kurvenintegral von f(x,y) = (x² + y²)^{-3/2} längs γ."
+  },
+  {
+    "id": 27,
+    "frage": "8) Bestimmen Sie alle lokalen Extrema und Sattelpunkte der Funktion f(x,y) = 3x²y + y³ − 27y + 4."
+  },
+  {
+    "id": 28,
+    "frage": "9) Bestimmen Sie für die skizzierte trapezförmige Fläche den Flächenschwerpunkt S = (x_S, y_S) mittels Doppelintegration."
+  },
+  {
+    "id": 29,
+    "frage": "10) Gegeben ist die Matrix A = [[2,1,-2],[-6,-5,8],[-2,-2,3]]. Ist A diagonalisierbar? Falls ja, dann geben Sie sowohl die Diagonalmatrix als auch die Transformationsmatrix an."
+  },
+  {
+    "id": 30,
+    "frage": "1a) Es seien A und B beliebige Ereignisse. Dann gilt: P(A ∩ B̅) + P(B ∩ A̅) = P(A ∪ B) − P(A ∩ B)."
+  },
+  {
+    "id": 31,
+    "frage": "1b) Es seien A und B beliebige Ereignisse mit P(A) > 0 und P(B) > 0. Dann gilt: P(A ∪ B) = P(A) + P(B)."
+  },
+  {
+    "id": 32,
+    "frage": "1c) Es seien A und B beliebige Ereignisse. Dann gilt: P(A ∪ B) = 1 − P(A̅ ∩ B̅)."
+  },
+  {
+    "id": 33,
+    "frage": "1d) Es seien A und B beliebige Ereignisse. Dann gilt: P(A | B) ≥ P(A)."
+  },
+  {
+    "id": 34,
+    "frage": "1e) Es seien A und B zwei Ereignisse. Dann gilt: A ∩ B = ∅, wenn A und B unabhängig sind."
+  },
+  {
+    "id": 35,
+    "frage": "1f) Es seien A und B beliebige Ereignisse. Dann gilt: P(A ∩ B) = P(A) + P(B) − P(A ∪ B)."
+  },
+  {
+    "id": 36,
+    "frage": "2a) Es sei X eine beliebige Zufallsvariable mit Erwartungswert E(X) und Varianz Var(X). Dann gilt: Var(−X) = Var(X)."
+  },
+  {
+    "id": 37,
+    "frage": "2b) X sei eine stetige Zufallsvariable. Die Dichtefunktion ist monoton wachsend."
+  },
+  {
+    "id": 38,
+    "frage": "2c) Für Erwartungswert E(X) und Varianz Var(X) einer beliebigen Zufallsvariablen X und a, b ∈ ℝ gilt: Var(bX − a) = b² Var(X) − a."
+  },
+  {
+    "id": 39,
+    "frage": "2d) X sei eine normalverteilte Zufallsvariable mit E(X) = μ und Var(X) = σ². Dann gilt: P(μ − σ ≤ X ≤ μ + σ) = 2 · P(X ≥ μ + σ)."
+  },
+  {
+    "id": 40,
+    "frage": "2e) X sei eine normalverteilte Zufallsvariable mit E(X) = μ und Var(X) = σ². Dann gilt: Var(X) = E(X²), falls μ = 0."
+  },
+  {
+    "id": 41,
+    "frage": "2f) Eine Bank vergibt 100 Kredite. Die Ausfallwahrscheinlichkeit eines einzelnen Kredits beträgt 0,01 und Ausfälle sind unabhängig. Die Zufallsvariable X misst die Anzahl der ausfallenden Kredite. Es gilt, dass X binomialverteilt ist mit n = 100 und p = 0,01."
+  },
+  {
+    "id": 42,
+    "frage": "3a) Beim zweiten Durchgang im Skispringen starten 30 Springer. Wie viele Möglichkeiten gibt es, die Medaillenränge (Gold, Silber, Bronze) zu verteilen?"
+  },
+  {
+    "id": 43,
+    "frage": "3b) Wie gross ist die Wahrscheinlichkeit, 2 Richtige im Zahlenlotto 6 aus 49 zu haben?"
+  },
+  {
+    "id": 44,
+    "frage": "3c) Bei einer Qualitätskontrolle haben von 60 kontrollierten Stücken 15 den Defekt A und 12 den Defekt B. 38 Stück bieten keinen Anlass zur Beanstandung. Gesucht ist die Wahrscheinlichkeit, dass ein Stück mit Defekt A auch den Defekt B hat."
+  },
+  {
+    "id": 45,
+    "frage": "3d) Ein Pfarrer teilt seine Gemeindemitglieder in drei Altersgruppen ein: 25 % jung (unter 25 Jahre), 30 % mittleren Alters (25 bis unter 55), 45 % Senioren (ab 55). Von den jungen besuchen 10 % den Gottesdienst, von den mittleren 30 % und von den Senioren 50 %. Wie gross ist die Wahrscheinlichkeit, dass ein zufällig ausgewählter Gottesdienstbesucher zur jüngsten Altersgruppe gehört?"
+  },
+  {
+    "id": 46,
+    "frage": "3e) Bestimmen Sie die Wahrscheinlichkeit, dass Sie bei zehnmaligem Drehen des abgebildeten Glücksrads mindestens zweimal Rot erhalten."
+  },
+  {
+    "id": 47,
+    "frage": "4a) Ein Teehersteller betrachtet die Abweichung Z von der Füllmenge (in g) bei 50-g-Packungen. Z sei normalverteilt mit μ = 0 und σ = 1. Wie gross ist die Wahrscheinlichkeit, dass eine zufällig ausgewählte Packung mehr als 1 g zu viel enthält?"
+  },
+  {
+    "id": 48,
+    "frage": "4b) Wie gross ist die Wahrscheinlichkeit, dass eine zufällig ausgewählte Packung mehr als 2 g zu wenig enthält?"
+  },
+  {
+    "id": 49,
+    "frage": "4c) Wie gross ist die Wahrscheinlichkeit, dass das Füllgewicht einer zufällig ausgewählten Packung um weniger als 1 g nach oben oder unten abweicht?"
+  },
+  {
+    "id": 50,
+    "frage": "4d) Welche Abweichung nach oben wird von 10 % der Packungen überschritten?"
+  },
+  {
+    "id": null,
+    "frage": "Es gilt f(0) = 0."
+  },
+  {
+    "id": null,
+    "frage": "Die Funktion f ist injektiv."
+  },
+  {
+    "id": null,
+    "frage": "Die Funktion f ist bijektiv."
+  },
+  {
+    "id": null,
+    "frage": "Die Funktion f hat genau drei Extrema."
+  },
+  {
+    "id": null,
+    "frage": "Die Funktion f hat auf ℝ kein globales Minimum."
+  },
+  {
+    "id": null,
+    "frage": "Das globale Maximum der Funktion f auf dem Intervall [3,4] ist 0."
+  },
+  {
+    "id": 57,
+    "frage": "2a) Es gilt exp(0) = 1."
+  },
+  {
+    "id": 58,
+    "frage": "2b) Es gilt e^{e'''(x)} = (e^x)'."
+  },
+  {
+    "id": 59,
+    "frage": "2c) Es gilt exp(0,25) = √(e²/8)."
+  },
+  {
+    "id": 60,
+    "frage": "2d) Für alle x ∈ ℝ gilt exp(2x) = 2 · exp(x)."
+  },
+  {
+    "id": 61,
+    "frage": "2e) Für alle x, y ∈ ℝ gilt: exp(x − y) = exp(x) / exp(y)."
+  },
+  {
+    "id": 62,
+    "frage": "2f) Eigentliche Exponentialfunktionen sind immer streng monoton steigend."
+  },
+  {
+    "id": 63,
+    "frage": "3a) Schreiben Sie die Menge sec(]0,7]) (beziehungsweise die im Text gemeinte Menge) in aufzählender Form."
+  },
+  {
+    "id": 64,
+    "frage": "3b) Berechnen Sie für n → ∞ den Grenzwert der Folge a_n = (2n − 5 − 4n²) / (3 − 8n² − 10n)."
+  },
+  {
+    "id": 65,
+    "frage": "3c) Berechnen Sie die Ableitung der Funktion f(x) = √(3x² + 32x)."
+  },
+  {
+    "id": 66,
+    "frage": "3d) Berechnen Sie das bestimmte Integral ∫_u^{−v} (2uw − 6vw² + 1) dw (gemäss Aufgabenstellung)."
+  },
+  {
+    "id": 67,
+    "frage": "4a) Eine Fussgängerbrücke wird durch den Graphen f(x) = (1/432 m³) x⁴ − (1/6 m) x² + 3 m beschrieben und hat Länge 12 m und Höhe 3 m. Wie hoch darf ein Lastwagen der Breite 2,5 m maximal sein, damit er unter der Brücke durchfahren kann?"
+  },
+  {
+    "id": 68,
+    "frage": "4b) Welche Steigung hat der Weg über die Brücke an seiner steilsten Stelle?"
+  },
+  {
+    "id": 69,
+    "frage": "4c) Wie gross ist die Querschnittsfläche der gesamten Durchfahrtöffnung unter der Brücke?"
+  },
+  {
+    "id": 70,
+    "frage": "Gegeben sei das folgende Gauss-Schema mit Parametern p, q ∈ ℝ:\nZ1: [3, 3, 3, p, 3, 3, 3, 3, 3, 3, 3 | 1−p]\nZ2: [0, 0, 0, 0, 0, 0, q, p, 3, 0, 0, 0 | 2−q]\nZ3: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, p, 0 | 3−p]\nZ4: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 | p−q]\nZ5: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 | p·q]\nAussage a) Die Variable x3 ist eine Pivot-Variable."
+  },
+  {
+    "id": 71,
+    "frage": "Bezug auf dasselbe Gauss-Schema wie in Aufgabe 70.\nAussage b) In jedem Fall hat das LGLS keine Lösung."
+  },
+  {
+    "id": 72,
+    "frage": "Bezug auf das Gauss-Schema aus Aufgabe 70.\nAussage c) Der Rang hängt nur dann vom Wert des Parameters q ab, wenn p = 0 gilt."
+  },
+  {
+    "id": 73,
+    "frage": "Bezug auf das Gauss-Schema aus Aufgabe 70.\nAussage d) Falls q ≠ 0 gilt, hat das LGLS drei Pivot-Variablen."
+  },
+  {
+    "id": 74,
+    "frage": "Bezug auf das Gauss-Schema aus Aufgabe 70.\nAussage e) In jedem Fall gilt n_D (Defekt) > n_R (Rang)."
+  },
+  {
+    "id": 75,
+    "frage": "Bezug auf das Gauss-Schema aus Aufgabe 70.\nAussage f) Falls p = q = 0 gilt, hat das LGLS unendlich viele Lösungen."
+  },
+  {
+    "id": 76,
+    "frage": "2a) Gilt für ein LGLS n_R (Rang) = n_V (Anzahl Variablen), dann ist es eindeutig lösbar."
+  },
+  {
+    "id": 77,
+    "frage": "2b) Das Vektorprodukt von zwei Vektoren ist nur in dreidimensionalen Räumen definiert."
+  },
+  {
+    "id": 78,
+    "frage": "2c) Die Gleichung cos x = cos(−x) hat nur die Lösung x = 0."
+  },
+  {
+    "id": 79,
+    "frage": "2d) Für Vektoren v, w gilt: ⟨2v, 2w⟩ = 2 · ⟨v, w⟩."
+  },
+  {
+    "id": 80,
+    "frage": "2e) Für Vektoren v, w gilt: ∠(2v, w) = 2 · ∠(v, w)."
+  },
+  {
+    "id": 81,
+    "frage": "2f) Für Vektoren v, w gilt: w × (v + w) = −v × w."
+  },
+  {
+    "id": 82,
+    "frage": "3a) Vereinfachen Sie den Term ⟨a × (b + a), b × a − a⟩ für a ⟂ b."
+  },
+  {
+    "id": 83,
+    "frage": "3b) Berechnen Sie den Abstand des Ursprungs von der Ebene mit Normalengleichung 3x − 6y + 2z − 14 = 0."
+  },
+  {
+    "id": 84,
+    "frage": "3c) Geben Sie einen Python-Code für die Berechnung der Orthogonalprojektion des Vektors (5,3,1)^T auf den Vektor (1,2,3)^T an und berücksichtigen Sie sowohl die parallele als auch die orthogonale Komponente."
+  },
+  {
+    "id": 85,
+    "frage": "3d) Eine Gerade g gehe durch P₁(5,1,2) mit Richtungsvektor a = (3,1,2)^T. Eine Ebene E gehe durch P₀(2,1,8) mit Normalenvektor n = (−1,3,1)^T. Welche Lage haben g und E zueinander? Bestimmen Sie gegebenenfalls Abstand, Schnittpunkt und Schnittwinkel."
+  },
+  {
+    "id": 86,
+    "frage": "4) Ein Unternehmen plant ein Hotel mit insgesamt 135 Betten in 75 Zimmern. Welche Varianten sind möglich, um das Hotel mit Einzel-, Doppel- und Dreierzimmern zu realisieren?"
+  },
+  {
+    "id": 87,
+    "frage": "Gegeben sei das Richtungsvektorfeld einer analytisch isolierbaren DGL erster Ordnung. Alle Pfeile zeigen nach rechts (positive x-Richtung). Für y=0 sind die Pfeile fast waagrecht, für y>0 leicht nach oben und für y<0 leicht nach unten gerichtet. Beurteilen Sie die folgende Aussage: a) Das Richtungsvektorfeld visualisiert eine Differentialgleichung 1. Ordnung."
+  },
+  {
+    "id": 88,
+    "frage": "1b) Das Richtungsvektorfeld visualisiert eine elementar integrierbare Differentialgleichung."
+  },
+  {
+    "id": 89,
+    "frage": "1c) Gilt für eine Lösung der DGL y(0) = 0, dann gilt auch y'(0) = 0."
+  },
+  {
+    "id": 90,
+    "frage": "1d) Die Lösung durch den Punkt (−3, 0) ist monoton fallend."
+  },
+  {
+    "id": 91,
+    "frage": "1e) Die Funktion y(x) = 1 ist eine stabile, statische Lösung der DGL."
+  },
+  {
+    "id": 92,
+    "frage": "1f) Das Richtungsvektorfeld visualisiert eine linear homogene Differentialgleichung."
+  },
+  {
+    "id": 93,
+    "frage": "2a) Um ein Anfangswertproblem mit separierbarer DGL zu lösen, muss man zuerst die allgemeine Lösung der DGL bestimmen."
+  },
+  {
+    "id": 94,
+    "frage": "2b) Im Modell der freien ungedämpften harmonischen Schwingung werden äussere Anregungen vernachlässigt."
+  },
+  {
+    "id": 95,
+    "frage": "2c) Nur periodische Funktionen f: ℝ → ℝ besitzen eine Fourier-Transformierte."
+  },
+  {
+    "id": 96,
+    "frage": "2d) Die Funktion f(t) = t³ kann auf [0, 1] durch eine reine Cosinus-Reihe dargestellt werden."
+  },
+  {
+    "id": 97,
+    "frage": "2e) Gilt f(t) ↔ F(ω) und g(t) ↔ G(ω), dann folgt F(ω) + G(ω) ↔ f(t) + g(t)."
+  },
+  {
+    "id": 98,
+    "frage": "2f) Jede Lösung einer linear homogenen Differentialgleichung 2. Ordnung kann als Linearkombination von zwei Basislösungen dargestellt werden."
+  },
+  {
+    "id": 99,
+    "frage": "3a) Es seien (x_i, y_i) Beobachtungspaare zweier empirischer Merkmale mit Korrelationskoeffizienten r_xy. Aus r_xy = 0 folgt, dass zwischen den Merkmalen kein Zusammenhang besteht."
+  },
+  {
+    "id": 100,
+    "frage": "3b) Es seien (x_i, y_i) Beobachtungspaare mit r_xy = −0,99. Dann besteht ein starker linearer Zusammenhang zwischen den Merkmalen."
+  },
+  {
+    "id": 101,
+    "frage": "3c) Es sei X eine beliebige Zufallsvariable mit Varianz Var(X). Es gilt: Var(−X) < Var(X)."
+  },
+  {
+    "id": 102,
+    "frage": "3d) X sei eine stetige Zufallsvariable. Dann ist die Verteilungsfunktion von X symmetrisch um E(X)."
+  },
+  {
+    "id": 103,
+    "frage": "3e) Es seien A und B beliebige Ereignisse mit P(A) > 0 und P(B) > 0. Dann gilt: P(A|B) · P(B) = P(B|A) · P(A)."
+  },
+  {
+    "id": 104,
+    "frage": "3f) Kennt man die gemeinsame Verteilung von (X, Y), dann kann man daraus die Verteilung von X berechnen."
+  },
+  {
+    "id": 105,
+    "frage": "4a) Bestimmen Sie den Typ der partiellen Differentialgleichung −2u_xx + u_yy + u = 0."
+  },
+  {
+    "id": 106,
+    "frage": "4b) Gegeben ist die Differentialgleichung y''(x) − 2y'(x) + 2y(x) = 0 für x ∈ ℝ. Bestimmen Sie die allgemeine Lösung."
+  },
+  {
+    "id": 107,
+    "frage": "4c) Kreuzen Sie für jede der gegebenen DGLs an, ob sie linear oder nichtlinear, homogen oder inhomogen und mit konstanten Koeffizienten ist: (i) sin(4x)y + 3y' + √x = 0, (ii) y'/y + x = 0, (iii) m v̇ + k v = m, (iv) ẏ + (1/t²) y = e^{3t}."
+  },
+  {
+    "id": 108,
+    "frage": "4d(i) Die Lösungen der Schwingungsgleichung ẍ + 2α ẋ + 0,25 x = 0 hängen vom Parameter α > 0 ab. Wie muss α gewählt werden, damit der aperiodische Grenzfall eintritt?"
+  },
+  {
+    "id": 109,
+    "frage": "4d(ii) Wie lautet die Lösung der Schwingungsgleichung ẍ + 2α ẋ + 0,25 x = 0 im aperiodischen Grenzfall für die Anfangswerte x(0) = 2 und v(0) = −2?"
+  },
+  {
+    "id": 110,
+    "frage": "4e) Eine Kiste mit 100 gleichartigen Artikeln wird stichprobenartig kontrolliert. Es werden 5 Artikel ohne Zurücklegen entnommen. Die Ware wird nur angenommen, wenn höchstens ein defekter Artikel in der Stichprobe ist. Wie gross ist die Wahrscheinlichkeit der Annahme, wenn sich in der Kiste genau 4 defekte Artikel befinden?"
+  },
+  {
+    "id": 111,
+    "frage": "4f(i) Ein Teehersteller betrachtet die Abweichung Z von der Füllmenge 50 g, Z ~ N(0,1). Wie gross ist die Wahrscheinlichkeit, dass eine zufällig ausgewählte Packung mehr als 2 g zu wenig enthält?"
+  },
+  {
+    "id": 112,
+    "frage": "4f(ii) Welche Abweichung nach oben wird von 10 % der Packungen überschritten (bei Z ~ N(0,1))?"
+  },
+  {
+    "id": 113,
+    "frage": "4g) Eine Landstrasse ist wegen Bauarbeiten auf einer Teilstrecke nur einspurig befahrbar, die Regelung erfolgt durch eine Ampel. Etwa 5 % der Autofahrer versuchen, in den ersten 3 Sekunden der Rotphase noch zu fahren. Mit welcher Wahrscheinlichkeit verhalten sich höchstens 3 von 100 Fahrern verbotswidrig? Kann hierfür die Poisson-Verteilung benutzt werden?"
+  },
+  {
+    "id": 114,
+    "frage": "Die folgende Funktion beschreibt eine periodische Sägezahnschwingung: Auf dem Intervall [-T/2, T/2] verläuft f(t) als Gerade von -A nach +A, d.h. f(t) = (2A/T) * t. Nach t = T/2 springt der Graph wieder auf -A. Die Funktion ist ungerade und periodisch mit Periode T. Bestimmen Sie die reelle Fourier-Entwicklung dieser Sägezahnschwingung."
+  },
+  {
+    "id": 115,
+    "frage": "6) Bestimmen Sie die Lösungen des Anfangswertproblems mit der Methode der Charakteristiken: u_{x1} + 2u u_{x2} − u = 0 mit Anfangsbedingung u(0, x2) = x2."
+  },
+  {
+    "id": 116,
+    "frage": "7a) Bei einem Dieselmotor wurde der Zusammenhang zwischen Drehzahl X (U/min) und Leistung Y (PS) gemessen. Bestimmen Sie die zugehörige Ausgleichsgerade aus den gegebenen Daten."
+  },
+  {
+    "id": 117,
+    "frage": "7b) Welche Motorleistung ist bei einer Drehzahl von 2150 Umdrehungen pro Minute zu erwarten, basierend auf der Ausgleichsgeraden?"
+  },
+  {
+    "id": 118,
+    "frage": "Gegeben sind folgende Körpergrössen (m) und Gewichte (kg): [{\"1.80\":84}, {\"1.75\":70}, ...]. Berechnen Sie Kovarianz und Korrelationskoeffizient."
+  },
+  {
+    "id": 119,
+    "frage": "Bestimmen Sie alle lokalen Extrema der Funktion f(x) = x^4 - 4x^2."
+  },
+  {
+    "id": 120,
+    "frage": "Berechnen Sie das Integral ∫ (6x^2 - 4x + 1) dx."
+  },
+  {
+    "id": 121,
+    "frage": "Untersuchen Sie, ob die Matrix A = [[1,2],[3,6]] invertierbar ist."
+  },
+  {
+    "id": 122,
+    "frage": "Berechnen Sie die Eigenwerte der Matrix A = [[4,1],[2,3]]."
+  },
+  {
+    "id": 123,
+    "frage": "Eine faire Münze wird 4-mal geworfen. Wie groß ist die Wahrscheinlichkeit, genau zweimal Kopf zu erhalten?"
+  },
+  {
+    "id": 124,
+    "frage": "Sei X gleichverteilt auf [0,4]. Berechnen Sie Var(X)."
+  },
+  {
+    "id": 125,
+    "frage": "Lösen Sie die Differentialgleichung y' = 2x."
+  },
+  {
+    "id": 126,
+    "frage": "Lösen Sie die Differentialgleichung y'' − y = e^x."
+  },
+  {
+    "id": 127,
+    "frage": "Bestimmen Sie die Fourier-Koeffizienten der Funktion f(x) = x auf dem Intervall [-π,π]."
+  },
+  {
+    "id": 128,
+    "frage": "Bestimmen Sie den Abstand zwischen den Punkten A(2,−1,3) und B(−1,3,0)."
+  },
+  {
+    "id": 129,
+    "frage": "Untersuchen Sie die Funktion f(x) = (x^2 - 1)/(x - 1) auf Definitionsbereich und Stetigkeit."
+  },
+  {
+    "id": 130,
+    "frage": "Untersuchen Sie die Reihe ∑_{n=1}^∞ ln((n+1)/n) auf Konvergenz und bestimmen Sie ggf. ihren Wert."
+  },
+  {
+    "id": 131,
+    "frage": "Gegeben sei das lineare Gleichungssystem x + 2y - z = 1, 2x + y + z = 4, 3x + 3y = 5. Bestimmen Sie die Lösungsmenge."
+  },
+  {
+    "id": 132,
+    "frage": "Bestimmen Sie eine Orthonormalbasis des von den Vektoren v1 = (1,1,0) und v2 = (1,0,1) erzeugten Unterraums im ℝ^3."
+  },
+  {
+    "id": 133,
+    "frage": "Eine Zufallsvariable X ist gleichverteilt auf dem Intervall [−1,3]. Berechnen Sie den Erwartungswert und die Varianz von X."
+  },
+  {
+    "id": 134,
+    "frage": "Die Dichte einer stetigen Zufallsvariablen X sei f(x) = c x e^{−x} für x ≥ 0 und 0 sonst. Bestimmen Sie die Konstante c und den Erwartungswert E(X)."
+  },
+  {
+    "id": 135,
+    "frage": "Bestimmen Sie die allgemeine Lösung der separierbaren Differentialgleichung y' = x · y."
+  },
+  {
+    "id": 136,
+    "frage": "Lösen Sie das Anfangswertproblem y' + 2y = e^{−2x} mit y(0) = 1."
+  },
+  {
+    "id": 137,
+    "frage": "Gegeben ist die 2π-periodische Funktion f(x), die auf [−π,π] definiert ist durch f(x) = 1 für 0 < x < π und f(x) = −1 für −π < x < 0. Bestimmen Sie die Fourierkoeffizienten qualitativ (Art der Reihe)."
+  },
+  {
+    "id": 138,
+    "frage": "Gegeben sind die Geraden g1: (x,y,z) = (1,0,2) + s(1,1,0) und g2: (x,y,z) = (0,1,1) + t(1,−1,1). Untersuchen Sie, ob sich die Geraden schneiden, und bestimmen Sie gegebenenfalls den Schnittpunkt."
+  },
+  {
+    "id": 139,
+    "frage": "Berechnen Sie den Grenzwert lim_{x→0} (sin(3x))/(x)."
+  },
+  {
+    "id": 140,
+    "frage": "Untersuchen Sie die Konvexität der Funktion f(x) = e^{2x} - 3x."
+  },
+  {
+    "id": 141,
+    "frage": "Bestimmen Sie die Taylorreihe von f(x) = ln(1+x) um x=0 bis zum Term 4. Ordnung."
+  },
+  {
+    "id": 142,
+    "frage": "Bestimmen Sie die Spur (trace) der Matrix A = [[3,2],[1,4]]."
+  },
+  {
+    "id": 143,
+    "frage": "Prüfen Sie, ob die Matrizen A = [[1,2],[3,4]] und B = [[2,0],[0,3]] ähnlich sind."
+  },
+  {
+    "id": 144,
+    "frage": "Gegeben sei eine diskrete Zufallsvariable X mit P(X=1)=0.2, P(X=3)=0.5, P(X=5)=0.3. Berechnen Sie E(X)."
+  },
+  {
+    "id": 145,
+    "frage": "Für eine stetige Zufallsvariable gelte f(x) = k e^{−3x} für x ≥ 0. Bestimmen Sie k und die Verteilungsfunktion F(x)."
+  },
+  {
+    "id": 146,
+    "frage": "Lösen Sie die Differentialgleichung y' = y + e^{−x}."
+  },
+  {
+    "id": 147,
+    "frage": "Bestimmen Sie die Fourierreihe der Funktion f(x) = x^2 auf dem Intervall [−π,π]."
+  },
+  {
+    "id": 148,
+    "frage": "Bestimmen Sie den Winkel zwischen den Ebenen E1: x + y + z = 4 und E2: 2x − y + 2z = 0."
+  },
+  {
+    "id": 139,
+    "frage": "Berechnen Sie den Grenzwert lim_{x→0} (sin(3x))/(x)."
+  },
+  {
+    "id": 140,
+    "frage": "Untersuchen Sie die Konvexität der Funktion f(x) = e^{2x} - 3x."
+  },
+  {
+    "id": 141,
+    "frage": "Bestimmen Sie die Taylorreihe von f(x) = ln(1+x) um x=0 bis zum Term 4. Ordnung."
+  },
+  {
+    "id": 142,
+    "frage": "Bestimmen Sie die Spur (trace) der Matrix A = [[3,2],[1,4]]."
+  },
+  {
+    "id": 143,
+    "frage": "Prüfen Sie, ob die Matrizen A = [[1,2],[3,4]] und B = [[2,0],[0,3]] ähnlich sind."
+  },
+  {
+    "id": 144,
+    "frage": "Gegeben sei eine diskrete Zufallsvariable X mit P(X=1)=0.2, P(X=3)=0.5, P(X=5)=0.3. Berechnen Sie E(X)."
+  },
+  {
+    "id": 145,
+    "frage": "Für eine stetige Zufallsvariable gelte f(x) = k e^{−3x} für x ≥ 0. Bestimmen Sie k und die Verteilungsfunktion F(x)."
+  },
+  {
+    "id": 146,
+    "frage": "Lösen Sie die Differentialgleichung y' = y + e^{−x}."
+  },
+  {
+    "id": 147,
+    "frage": "Bestimmen Sie die Fourierreihe der Funktion f(x) = x^2 auf dem Intervall [−π,π]."
+  },
+  {
+    "id": 148,
+    "frage": "Bestimmen Sie den Winkel zwischen den Ebenen E1: x + y + z = 4 und E2: 2x − y + 2z = 0."
+  },
+  {
+    "id": 159,
+    "frage": "Berechnen Sie den Grenzwert lim_{x→∞} (3x^2 - x + 1)/(x^2 + 5)."
+  },
+  {
+    "id": 160,
+    "frage": "Untersuchen Sie die Konvergenz der Reihe ∑_{n=1}^∞ 1/(n ln(n))."
+  },
+  {
+    "id": 161,
+    "frage": "Berechnen Sie das Integral ∫_0^{π/2} x sin(x) dx."
+  },
+  {
+    "id": 162,
+    "frage": "Berechnen Sie die Determinante der Matrix A = [[5,2],[1,3]]."
+  },
+  {
+    "id": 163,
+    "frage": "Bestimmen Sie alle Eigenwerte der Matrix A = [[2,1],[1,2]]."
+  },
+  {
+    "id": 164,
+    "frage": "Prüfen Sie, ob die Vektoren (1,0,1), (2,1,3) und (3,1,4) linear unabhängig sind."
+  },
+  {
+    "id": 165,
+    "frage": "Eine Zufallsvariable X nimmt die Werte 0 und 1 mit P(X=1)=0.4 an. Berechnen Sie Var(X)."
+  },
+  {
+    "id": 166,
+    "frage": "Ein Würfel werde zweimal geworfen. Wie groß ist die Wahrscheinlichkeit, dass die Summe der beiden Würfe mindestens 10 beträgt?"
+  },
+  {
+    "id": 167,
+    "frage": "Lösen Sie die Differentialgleichung y' = (3x^2)/(1+y^2)."
+  },
+  {
+    "id": 168,
+    "frage": "Bestimmen Sie den Schnittpunkt der Ebene x - y + z = 2 mit der Geraden g: (x,y,z) = (3,1,0) + t(−2,1,3)."
+  },
+  {
+    "id": 169,
+    "frage": "Berechnen Sie lim_{x→0} (e^{2x} − 1)/x."
+  },
+  {
+    "id": 170,
+    "frage": "Bestimmen Sie die Monotonie der Funktion f(x) = x^3 − 6x + 1."
+  },
+  {
+    "id": 171,
+    "frage": "Berechnen Sie das Integral ∫_1^e (ln(x))/x dx."
+  },
+  {
+    "id": 172,
+    "frage": "Berechnen Sie den Rang der Matrix A = [[1,2],[2,4]]."
+  },
+  {
+    "id": 173,
+    "frage": "Bestimmen Sie die Eigenwerte der Matrix A = [[0,1],[−2,3]]."
+  },
+  {
+    "id": 174,
+    "frage": "Untersuchen Sie, ob die Matrix A = [[1,1,0],[0,1,1],[0,0,1]] diagonalisierbar ist."
+  },
+  {
+    "id": 175,
+    "frage": "Berechnen Sie die Wahrscheinlichkeit, dass beim Würfeln einer fairen sechsseitigen Zahl eine 4 erscheint."
+  },
+  {
+    "id": 176,
+    "frage": "Eine Lampe falle exponentiell mit λ=0.2 aus. Berechnen Sie die Wahrscheinlichkeit, dass sie mindestens 10 Stunden hält."
+  },
+  {
+    "id": 177,
+    "frage": "Lösen Sie die Differentialgleichung y' = y tan(x)."
+  },
+  {
+    "id": 178,
+    "frage": "Gegeben sei f(x) = x auf [0,π], und f(x) werde zu einer ungeraden 2π-periodischen Funktion fortgesetzt. Welche Fourierreihe ergibt sich?"
+  },
+  {
+    "id": 179,
+    "frage": "Bestimmen Sie die Ableitung der Funktion f(x) = √(1 + 3x^2)."
+  },
+  {
+    "id": 180,
+    "frage": "Bestimmen Sie das globale Minimum der Funktion f(x,y) = x^2 + 4y^2 - 4x - 8y."
+  },
+  {
+    "id": 181,
+    "frage": "Lösen Sie das Gleichungssystem 2x + 3y = 4 und x − y = 1."
+  },
+  {
+    "id": 182,
+    "frage": "Gegeben sind die Vektoren v1 = (1,2,3), v2 = (2,4,6) und v3 = (1,0,1). Bestimmen Sie eine Basis des von {v1, v2, v3} erzeugten Unterraums."
+  },
+  {
+    "id": 183,
+    "frage": "Eine Zufallsvariable X sei normalverteilt mit Erwartungswert μ = 100 und Standardabweichung σ = 15. Wie groß ist P(X > 130)?"
+  },
+  {
+    "id": 184,
+    "frage": "Zwei Fabriken A und B produzieren die gleichen Teile. 60 % der Teile stammen aus A, 40 % aus B. Ausschussraten: P(defekt|A)=0,01, P(defekt|B)=0,03. Ein zufällig gezogenes Teil ist defekt. Wie groß ist die Wahrscheinlichkeit, dass es aus Fabrik A stammt?"
+  },
+  {
+    "id": 185,
+    "frage": "Lösen Sie die Differentialgleichung y'' + y' = 2x."
+  },
+  {
+    "id": 186,
+    "frage": "Lösen Sie die Differentialgleichung y' = y(2 − y) für 0 < y < 2."
+  },
+  {
+    "id": 187,
+    "frage": "Gegeben ist die 2π-periodische Funktion f(x) = cos(2x). Welche Fourierkoeffizienten sind von null verschieden?"
+  },
+  {
+    "id": 188,
+    "frage": "Bestimmen Sie die Ebenengleichung durch die Punkte P1(1,0,0), P2(0,1,0) und P3(0,0,1)."
+  },
+  {
+    "id": 189,
+    "frage": "Untersuchen Sie die Reihe ∑_{n=1}^∞ 1/n^2 auf Konvergenz und bestimmen Sie ihren Wert."
+  },
+  {
+    "id": 190,
+    "frage": "Berechnen Sie das uneigentliche Integral ∫_0^∞ e^{−x} dx."
+  },
+  {
+    "id": 191,
+    "frage": "Bestimmen Sie die Orthogonalprojektion des Vektors v = (1,2,3) auf die x-y-Ebene."
+  },
+  {
+    "id": 192,
+    "frage": "Bestimmen Sie den Winkel zwischen den Vektoren v1 = (1,2,2) und v2 = (2,0,1)."
+  },
+  {
+    "id": 193,
+    "frage": "Gegeben sind die Beobachtungspaare (1,1), (2,2), (3,3) für zwei Merkmale X und Y. Bestimmen Sie die empirische Kovarianz (mit Faktor 1/n) und beurteilen Sie den linearen Zusammenhang."
+  },
+  {
+    "id": 194,
+    "frage": "Aus einem Standardkartenspiel (52 Karten) wird eine Karte gezogen. Wie groß ist die Wahrscheinlichkeit, dass es ein Ass ist, wenn bekannt ist, dass die Karte ein Herz ist?"
+  },
+  {
+    "id": 195,
+    "frage": "Klassifizieren Sie die partielle Differentialgleichung u_xx - 4u_yy = 0 bezüglich ihres Typs (elliptisch, parabolisch, hyperbolisch)."
+  },
+  {
+    "id": 196,
+    "frage": "Bestimmen Sie, ob die Differentialgleichung y'' + sin(x)y' + y = 0 linear und ob sie homogen ist."
+  },
+  {
+    "id": 197,
+    "frage": "Gegeben ist die 2π-periodische Funktion f(x) = sin(x) + 2 cos(x) auf ℝ. Welche Fourierkoeffizienten sind ungleich null?"
+  },
+  {
+    "id": 198,
+    "frage": "Prüfen Sie, ob die Vektoren v1 = (1,2,3) und v2 = (2,4,6) orthogonal, parallel oder weder noch sind."
+  },
+  {
+    "id": 199,
+    "frage": "Bestimmen Sie die Ableitung der Funktion f(x) = ln(x^2 + 4)."
+  },
+  {
+    "id": 200,
+    "frage": "Eine Poisson-verteilte Zufallsvariable X habe Parameter λ = 3. Wie groß ist die Wahrscheinlichkeit, dass X genau 2 Ereignisse annimmt?"
+  }
+]

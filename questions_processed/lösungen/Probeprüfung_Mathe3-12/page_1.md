@@ -1,0 +1,60 @@
+<|ref|>text<|/ref|><|det|>[[24, 12, 841, 88]]<|/det|>
+6) \(\frac{\partial u}{\partial x_1} + 2u \frac{\partial u}{\partial x_2} - u = 0 + u\) w ist dazuglausurve
+\(u(0, x_2) = x_2\) AB 
+
+<|ref|>text<|/ref|><|det|>[[80, 110, 430, 138]]<|/det|>
+Charakteristische System : 
+
+<|ref|>equation<|/ref|><|det|>[[110, 144, 468, 177]]<|/det|>
+\[ \vec{a} = (2u) = \vec{k}'(s) = (k_1'(s)) \]
+
+<|ref|>equation<|/ref|><|det|>[[110, 185, 330, 211]]<|/det|>
+\[ u(\vec{k}'(s)) = w(s) \]
+
+<|ref|>equation<|/ref|><|det|>[[110, 225, 352, 252]]<|/det|>
+\[ w'(s) = u = w(s) \]
+
+<|ref|>equation<|/ref|><|det|>[[80, 280, 545, 310]]<|/det|>
+(1) \(k_1'(s) = 1 \rightarrow k_1(s) = s + c_1\)
+
+<|ref|>equation<|/ref|><|det|>[[80, 319, 415, 348]]<|/det|>
+(2) \(k_2'(s) = 2u = 2w(s)\)
+
+<|ref|>equation<|/ref|><|det|>[[80, 357, 310, 384]]<|/det|>
+(3) \(w'(s) = w(s)\)
+
+<|ref|>equation<|/ref|><|det|>[[110, 390, 480, 425]]<|/det|>
+\[ \frac{du}{ds} = w \iff \frac{1}{w} dw = ds \]
+
+<|ref|>equation<|/ref|><|det|>[[333, 435, 520, 460]]<|/det|>
+\[ \text{Enlw} = s + c_3 \]
+
+<|ref|>equation<|/ref|><|det|>[[333, 467, 615, 500]]<|/det|>
+\[ w = e^s \cdot e^{c_3} = \tilde{c}_3 \cdot e^s \]
+
+<|ref|>text<|/ref|><|det|>[[80, 513, 290, 537]]<|/det|>
+in (1) einheiten 
+
+<|ref|>equation<|/ref|><|det|>[[130, 545, 360, 576]]<|/det|>
+\[ k_2'(s) = 2 \tilde{c}_3 \cdot e^s \]
+
+<|ref|>equation<|/ref|><|det|>[[130, 583, 420, 614]]<|/det|>
+\[ k_2(s) = 2 \tilde{c}_3 e^s + c_2 \]
+
+<|ref|>text<|/ref|><|det|>[[80, 642, 621, 672]]<|/det|>
+Anfangsluere : \((x_{10}, x_{20}, u(x_{10}, x_{20}))\) 
+
+<|ref|>equation<|/ref|><|det|>[[264, 679, 620, 705]]<|/det|>
+\[ = (0, x_2, x_2) = (0, t, t) \]
+
+<|ref|>text<|/ref|><|det|>[[80, 714, 710, 777]]<|/det|>
+für s solle : \(\begin{pmatrix} u_1(s=0) \\ u_2(s=0) \\ w(s=0) \end{pmatrix}\) auf \(\begin{pmatrix} 0 \\ t \\ t \end{pmatrix}\) liegen 
+
+<|ref|>equation<|/ref|><|det|>[[60, 787, 645, 900]]<|/det|>
+\[ \begin{cases} u_1(s=0) = c_1 \\ u_2(s=0) = 2\tilde{c}_3 + c_2 \\ w(s=0) = \tilde{c}_3 \end{cases} = 0 \quad \begin{cases} c_1 = 0 \\ c_2 = t \\ \tilde{c}_3 = t \end{cases} \]
+
+<|ref|>equation<|/ref|><|det|>[[80, 925, 512, 950]]<|/det|>
+\[ \Rightarrow 2\tilde{c}_3 + c_2 = 2 \cdot t + c_2 = t \]
+
+<|ref|>equation<|/ref|><|det|>[[226, 963, 320, 991]]<|/det|>
+\[ c_2 = t \]

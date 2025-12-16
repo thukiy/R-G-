@@ -1,0 +1,60 @@
+<|ref|>text<|/ref|><|det|>[[25, 13, 450, 45]]<|/det|>
+4) \(A = \begin{pmatrix} 1 & -1 & 0 \\ 2 & 0 & 2 \\ 0 & 3 & 3 \end{pmatrix}\), \(B = \frac{1}{3}\begin{pmatrix} 2 & 1 & 2 \\ -1 & 2 & 3 \\ 0 & 0 & 0 \end{pmatrix}\) 
+
+<|ref|>text<|/ref|><|det|>[[80, 54, 643, 81]]<|/det|>
+a) A regular ⇔ det \(A \neq 0\) ⇔ A invertierbar 
+
+<|ref|>text<|/ref|><|det|>[[259, 90, 981, 118]]<|/det|>
+⇔ A hat vollen Rang ⇔ Spaltenvektoren linear unabhängig 
+
+<|ref|>text<|/ref|><|det|>[[140, 127, 875, 191]]<|/det|>
+det \(\begin{pmatrix} 1 & -1 & 0 \\ 2 & 0 & 0 \\ 0 & 3 & 3 \end{pmatrix}\) = 0 - 6 + 6 = 0 → A ist singulär 
+
+<|ref|>text<|/ref|><|det|>[[80, 225, 475, 251]]<|/det|>
+b) B symmetrisch : \(B = B^T\) ✓ 
+
+<|ref|>text<|/ref|><|det|>[[140, 260, 450, 287]]<|/det|>
+B orthogonale : \(B^T = B^{-1}\) 
+
+<|ref|>text<|/ref|><|det|>[[140, 297, 540, 325]]<|/det|>
+\(B \cdot B^{-1} = 1\) = \(B \cdot B^T = B \cdot B\) ✓ 
+
+<|ref|>text<|/ref|><|det|>[[140, 334, 888, 400]]<|/det|>
+\(\frac{1}{3}\begin{pmatrix} 2 & -1 & 2 \\ -1 & 2 & 2 \\ 2 & 2 & 1 \end{pmatrix} \cdot \frac{1}{3}\begin{pmatrix} 2 & -1 & 2 \\ -2 & 2 & 2 \\ 2 & 2 & 1 \end{pmatrix} = \frac{1}{3}\begin{pmatrix} 9 & 0 & 0 \\ 0 & 9 & 0 \\ 0 & 0 & 9 \end{pmatrix} = 1\) 
+
+<|ref|>text<|/ref|><|det|>[[80, 435, 580, 461]]<|/det|>
+c) \(L: V \to W\) \(\forall e \in V, \exists e \in W\) 
+
+<|ref|>text<|/ref|><|det|>[[140, 470, 339, 496]]<|/det|>
+\(L(\vec{v}) = A \cdot \vec{v} = \vec{w}\) 
+
+<|ref|>text<|/ref|><|det|>[[140, 508, 930, 533]]<|/det|>
+\(\ker(A) = \ker(L)\) : die Vektoren \(e \in V\), die auf 0 abgebildet werden 
+
+<|ref|>text<|/ref|><|det|>[[400, 545, 490, 570]]<|/det|>
+\(A \cdot \vec{v} = 0\) 
+
+<|ref|>text<|/ref|><|det|>[[140, 580, 850, 647]]<|/det|>
+\(\begin{pmatrix} 1 & -1 & 0 \\ 2 & 0 & 3 \\ 0 & 3 & 3 \end{pmatrix} \begin{pmatrix} 0 & 1 & 0 \\ 0 & 0 & 0 \\ 0 & 0 & 0 \end{pmatrix} \begin{pmatrix} 1 & -1 & 0 \\ 0 & 2 & 0 \\ 0 & 3 & 3 \end{pmatrix} \begin{pmatrix} 0 \\ 0 \\ 0 \end{pmatrix} = \begin{pmatrix} 0 \\ 0 \\ 0 \end{pmatrix}\) 
+
+<|ref|>text<|/ref|><|det|>[[140, 657, 500, 683]]<|/det|>
+\(2y + 2z = 0\) ⇔ \(y = -z\) 
+
+<|ref|>text<|/ref|><|det|>[[140, 694, 760, 720]]<|/det|>
+\(x - y = 0\) ⇔ \(x = y = -z\) wahre \(z = t\) 
+
+<|ref|>text<|/ref|><|det|>[[130, 728, 750, 758]]<|/det|>
+\(\Rightarrow \ker(A) = \{t \cdot \begin{pmatrix} -1 \\ 1 \end{pmatrix} \mid t \in \mathbb{R}\}\) dim(\(\ker(A)\)) = 1 
+
+<|ref|>text<|/ref|><|det|>[[130, 770, 789, 812]]<|/det|>
+Dimensionssatz : dim(V) = dim(\(\ker(A)\)) + dim(\(\text{img}(A)\)) 
+\(\frac{3}{1}\) 
+
+<|ref|>text<|/ref|><|det|>[[130, 828, 525, 855]]<|/det|>
+\(\text{img}(A)\) bestimmen : \(A^T\) bilden 
+
+<|ref|>text<|/ref|><|det|>[[130, 864, 800, 930]]<|/det|>
+\(\begin{pmatrix} 1 & 2 & 0 \\ -1 & 0 & 3 \\ 0 & 2 & 3 \end{pmatrix} \downarrow \begin{pmatrix} 1 & 2 & 0 \\ 0 & 2 & 3 \\ 0 & 2 & 3 \end{pmatrix} \begin{pmatrix} 1 & 2 & 0 \\ 0 & 2 & -3 \\ 0 & 0 & 0 \end{pmatrix}\) 
+
+<|ref|>text<|/ref|><|det|> [[130, 940, 810, 970]]<|/det|>
+\(\Rightarrow \text{img}(A) = \{s \cdot \begin{pmatrix} 1 \\ 3 \end{pmatrix} + t \cdot \begin{pmatrix} 2 \\ 3 \end{pmatrix} \mid s, t \in \mathbb{R}\}\) dim(\(\text{img}(A)\)) = 2

@@ -1,0 +1,1648 @@
+[
+  {
+    "id": 1,
+    "thema": "Mathe2_FS2024",
+    "schwierigkeitsgrad": null,
+    "frage": "1a) Es gilt: ∫_1^2 sin(2x) dx = ∫_2^4 sin(u) du.",
+    "ground_truth": "falsch; korrekt ist ∫_1^2 sin(2x) dx = 1/2 · ∫_2^4 sin(u) du.",
+    "einheit": null
+  },
+  {
+    "id": 2,
+    "thema": "Mathe2_FS2024",
+    "schwierigkeitsgrad": null,
+    "frage": "1b) Für a > 0 ist I = ∫_a^∞ 1/x dx konvergent.",
+    "ground_truth": "falsch; das Integral ∫_a^∞ 1/x dx divergiert (→ ∞).",
+    "einheit": null
+  },
+  {
+    "id": 3,
+    "thema": "Mathe2_FS2024",
+    "schwierigkeitsgrad": null,
+    "frage": "1c) Die Fläche eines Gebiets in 2D lässt sich mit Hilfe eines Zweifachintegrals berechnen.",
+    "ground_truth": "wahr; für f(x,y) = 1 gilt ∬_A 1 dx dy = Fläche(A).",
+    "einheit": null
+  },
+  {
+    "id": 4,
+    "thema": "Mathe2_FS2024",
+    "schwierigkeitsgrad": null,
+    "frage": "2a) Es sei f(x,y) = √(5 + x² + y²). Es gilt f(0,2) = 3.",
+    "ground_truth": "wahr; f(0,2) = √(5 + 0 + 4) = √9 = 3.",
+    "einheit": null
+  },
+  {
+    "id": 5,
+    "thema": "Mathe2_FS2024",
+    "schwierigkeitsgrad": null,
+    "frage": "2b) Es sei f(x,y) = √(5 + x² + y²). Der Graph von f ist eine Kurve in der xy-Ebene.",
+    "ground_truth": "falsch; der Graph von f ist eine Fläche in ℝ³ (x,y,z) mit z = f(x,y).",
+    "einheit": null
+  },
+  {
+    "id": 6,
+    "thema": "Mathe2_FS2024",
+    "schwierigkeitsgrad": null,
+    "frage": "2c) Es sei f(x,y) = √(5 + x² + y²). Die Einheitssphäre in 3D ist eine Niveau-Menge von f.",
+    "ground_truth": "falsch; Niveau-Mengen von f sind Kurven in der (x,y)-Ebene, keine Kugel in ℝ³.",
+    "einheit": null
+  },
+  {
+    "id": 7,
+    "thema": "Mathe2_FS2024",
+    "schwierigkeitsgrad": null,
+    "frage": "3a) Es sei v(x,y,z) = (2x, −y, −z). Das Vektorfeld v ist konservativ.",
+    "ground_truth": "wahr; rot v = 0, also ist v konservativ.",
+    "einheit": null
+  },
+  {
+    "id": 8,
+    "thema": "Mathe2_FS2024",
+    "schwierigkeitsgrad": null,
+    "frage": "3b) Es sei v(x,y,z) = (2x, −y, −z). Das Vektorfeld v ist quellenfrei.",
+    "ground_truth": "wahr; div v = 2 − 1 − 1 = 0, also quellenfrei.",
+    "einheit": null
+  },
+  {
+    "id": 9,
+    "thema": "Mathe2_FS2024",
+    "schwierigkeitsgrad": null,
+    "frage": "3c) Es sei v(x,y,z) = (2x, −y, −z). Es gibt eine reellwertige Funktion φ, so dass v = ∇φ.",
+    "ground_truth": "wahr; da v konservativ ist, existiert ein Potential φ mit v = ∇φ.",
+    "einheit": null
+  },
+  {
+    "id": 10,
+    "thema": "Mathe2_FS2024",
+    "schwierigkeitsgrad": null,
+    "frage": "4a) Gegeben seien die Matrizen A = [[1, −1, 0],[2, 0, 2],[0, 3, 3]] und B = (1/3)·[[2, −1, 2],[−1, 2, 2],[2, 2, −1]]. A ist regulär.",
+    "ground_truth": "falsch; det(A) = 0, also ist A singulär (nicht invertierbar).",
+    "einheit": null
+  },
+  {
+    "id": 11,
+    "thema": "Mathe2_FS2024",
+    "schwierigkeitsgrad": null,
+    "frage": "4b) Gegeben seien die Matrizen A und B. B ist symmetrisch und orthogonal.",
+    "ground_truth": "wahr; B = Bᵀ und B · Bᵀ = I.",
+    "einheit": null
+  },
+  {
+    "id": 12,
+    "thema": "Mathe2_FS2024",
+    "schwierigkeitsgrad": null,
+    "frage": "4c) Gegeben sei A wie oben. Es gilt dim(img(A)) = 2 * dim(ker(A)).",
+    "ground_truth": "wahr; dim(ker(A)) = 1, dim(img(A)) = 2, also 2 = 2·1.",
+    "einheit": null
+  },
+  {
+    "id": 13,
+    "thema": "Mathe2_FS2024",
+    "schwierigkeitsgrad": null,
+    "frage": "5a) Sind die Matrizen A und B invertierbar, dann sind auch AB und BA invertierbar.",
+    "ground_truth": "wahr; det(AB) = det(A)·det(B) ≠ 0 und det(BA) = det(B)·det(A) ≠ 0.",
+    "einheit": null
+  },
+  {
+    "id": 14,
+    "thema": "Mathe2_FS2024",
+    "schwierigkeitsgrad": null,
+    "frage": "5b) Für eine symmetrische invertierbare n×n-Matrix A mit Eigenwerten λ_i gilt: A³ besitzt die Eigenwerte λ_i³.",
+    "ground_truth": "wahr; A ist diagonalisierbar, A = B⁻¹DB ⇒ A³ = B⁻¹D³B mit Eigenwerten λ_i³.",
+    "einheit": null
+  },
+  {
+    "id": 15,
+    "thema": "Mathe2_FS2024",
+    "schwierigkeitsgrad": null,
+    "frage": "5c) Zu zwei verschiedenen Eigenwerten einer n×n-Matrix A lassen sich stets zwei verschiedene Eigenvektoren finden.",
+    "ground_truth": "wahr; ein Eigenvektor kann nicht zu zwei verschiedenen Eigenwerten gehören.",
+    "einheit": null
+  },
+  {
+    "id": 16,
+    "thema": "Mathe2_FS2024",
+    "schwierigkeitsgrad": null,
+    "frage": "6a) Seien z1 und z2 komplexe Zahlen. Aus z1* = z2* folgt genau dann, dass z1 = z2.",
+    "ground_truth": "wahr; aus z1* = z2* folgt x1 = x2 und y1 = y2, also z1 = z2.",
+    "einheit": null
+  },
+  {
+    "id": 17,
+    "thema": "Mathe2_FS2024",
+    "schwierigkeitsgrad": null,
+    "frage": "6b) Gegeben sei die Potenzgleichung zⁿ = w mit w ∈ ℂ, n ∈ ℕ. Ist n gerade und z eine Lösung, dann ist auch -z eine Lösung.",
+    "ground_truth": "wahr; für gerades n gilt (−z)ⁿ = (−1)ⁿzⁿ = zⁿ = w.",
+    "einheit": null
+  },
+  {
+    "id": 18,
+    "thema": "Mathe2_FS2024",
+    "schwierigkeitsgrad": null,
+    "frage": "6c) Der Gradient einer Funktion f ist tangential zu den Höhenlinien von f.",
+    "ground_truth": "falsch; der Gradient steht senkrecht (orthogonal) zu den Höhenlinien.",
+    "einheit": null
+  },
+  {
+    "id": 19,
+    "thema": "Mathe2_FS2024",
+    "schwierigkeitsgrad": null,
+    "frage": "6d) Aus der linearen Unabhängigkeit der Vektoren u und v folgt auch die lineare Unabhängigkeit von u + v und u − v.",
+    "ground_truth": "wahr; aus x₁(u+v) + x₂(u−v) = 0 folgt x₁ = x₂ = 0, also sind u+v und u−v unabhängig.",
+    "einheit": null
+  },
+  {
+    "id": 20,
+    "thema": "Mathe2_FS2024",
+    "schwierigkeitsgrad": null,
+    "frage": "6e) Die Funktion f: ℝ → ℝ mit f(x) = 3x + 1 ist eine lineare Abbildung im Sinne der linearen Algebra.",
+    "ground_truth": "falsch; f(0) ≠ 0 und f(ax1 + bx2) ≠ a f(x1) + b f(x2), also nicht linear.",
+    "einheit": null
+  },
+  {
+    "id": 21,
+    "thema": "Mathe2_FS2024",
+    "schwierigkeitsgrad": null,
+    "frage": "6f) Der Term 5 cis(π/2) ist eine trigonometrische Form der Zahl 5.",
+    "ground_truth": "falsch; 5 cis(π/2) = 5 (cos(π/2) + i sin(π/2)) = 5i.",
+    "einheit": null
+  },
+  {
+    "id": 22,
+    "thema": "Mathe2_FS2024",
+    "schwierigkeitsgrad": null,
+    "frage": "7a) Bestimmen Sie alle Lösungen der Gleichung z⁴ = 16 · e^{iπ} und geben Sie diese in arithmetischer Form an.",
+    "ground_truth": "z = 2 e^{i(π/4 + kπ/2)}, k = 0,1,2,3, also: √2 + √2 i, −√2 + √2 i, −√2 − √2 i, √2 − √2 i.",
+    "einheit": null
+  },
+  {
+    "id": 23,
+    "thema": "Mathe2_FS2024",
+    "schwierigkeitsgrad": null,
+    "frage": "7b) Bestimmen Sie die Matrixpotenz B = A¹⁵ mit A = (1/2)·[[√3, −1],[1, √3]].",
+    "ground_truth": "A ist Rotationsmatrix mit Winkel α = π/6 ⇒ A¹⁵ = R(15·π/6) = R(5π/2) = R(π/2) = [[0, −1],[1, 0]].",
+    "einheit": null
+  },
+  {
+    "id": 24,
+    "thema": "Mathe2_FS2024",
+    "schwierigkeitsgrad": null,
+    "frage": "7c) Vertauschen Sie die Integrationsreihenfolge für das Integral ∫_0^4 ∫_0^{√x} f(x,y) dy dx.",
+    "ground_truth": "Integrationsgebiet: 0 ≤ x ≤ 4, 0 ≤ y ≤ √x ⇒ 0 ≤ y ≤ 2, y² ≤ x ≤ 4. Neue Reihenfolge: ∫_0^2 ∫_{y²}^4 f(x,y) dx dy.",
+    "einheit": null
+  },
+  {
+    "id": 25,
+    "thema": "Mathe2_FS2024",
+    "schwierigkeitsgrad": null,
+    "frage": "7d) Es sei f(x,y) = (1/ln 2) · 2^{2x−y} und v = (−3, 4)^T. Berechnen Sie die Richtungsableitung von f im Punkt P(1,2) in Richtung v.",
+    "ground_truth": "∇f(1,2) = (1/2, −1/2), |v| = 5, v̂ = (−3/5, 4/5). Richtungsableitung D_v f(1,2) = ⟨v̂, ∇f(1,2)⟩ = −7/10.",
+    "einheit": null
+  },
+  {
+    "id": 26,
+    "thema": "Mathe2_FS2024",
+    "schwierigkeitsgrad": null,
+    "frage": "7e) Eine Kurve K habe die Parameterdarstellung γ(t) = ((cos t)/t, (sin t)/t) für 0 < t < 1. Berechnen Sie das skalare Kurvenintegral von f(x,y) = (x² + y²)^{-3/2} längs γ.",
+    "ground_truth": "f(γ(t)) = t³, |γ'(t)| = (1/t²)√(t² + 1) ⇒ Integrand t√(t² + 1). Integral: ∫_0^1 t√(t²+1) dt = 1/3 (2√2 − 1) ≈ 0,609.",
+    "einheit": null
+  },
+  {
+    "id": 27,
+    "thema": "Mathe2_FS2024",
+    "schwierigkeitsgrad": null,
+    "frage": "8) Bestimmen Sie alle lokalen Extrema und Sattelpunkte der Funktion f(x,y) = 3x²y + y³ − 27y + 4.",
+    "ground_truth": "Kritische Punkte: (0,3), (0,−3), (3,0), (−3,0). Klassifikation über die Hesse-Matrix Hf = [[6y,6x],[6x,6y]] mit det(Hf)=36(y²−x²). (0,3): det>0, fxx=18>0 → lokales Minimum. (0,−3): det>0, fxx=−18<0 → lokales Maximum. (3,0) und (−3,0): det<0 → Sattelpunkte.",
+    "einheit": null
+  },
+  {
+    "id": 28,
+    "thema": "Mathe2_FS2024",
+    "schwierigkeitsgrad": null,
+    "frage": "9) Bestimmen Sie für die skizzierte trapezförmige Fläche den Flächenschwerpunkt S = (x_S, y_S) mittels Doppelintegration.",
+    "ground_truth": "Die Fläche A setzt sich aus Rechteck und Dreieck zusammen: A = 2a·a + 1/2·2a·2a = 4a². Mit f(x) = x + a gilt: x_S = (1/A) ∫_0^{2a} x f(x) dx = (1/(4a²)) ∫_0^{2a} (x² + ax) dx = (1/(4a²)) · (14/3 a³) = 7/6 a. Für y_S: y_S = (1/A) ∫_0^{2a} 1/2 (f(x))² dx = (1/(8a²)) ∫_0^{2a} (x + a)² dx = (1/(8a²)) · (26/3 a³) = 13/12 a. Damit S = (7/6 a, 13/12 a).",
+    "einheit": null
+  },
+  {
+    "id": 29,
+    "thema": "Mathe2_FS2024",
+    "schwierigkeitsgrad": null,
+    "frage": "10) Gegeben ist die Matrix A = [[2,1,-2],[-6,-5,8],[-2,-2,3]]. Ist A diagonalisierbar? Falls ja, dann geben Sie sowohl die Diagonalmatrix als auch die Transformationsmatrix an.",
+    "ground_truth": "Die Matrix besitzt die Eigenwerte λ1=0, λ2=1 und λ3=−1 (aus det(A−λI)=λ−λ³=λ(1−λ²)). Alle Eigenwerte sind verschieden, also ist A diagonalisierbar. Die Diagonalmatrix lautet D = diag(0, 1, −1). Eigenvektoren sind: E1 = (1, 2, 2)^T zu λ1, E2 = (−1, 1, 0)^T zu λ2, E3 = (0, 2, 1)^T zu λ3. Damit ergibt sich als Transformationsmatrix B = [[1, -1, 0],[2, 1, 2],[2, 0, 1]]. Es gilt A = B^{-1} · D · B.",
+    "einheit": null
+  },
+  {
+    "id": 30,
+    "thema": "Stochastik_HS2023",
+    "schwierigkeitsgrad": null,
+    "frage": "1a) Es seien A und B beliebige Ereignisse. Dann gilt: P(A ∩ B̅) + P(B ∩ A̅) = P(A ∪ B) − P(A ∩ B).",
+    "ground_truth": "wahr; Identität folgt aus Zerlegung von A ∪ B.",
+    "einheit": null
+  },
+  {
+    "id": 31,
+    "thema": "Stochastik_HS2023",
+    "schwierigkeitsgrad": null,
+    "frage": "1b) Es seien A und B beliebige Ereignisse mit P(A) > 0 und P(B) > 0. Dann gilt: P(A ∪ B) = P(A) + P(B).",
+    "ground_truth": "falsch; P(A ∪ B) = P(A) + P(B) gilt nur wenn A und B disjunkt sind.",
+    "einheit": null
+  },
+  {
+    "id": 32,
+    "thema": "Stochastik_HS2023",
+    "schwierigkeitsgrad": null,
+    "frage": "1c) Es seien A und B beliebige Ereignisse. Dann gilt: P(A ∪ B) = 1 − P(A̅ ∩ B̅).",
+    "ground_truth": null,
+    "einheit": null
+  },
+  {
+    "id": 33,
+    "thema": "Stochastik_HS2023",
+    "schwierigkeitsgrad": null,
+    "frage": "1d) Es seien A und B beliebige Ereignisse. Dann gilt: P(A | B) ≥ P(A).",
+    "ground_truth": "falsch; P(A|B) kann kleiner, gleich oder größer als P(A) sein.",
+    "einheit": null
+  },
+  {
+    "id": 34,
+    "thema": "Stochastik_HS2023",
+    "schwierigkeitsgrad": null,
+    "frage": "1e) Es seien A und B zwei Ereignisse. Dann gilt: A ∩ B = ∅, wenn A und B unabhängig sind.",
+    "ground_truth": "falsch; Unabhängigkeit bedeutet nicht A ∩ B = ∅.",
+    "einheit": null
+  },
+  {
+    "id": 35,
+    "thema": "Stochastik_HS2023",
+    "schwierigkeitsgrad": null,
+    "frage": "1f) Es seien A und B beliebige Ereignisse. Dann gilt: P(A ∩ B) = P(A) + P(B) − P(A ∪ B).",
+    "ground_truth": "wahr; Standardformel: P(A ∩ B) = P(A) + P(B) − P(A ∪ B).",
+    "einheit": null
+  },
+  {
+    "id": 36,
+    "thema": "Stochastik_HS2023",
+    "schwierigkeitsgrad": null,
+    "frage": "2a) Es sei X eine beliebige Zufallsvariable mit Erwartungswert E(X) und Varianz Var(X). Dann gilt: Var(−X) = Var(X).",
+    "ground_truth": "wahr; Var(−X) = (−1)² Var(X) = Var(X).",
+    "einheit": null
+  },
+  {
+    "id": 37,
+    "thema": "Stochastik_HS2023",
+    "schwierigkeitsgrad": null,
+    "frage": "2b) X sei eine stetige Zufallsvariable. Die Dichtefunktion ist monoton wachsend.",
+    "ground_truth": "falsch; eine Dichtefunktion muss nicht monoton sein.",
+    "einheit": null
+  },
+  {
+    "id": 38,
+    "thema": "Stochastik_HS2023",
+    "schwierigkeitsgrad": null,
+    "frage": "2c) Für Erwartungswert E(X) und Varianz Var(X) einer beliebigen Zufallsvariablen X und a, b ∈ ℝ gilt: Var(bX − a) = b² Var(X) − a.",
+    "ground_truth": "falsch; korrekt ist Var(bX − a) = b² Var(X).",
+    "einheit": null
+  },
+  {
+    "id": 39,
+    "thema": "Stochastik_HS2023",
+    "schwierigkeitsgrad": null,
+    "frage": "2d) X sei eine normalverteilte Zufallsvariable mit E(X) = μ und Var(X) = σ². Dann gilt: P(μ − σ ≤ X ≤ μ + σ) = 2 · P(X ≥ μ + σ).",
+    "ground_truth": "falsch; 0.6826 ≠ 2 · 0.1587, Gleichung ist nicht korrekt.",
+    "einheit": null
+  },
+  {
+    "id": 40,
+    "thema": "Stochastik_HS2023",
+    "schwierigkeitsgrad": null,
+    "frage": "2e) X sei eine normalverteilte Zufallsvariable mit E(X) = μ und Var(X) = σ². Dann gilt: Var(X) = E(X²), falls μ = 0.",
+    "ground_truth": "wahr; Var(X) = E(X²) − μ² und für μ=0 gilt E(X²)=Var(X).",
+    "einheit": null
+  },
+  {
+    "id": 41,
+    "thema": "Stochastik_HS2023",
+    "schwierigkeitsgrad": null,
+    "frage": "2f) Eine Bank vergibt 100 Kredite. Die Ausfallwahrscheinlichkeit eines einzelnen Kredits beträgt 0,01 und Ausfälle sind unabhängig. Die Zufallsvariable X misst die Anzahl der ausfallenden Kredite. Es gilt, dass X binomialverteilt ist mit n = 100 und p = 0,01.",
+    "ground_truth": "wahr; unabhängige Ausfälle → Binomialverteilung mit n=100, p=0.01.",
+    "einheit": null
+  },
+  {
+    "id": 42,
+    "thema": "Stochastik_HS2023",
+    "schwierigkeitsgrad": null,
+    "frage": "3a) Beim zweiten Durchgang im Skispringen starten 30 Springer. Wie viele Möglichkeiten gibt es, die Medaillenränge (Gold, Silber, Bronze) zu verteilen?",
+    "ground_truth": "wahr; 30·29·28 = 24360 Möglichkeiten.",
+    "einheit": null
+  },
+  {
+    "id": 43,
+    "thema": "Stochastik_HS2023",
+    "schwierigkeitsgrad": null,
+    "frage": "3b) Wie gross ist die Wahrscheinlichkeit, 2 Richtige im Zahlenlotto 6 aus 49 zu haben?",
+    "ground_truth": "wahr; Wahrscheinlichkeit ≈ 0.13237 = 13.24%.",
+    "einheit": null
+  },
+  {
+    "id": 44,
+    "thema": "Stochastik_HS2023",
+    "schwierigkeitsgrad": null,
+    "frage": "3c) Bei einer Qualitätskontrolle haben von 60 kontrollierten Stücken 15 den Defekt A und 12 den Defekt B. 38 Stück bieten keinen Anlass zur Beanstandung. Gesucht ist die Wahrscheinlichkeit, dass ein Stück mit Defekt A auch den Defekt B hat.",
+    "ground_truth": "wahr; P(B|A) = 1/3.",
+    "einheit": null
+  },
+  {
+    "id": 45,
+    "thema": "Stochastik_HS2023",
+    "schwierigkeitsgrad": null,
+    "frage": "3d) Ein Pfarrer teilt seine Gemeindemitglieder in drei Altersgruppen ein: 25 % jung (unter 25 Jahre), 30 % mittleren Alters (25 bis unter 55), 45 % Senioren (ab 55). Von den jungen besuchen 10 % den Gottesdienst, von den mittleren 30 % und von den Senioren 50 %. Wie gross ist die Wahrscheinlichkeit, dass ein zufällig ausgewählter Gottesdienstbesucher zur jüngsten Altersgruppe gehört?",
+    "ground_truth": "wahr; Ergebnis ≈ 0.074 = 7.4%.",
+    "einheit": null
+  },
+  {
+    "id": 46,
+    "thema": "Stochastik_HS2023",
+    "schwierigkeitsgrad": null,
+    "frage": "3e) Bestimmen Sie die Wahrscheinlichkeit, dass Sie bei zehnmaligem Drehen des abgebildeten Glücksrads mindestens zweimal Rot erhalten.",
+    "ground_truth": "wahr; P(X ≥ 2) ≈ 0.5155.",
+    "einheit": null
+  },
+  {
+    "id": 47,
+    "thema": "Stochastik_HS2023",
+    "schwierigkeitsgrad": null,
+    "frage": "4a) Ein Teehersteller betrachtet die Abweichung Z von der Füllmenge (in g) bei 50-g-Packungen. Z sei normalverteilt mit μ = 0 und σ = 1. Wie gross ist die Wahrscheinlichkeit, dass eine zufällig ausgewählte Packung mehr als 1 g zu viel enthält?",
+    "ground_truth": "wahr; P(X>1)=1−Φ(1)=0.1587.",
+    "einheit": null
+  },
+  {
+    "id": 48,
+    "thema": "Stochastik_HS2023",
+    "schwierigkeitsgrad": null,
+    "frage": "4b) Wie gross ist die Wahrscheinlichkeit, dass eine zufällig ausgewählte Packung mehr als 2 g zu wenig enthält?",
+    "ground_truth": "wahr; P(X<−2)=0.0227.",
+    "einheit": null
+  },
+  {
+    "id": 49,
+    "thema": "Stochastik_HS2023",
+    "schwierigkeitsgrad": null,
+    "frage": "4c) Wie gross ist die Wahrscheinlichkeit, dass das Füllgewicht einer zufällig ausgewählten Packung um weniger als 1 g nach oben oder unten abweicht?",
+    "ground_truth": "wahr; P(|X|<1)=0.6826.",
+    "einheit": null
+  },
+  {
+    "id": 50,
+    "thema": "Stochastik_HS2023",
+    "schwierigkeitsgrad": null,
+    "frage": "4d) Welche Abweichung nach oben wird von 10 % der Packungen überschritten?",
+    "ground_truth": "wahr; 90%-Quantil der Normalverteilung ≈ 1.28.",
+    "einheit": null
+  },
+  {
+    "id": 51,
+    "thema": "Analysis_HS2023",
+    "typ": "gruppenaufgabe",
+    "aufgabenstellung": "Gegeben sei die Funktion f: ℝ → ℝ, x ↦ f(x) = (x² − 9)(x² − 16). Welche der folgenden Aussagen sind wahr bzw. falsch?",
+    "teile": [
+      {
+        "teil_id": "51a",
+        "label": "1a",
+        "frage": "Es gilt f(0) = 0.",
+        "ground_truth": "falsch; f(0) = (0² − 9)(0² − 16) = (−9)·(−16) = 144 ≠ 0.",
+        "einheit": null
+      },
+      {
+        "teil_id": "51b",
+        "label": "1b",
+        "frage": "Die Funktion f ist injektiv.",
+        "ground_truth": "falsch; f ist eine gerade Polynomfunktion 4. Grades und daher nicht injektiv.",
+        "einheit": null
+      },
+      {
+        "teil_id": "51c",
+        "label": "1c",
+        "frage": "Die Funktion f ist bijektiv.",
+        "ground_truth": "falsch; da f nicht injektiv ist und nicht ganz ℝ als Bild hat, ist sie nicht bijektiv.",
+        "einheit": null
+      },
+      {
+        "teil_id": "51d",
+        "label": "1d",
+        "frage": "Die Funktion f hat genau drei Extrema.",
+        "ground_truth": "wahr; f'(x) = 4x³ − 50x hat die Nullstellen x = 0 und x = ±5√2/2, also drei Extremstellen.",
+        "einheit": null
+      },
+      {
+        "teil_id": "51e",
+        "label": "1e",
+        "frage": "Die Funktion f hat auf ℝ kein globales Minimum.",
+        "ground_truth": "falsch; die beiden Tiefpunkte bei x = ±5√2/2 sind globale Minima, da f(x) → +∞ für x → ±∞.",
+        "einheit": null
+      },
+      {
+        "teil_id": "51f",
+        "label": "1f",
+        "frage": "Das globale Maximum der Funktion f auf dem Intervall [3,4] ist 0.",
+        "ground_truth": "wahr; f(3) = f(4) = 0 und für 3 < x < 4 ist f(x) < 0, also ist 0 das Maximum auf [3,4].",
+        "einheit": null
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "thema": "Analysis_HS2023",
+    "schwierigkeitsgrad": null,
+    "frage": "2a) Es gilt exp(0) = 1.",
+    "ground_truth": "wahr; exp(0) = e^0 = 1.",
+    "einheit": null
+  },
+  {
+    "id": 58,
+    "thema": "Analysis_HS2023",
+    "schwierigkeitsgrad": null,
+    "frage": "2b) Es gilt e^{e'''(x)} = (e^x)'.",
+    "ground_truth": "wahr im intendierten Sinn; für die natürliche Exponentialfunktion gilt exp(x) = e^x und jede Ableitung (erste, dritte, …) ist wieder e^x, also sind exp‴(x) und (e^x)' beide gleich e^x.",
+    "einheit": null
+  },
+  {
+    "id": 59,
+    "thema": "Analysis_HS2023",
+    "schwierigkeitsgrad": null,
+    "frage": "2c) Es gilt exp(0,25) = √(e²/8).",
+    "ground_truth": "wahr im Sinne der Originalaufgabe: exp(0,25) = e^{1/4} und ⁸√(e²) = (e²)^{1/8} = e^{2/8} = e^{1/4}.",
+    "einheit": null
+  },
+  {
+    "id": 60,
+    "thema": "Analysis_HS2023",
+    "schwierigkeitsgrad": null,
+    "frage": "2d) Für alle x ∈ ℝ gilt exp(2x) = 2 · exp(x).",
+    "ground_truth": "falsch; es gilt exp(2x) = (exp(x))² = e^{2x}, nicht 2·exp(x).",
+    "einheit": null
+  },
+  {
+    "id": 61,
+    "thema": "Analysis_HS2023",
+    "schwierigkeitsgrad": null,
+    "frage": "2e) Für alle x, y ∈ ℝ gilt: exp(x − y) = exp(x) / exp(y).",
+    "ground_truth": "wahr; exp(x − y) = e^{x−y} = e^x / e^y = exp(x)/exp(y).",
+    "einheit": null
+  },
+  {
+    "id": 62,
+    "thema": "Analysis_HS2023",
+    "schwierigkeitsgrad": null,
+    "frage": "2f) Eigentliche Exponentialfunktionen sind immer streng monoton steigend.",
+    "ground_truth": "falsch; bei Basis a mit 0 < a < 1 ist f(x) = a^x streng monoton fallend.",
+    "einheit": null
+  },
+  {
+    "id": 63,
+    "thema": "Analysis_HS2023",
+    "schwierigkeitsgrad": null,
+    "frage": "3a) Schreiben Sie die Menge sec(]0,7]) (beziehungsweise die im Text gemeinte Menge) in aufzählender Form.",
+    "ground_truth": "Die gemeinte Menge ist sgn(]0;7]) = {1}, da für alle x in (0,7] das Vorzeichen sgn(x) = 1 ist.",
+    "einheit": null
+  },
+  {
+    "id": 64,
+    "thema": "Analysis_HS2023",
+    "schwierigkeitsgrad": null,
+    "frage": "3b) Berechnen Sie für n → ∞ den Grenzwert der Folge a_n = (2n − 5 − 4n²) / (3 − 8n² − 10n).",
+    "ground_truth": "Grenzwert: 1/2; durch Teilen von Zähler und Nenner durch n² erhält man lim a_n = (−4)/(−8) = 1/2.",
+    "einheit": null
+  },
+  {
+    "id": 65,
+    "thema": "Analysis_HS2023",
+    "schwierigkeitsgrad": null,
+    "frage": "3c) Berechnen Sie die Ableitung der Funktion f(x) = √(3x² + 32x).",
+    "ground_truth": "f'(x) = (6x + 32) / (2√(3x² + 32x)) = (3x + 16) / √(3x² + 32x).",
+    "einheit": null
+  },
+  {
+    "id": 66,
+    "thema": "Analysis_HS2023",
+    "schwierigkeitsgrad": null,
+    "frage": "3d) Berechnen Sie das bestimmte Integral ∫_u^{−v} (2uw − 6vw² + 1) dw (gemäss Aufgabenstellung).",
+    "ground_truth": "∫_u^{−v} (2uw − 6vw² + 1) dw = [u w² − 2v w³ + w]_{w=u}^{w=−v} = uv² + 2v⁴ − v − u³ + 2vu³ − u.",
+    "einheit": null
+  },
+  {
+    "id": 67,
+    "thema": "Analysis_HS2023",
+    "schwierigkeitsgrad": null,
+    "frage": "4a) Eine Fussgängerbrücke wird durch den Graphen f(x) = (1/432 m³) x⁴ − (1/6 m) x² + 3 m beschrieben und hat Länge 12 m und Höhe 3 m. Wie hoch darf ein Lastwagen der Breite 2,5 m maximal sein, damit er unter der Brücke durchfahren kann?",
+    "ground_truth": "Der Lastwagen wird symmetrisch zur Brückenmitte platziert, seine Ränder liegen bei x = ±1,25 m. Die minimale Brückenhöhe über diesem Bereich ist f(1,25) ≈ 2,75 m. Der Lastwagen darf also maximal etwa 2,75 m hoch sein.",
+    "einheit": "m"
+  },
+  {
+    "id": 68,
+    "thema": "Analysis_HS2023",
+    "schwierigkeitsgrad": null,
+    "frage": "4b) Welche Steigung hat der Weg über die Brücke an seiner steilsten Stelle?",
+    "ground_truth": "f'(x) = (1/108)x³ − (1/3)x. Das Maximum von |f'(x)| liegt bei f''(x) = 0 ⇒ x² = 12 ⇒ x = ±√12. Dort ist |f'(±√12)| = 4√3/9 ≈ 0,77. Die grösste Steigung beträgt also ungefähr 0,77.",
+    "einheit": null
+  },
+  {
+    "id": 69,
+    "thema": "Analysis_HS2023",
+    "schwierigkeitsgrad": null,
+    "frage": "4c) Wie gross ist die Querschnittsfläche der gesamten Durchfahrtöffnung unter der Brücke?",
+    "ground_truth": "Die Öffnung ist die Fläche unter f von x = −6 bis x = 6: A = ∫_{−6}^{6} f(x) dx = 2 ∫_0^6 f(x) dx = 96/5 ≈ 19,2 m².",
+    "einheit": "m^2"
+  },
+  {
+    "id": 70,
+    "thema": "LA_HS2023",
+    "schwierigkeitsgrad": null,
+    "frage": "Gegeben sei das folgende Gauss-Schema mit Parametern p, q ∈ ℝ:\nZ1: [3, 3, 3, p, 3, 3, 3, 3, 3, 3, 3 | 1−p]\nZ2: [0, 0, 0, 0, 0, 0, q, p, 3, 0, 0, 0 | 2−q]\nZ3: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, p, 0 | 3−p]\nZ4: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 | p−q]\nZ5: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 | p·q]\nAussage a) Die Variable x3 ist eine Pivot-Variable.",
+    "ground_truth": "falsch; in keiner Zeile steht ein führendes Nichtnull-Element in Spalte 3.",
+    "einheit": null
+  },
+  {
+    "id": 71,
+    "thema": "LA_HS2023",
+    "schwierigkeitsgrad": null,
+    "frage": "Bezug auf dasselbe Gauss-Schema wie in Aufgabe 70.\nAussage b) In jedem Fall hat das LGLS keine Lösung.",
+    "ground_truth": "falsch; nur für p = q = 0 entsteht ein Widerspruch (0 = 3).",
+    "einheit": null
+  },
+  {
+    "id": 72,
+    "thema": "LA_HS2023",
+    "schwierigkeitsgrad": null,
+    "frage": "Bezug auf das Gauss-Schema aus Aufgabe 70.\nAussage c) Der Rang hängt nur dann vom Wert des Parameters q ab, wenn p = 0 gilt.",
+    "ground_truth": "wahr; aus dem Gauss-Schema folgt genau dieser Zusammenhang.",
+    "einheit": null
+  },
+  {
+    "id": 73,
+    "thema": "LA_HS2023",
+    "schwierigkeitsgrad": null,
+    "frage": "Bezug auf das Gauss-Schema aus Aufgabe 70.\nAussage d) Falls q ≠ 0 gilt, hat das LGLS drei Pivot-Variablen.",
+    "ground_truth": "wahr; bei q ≠ 0 entstehen drei Zeilen mit führenden Elementen.",
+    "einheit": null
+  },
+  {
+    "id": 74,
+    "thema": "LA_HS2023",
+    "schwierigkeitsgrad": null,
+    "frage": "Bezug auf das Gauss-Schema aus Aufgabe 70.\nAussage e) In jedem Fall gilt n_D (Defekt) > n_R (Rang).",
+    "ground_truth": "wahr; aus der Struktur des Schemas ergeben sich mindestens zwei freie Variablen.",
+    "einheit": null
+  },
+  {
+    "id": 75,
+    "thema": "LA_HS2023",
+    "schwierigkeitsgrad": null,
+    "frage": "Bezug auf das Gauss-Schema aus Aufgabe 70.\nAussage f) Falls p = q = 0 gilt, hat das LGLS unendlich viele Lösungen.",
+    "ground_truth": "falsch; bei p = q = 0 entsteht die Gleichung 0 = 3 ⇒ keine Lösung.",
+    "einheit": null
+  },
+  {
+    "id": 76,
+    "thema": "LA_HS2023",
+    "schwierigkeitsgrad": null,
+    "frage": "2a) Gilt für ein LGLS n_R (Rang) = n_V (Anzahl Variablen), dann ist es eindeutig lösbar.",
+    "ground_truth": "Falsch. Rang = Anzahl Variablen bedeutet, dass das System *höchstens* eindeutig lösbar ist; Konsistenz ist zusätzlich erforderlich.",
+    "einheit": null
+  },
+  {
+    "id": 77,
+    "thema": "LA_HS2023",
+    "schwierigkeitsgrad": null,
+    "frage": "2b) Das Vektorprodukt von zwei Vektoren ist nur in dreidimensionalen Räumen definiert.",
+    "ground_truth": "Wahr. Das Kreuzprodukt ist nur im ℝ³ definiert.",
+    "einheit": null
+  },
+  {
+    "id": 78,
+    "thema": "LA_HS2023",
+    "schwierigkeitsgrad": null,
+    "frage": "2c) Die Gleichung cos x = cos(−x) hat nur die Lösung x = 0.",
+    "ground_truth": "Falsch. cos(x) = cos(−x) gilt für alle x, nicht nur für x = 0.",
+    "einheit": null
+  },
+  {
+    "id": 79,
+    "thema": "LA_HS2023",
+    "schwierigkeitsgrad": null,
+    "frage": "2d) Für Vektoren v, w gilt: ⟨2v, 2w⟩ = 2 · ⟨v, w⟩.",
+    "ground_truth": "Falsch. cos(x) = cos(−x) gilt für alle x, nicht nur für x = 0.",
+    "einheit": null
+  },
+  {
+    "id": 80,
+    "thema": "LA_HS2023",
+    "schwierigkeitsgrad": null,
+    "frage": "2e) Für Vektoren v, w gilt: ∠(2v, w) = 2 · ∠(v, w).",
+    "ground_truth": "Falsch. Der Winkel zwischen 2v und w bleibt derselbe wie zwischen v und w; er wird nicht verdoppelt.",
+    "einheit": null
+  },
+  {
+    "id": 81,
+    "thema": "LA_HS2023",
+    "schwierigkeitsgrad": null,
+    "frage": "2f) Für Vektoren v, w gilt: w × (v + w) = −v × w.",
+    "ground_truth": "Falsch. w × (v + w) = w × v + w × w = w × v, und w × v = −v × w. Die Aussage ist formal falsch gestellt.",
+    "einheit": null
+  },
+  {
+    "id": 82,
+    "thema": "LA_HS2023",
+    "schwierigkeitsgrad": null,
+    "frage": "3a) Vereinfachen Sie den Term ⟨a × (b + a), b × a − a⟩ für a ⟂ b.",
+    "ground_truth": "Bei a ⟂ b gilt: a×(b+a) = a×b. Weiter ist b×a = −a×b, also b×a − a = −a×b − a. Das Skalarprodukt ergibt ⟨a×b, −a×b − a⟩.",
+    "einheit": null
+  },
+  {
+    "id": 83,
+    "thema": "LA_HS2023",
+    "schwierigkeitsgrad": null,
+    "frage": "3b) Berechnen Sie den Abstand des Ursprungs von der Ebene mit Normalengleichung 3x − 6y + 2z − 14 = 0.",
+    "ground_truth": "Abstand des Ursprungs von der Ebene 3x − 6y + 2z − 14 = 0 beträgt d = |−14| / √(3² + (−6)² + 2²) = 14 / 7 = 2.",
+    "einheit": null
+  },
+  {
+    "id": 84,
+    "thema": "LA_HS2023",
+    "schwierigkeitsgrad": null,
+    "frage": "3c) Geben Sie einen Python-Code für die Berechnung der Orthogonalprojektion des Vektors (5,3,1)^T auf den Vektor (1,2,3)^T an und berücksichtigen Sie sowohl die parallele als auch die orthogonale Komponente.",
+    "ground_truth": "Python-Code: import numpy as np; v=np.array([5,3,1]); w=np.array([1,2,3]); v_par=(np.dot(v,w)/np.dot(w,w))*w; v_orth=v-v_par;",
+    "einheit": null
+  },
+  {
+    "id": 85,
+    "thema": "LA_HS2023",
+    "schwierigkeitsgrad": null,
+    "frage": "3d) Eine Gerade g gehe durch P₁(5,1,2) mit Richtungsvektor a = (3,1,2)^T. Eine Ebene E gehe durch P₀(2,1,8) mit Normalenvektor n = (−1,3,1)^T. Welche Lage haben g und E zueinander? Bestimmen Sie gegebenenfalls Abstand, Schnittpunkt und Schnittwinkel.",
+    "ground_truth": "Die Gerade schneidet die Ebene. Schnittpunkt S = (18.5, 5.5, 11). Schnittwinkel φ = arcsin(|⟨n,a⟩|/(||n||·||a||)) = arcsin(2/√154) ≈ 9.27°.",
+    "einheit": null
+  },
+  {
+    "id": 86,
+    "thema": "LA_HS2023",
+    "schwierigkeitsgrad": null,
+    "frage": "4) Ein Unternehmen plant ein Hotel mit insgesamt 135 Betten in 75 Zimmern. Welche Varianten sind möglich, um das Hotel mit Einzel-, Doppel- und Dreierzimmern zu realisieren?",
+    "ground_truth": "Das lineare Gleichungssystem x + y + z = 75, x + 2y + 3z = 135 liefert y = 60 − 2z, x = 15 + z. Zulässig für 0 ≤ z ≤ 30. Lösungen: (x,y,z) = (15+z, 60−2z, z).",
+    "einheit": null
+  },
+  {
+    "id": 87,
+    "thema": "Mathe3_HS2024",
+    "schwierigkeitsgrad": null,
+    "frage": "Gegeben sei das Richtungsvektorfeld einer analytisch isolierbaren DGL erster Ordnung. Alle Pfeile zeigen nach rechts (positive x-Richtung). Für y=0 sind die Pfeile fast waagrecht, für y>0 leicht nach oben und für y<0 leicht nach unten gerichtet. Beurteilen Sie die folgende Aussage: a) Das Richtungsvektorfeld visualisiert eine Differentialgleichung 1. Ordnung.",
+    "ground_truth": "wahr; Richtungsvektorfelder sind nur für DGL erster Ordnung definiert.",
+    "einheit": null
+  },
+  {
+    "id": 88,
+    "thema": "Mathe3_HS2024",
+    "schwierigkeitsgrad": null,
+    "frage": "1b) Das Richtungsvektorfeld visualisiert eine elementar integrierbare Differentialgleichung.",
+    "ground_truth": "falsch; elementar integrierbar wäre y' = g(x), aber das Richtungsfeld zeigt eine y-Abhängigkeit.",
+    "einheit": null
+  },
+  {
+    "id": 89,
+    "thema": "Mathe3_HS2024",
+    "schwierigkeitsgrad": null,
+    "frage": "1c) Gilt für eine Lösung der DGL y(0) = 0, dann gilt auch y'(0) = 0.",
+    "ground_truth": "falsch; aus y(0)=0 folgt nicht y'(0)=0. Das Richtungsfeld zeigt keinen horizontalen Pfeil an dieser Stelle.",
+    "einheit": null
+  },
+  {
+    "id": 90,
+    "thema": "Mathe3_HS2024",
+    "schwierigkeitsgrad": null,
+    "frage": "1d) Die Lösung durch den Punkt (−3, 0) ist monoton fallend.",
+    "ground_truth": "falsch; die Lösung fällt zunächst, steigt aber später wieder an und ist daher nicht monoton fallend.",
+    "einheit": null
+  },
+  {
+    "id": 91,
+    "thema": "Mathe3_HS2024",
+    "schwierigkeitsgrad": null,
+    "frage": "1e) Die Funktion y(x) = 1 ist eine stabile, statische Lösung der DGL.",
+    "ground_truth": "falsch; y(x)=1 ist eine statische Lösung, aber nicht stabil, da die Richtungsfeldpfeile davon wegzeigen.",
+    "einheit": null
+  },
+  {
+    "id": 92,
+    "thema": "Mathe3_HS2024",
+    "schwierigkeitsgrad": null,
+    "frage": "1f) Das Richtungsvektorfeld visualisiert eine linear homogene Differentialgleichung.",
+    "ground_truth": "falsch; bei einer linear homogenen DGL müssten die Richtungsfeldpfeile entlang y=0 horizontal verlaufen, was hier nicht der Fall ist.",
+    "einheit": null
+  },
+  {
+    "id": 93,
+    "thema": "Mathe3_HS2024",
+    "schwierigkeitsgrad": null,
+    "frage": "2a) Um ein Anfangswertproblem mit separierbarer DGL zu lösen, muss man zuerst die allgemeine Lösung der DGL bestimmen.",
+    "ground_truth": "falsch; bei separierbaren DGL kann die Anfangsbedingung direkt in die Integration eingebaut werden.",
+    "einheit": null
+  },
+  {
+    "id": 94,
+    "thema": "Mathe3_HS2024",
+    "schwierigkeitsgrad": null,
+    "frage": "2b) Im Modell der freien ungedämpften harmonischen Schwingung werden äussere Anregungen vernachlässigt.",
+    "ground_truth": null,
+    "einheit": null
+  },
+  {
+    "id": 95,
+    "thema": "Mathe3_HS2024",
+    "schwierigkeitsgrad": null,
+    "frage": "2c) Nur periodische Funktionen f: ℝ → ℝ besitzen eine Fourier-Transformierte.",
+    "ground_truth": "wahr; freie ungedämpfte Schwingung bedeutet keine äußere Anregung.",
+    "einheit": null
+  },
+  {
+    "id": 96,
+    "thema": "Mathe3_HS2024",
+    "schwierigkeitsgrad": null,
+    "frage": "2d) Die Funktion f(t) = t³ kann auf [0, 1] durch eine reine Cosinus-Reihe dargestellt werden.",
+    "ground_truth": "wahr; t³ kann auf [0,1] durch eine reine Cosinusreihe dargestellt werden (gerade Fortsetzung).",
+    "einheit": null
+  },
+  {
+    "id": 97,
+    "thema": "Mathe3_HS2024",
+    "schwierigkeitsgrad": null,
+    "frage": "2e) Gilt f(t) ↔ F(ω) und g(t) ↔ G(ω), dann folgt F(ω) + G(ω) ↔ f(t) + g(t).",
+    "ground_truth": "wahr; das ist die Summenregel der Fourier-Transformation.",
+    "einheit": null
+  },
+  {
+    "id": 98,
+    "thema": "Mathe3_HS2024",
+    "schwierigkeitsgrad": null,
+    "frage": "2f) Jede Lösung einer linear homogenen Differentialgleichung 2. Ordnung kann als Linearkombination von zwei Basislösungen dargestellt werden.",
+    "ground_truth": "wahr; jede Lösung einer linearen homogenen DGL 2. Ordnung ist eine Linearkombination zweier Basislösungen.",
+    "einheit": null
+  },
+  {
+    "id": 99,
+    "thema": "Mathe3_HS2024",
+    "schwierigkeitsgrad": null,
+    "frage": "3a) Es seien (x_i, y_i) Beobachtungspaare zweier empirischer Merkmale mit Korrelationskoeffizienten r_xy. Aus r_xy = 0 folgt, dass zwischen den Merkmalen kein Zusammenhang besteht.",
+    "ground_truth": "falsch; r = 0 schließt nur linearen Zusammenhang aus, nicht nichtlinearen.",
+    "einheit": null
+  },
+  {
+    "id": 100,
+    "thema": "Mathe3_HS2024",
+    "schwierigkeitsgrad": null,
+    "frage": "3b) Es seien (x_i, y_i) Beobachtungspaare mit r_xy = −0,99. Dann besteht ein starker linearer Zusammenhang zwischen den Merkmalen.",
+    "ground_truth": "wahr; r = −0,99 bedeutet sehr starker linearer Zusammenhang.",
+    "einheit": null
+  },
+  {
+    "id": 101,
+    "thema": "Mathe3_HS2024",
+    "schwierigkeitsgrad": null,
+    "frage": "3c) Es sei X eine beliebige Zufallsvariable mit Varianz Var(X). Es gilt: Var(−X) < Var(X).",
+    "ground_truth": "falsch; Var(−X) = Var(X)",
+    "einheit": null
+  },
+  {
+    "id": 102,
+    "thema": "Mathe3_HS2024",
+    "schwierigkeitsgrad": null,
+    "frage": "3d) X sei eine stetige Zufallsvariable. Dann ist die Verteilungsfunktion von X symmetrisch um E(X).",
+    "ground_truth": "falsch; die Verteilungsfunktion ist nur bei symmetrischen Verteilungen symmetrisch um E(X).",
+    "einheit": null
+  },
+  {
+    "id": 103,
+    "thema": "Mathe3_HS2024",
+    "schwierigkeitsgrad": null,
+    "frage": "3e) Es seien A und B beliebige Ereignisse mit P(A) > 0 und P(B) > 0. Dann gilt: P(A|B) · P(B) = P(B|A) · P(A).",
+    "ground_truth": "wahr; das ist die Multiplikationsregel P(A|B)P(B)=P(B|A)P(A).",
+    "einheit": null
+  },
+  {
+    "id": 104,
+    "thema": "Mathe3_HS2024",
+    "schwierigkeitsgrad": null,
+    "frage": "3f) Kennt man die gemeinsame Verteilung von (X, Y), dann kann man daraus die Verteilung von X berechnen.",
+    "ground_truth": "wahr; die Randverteilung von X erhält man aus der gemeinsamen Verteilung von (X,Y",
+    "einheit": null
+  },
+  {
+    "id": 105,
+    "thema": "Mathe3_HS2024",
+    "schwierigkeitsgrad": null,
+    "frage": "4a) Bestimmen Sie den Typ der partiellen Differentialgleichung −2u_xx + u_yy + u = 0.",
+    "ground_truth": "Die DGL −2uₓₓ + uᵧᵧ + u = 0 ist hyperbolisch (Diskriminante < 0).",
+    "einheit": null
+  },
+  {
+    "id": 106,
+    "thema": "Mathe3_HS2024",
+    "schwierigkeitsgrad": null,
+    "frage": "4b) Gegeben ist die Differentialgleichung y''(x) − 2y'(x) + 2y(x) = 0 für x ∈ ℝ. Bestimmen Sie die allgemeine Lösung.",
+    "ground_truth": "DAllgemeine Lösung: y(x) = eˣ (A·cos x + B·sin x).",
+    "einheit": null
+  },
+  {
+    "id": 107,
+    "thema": "Mathe3_HS2024",
+    "schwierigkeitsgrad": null,
+    "frage": "4c) Kreuzen Sie für jede der gegebenen DGLs an, ob sie linear oder nichtlinear, homogen oder inhomogen und mit konstanten Koeffizienten ist: (i) sin(4x)y + 3y' + √x = 0, (ii) y'/y + x = 0, (iii) m v̇ + k v = m, (iv) ẏ + (1/t²) y = e^{3t}.",
+    "ground_truth": "(i) sin(4x)y + 3y′ + √x = 0 → linear, inhomogen, (ii) y′/y + x = 0 → nicht linear, (iii) m v̇ + k v = m g → linear, inhomogen, konstante Koeffizienten, (iv) ẏ + (1/t²)y = e^{3t} → linear, inhomogen",
+    "einheit": null
+  },
+  {
+    "id": 108,
+    "thema": "Mathe3_HS2024",
+    "schwierigkeitsgrad": null,
+    "frage": "4d(i) Die Lösungen der Schwingungsgleichung ẍ + 2α ẋ + 0,25 x = 0 hängen vom Parameter α > 0 ab. Wie muss α gewählt werden, damit der aperiodische Grenzfall eintritt?",
+    "ground_truth": "α = 0,5",
+    "einheit": null
+  },
+  {
+    "id": 109,
+    "thema": "Mathe3_HS2024",
+    "schwierigkeitsgrad": null,
+    "frage": "4d(ii) Wie lautet die Lösung der Schwingungsgleichung ẍ + 2α ẋ + 0,25 x = 0 im aperiodischen Grenzfall für die Anfangswerte x(0) = 2 und v(0) = −2?",
+    "ground_truth": "x(t) = (2 − t) e^{-0,5 t}",
+    "einheit": null
+  },
+  {
+    "id": 110,
+    "thema": "Mathe3_HS2024",
+    "schwierigkeitsgrad": null,
+    "frage": "4e) Eine Kiste mit 100 gleichartigen Artikeln wird stichprobenartig kontrolliert. Es werden 5 Artikel ohne Zurücklegen entnommen. Die Ware wird nur angenommen, wenn höchstens ein defekter Artikel in der Stichprobe ist. Wie gross ist die Wahrscheinlichkeit der Annahme, wenn sich in der Kiste genau 4 defekte Artikel befinden?",
+    "ground_truth": "P(X ≤ 1) ≈ 0,9984",
+    "einheit": null
+  },
+  {
+    "id": 111,
+    "thema": "Mathe3_HS2024",
+    "schwierigkeitsgrad": null,
+    "frage": "4f(i) Ein Teehersteller betrachtet die Abweichung Z von der Füllmenge 50 g, Z ~ N(0,1). Wie gross ist die Wahrscheinlichkeit, dass eine zufällig ausgewählte Packung mehr als 2 g zu wenig enthält?",
+    "ground_truth": "0,0228",
+    "einheit": null
+  },
+  {
+    "id": 112,
+    "thema": "Mathe3_HS2024",
+    "schwierigkeitsgrad": null,
+    "frage": "4f(ii) Welche Abweichung nach oben wird von 10 % der Packungen überschritten (bei Z ~ N(0,1))?",
+    "ground_truth": "1,2817",
+    "einheit": null
+  },
+  {
+    "id": 113,
+    "thema": "Mathe3_HS2024",
+    "schwierigkeitsgrad": null,
+    "frage": "4g) Eine Landstrasse ist wegen Bauarbeiten auf einer Teilstrecke nur einspurig befahrbar, die Regelung erfolgt durch eine Ampel. Etwa 5 % der Autofahrer versuchen, in den ersten 3 Sekunden der Rotphase noch zu fahren. Mit welcher Wahrscheinlichkeit verhalten sich höchstens 3 von 100 Fahrern verbotswidrig? Kann hierfür die Poisson-Verteilung benutzt werden?",
+    "ground_truth": "1,2817",
+    "einheit": null
+  },
+  {
+    "id": 114,
+    "thema": "Mathe3_HS2024",
+    "schwierigkeitsgrad": null,
+    "frage": "Die folgende Funktion beschreibt eine periodische Sägezahnschwingung: Auf dem Intervall [-T/2, T/2] verläuft f(t) als Gerade von -A nach +A, d.h. f(t) = (2A/T) * t. Nach t = T/2 springt der Graph wieder auf -A. Die Funktion ist ungerade und periodisch mit Periode T. Bestimmen Sie die reelle Fourier-Entwicklung dieser Sägezahnschwingung.",
+    "ground_truth": "Da f(t) ungerade ist, entsteht eine reine Sinusreihe. Die Fourier-Koeffizienten lauten b_k = (2A/(π k)) * (-1)^{k+1}. Damit ergibt sich f(t) = Σ_{k=1}^{∞} (2A/(π k)) * (-1)^{k+1} * sin(2π k t / T).",
+    "einheit": null
+  },
+  {
+    "id": 115,
+    "thema": "Mathe3_HS2024",
+    "schwierigkeitsgrad": null,
+    "frage": "6) Bestimmen Sie die Lösungen des Anfangswertproblems mit der Methode der Charakteristiken: u_{x1} + 2u u_{x2} − u = 0 mit Anfangsbedingung u(0, x2) = x2.",
+    "ground_truth": "u(x1, x2) = (x2 e^{x1}) / (2 e^{x1} − 1)",
+    "einheit": null
+  },
+  {
+    "id": 116,
+    "thema": "Mathe3_HS2024",
+    "schwierigkeitsgrad": null,
+    "frage": "7a) Bei einem Dieselmotor wurde der Zusammenhang zwischen Drehzahl X (U/min) und Leistung Y (PS) gemessen. Bestimmen Sie die zugehörige Ausgleichsgerade aus den gegebenen Daten.",
+    "ground_truth": "y = 0,0108 x − 2,572",
+    "einheit": null
+  },
+  {
+    "id": 117,
+    "thema": "Mathe3_HS2024",
+    "schwierigkeitsgrad": null,
+    "frage": "7b) Welche Motorleistung ist bei einer Drehzahl von 2150 Umdrehungen pro Minute zu erwarten, basierend auf der Ausgleichsgeraden?",
+    "ground_truth": "20,65",
+    "einheit": null
+  },
+  {
+    "id": 118,
+    "thema": "Mathe3_HS2024",
+    "schwierigkeitsgrad": null,
+    "frage": "Gegeben sind folgende Körpergrössen (m) und Gewichte (kg): [{\"1.80\":84}, {\"1.75\":70}, ...]. Berechnen Sie Kovarianz und Korrelationskoeffizient.",
+    "daten": [
+      [
+        1.8,
+        84
+      ],
+      [
+        1.75,
+        70
+      ],
+      [
+        1.83,
+        95
+      ],
+      [
+        1.65,
+        72
+      ],
+      [
+        1.77,
+        65
+      ],
+      [
+        1.73,
+        82
+      ],
+      [
+        1.79,
+        72
+      ],
+      [
+        1.69,
+        68
+      ],
+      [
+        1.9,
+        95
+      ],
+      [
+        1.81,
+        80
+      ]
+    ],
+    "ground_truth": "empirische Kovarianz ≈ 0,5427; empirischer Korrelationskoeffizient r_xy ≈ 0,7057",
+    "einheit": null
+  },
+  {
+    "id": 119,
+    "thema": "Analysis",
+    "schwierigkeitsgrad": "Mittel",
+    "frage": "Bestimmen Sie alle lokalen Extrema der Funktion f(x) = x^4 - 4x^2.",
+    "ground_truth": "Ableitung: f'(x)=4x^3−8x=4x(x^2−2). Kritische Punkte: x=0, x=±√2. Zweite Ableitung: f''(x)=12x^2−8. f''(0)=−8<0 → lokales Maximum bei x=0 mit f(0)=0. f''(±√2)=12·2−8=16>0 → lokale Minima bei x=±√2 mit f(±√2)=−4.",
+    "einheit": null
+  },
+  {
+    "id": 120,
+    "thema": "Analysis",
+    "schwierigkeitsgrad": "Einfach",
+    "frage": "Berechnen Sie das Integral ∫ (6x^2 - 4x + 1) dx.",
+    "ground_truth": "∫6x^2 dx = 2x^3, ∫−4x dx = −2x^2, ∫1 dx = x. Gesamt: 2x^3 − 2x^2 + x + C.",
+    "einheit": null
+  },
+  {
+    "id": 121,
+    "thema": "Lineare Algebra",
+    "schwierigkeitsgrad": "Mittel",
+    "frage": "Untersuchen Sie, ob die Matrix A = [[1,2],[3,6]] invertierbar ist.",
+    "ground_truth": "det(A) = 1·6 − 2·3 = 6 − 6 = 0. Da die Determinante 0 ist, ist A nicht invertierbar und hat Rang 1.",
+    "einheit": null
+  },
+  {
+    "id": 122,
+    "thema": "Lineare Algebra",
+    "schwierigkeitsgrad": "Mittel",
+    "frage": "Berechnen Sie die Eigenwerte der Matrix A = [[4,1],[2,3]].",
+    "ground_truth": "charA(λ) = det([[4−λ,1],[2,3−λ]]) = (4−λ)(3−λ) − 2 = λ^2 − 7λ + 10. Nullstellen: λ = 5 und λ = 2.",
+    "einheit": null
+  },
+  {
+    "id": 123,
+    "thema": "Stochastik",
+    "schwierigkeitsgrad": "Einfach",
+    "frage": "Eine faire Münze wird 4-mal geworfen. Wie groß ist die Wahrscheinlichkeit, genau zweimal Kopf zu erhalten?",
+    "ground_truth": "Binomialverteilung: P(X=2)=C(4,2)(1/2)^4=6/16=0.375.",
+    "einheit": null
+  },
+  {
+    "id": 124,
+    "thema": "Stochastik",
+    "schwierigkeitsgrad": "Mittel",
+    "frage": "Sei X gleichverteilt auf [0,4]. Berechnen Sie Var(X).",
+    "ground_truth": "Für Gleichverteilung auf [a,b]: Var(X)=(b−a)^2/12 = 4^2/12 = 16/12 = 4/3.",
+    "einheit": null
+  },
+  {
+    "id": 125,
+    "thema": "DGL",
+    "schwierigkeitsgrad": "Einfach",
+    "frage": "Lösen Sie die Differentialgleichung y' = 2x.",
+    "ground_truth": "Integration: y = ∫2x dx = x^2 + C.",
+    "einheit": null
+  },
+  {
+    "id": 126,
+    "thema": "DGL",
+    "schwierigkeitsgrad": "Schwer",
+    "frage": "Lösen Sie die Differentialgleichung y'' − y = e^x.",
+    "ground_truth": "Homogene Lösung: r^2−1=0 ⇒ r=±1 ⇒ y_h=C1 e^x + C2 e^{-x}. Partikulär: Ansatz y_p = Ax e^x (Resonanz). Einsetzen ergibt A = 1/2. Gesamtlösung: y = C1 e^x + C2 e^{-x} + (1/2)x e^x.",
+    "einheit": null
+  },
+  {
+    "id": 127,
+    "thema": "Fourier",
+    "schwierigkeitsgrad": "Mittel",
+    "frage": "Bestimmen Sie die Fourier-Koeffizienten der Funktion f(x) = x auf dem Intervall [-π,π].",
+    "ground_truth": "f ist ungerade ⇒ nur bn ≠ 0. bn = (2/π)∫_0^π x sin(nx) dx = (2/π)( (−1)^{n+1} π/n ). Damit bn = 2(−1)^{n+1}/n, an = 0.",
+    "einheit": null
+  },
+  {
+    "id": 128,
+    "thema": "Vektorgeometrie",
+    "schwierigkeitsgrad": "Mittel",
+    "frage": "Bestimmen Sie den Abstand zwischen den Punkten A(2,−1,3) und B(−1,3,0).",
+    "ground_truth": "Abstand = √((2+1)^2 + (−1−3)^2 + (3−0)^2) = √(3^2 + (−4)^2 + 3^2) = √(9+16+9) = √34.",
+    "einheit": null
+  },
+  {
+    "id": 129,
+    "thema": "Analysis",
+    "schwierigkeitsgrad": "Mittel",
+    "frage": "Untersuchen Sie die Funktion f(x) = (x^2 - 1)/(x - 1) auf Definitionsbereich und Stetigkeit.",
+    "ground_truth": "Für x ≠ 1 gilt f(x) = (x^2 − 1)/(x − 1) = (x−1)(x+1)/(x−1) = x+1. Die Funktion ist für x ≠ 1 definiert. In x = 1 ist der Nenner 0, daher Definitionslücke. Der stetig fortgesetzte Grenzwert in x=1 wäre lim_{x→1} f(x)=2, aber f ist an der Stelle 1 nicht definiert und daher dort nicht stetig.",
+    "einheit": null
+  },
+  {
+    "id": 130,
+    "thema": "Analysis",
+    "schwierigkeitsgrad": "Schwer",
+    "frage": "Untersuchen Sie die Reihe ∑_{n=1}^∞ ln((n+1)/n) auf Konvergenz und bestimmen Sie ggf. ihren Wert.",
+    "ground_truth": "Partialsummen: S_N = ∑_{n=1}^N ln((n+1)/n) = ∑ ln(n+1) − ln(n) = ln(N+1) − ln(1) = ln(N+1). Da ln(N+1) → ∞ divergiert, divergiert die Reihe (sie ist eine teleskopische Reihe mit wachsender Summe).",
+    "einheit": null
+  },
+  {
+    "id": 131,
+    "thema": "Lineare Algebra",
+    "schwierigkeitsgrad": "Mittel",
+    "frage": "Gegeben sei das lineare Gleichungssystem x + 2y - z = 1, 2x + y + z = 4, 3x + 3y = 5. Bestimmen Sie die Lösungsmenge.",
+    "ground_truth": "Aus den Gleichungen: (1) x+2y−z=1, (2) 2x+y+z=4, (3) 3x+3y=5. Aus (3): x+y=5/3 ⇒ x=5/3−y. In (1): (5/3−y)+2y−z=1 ⇒ 5/3 + y − z =1 ⇒ y − z = 1 − 5/3 = −2/3 ⇒ z = y + 2/3. In (2): 2(5/3−y)+y+z=4 ⇒ 10/3 −2y + y + z =4 ⇒ 10/3 − y + z =4 ⇒ −y + z = 4 − 10/3 = 2/3 ⇒ z = y + 2/3. Beide Bedingungen identisch, also unendlich viele Lösungen mit Parameter y = t. Lösung: (x,y,z) = (5/3 − t, t, t + 2/3), t ∈ ℝ.",
+    "einheit": null
+  },
+  {
+    "id": 132,
+    "thema": "Lineare Algebra",
+    "schwierigkeitsgrad": "Schwer",
+    "frage": "Bestimmen Sie eine Orthonormalbasis des von den Vektoren v1 = (1,1,0) und v2 = (1,0,1) erzeugten Unterraums im ℝ^3.",
+    "ground_truth": "Gram-Schmidt: Setze e1̃ = v1 = (1,1,0). Norm: ||e1̃|| = √2, also e1 = (1/√2, 1/√2, 0). Zweiter Schritt: w2 = v2 − proj_{e1}(v2). Skalarprodukt v2·e1 = (1,0,1)·(1/√2,1/√2,0) = 1/√2. proj = (1/√2)e1 = (1/2, 1/2, 0). Daher w2 = (1,0,1) − (1/2,1/2,0) = (1/2, −1/2, 1). Norm: ||w2|| = √((1/2)^2 + (−1/2)^2 + 1^2) = √(1/4+1/4+1) = √(3/2). Also e2 = (1/2, −1/2, 1)/√(3/2) = (1/2, −1/2, 1)·√2/√3 = (√2/(2√3), −√2/(2√3), √2/√3). Orthonormalbasis: {e1, e2}.",
+    "einheit": null
+  },
+  {
+    "id": 133,
+    "thema": "Stochastik",
+    "schwierigkeitsgrad": "Mittel",
+    "frage": "Eine Zufallsvariable X ist gleichverteilt auf dem Intervall [−1,3]. Berechnen Sie den Erwartungswert und die Varianz von X.",
+    "ground_truth": "Für Gleichverteilung auf [a,b]: E(X) = (a+b)/2, Var(X) = (b−a)^2/12. Hier a=−1, b=3. E(X) = (−1+3)/2 = 1. Var(X) = (3−(−1))^2/12 = 4^2/12 = 16/12 = 4/3.",
+    "einheit": null
+  },
+  {
+    "id": 134,
+    "thema": "Stochastik",
+    "schwierigkeitsgrad": "Schwer",
+    "frage": "Die Dichte einer stetigen Zufallsvariablen X sei f(x) = c x e^{−x} für x ≥ 0 und 0 sonst. Bestimmen Sie die Konstante c und den Erwartungswert E(X).",
+    "ground_truth": "Normierung: ∫_0^∞ c x e^{−x} dx = c ∫_0^∞ x e^{−x} dx = c·1! = c = 1. Also c=1. Erwartungswert E(X) = ∫_0^∞ x f(x) dx = ∫_0^∞ x^2 e^{−x} dx = 2! = 2.",
+    "einheit": null
+  },
+  {
+    "id": 135,
+    "thema": "DGL",
+    "schwierigkeitsgrad": "Mittel",
+    "frage": "Bestimmen Sie die allgemeine Lösung der separierbaren Differentialgleichung y' = x · y.",
+    "ground_truth": "Separieren: dy/y = x dx. Integrieren: ln|y| = x^2/2 + C ⇒ y(x) = C e^{x^2/2}.",
+    "einheit": null
+  },
+  {
+    "id": 136,
+    "thema": "DGL",
+    "schwierigkeitsgrad": "Schwer",
+    "frage": "Lösen Sie das Anfangswertproblem y' + 2y = e^{−2x} mit y(0) = 1.",
+    "ground_truth": "Lineare DGL 1. Ordnung. Integrationsfaktor μ(x)=e^{∫2 dx}=e^{2x}. Dann (y e^{2x})' = e^{−2x} e^{2x} = 1. Integrieren: y e^{2x} = x + C. Anfangswert y(0)=1 ⇒ 1·e^0 = 0 + C ⇒ C=1. Also y(x) = (x+1)e^{−2x}.",
+    "einheit": null
+  },
+  {
+    "id": 137,
+    "thema": "Fourier",
+    "schwierigkeitsgrad": "Mittel",
+    "frage": "Gegeben ist die 2π-periodische Funktion f(x), die auf [−π,π] definiert ist durch f(x) = 1 für 0 < x < π und f(x) = −1 für −π < x < 0. Bestimmen Sie die Fourierkoeffizienten qualitativ (Art der Reihe).",
+    "ground_truth": "f(x) ist ungerade: f(−x) = −f(x). Daher verschwindet a0 und alle an, es bleibt eine reine Sinusreihe mit bn ≠ 0. Es handelt sich um die klassische Rechteckfunktion mit nur Sinus-Termen.",
+    "einheit": null
+  },
+  {
+    "id": 138,
+    "thema": "Vektorgeometrie",
+    "schwierigkeitsgrad": "Mittel",
+    "frage": "Gegeben sind die Geraden g1: (x,y,z) = (1,0,2) + s(1,1,0) und g2: (x,y,z) = (0,1,1) + t(1,−1,1). Untersuchen Sie, ob sich die Geraden schneiden, und bestimmen Sie gegebenenfalls den Schnittpunkt.",
+    "ground_truth": "Gesucht s,t mit (1+s, s, 2) = (t, 1−t, 1+t). Komponentenweise: 1+s = t (1), s = 1−t (2), 2 = 1+t (3). Aus (3): t=1 ⇒ aus (1): 1+s=1 ⇒ s=0. Aus (2): s=1−t = 1−1 =0, konsistent. Schnittpunkt bei s=0: (1,0,2).",
+    "einheit": null
+  },
+  {
+    "id": 139,
+    "thema": "Analysis",
+    "schwierigkeitsgrad": "Einfach",
+    "frage": "Berechnen Sie den Grenzwert lim_{x→0} (sin(3x))/(x).",
+    "ground_truth": "sin(3x)/(x) = 3 · (sin(3x)/(3x)). Der zweite Faktor geht gegen 1, also Grenzwert = 3.",
+    "einheit": null
+  },
+  {
+    "id": 140,
+    "thema": "Analysis",
+    "schwierigkeitsgrad": "Mittel",
+    "frage": "Untersuchen Sie die Konvexität der Funktion f(x) = e^{2x} - 3x.",
+    "ground_truth": "f''(x) = 4e^{2x} > 0 für alle x ⇒ f ist auf ganz ℝ streng konvex.",
+    "einheit": null
+  },
+  {
+    "id": 141,
+    "thema": "Analysis",
+    "schwierigkeitsgrad": "Schwer",
+    "frage": "Bestimmen Sie die Taylorreihe von f(x) = ln(1+x) um x=0 bis zum Term 4. Ordnung.",
+    "ground_truth": "ln(1+x) = x − x^2/2 + x^3/3 − x^4/4 + O(x^5).",
+    "einheit": null
+  },
+  {
+    "id": 142,
+    "thema": "Lineare Algebra",
+    "schwierigkeitsgrad": "Einfach",
+    "frage": "Bestimmen Sie die Spur (trace) der Matrix A = [[3,2],[1,4]].",
+    "ground_truth": "trace(A) = 3 + 4 = 7.",
+    "einheit": null
+  },
+  {
+    "id": 143,
+    "thema": "Lineare Algebra",
+    "schwierigkeitsgrad": "Schwer",
+    "frage": "Prüfen Sie, ob die Matrizen A = [[1,2],[3,4]] und B = [[2,0],[0,3]] ähnlich sind.",
+    "ground_truth": "Ähnlichkeit erfordert gleiche Eigenwerte. Eigenwerte von A: λ = (1+4±√(1−4·3))/2 = (5±√(−11))/2 → komplex. Eigenwerte von B: 2 und 3 → reell. Da die Spektren verschieden sind, sind A und B nicht ähnlich.",
+    "einheit": null
+  },
+  {
+    "id": 144,
+    "thema": "Stochastik",
+    "schwierigkeitsgrad": "Einfach",
+    "frage": "Gegeben sei eine diskrete Zufallsvariable X mit P(X=1)=0.2, P(X=3)=0.5, P(X=5)=0.3. Berechnen Sie E(X).",
+    "ground_truth": "E(X)=1·0.2 + 3·0.5 + 5·0.3 = 0.2 + 1.5 + 1.5 = 3.2.",
+    "einheit": null
+  },
+  {
+    "id": 145,
+    "thema": "Stochastik",
+    "schwierigkeitsgrad": "Schwer",
+    "frage": "Für eine stetige Zufallsvariable gelte f(x) = k e^{−3x} für x ≥ 0. Bestimmen Sie k und die Verteilungsfunktion F(x).",
+    "ground_truth": "Normierung: ∫_0^∞ k e^{−3x} dx = k/3 =1 ⇒ k=3. F(x)=∫_0^x 3e^{−3t} dt = 1 − e^{−3x}.",
+    "einheit": null
+  },
+  {
+    "id": 146,
+    "thema": "DGL",
+    "schwierigkeitsgrad": "Mittel",
+    "frage": "Lösen Sie die Differentialgleichung y' = y + e^{−x}.",
+    "ground_truth": "Lineare DGL: y'−y = e^{−x}. Faktor μ = e^{−x}. Dann (y e^{−x})' = e^{−2x}. Integrieren: y e^{−x} = −(1/2) e^{−2x} + C. Also y = −(1/2)e^{−x} + Ce^{x}.",
+    "einheit": null
+  },
+  {
+    "id": 147,
+    "thema": "Fourier",
+    "schwierigkeitsgrad": "Schwer",
+    "frage": "Bestimmen Sie die Fourierreihe der Funktion f(x) = x^2 auf dem Intervall [−π,π].",
+    "ground_truth": "f ist gerade ⇒ nur Cosinus-Terme. a0 = (1/π)∫_{−π}^{π} x^2 dx = (2/π)∫_0^{π} x^2 dx = 2/π · π^3/3 = 2π^2/3. Für n≥1: an = (2/π)∫_0^{π} x^2 cos(nx) dx = 4(−1)^n/n^2. bn = 0. Fourierreihe: f(x)=π^2/3 + 4∑_{n=1}^{∞} (−1)^n cos(nx)/n^2.",
+    "einheit": null
+  },
+  {
+    "id": 148,
+    "thema": "Vektorgeometrie",
+    "schwierigkeitsgrad": "Schwer",
+    "frage": "Bestimmen Sie den Winkel zwischen den Ebenen E1: x + y + z = 4 und E2: 2x − y + 2z = 0.",
+    "ground_truth": "Normalen: n1=(1,1,1), n2=(2,−1,2). cos(φ) = |n1·n2| / (||n1||·||n2||) = |1·2 +1·(−1)+1·2| / (√3·3) = |3|/(3√3) = 1/√3 ⇒ φ = arccos(1/√3).",
+    "einheit": null
+  },
+  {
+    "id": 139,
+    "thema": "Analysis",
+    "schwierigkeitsgrad": "Einfach",
+    "frage": "Berechnen Sie den Grenzwert lim_{x→0} (sin(3x))/(x).",
+    "ground_truth": "sin(3x)/(x) = 3 · (sin(3x)/(3x)). Der zweite Faktor geht gegen 1, also Grenzwert = 3.",
+    "einheit": null
+  },
+  {
+    "id": 140,
+    "thema": "Analysis",
+    "schwierigkeitsgrad": "Mittel",
+    "frage": "Untersuchen Sie die Konvexität der Funktion f(x) = e^{2x} - 3x.",
+    "ground_truth": "f''(x) = 4e^{2x} > 0 für alle x ⇒ f ist auf ganz ℝ streng konvex.",
+    "einheit": null
+  },
+  {
+    "id": 141,
+    "thema": "Analysis",
+    "schwierigkeitsgrad": "Schwer",
+    "frage": "Bestimmen Sie die Taylorreihe von f(x) = ln(1+x) um x=0 bis zum Term 4. Ordnung.",
+    "ground_truth": "ln(1+x) = x − x^2/2 + x^3/3 − x^4/4 + O(x^5).",
+    "einheit": null
+  },
+  {
+    "id": 142,
+    "thema": "Lineare Algebra",
+    "schwierigkeitsgrad": "Einfach",
+    "frage": "Bestimmen Sie die Spur (trace) der Matrix A = [[3,2],[1,4]].",
+    "ground_truth": "trace(A) = 3 + 4 = 7.",
+    "einheit": null
+  },
+  {
+    "id": 143,
+    "thema": "Lineare Algebra",
+    "schwierigkeitsgrad": "Schwer",
+    "frage": "Prüfen Sie, ob die Matrizen A = [[1,2],[3,4]] und B = [[2,0],[0,3]] ähnlich sind.",
+    "ground_truth": "Ähnlichkeit erfordert gleiche Eigenwerte. Eigenwerte von A: λ = (1+4±√(1−4·3))/2 = (5±√(−11))/2 → komplex. Eigenwerte von B: 2 und 3 → reell. Da die Spektren verschieden sind, sind A und B nicht ähnlich.",
+    "einheit": null
+  },
+  {
+    "id": 144,
+    "thema": "Stochastik",
+    "schwierigkeitsgrad": "Einfach",
+    "frage": "Gegeben sei eine diskrete Zufallsvariable X mit P(X=1)=0.2, P(X=3)=0.5, P(X=5)=0.3. Berechnen Sie E(X).",
+    "ground_truth": "E(X)=1·0.2 + 3·0.5 + 5·0.3 = 0.2 + 1.5 + 1.5 = 3.2.",
+    "einheit": null
+  },
+  {
+    "id": 145,
+    "thema": "Stochastik",
+    "schwierigkeitsgrad": "Schwer",
+    "frage": "Für eine stetige Zufallsvariable gelte f(x) = k e^{−3x} für x ≥ 0. Bestimmen Sie k und die Verteilungsfunktion F(x).",
+    "ground_truth": "Normierung: ∫_0^∞ k e^{−3x} dx = k/3 =1 ⇒ k=3. F(x)=∫_0^x 3e^{−3t} dt = 1 − e^{−3x}.",
+    "einheit": null
+  },
+  {
+    "id": 146,
+    "thema": "DGL",
+    "schwierigkeitsgrad": "Mittel",
+    "frage": "Lösen Sie die Differentialgleichung y' = y + e^{−x}.",
+    "ground_truth": "Lineare DGL: y'−y = e^{−x}. Faktor μ = e^{−x}. Dann (y e^{−x})' = e^{−2x}. Integrieren: y e^{−x} = −(1/2) e^{−2x} + C. Also y = −(1/2)e^{−x} + Ce^{x}.",
+    "einheit": null
+  },
+  {
+    "id": 147,
+    "thema": "Fourier",
+    "schwierigkeitsgrad": "Schwer",
+    "frage": "Bestimmen Sie die Fourierreihe der Funktion f(x) = x^2 auf dem Intervall [−π,π].",
+    "ground_truth": "f ist gerade ⇒ nur Cosinus-Terme. a0 = (1/π)∫_{−π}^{π} x^2 dx = (2/π)∫_0^{π} x^2 dx = 2/π · π^3/3 = 2π^2/3. Für n≥1: an = (2/π)∫_0^{π} x^2 cos(nx) dx = 4(−1)^n/n^2. bn = 0. Fourierreihe: f(x)=π^2/3 + 4∑_{n=1}^{∞} (−1)^n cos(nx)/n^2.",
+    "einheit": null
+  },
+  {
+    "id": 148,
+    "thema": "Vektorgeometrie",
+    "schwierigkeitsgrad": "Schwer",
+    "frage": "Bestimmen Sie den Winkel zwischen den Ebenen E1: x + y + z = 4 und E2: 2x − y + 2z = 0.",
+    "ground_truth": "Normalen: n1=(1,1,1), n2=(2,−1,2). cos(φ) = |n1·n2| / (||n1||·||n2||) = |1·2 +1·(−1)+1·2| / (√3·3) = |3|/(3√3) = 1/√3 ⇒ φ = arccos(1/√3).",
+    "einheit": null
+  },
+  {
+    "id": 159,
+    "thema": "Analysis",
+    "schwierigkeitsgrad": "Einfach",
+    "frage": "Berechnen Sie den Grenzwert lim_{x→∞} (3x^2 - x + 1)/(x^2 + 5).",
+    "ground_truth": "Vergleich der höchsten Potenzen: (3x^2)/(x^2) = 3. Der Grenzwert ist 3.",
+    "einheit": null
+  },
+  {
+    "id": 160,
+    "thema": "Analysis",
+    "schwierigkeitsgrad": "Mittel",
+    "frage": "Untersuchen Sie die Konvergenz der Reihe ∑_{n=1}^∞ 1/(n ln(n)).",
+    "ground_truth": "Das ist die klassische divergente Integralkriteriumsreihe: ∫ 1/(x ln(x)) dx = ln(ln(x)) → ∞. Daher divergiert die Reihe.",
+    "einheit": null
+  },
+  {
+    "id": 161,
+    "thema": "Analysis",
+    "schwierigkeitsgrad": "Schwer",
+    "frage": "Berechnen Sie das Integral ∫_0^{π/2} x sin(x) dx.",
+    "ground_truth": "Partielle Integration: u = x, dv = sin(x)dx → du=dx, v=−cos(x). ∫ x sin(x) dx = −x cos(x) + ∫ cos(x) dx = −x cos(x) + sin(x). Auswerten 0 bis π/2: (−(π/2)·0 + 1) − (0·1 + 0) = 1.",
+    "einheit": null
+  },
+  {
+    "id": 162,
+    "thema": "Lineare Algebra",
+    "schwierigkeitsgrad": "Einfach",
+    "frage": "Berechnen Sie die Determinante der Matrix A = [[5,2],[1,3]].",
+    "ground_truth": "det(A) = 5·3 − 2·1 = 15 − 2 = 13.",
+    "einheit": null
+  },
+  {
+    "id": 163,
+    "thema": "Lineare Algebra",
+    "schwierigkeitsgrad": "Mittel",
+    "frage": "Bestimmen Sie alle Eigenwerte der Matrix A = [[2,1],[1,2]].",
+    "ground_truth": "char(λ)=det([[2−λ,1],[1,2−λ]]) = (2−λ)^2 −1 = λ^2 −4λ +3. Nullstellen: λ = 1, 3.",
+    "einheit": null
+  },
+  {
+    "id": 164,
+    "thema": "Lineare Algebra",
+    "schwierigkeitsgrad": "Schwer",
+    "frage": "Prüfen Sie, ob die Vektoren (1,0,1), (2,1,3) und (3,1,4) linear unabhängig sind.",
+    "ground_truth": "Matrix M = [[1,0,1],[2,1,3],[3,1,4]]. Rang bestimmen: Zeilenumformung zeigt, dass Zeile3 = Zeile1 + Zeile2 ⇒ Rang=2 ⇒ Vektoren sind linear abhängig.",
+    "einheit": null
+  },
+  {
+    "id": 165,
+    "thema": "Stochastik",
+    "schwierigkeitsgrad": "Einfach",
+    "frage": "Eine Zufallsvariable X nimmt die Werte 0 und 1 mit P(X=1)=0.4 an. Berechnen Sie Var(X).",
+    "ground_truth": "Bernoulli(p): Var(X)=p(1−p)=0.4·0.6=0.24.",
+    "einheit": null
+  },
+  {
+    "id": 166,
+    "thema": "Stochastik",
+    "schwierigkeitsgrad": "Mittel",
+    "frage": "Ein Würfel werde zweimal geworfen. Wie groß ist die Wahrscheinlichkeit, dass die Summe der beiden Würfe mindestens 10 beträgt?",
+    "ground_truth": "Mögliche Summen 10, 11, 12. Anzahl günstiger Paare: Summe=10: (4,6),(5,5),(6,4)=3; Summe=11: (5,6),(6,5)=2; Summe=12: (6,6)=1. Insgesamt 6 günstige aus 36 → P=6/36=1/6≈0.1667.",
+    "einheit": null
+  },
+  {
+    "id": 167,
+    "thema": "DGL",
+    "schwierigkeitsgrad": "Mittel",
+    "frage": "Lösen Sie die Differentialgleichung y' = (3x^2)/(1+y^2).",
+    "ground_truth": "Separierbar: (1+y^2)dy = 3x^2 dx. Integrieren: y + y^3/3 = x^3 + C. Implizite Lösung: y + (1/3)y^3 = x^3 + C.",
+    "einheit": null
+  },
+  {
+    "id": 168,
+    "thema": "Vektorgeometrie",
+    "schwierigkeitsgrad": "Schwer",
+    "frage": "Bestimmen Sie den Schnittpunkt der Ebene x - y + z = 2 mit der Geraden g: (x,y,z) = (3,1,0) + t(−2,1,3).",
+    "ground_truth": "Einsetzen in Ebene: x=3−2t, y=1+t, z=3t. Bedingung: (3−2t) − (1+t) + 3t = 2 ⇒ 3−2t−1−t+3t=2 ⇒ (3−1)+0t=2 ⇒ 2=2, immer erfüllt. Da t verschwindet, liegt die gesamte Gerade in der Ebene. Also kein einzelner Schnittpunkt, sondern g ⊂ Ebene.",
+    "einheit": null
+  },
+  [
+    {
+      "id": 169,
+      "thema": "Analysis",
+      "schwierigkeitsgrad": "Einfach",
+      "frage": "Berechnen Sie lim_{x→0} (e^{2x} − 1)/x.",
+      "ground_truth": "Standardgrenzwert: (e^{kx}−1)/x → k. Hier k = 2. Grenzwert = 2.",
+      "einheit": null
+    },
+    {
+      "id": 170,
+      "thema": "Analysis",
+      "schwierigkeitsgrad": "Mittel",
+      "frage": "Bestimmen Sie die Monotonie der Funktion f(x) = x^3 − 6x + 1.",
+      "ground_truth": "Ableitung: f'(x)=3x^2−6=3(x−√2)(x+√2). Vorzeichenwechsel: f fällt auf (−∞,−√2), steigt auf (−√2,√2), fällt auf (√2,∞).",
+      "einheit": null
+    },
+    {
+      "id": 171,
+      "thema": "Analysis",
+      "schwierigkeitsgrad": "Schwer",
+      "frage": "Berechnen Sie das Integral ∫_1^e (ln(x))/x dx.",
+      "ground_truth": "Substitution u = ln(x), du = dx/x. Integral = ∫_0^1 u du = 1/2.",
+      "einheit": null
+    },
+    {
+      "id": 172,
+      "thema": "Lineare Algebra",
+      "schwierigkeitsgrad": "Einfach",
+      "frage": "Berechnen Sie den Rang der Matrix A = [[1,2],[2,4]].",
+      "ground_truth": "Zweite Zeile ist ein Vielfaches der ersten → Rang(A)=1.",
+      "einheit": null
+    },
+    {
+      "id": 173,
+      "thema": "Lineare Algebra",
+      "schwierigkeitsgrad": "Mittel",
+      "frage": "Bestimmen Sie die Eigenwerte der Matrix A = [[0,1],[−2,3]].",
+      "ground_truth": "charA(λ) = det([[−λ,1],[−2,3−λ]]) = λ^2 − 3λ + 2 = (λ−1)(λ−2). Eigenwerte: 1 und 2.",
+      "einheit": null
+    },
+    {
+      "id": 174,
+      "thema": "Lineare Algebra",
+      "schwierigkeitsgrad": "Schwer",
+      "frage": "Untersuchen Sie, ob die Matrix A = [[1,1,0],[0,1,1],[0,0,1]] diagonalisierbar ist.",
+      "ground_truth": "Char-Polynom: (1−λ)^3. Einziger Eigenwert: λ=1. Jordanform zeigt, dass A drei 1er Jordan-Blöcke nur dann hat, wenn die Dimension des Eigenraums 3 wäre. Der Eigenraum besteht nur aus Vektoren der Form (x,0,0) → dim=1. Da die algebraische Vielfachheit 3, die geometrische aber 1 ist, ist A nicht diagonalisierbar.",
+      "einheit": null
+    },
+    {
+      "id": 175,
+      "thema": "Stochastik",
+      "schwierigkeitsgrad": "Einfach",
+      "frage": "Berechnen Sie die Wahrscheinlichkeit, dass beim Würfeln einer fairen sechsseitigen Zahl eine 4 erscheint.",
+      "ground_truth": "P = 1/6 ≈ 0.1667.",
+      "einheit": null
+    },
+    {
+      "id": 176,
+      "thema": "Stochastik",
+      "schwierigkeitsgrad": "Mittel",
+      "frage": "Eine Lampe falle exponentiell mit λ=0.2 aus. Berechnen Sie die Wahrscheinlichkeit, dass sie mindestens 10 Stunden hält.",
+      "ground_truth": "Für Exp(λ): P(T ≥ t) = e^{−λt}. Also P(T≥10) = e^{−0.2·10} = e^{−2} ≈ 0.1353.",
+      "einheit": "Wahrscheinlichkeit"
+    },
+    {
+      "id": 177,
+      "thema": "DGL",
+      "schwierigkeitsgrad": "Mittel",
+      "frage": "Lösen Sie die Differentialgleichung y' = y tan(x).",
+      "ground_truth": "Separierbar: dy/y = tan(x) dx. ∫dy/y = ln|y|, ∫tan(x) dx = −ln|cos(x)|. Lösung: ln|y| = −ln|cos(x)| + C ⇒ y = C sec(x).",
+      "einheit": null
+    },
+    {
+      "id": 178,
+      "thema": "Fourier",
+      "schwierigkeitsgrad": "Schwer",
+      "frage": "Gegeben sei f(x) = x auf [0,π], und f(x) werde zu einer ungeraden 2π-periodischen Funktion fortgesetzt. Welche Fourierreihe ergibt sich?",
+      "ground_truth": "Nur Sinus-Terme: bn = 2/π ∫_0^π x sin(nx) dx = 2(−1)^{n+1}/n. Fourierreihe: f(x)=∑_{n=1}∞ (2(−1)^{n+1}/n) sin(nx).",
+      "einheit": null
+    },
+    {
+      "id": 179,
+      "thema": "Analysis",
+      "schwierigkeitsgrad": "Einfach",
+      "frage": "Bestimmen Sie die Ableitung der Funktion f(x) = √(1 + 3x^2).",
+      "ground_truth": "Schreibe f(x) = (1 + 3x^2)^{1/2}. Mit der Kettenregel: f'(x) = (1/2)(1 + 3x^2)^{−1/2} · 6x = 3x / √(1 + 3x^2).",
+      "einheit": null
+    },
+    {
+      "id": 180,
+      "thema": "Analysis",
+      "schwierigkeitsgrad": "Mittel",
+      "frage": "Bestimmen Sie das globale Minimum der Funktion f(x,y) = x^2 + 4y^2 - 4x - 8y.",
+      "ground_truth": "Gradient: f_x = 2x − 4, f_y = 8y − 8. Setze =0: 2x−4=0 ⇒ x=2; 8y−8=0 ⇒ y=1. Hesse-Matrix diag(2,8) ist positiv definit, also globales Minimum in (2,1). Funktionswert: f(2,1) = 4 + 4 − 8 − 8 = −8.",
+      "einheit": null
+    },
+    {
+      "id": 181,
+      "thema": "Lineare Algebra",
+      "schwierigkeitsgrad": "Einfach",
+      "frage": "Lösen Sie das Gleichungssystem 2x + 3y = 4 und x − y = 1.",
+      "ground_truth": "Aus x − y = 1 folgt x = 1 + y. In 2x + 3y = 4 einsetzen: 2(1 + y) + 3y = 4 ⇒ 2 + 2y + 3y = 4 ⇒ 5y = 2 ⇒ y = 2/5. Dann x = 1 + 2/5 = 7/5.",
+      "einheit": null
+    },
+    {
+      "id": 182,
+      "thema": "Lineare Algebra",
+      "schwierigkeitsgrad": "Mittel",
+      "frage": "Gegeben sind die Vektoren v1 = (1,2,3), v2 = (2,4,6) und v3 = (1,0,1). Bestimmen Sie eine Basis des von {v1, v2, v3} erzeugten Unterraums.",
+      "ground_truth": "v2 = 2v1, also keine neue Richtung. v1 und v3 sind nicht Vielfache voneinander, also linear unabhängig. Eine Basis ist z.B. {(1,2,3), (1,0,1)} und die Dimension des Unterraums ist 2.",
+      "einheit": null
+    },
+    {
+      "id": 183,
+      "thema": "Stochastik",
+      "schwierigkeitsgrad": "Mittel",
+      "frage": "Eine Zufallsvariable X sei normalverteilt mit Erwartungswert μ = 100 und Standardabweichung σ = 15. Wie groß ist P(X > 130)?",
+      "ground_truth": "Standardisierung: Z = (X − μ)/σ. Für X = 130 ist Z = (130 − 100)/15 = 2. Also P(X > 130) = P(Z > 2) ≈ 0,0228.",
+      "einheit": null
+    },
+    {
+      "id": 184,
+      "thema": "Stochastik",
+      "schwierigkeitsgrad": "Mittel",
+      "frage": "Zwei Fabriken A und B produzieren die gleichen Teile. 60 % der Teile stammen aus A, 40 % aus B. Ausschussraten: P(defekt|A)=0,01, P(defekt|B)=0,03. Ein zufällig gezogenes Teil ist defekt. Wie groß ist die Wahrscheinlichkeit, dass es aus Fabrik A stammt?",
+      "ground_truth": "Gesamtdefektwahrscheinlichkeit: P(D) = 0,6·0,01 + 0,4·0,03 = 0,006 + 0,012 = 0,018. Mit Bayes: P(A|D) = P(D|A)P(A)/P(D) = 0,006/0,018 = 1/3 ≈ 0,3333.",
+      "einheit": null
+    },
+    {
+      "id": 185,
+      "thema": "DGL",
+      "schwierigkeitsgrad": "Mittel",
+      "frage": "Lösen Sie die Differentialgleichung y'' + y' = 2x.",
+      "ground_truth": "Homogene Gleichung: r^2 + r = 0 ⇒ r(r+1)=0 ⇒ y_h = C1 + C2 e^{−x}. Partikuläransatz: y_p = Ax^2 + Bx + C. Dann y_p' = 2Ax + B, y_p'' = 2A. Einsetzen: y_p'' + y_p' = 2A + 2Ax + B = 2x. Koeffizientenvergleich: 2A = 2 ⇒ A = 1; 2A + B = 0 ⇒ 2 + B = 0 ⇒ B = −2. C ist beliebig und wird von C1 absorbiert. Eine Lösung: y_p = x^2 − 2x. Allgemeine Lösung: y = C1 + C2 e^{−x} + x^2 − 2x.",
+      "einheit": null
+    },
+    {
+      "id": 186,
+      "thema": "DGL",
+      "schwierigkeitsgrad": "Schwer",
+      "frage": "Lösen Sie die Differentialgleichung y' = y(2 − y) für 0 < y < 2.",
+      "ground_truth": "Separieren: dy/[y(2−y)] = dx. Partielle Brüche: 1/[y(2−y)] = 1/(2y) + 1/(2(2−y)) mit Vorzeichenkorrektur → tatsächlich 1/[y(2−y)] = 1/2·(1/y + 1/(2−y)) mit geeignetem Vorzeichen; genauer: 1/[y(2−y)] = 1/(2y) + 1/(2(2−y)) ist äquivalent zu −1/(2(y−2)) + 1/(2y). Integration: ∫ dy/[y(2−y)] = (1/2)(ln|y| − ln|y−2|) = x + C. Also ln|y/(y−2)| = 2x + C̃ ⇒ y/(y−2) = K e^{2x}. Auflösen nach y: y = 2K e^{2x} / (K e^{2x} − 1). Dies ist die allgemeine Lösung (für geeignetes K).",
+      "einheit": null
+    },
+    {
+      "id": 187,
+      "thema": "Fourier",
+      "schwierigkeitsgrad": "Einfach",
+      "frage": "Gegeben ist die 2π-periodische Funktion f(x) = cos(2x). Welche Fourierkoeffizienten sind von null verschieden?",
+      "ground_truth": "Die Fourierreihe von f(x) = cos(2x) hat nur den Cosinus-Term mit n=2. Damit ist a2 = 1, alle anderen an=0 (n ≠ 2) und alle bn = 0.",
+      "einheit": null
+    },
+    {
+      "id": 188,
+      "thema": "Vektorgeometrie",
+      "schwierigkeitsgrad": "Mittel",
+      "frage": "Bestimmen Sie die Ebenengleichung durch die Punkte P1(1,0,0), P2(0,1,0) und P3(0,0,1).",
+      "ground_truth": "Richtungsvektoren: P2−P1 = (−1,1,0), P3−P1 = (−1,0,1). Normalenvektor n = (−1,1,0) × (−1,0,1) = (1,1,1). Ebenengleichung in Normalform: x + y + z = d. Einsetzen von P1: 1+0+0=d ⇒ d=1. Also Ebene: x + y + z = 1.",
+      "einheit": null
+    },
+    {
+      "id": 189,
+      "thema": "Analysis",
+      "schwierigkeitsgrad": "Mittel",
+      "frage": "Untersuchen Sie die Reihe ∑_{n=1}^∞ 1/n^2 auf Konvergenz und bestimmen Sie ihren Wert.",
+      "ground_truth": "Es handelt sich um eine p-Reihe mit p=2>1, also konvergent. Bekannter Wert (Basel-Problem): ∑_{n=1}^∞ 1/n^2 = π^2/6.",
+      "einheit": null
+    },
+    {
+      "id": 190,
+      "thema": "Analysis",
+      "schwierigkeitsgrad": "Einfach",
+      "frage": "Berechnen Sie das uneigentliche Integral ∫_0^∞ e^{−x} dx.",
+      "ground_truth": "Stammfunktion: −e^{−x}. Auswertung von 0 bis ∞: lim_{b→∞}(−e^{−b}) − (−e^0) = 0 + 1 = 1.",
+      "einheit": null
+    },
+    {
+      "id": 191,
+      "thema": "Lineare Algebra",
+      "schwierigkeitsgrad": "Mittel",
+      "frage": "Bestimmen Sie die Orthogonalprojektion des Vektors v = (1,2,3) auf die x-y-Ebene.",
+      "ground_truth": "Die x-y-Ebene besteht aus Vektoren der Form (x,y,0). Die Projektion von (1,2,3) auf diese Ebene ist (1,2,0), da die z-Komponente entfernt wird.",
+      "einheit": null
+    },
+    {
+      "id": 192,
+      "thema": "Lineare Algebra",
+      "schwierigkeitsgrad": "Mittel",
+      "frage": "Bestimmen Sie den Winkel zwischen den Vektoren v1 = (1,2,2) und v2 = (2,0,1).",
+      "ground_truth": "Skalarprodukt: v1·v2 = 1·2 + 2·0 + 2·1 = 4. Normen: ||v1|| = √(1^2+2^2+2^2) = √9 = 3, ||v2|| = √(2^2+0^2+1^2) = √5. cos(φ) = 4/(3√5). Also φ = arccos(4/(3√5)).",
+      "einheit": null
+    },
+    {
+      "id": 193,
+      "thema": "Stochastik",
+      "schwierigkeitsgrad": "Mittel",
+      "frage": "Gegeben sind die Beobachtungspaare (1,1), (2,2), (3,3) für zwei Merkmale X und Y. Bestimmen Sie die empirische Kovarianz (mit Faktor 1/n) und beurteilen Sie den linearen Zusammenhang.",
+      "ground_truth": "Mittelwerte: x̄ = (1+2+3)/3 = 2, ȳ = 2. Kovarianz mit 1/n: (1/3)[(1−2)(1−2) + (2−2)(2−2) + (3−2)(3−2)] = (1/3)[1 + 0 + 1] = 2/3. Da alle Punkte auf der Geraden y=x liegen, besteht perfekter positiver linearer Zusammenhang, der Korrelationskoeffizient wäre r = 1.",
+      "einheit": null
+    },
+    {
+      "id": 194,
+      "thema": "Stochastik",
+      "schwierigkeitsgrad": "Einfach",
+      "frage": "Aus einem Standardkartenspiel (52 Karten) wird eine Karte gezogen. Wie groß ist die Wahrscheinlichkeit, dass es ein Ass ist, wenn bekannt ist, dass die Karte ein Herz ist?",
+      "ground_truth": "Es gibt 13 Herz-Karten, darunter genau ein Herz-Ass. P(Ass|Herz) = 1/13 ≈ 0,0769.",
+      "einheit": null
+    },
+    {
+      "id": 195,
+      "thema": "PDE",
+      "schwierigkeitsgrad": "Mittel",
+      "frage": "Klassifizieren Sie die partielle Differentialgleichung u_xx - 4u_yy = 0 bezüglich ihres Typs (elliptisch, parabolisch, hyperbolisch).",
+      "ground_truth": "Allgemeine Form: A u_xx + B u_xy + C u_yy. Hier A=1, B=0, C=−4. Diskriminante: B^2 − 4AC = 0 − 4·1·(−4) = 16 > 0 ⇒ die Gleichung ist hyperbolisch.",
+      "einheit": null
+    },
+    {
+      "id": 196,
+      "thema": "DGL",
+      "schwierigkeitsgrad": "Einfach",
+      "frage": "Bestimmen Sie, ob die Differentialgleichung y'' + sin(x)y' + y = 0 linear und ob sie homogen ist.",
+      "ground_truth": "Die Gleichung ist linear, da y, y', y'' nur in erster Potenz und nicht multipliziert auftreten und Koeffizienten nur von x abhängen. Es gibt keinen freien Term (rechte Seite 0), also ist sie homogen.",
+      "einheit": null
+    },
+    {
+      "id": 197,
+      "thema": "Fourier",
+      "schwierigkeitsgrad": "Mittel",
+      "frage": "Gegeben ist die 2π-periodische Funktion f(x) = sin(x) + 2 cos(x) auf ℝ. Welche Fourierkoeffizienten sind ungleich null?",
+      "ground_truth": "f(x) hat nur Grundfrequenz n=1. In der Standard-Fourierreihe gilt: a0 = 0, a1 = 2, b1 = 1 und für n ≥ 2: an = 0, bn = 0.",
+      "einheit": null
+    },
+    {
+      "id": 198,
+      "thema": "Vektorgeometrie",
+      "schwierigkeitsgrad": "Einfach",
+      "frage": "Prüfen Sie, ob die Vektoren v1 = (1,2,3) und v2 = (2,4,6) orthogonal, parallel oder weder noch sind.",
+      "ground_truth": "v2 = 2v1, also zeigen beide in dieselbe Richtung. Sie sind parallel (und nicht orthogonal, da das Skalarprodukt ≠ 0 ist).",
+      "einheit": null
+    },
+    {
+      "id": 199,
+      "thema": "Analysis",
+      "schwierigkeitsgrad": "Einfach",
+      "frage": "Bestimmen Sie die Ableitung der Funktion f(x) = ln(x^2 + 4).",
+      "ground_truth": "Mit der Kettenregel: f'(x) = (1/(x^2+4)) · 2x = 2x/(x^2 + 4).",
+      "einheit": null
+    },
+    {
+      "id": 200,
+      "thema": "Stochastik",
+      "schwierigkeitsgrad": "Mittel",
+      "frage": "Eine Poisson-verteilte Zufallsvariable X habe Parameter λ = 3. Wie groß ist die Wahrscheinlichkeit, dass X genau 2 Ereignisse annimmt?",
+      "ground_truth": "Für Poisson(λ): P(X=k) = e^{−λ} λ^k / k!. Hier k=2: P(X=2) = e^{−3} · 3^2 / 2! = (9/2) e^{−3}.",
+      "einheit": null
+    }
+  ]
+]

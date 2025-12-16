@@ -781,7 +781,7 @@ def main():
     st.write("BM25-Retrieval auf deinen Chunks + Ollama (Text & Vision) als Tutor.")
 
     # Seitenwahl
-    page = st.sidebar.radio(
+page = st.sidebar.radio(
     "Modus",
     ["Tutor", "Evaluation", "Batch-JSON", "Bild-Aufgabe"],
     index=0,

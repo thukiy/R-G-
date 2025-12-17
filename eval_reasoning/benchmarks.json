@@ -402,52 +402,44 @@
   {
     "id": 51,
     "thema": "Analysis_HS2023",
-    "typ": "gruppenaufgabe",
-    "aufgabenstellung": "Gegeben sei die Funktion f: ℝ → ℝ, x ↦ f(x) = (x² − 9)(x² − 16). Welche der folgenden Aussagen sind wahr bzw. falsch?",
-    "teile": [
-      {
-        "teil_id": "51a",
-        "label": "1a",
-        "frage": "Es gilt f(0) = 0.",
-        "ground_truth": "falsch; f(0) = (0² − 9)(0² − 16) = (−9)·(−16) = 144 ≠ 0.",
-        "einheit": null
-      },
-      {
-        "teil_id": "51b",
-        "label": "1b",
-        "frage": "Die Funktion f ist injektiv.",
-        "ground_truth": "falsch; f ist eine gerade Polynomfunktion 4. Grades und daher nicht injektiv.",
-        "einheit": null
-      },
-      {
-        "teil_id": "51c",
-        "label": "1c",
-        "frage": "Die Funktion f ist bijektiv.",
-        "ground_truth": "falsch; da f nicht injektiv ist und nicht ganz ℝ als Bild hat, ist sie nicht bijektiv.",
-        "einheit": null
-      },
-      {
-        "teil_id": "51d",
-        "label": "1d",
-        "frage": "Die Funktion f hat genau drei Extrema.",
-        "ground_truth": "wahr; f'(x) = 4x³ − 50x hat die Nullstellen x = 0 und x = ±5√2/2, also drei Extremstellen.",
-        "einheit": null
-      },
-      {
-        "teil_id": "51e",
-        "label": "1e",
-        "frage": "Die Funktion f hat auf ℝ kein globales Minimum.",
-        "ground_truth": "falsch; die beiden Tiefpunkte bei x = ±5√2/2 sind globale Minima, da f(x) → +∞ für x → ±∞.",
-        "einheit": null
-      },
-      {
-        "teil_id": "51f",
-        "label": "1f",
-        "frage": "Das globale Maximum der Funktion f auf dem Intervall [3,4] ist 0.",
-        "ground_truth": "wahr; f(3) = f(4) = 0 und für 3 < x < 4 ist f(x) < 0, also ist 0 das Maximum auf [3,4].",
-        "einheit": null
-      }
-    ]
+    "frage": "Es gilt f(0) = 0.",
+    "ground_truth": "falsch; f(0) = (0² − 9)(0² − 16) = (−9)·(−16) = 144 ≠ 0.",
+    "einheit": null
+  },
+  {
+    "id": 52,
+    "thema": "Analysis_HS2023",
+    "frage": "Die Funktion f ist injektiv.",
+    "ground_truth": "falsch; f ist eine gerade Polynomfunktion 4. Grades und daher nicht injektiv.",
+    "einheit": null
+  },
+  {
+    "id": 53,
+    "thema": "Analysis_HS2023",
+    "frage": "Die Funktion f ist bijektiv.",
+    "ground_truth": "falsch; da f nicht injektiv ist und nicht ganz ℝ als Bild hat, ist sie nicht bijektiv.",
+    "einheit": null
+  },
+  {
+    "id": 54,
+    "thema": "Analysis_HS2023",
+    "frage": "Die Funktion f hat genau drei Extrema.",
+    "ground_truth": "wahr; f'(x) = 4x³ − 50x hat die Nullstellen x = 0 und x = ±5√2/2, also drei Extremstellen.",
+    "einheit": null
+  },
+  {
+    "id": 55,
+    "thema": "Analysis_HS2023",
+    "frage": "Die Funktion f hat auf ℝ kein globales Minimum.",
+    "ground_truth": "falsch; die beiden Tiefpunkte bei x = ±5√2/2 sind globale Minima, da f(x) → +∞ für x → ±∞.",
+    "einheit": null
+  },
+  {
+    "id": 56,
+    "thema": "Analysis_HS2023",
+    "frage": "Das globale Maximum der Funktion f auf dem Intervall [3,4] ist 0.",
+    "ground_truth": "wahr; f(3) = f(4) = 0 und für 3 < x < 4 ist f(x) < 0, also ist 0 das Maximum auf [3,4].",
+    "einheit": null
   },
   {
     "id": 57,

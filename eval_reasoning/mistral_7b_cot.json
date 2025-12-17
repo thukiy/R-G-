@@ -1,0 +1,1820 @@
+[
+  {
+    "id": 1,
+    "cot_lösung": [
+      "1. Wir betrachten das Integral ∫_1^2 sin(2x) dx.",
+      "2. Wir führen die Substitution u = 2x durch, was dx = 1/2 du impliziert.",
+      "3. Die Integrationsgrenzen ändern sich entsprechend: x = 1 → u = 2, x = 2 → u = 4.",
+      "4. Das Integral wird zu ∫_2^4 sin(u) * (1/2) du = 1/2 ∫_2^4 sin(u) du.",
+      "5. Die Aussage ist also korrekt, da beide Integrale gleich sind."
+    ],
+    "endlösung": "Die Aussage ist wahr."
+  },
+  {
+    "id": 2,
+    "cot_lösung": [
+      "1. Wir betrachten das Integral ∫_a^∞ 1/x dx.",
+      "2. Das Integral ∫_a^∞ 1/x dx ist ein uneigentliches Integral.",
+      "3. Wir können es als Grenzwert schreiben: lim_{b→∞} ∫_a^b 1/x dx.",
+      "4. Das Integral ∫ 1/x dx = ln|x| + C.",
+      "5. Also ist der Grenzwert lim_{b→∞} [ln(b) − ln(a)] = ∞.",
+      "6. Das Integral divergiert also für jedes a > 0."
+    ],
+    "endlösung": "Die Aussage ist falsch."
+  },
+  {
+    "id": 3,
+    "cot_lösung": [
+      "1. Die Fläche eines Gebiets in 2D kann mit einem Zweifachintegral berechnet werden.",
+      "2. Dies ist eine bekannte Methode in der Analysis.",
+      "3. Beispielsweise kann die Fläche unter einer Kurve y = f(x) von a bis b mit ∫_a^b f(x) dx berechnet werden.",
+      "4. Für allgemeine Gebiete in 2D verwendet man oft Doppelintegrale in der Form ∫_a^b ∫_c^d f(x,y) dy dx."
+    ],
+    "endlösung": "Die Aussage ist wahr."
+  },
+  {
+    "id": 4,
+    "cot_lösung": [
+      "1. Wir betrachten die Funktion f(x,y) = √(5 + x² + y²).",
+      "2. Wir setzen x = 0 und y = 2 ein: f(0,2) = √(5 + 0 + 4) = √9 = 3.",
+      "3. Die Aussage ist also korrekt."
+    ],
+    "endlösung": "Die Aussage ist wahr."
+  },
+  {
+    "id": 5,
+    "cot_lösung": [
+      "1. Die Funktion f(x,y) = √(5 + x² + y²) ist eine reellwertige Funktion.",
+      "2. Ihr Graph ist eine Fläche im 3D-Raum, nicht eine Kurve in der xy-Ebene.",
+      "3. Die Aussage ist also falsch."
+    ],
+    "endlösung": "Die Aussage ist falsch."
+  },
+  {
+    "id": 6,
+    "cot_lösung": [
+      "1. Die Einheitssphäre in 3D ist definiert durch x² + y² + z² = 1.",
+      "2. Die Funktion f(x,y) = √(5 + x² + y²) hat den Wert 1 für x² + y² = 4.",
+      "3. Dies ist eine Niveau-Menge, aber nicht die Einheitssphäre.",
+      "4. Die Aussage ist also falsch."
+    ],
+    "endlösung": "Die Aussage ist falsch."
+  },
+  {
+    "id": 7,
+    "cot_lösung": [
+      "1. Ein Vektorfeld v(x,y,z) = (2x, −y, −z) ist konservativ, wenn es ein Potential φ gibt, sodass v = ∇φ.",
+      "2. Wir prüfen die Rotationsfreiheit: ∇ × v = (∂v_z/∂y − ∂v_y/∂z, ∂v_x/∂z − ∂v_z/∂x, ∂v_y/∂x − ∂v_x/∂y).",
+      "3. Berechnung der Komponenten: (∂(−z)/∂y − ∂(−y)/∂z, ∂(2x)/∂z − ∂(−z)/∂x, ∂(−y)/∂x − ∂(2x)/∂y) = (0, 0, 0).",
+      "4. Da das Vektorfeld rotationsfrei ist, ist es konservativ."
+    ],
+    "endlösung": "Die Aussage ist wahr."
+  },
+  {
+    "id": 8,
+    "cot_lösung": [
+      "1. Ein Vektorfeld ist quellenfrei, wenn seine Divergenz null ist.",
+      "2. Wir berechnen die Divergenz: ∇ · v = ∂(2x)/∂x + ∂(−y)/∂y + ∂(−z)/∂z = 2 − 1 − 1 = 0.",
+      "3. Die Aussage ist also korrekt."
+    ],
+    "endlösung": "Die Aussage ist wahr."
+  },
+  {
+    "id": 9,
+    "cot_lösung": [
+      "1. Da das Vektorfeld konservativ ist, gibt es eine Funktion φ, sodass v = ∇φ.",
+      "2. Wir können φ durch Integration der Komponenten von v finden.",
+      "3. Beispielsweise: φ(x,y,z) = x² − (1/2)y² − (1/2)z² + C.",
+      "4. Die Aussage ist also wahr."
+    ],
+    "endlösung": "Die Aussage ist wahr."
+  },
+  {
+    "id": 10,
+    "cot_lösung": [
+      "1. Eine Matrix ist regulär, wenn ihre Determinante ungleich null ist.",
+      "2. Wir berechnen die Determinante von A: det(A) = 1*(0*3 - 2*3) - (-1)*(2*3 - 0*2) + 0*(2*3 - 0*0) = -6 + 6 + 0 = 0.",
+      "3. Da die Determinante null ist, ist A nicht regulär."
+    ],
+    "endlösung": "Die Aussage ist falsch."
+  },
+  {
+    "id": 11,
+    "cot_lösung": [
+      "1. Eine Matrix ist symmetrisch, wenn A^T = A.",
+      "2. Wir prüfen: B^T = (1/3)*[2, -1, 2, -1, 2, 2, 2, 2, -1] = (1/3)*[2, -1, 2, -1, 2, 2, 2, 2, -1] = B.",
+      "3. Eine Matrix ist orthogonal, wenn B^T * B = I.",
+      "4. Wir berechnen B^T * B: (1/3)^2 * [2+1+2, -1-2+2, 2-2+2, -1-2+2, 1+4+4, -2-4-2, 2-2-2, -2-4-2, 4+4+1] = (1/9)*[5, 0, 5, 0, 9, 0, 0, 0, 9] ≠ I.",
+      "5. Die Aussage ist also falsch."
+    ],
+    "endlösung": "Die Aussage ist falsch."
+  },
+  {
+    "id": 12,
+    "cot_lösung": [
+      "1. Wir betrachten die Matrix A = [[1, -1, 0], [2, 0, 2], [0, 3, 3]].",
+      "2. Wir berechnen den Kern von A: Wir lösen das Gleichungssystem A * x = 0.",
+      "3. Die Lösungen sind Vielfache von (1, 1, -1), also dim(ker(A)) = 1.",
+      "4. Der Bildraum von A hat Dimension 2, da die ersten beiden Zeilen linear unabhängig sind.",
+      "5. Also gilt dim(img(A)) = 2 und dim(ker(A)) = 1, was der Aussage widerspricht."
+    ],
+    "endlösung": "Die Aussage ist falsch."
+  },
+  {
+    "id": 13,
+    "cot_lösung": [
+      "1. Wenn A und B invertierbar sind, dann sind auch AB und BA invertierbar.",
+      "2. Dies folgt aus der Tatsache, dass die Umkehrung einer Matrixproduktes die Umkehrung der einzelnen Matrizen in umgekehrter Reihenfolge ist: (AB)^{-1} = B^{-1} A^{-1}.",
+      "3. Die Aussage ist also wahr."
+    ],
+    "endlösung": "Die Aussage ist wahr."
+  },
+  {
+    "id": 14,
+    "cot_lösung": [
+      "1. Sei A eine symmetrische invertierbare n×n-Matrix mit Eigenwerten λ_i.",
+      "2. Die Eigenwerte von A³ sind λ_i³, da die Eigenwerte unter Potenzierung potenziert werden.",
+      "3. Die Aussage ist also wahr."
+    ],
+    "endlösung": "Die Aussage ist wahr."
+  },
+  {
+    "id": 15,
+    "cot_lösung": [
+      "1. Zu zwei verschiedenen Eigenwerten einer n×n-Matrix A lassen sich stets zwei verschiedene Eigenvektoren finden.",
+      "2. Dies folgt aus der Definition von Eigenvektoren und Eigenwerten.",
+      "3. Die Aussage ist also wahr."
+    ],
+    "endlösung": "Die Aussage ist wahr."
+  },
+  {
+    "id": 16,
+    "cot_lösung": [
+      "1. Es seien z1 und z2 komplexe Zahlen.",
+      "2. Aus z1* = z2* folgt z1 = z2, da die komplexe Konjugation injektiv ist.",
+      "3. Die Aussage ist also wahr."
+    ],
+    "endlösung": "Die Aussage ist wahr."
+  },
+  {
+    "id": 17,
+    "cot_lösung": [
+      "1. Gegeben sei die Potenzgleichung zⁿ = w mit w ∈ ℂ, n ∈ ℕ.",
+      "2. Ist n gerade und z eine Lösung, dann ist auch -z eine Lösung, da (-z)ⁿ = zⁿ = w.",
+      "3. Die Aussage ist also wahr."
+    ],
+    "endlösung": "Die Aussage ist wahr."
+  },
+  {
+    "id": 18,
+    "cot_lösung": [
+      "1. Der Gradient einer Funktion f ist senkrecht zu den Höhenlinien von f.",
+      "2. Die Aussage, dass er tangential ist, ist also falsch."
+    ],
+    "endlösung": "Die Aussage ist falsch."
+  },
+  {
+    "id": 19,
+    "cot_lösung": [
+      "1. Seien u und v linear unabhängig.",
+      "2. Dann sind u + v und u − v ebenfalls linear unabhängig, da die Determinante der Matrix mit diesen Vektoren als Spalten ungleich null ist.",
+      "3. Die Aussage ist also wahr."
+    ],
+    "endlösung": "Die Aussage ist wahr."
+  },
+  {
+    "id": 20,
+    "cot_lösung": [
+      "1. Eine lineare Abbildung im Sinne der linearen Algebra muss die Eigenschaften f(a + b) = f(a) + f(b) und f(λa) = λf(a) für alle Vektoren a, b und Skalare λ erfüllen.",
+      "2. Die Funktion f(x) = 3x + 1 erfüllt diese Eigenschaften nicht, da f(0) = 1 ≠ 0.",
+      "3. Die Aussage ist also falsch."
+    ],
+    "endlösung": "Die Aussage ist falsch."
+  },
+  {
+    "id": 21,
+    "cot_lösung": [
+      "1. Der Term 5 cis(π/2) ist eine trigonometrische Form der komplexen Zahl 5i.",
+      "2. Die Aussage, dass es eine trigonometrische Form der Zahl 5 ist, ist also falsch."
+    ],
+    "endlösung": "Die Aussage ist falsch."
+  },
+  {
+    "id": 22,
+    "cot_lösung": [
+      "1. Wir lösen die Gleichung z⁴ = 16 · e^{iπ} = 16 · (−1).",
+      "2. Wir schreiben 16 · (−1) in Polarform: 16 e^{i(π + 2kπ)} für k ∈ ℤ.",
+      "3. Die Lösungen sind z_k = 2 e^{i(π/4 + kπ/2)} für k = 0, 1, 2, 3.",
+      "4. In arithmetischer Form: z_0 = 2 e^{iπ/4} = 2(cos(π/4) + i sin(π/4)) = √2 + i√2.",
+      "5. z_1 = 2 e^{i3π/4} = 2(cos(3π/4) + i sin(3π/4)) = −√2 + i√2.",
+      "6. z_2 = 2 e^{i5π/4} = 2(cos(5π/4) + i sin(5π/4)) = −√2 − i√2.",
+      "7. z_3 = 2 e^{i7π/4} = 2(cos(7π/4) + i sin(7π/4)) = √2 − i√2."
+    ],
+    "endlösung": "Die Lösungen sind z_0 = √2 + i√2, z_1 = −√2 + i√2, z_2 = −√2 − i√2, z_3 = √2 − i√2."
+  },
+  {
+    "id": 23,
+    "cot_lösung": [
+      "1. Wir betrachten die Matrix A = (1/2)*[[√3, −1], [1, √3]].",
+      "2. Die Matrix A ist eine Drehmatrix, die eine Drehung um den Winkel π/6 beschreibt.",
+      "3. Die Matrixpotenz A^{15} entspricht einer Drehung um 15 * π/6 = 5π/2 = 2π + π/2.",
+      "4. Da Drehungen periodisch mit Periode 2π sind, entspricht dies einer Drehung um π/2.",
+      "5. Also ist A^{15} = (1/2)*[[√3, −1], [1, √3]]^15 = (1/2)*[[0, −1], [1, 0]]."
+    ],
+    "endlösung": "Die Matrixpotenz ist B = (1/2)*[[0, −1], [1, 0]]."
+  },
+  {
+    "id": 24,
+    "cot_lösung": [
+      "1. Wir betrachten das Integral ∫_0^4 ∫_0^{√x} f(x,y) dy dx.",
+      "2. Wir vertauschen die Integrationsreihenfolge: Die neue untere Grenze für x ist y = 0, die obere Grenze ist y = 4.",
+      "3. Für jedes feste y ist x von y² bis 4.",
+      "4. Also wird das Integral zu ∫_0^4 ∫_{y²}^4 f(x,y) dx dy."
+    ],
+    "endlösung": "Das Integral wird zu ∫_0^4 ∫_{y²}^4 f(x,y) dx dy."
+  },
+  {
+    "id": 25,
+    "cot_lösung": [
+      "1. Wir betrachten die Funktion f(x,y) = (1/ln 2) · 2^{2x−y} und den Vektor v = (−3, 4)^T.",
+      "2. Der Punkt P(1,2) liegt im Punkt (1,2).",
+      "3. Der Gradient von f ist ∇f = (∂f/∂x, ∂f/∂y) = (2^{2x−y} * 2 * ln 2 / ln 2, −2^{2x−y} * ln 2 / ln 2) = (2^{2x−y + 1}, −2^{2x−y}).",
+      "4. An der Stelle (1,2) ist ∇f(1,2) = (2^{2*1−2 + 1}, −2^{2*1−2}) = (2^1, −2^0) = (2, −1).",
+      "5. Die Richtungsableitung ist das Skalarprodukt von ∇f(1,2) und v: (2, −1) · (−3, 4) / √((−3)^2 + 4^2) = (2*(-3) + (-1)*4) / 5 = (-6 -4)/5 = -2."
+    ],
+    "endlösung": "Die Richtungsableitung ist -2."
+  },
+  {
+    "id": 26,
+    "cot_lösung": [
+      "1. Wir betrachten die Kurve K mit der Parameterdarstellung γ(t) = ((cos t)/t, (sin t)/t) für 0 < t < 1.",
+      "2. Das skalare Kurvenintegral von f(x,y) = (x² + y²)^{-3/2} längs γ ist ∫_γ f(x,y) ds = ∫_0^1 f(γ(t)) * ||γ'(t)|| dt.",
+      "3. Wir berechnen γ'(t) = ((−t sin t − cos t)/t², (t cos t − sin t)/t²).",
+      "4. Die Norm von γ'(t) ist ||γ'(t)|| = √((−t sin t − cos t)² + (t cos t − sin t)²) / t² = √(t² + 1) / t².",
+      "5. Also ist das Integral ∫_0^1 (cos² t + sin² t)^{-3/2} * (t² + 1) / t² * 1/t dt = ∫_0^1 (t² + 1)^{3/2} / t³ dt.",
+      "6. Dies ist ein uneigentliches Integral, das divergiert."
+    ],
+    "endlösung": "Das Integral divergiert."
+  },
+  {
+    "id": 27,
+    "cot_lösung": [
+      "1. Wir betrachten die Funktion f(x,y) = 3x²y + y³ − 27y + 4.",
+      "2. Wir berechnen die partiellen Ableitungen: f_x = 6xy, f_y = 3x² + 3y² − 27.",
+      "3. Wir setzen f_x = 0 und f_y = 0: 6xy = 0 und 3x² + 3y² − 27 = 0.",
+      "4. Die Lösungen sind (0, 3) und (0, -3).",
+      "5. Wir berechnen die zweite Ableitung: f_xx = 6y, f_yy = 6y, f_xy = 6x.",
+      "6. Die Hessematrix ist H = [[6y, 6x], [6x, 6y]].",
+      "7. Für (0, 3): H = [[18, 0], [0, 18]], Determinante = 324 > 0, f_xx = 18 > 0 → lokales Minimum.",
+      "8. Für (0, -3): H = [[-18, 0], [0, -18]], Determinante = 324 > 0, f_xx = -18 < 0 → lokales Maximum.",
+      "9. Es gibt keine Sattelpunkte."
+    ],
+    "endlösung": "Die Funktion hat ein lokales Minimum bei (0, 3) und ein lokales Maximum bei (0, -3)."
+  },
+  {
+    "id": 28,
+    "cot_lösung": [
+      "1. Wir betrachten eine trapezförmige Fläche mit den Eckpunkten (0,0), (a,0), (b,0), (0,h).",
+      "2. Der Flächenschwerpunkt (x_S, y_S) ist gegeben durch x_S = (a + 2b)/3, y_S = h/3.",
+      "3. Ohne spezifische Werte für a, b, h können wir keine konkreten Zahlen angeben."
+    ],
+    "endlösung": "Der Flächenschwerpunkt ist (x_S, y_S) = ((a + 2b)/3, h/3)."
+  },
+  {
+    "id": 29,
+    "cot_lösung": [
+      "1. Wir betrachten die Matrix A = [[2,1,-2],[-6,-5,8],[-2,-2,3]].",
+      "2. Wir berechnen die Eigenwerte: det(A − λI) = 0.",
+      "3. Die charakteristische Gleichung ist λ³ − 3λ² + 4λ − 6 = 0.",
+      "4. Die Eigenwerte sind λ_1 = 1, λ_2 = 1 + i, λ_3 = 1 − i.",
+      "5. Da nicht alle Eigenwerte reell sind, ist A nicht diagonalisierbar."
+    ],
+    "endlösung": "Die Matrix A ist nicht diagonalisierbar."
+  },
+  {
+    "id": 30,
+    "cot_lösung": [
+      "1. Wir betrachten die Wahrscheinlichkeit P(A ∩ B̅) + P(B ∩ A̅).",
+      "2. Dies ist gleich P(A) − P(A ∩ B) + P(B) − P(A ∩ B) = P(A) + P(B) − 2P(A ∩ B).",
+      "3. Die rechte Seite der Gleichung ist P(A ∪ B) − P(A ∩ B).",
+      "4. Also ist die Aussage korrekt."
+    ],
+    "endlösung": "Die Aussage ist wahr."
+  },
+  {
+    "id": 31,
+    "cot_lösung": [
+      "1. Wir betrachten die Wahrscheinlichkeit P(A ∪ B).",
+      "2. Die allgemeine Formel ist P(A ∪ B) = P(A) + P(B) − P(A ∩ B).",
+      "3. Die Aussage ist nur dann wahr, wenn P(A ∩ B) = 0, was nicht immer der Fall ist."
+    ],
+    "endlösung": "Die Aussage ist falsch."
+  },
+  {
+    "id": 32,
+    "cot_lösung": [
+      "1. Wir betrachten die Wahrscheinlichkeit P(A ∪ B).",
+      "2. Es gilt P(A ∪ B) = 1 − P(A̅ ∩ B̅).",
+      "3. Dies ist eine bekannte Identität der Wahrscheinlichkeitstheorie.",
+      "4. Die Aussage ist also wahr."
+    ],
+    "endlösung": "Die Aussage ist wahr."
+  },
+  {
+    "id": 33,
+    "cot_lösung": [
+      "1. Wir betrachten die bedingte Wahrscheinlichkeit P(A | B).",
+      "2. Es gilt P(A | B) = P(A ∩ B) / P(B).",
+      "3. Ohne weitere Informationen können wir nicht sicherstellen, dass P(A | B) ≥ P(A).",
+      "4. Die Aussage ist also nicht immer wahr."
+    ],
+    "endlösung": "Die Aussage ist falsch."
+  },
+  {
+    "id": 34,
+    "cot_lösung": [
+      "1. Wir betrachten zwei Ereignisse A und B.",
+      "2. Wenn A und B unabhängig sind, dann gilt P(A ∩ B) = P(A) * P(B).",
+      "3. A ∩ B = ∅ impliziert P(A ∩ B) = 0, was nur dann wahr ist, wenn P(A) = 0 oder P(B) = 0.",
+      "4. Die Aussage ist also nicht immer wahr."
+    ],
+    "endlösung": "Die Aussage ist falsch."
+  },
+  {
+    "id": 35,
+    "cot_lösung": [
+      "1. Wir betrachten die Wahrscheinlichkeit P(A ∩ B).",
+      "2. Es gilt P(A ∩ B) = P(A) + P(B) − P(A ∪ B).",
+      "3. Dies ist eine bekannte Identität der Wahrscheinlichkeitstheorie.",
+      "4. Die Aussage ist also wahr."
+    ],
+    "endlösung": "Die Aussage ist wahr."
+  },
+  {
+    "id": 36,
+    "cot_lösung": [
+      "1. Wir betrachten die Varianz von −X.",
+      "2. Es gilt Var(−X) = E[((−X) − E[−X])²] = E[(−X + E[X])²] = E[(X − E[X])²] = Var(X).",
+      "3. Die Aussage ist also wahr."
+    ],
+    "endlösung": "Die Aussage ist wahr."
+  },
+  {
+    "id": 37,
+    "cot_lösung": [
+      "1. Wir betrachten eine stetige Zufallsvariable X mit Dichtefunktion f(x).",
+      "2. Die Dichtefunktion ist nicht notwendigerweise monoton wachsend.",
+      "3. Beispielsweise kann eine Normalverteilung sowohl steigende als auch fallende Abschnitte haben.",
+      "4. Die Aussage ist also falsch."
+    ],
+    "endlösung": "Die Aussage ist falsch."
+  },
+  {
+    "id": 38,
+    "cot_lösung": [
+      "1. Wir betrachten die Varianz von bX − a.",
+      "2. Es gilt Var(bX − a) = E[((bX − a) − E[bX − a])²] = E[(bX − bE[X])²] = b² E[(X − E[X])²] = b² Var(X).",
+      "3. Die Aussage ist also falsch, da der Term a fehlt."
+    ],
+    "endlösung": "Die Aussage ist falsch."
+  },
+  {
+    "id": 39,
+    "cot_lösung": [
+      "1. Wir betrachten eine normalverteilte Zufallsvariable X mit E(X) = μ und Var(X) = σ².",
+      "2. Es gilt P(μ − σ ≤ X ≤ μ + σ) ≈ 0.6827.",
+      "3. P(X ≥ μ + σ) ≈ 0.1587.",
+      "4. Also ist P(μ − σ ≤ X ≤ μ + σ) ≈ 2 * 0.1587 = 0.3174, was nicht gleich 0.6827 ist.",
+      "5. Die Aussage ist also falsch."
+    ],
+    "endlösung": "Die Aussage ist falsch."
+  },
+  {
+    "id": 40,
+    "cot_lösung": [
+      "1. Wir betrachten eine normalverteilte Zufallsvariable X mit E(X) = μ und Var(X) = σ².",
+      "2. Es gilt Var(X) = E[X²] − (E[X])².",
+      "3. Wenn μ = 0, dann ist Var(X) = E[X²].",
+      "4. Die Aussage ist also wahr."
+    ],
+    "endlösung": "Die Aussage ist wahr."
+  },
+  {
+    "id": 41,
+    "cot_lösung": [
+      "1. Wir betrachten 100 unabhängige Kredite mit Ausfallwahrscheinlichkeit p = 0,01.",
+      "2. Die Anzahl der ausfallenden Kredite X ist binomialverteilt mit n = 100 und p = 0,01.",
+      "3. Die Aussage ist also wahr."
+    ],
+    "endlösung": "Die Aussage ist wahr."
+  },
+  {
+    "id": 42,
+    "cot_lösung": [
+      "1. Wir betrachten 30 Springer und die Vergabe von Gold, Silber und Bronze.",
+      "2. Die Anzahl der Möglichkeiten ist P(30,3) = 30 * 29 * 28 = 24360.",
+      "3. Die Aussage ist also wahr."
+    ],
+    "endlösung": "Die Anzahl der Möglichkeiten ist 24360."
+  },
+  {
+    "id": 43,
+    "cot_lösung": [
+      "1. Wir betrachten das Zahlenlotto 6 aus 49.",
+      "2. Die Wahrscheinlichkeit, 2 Richtige zu haben, ist C(6,2) / C(49,2) = 15 / 1006 ≈ 0.0149.",
+      "3. Die Aussage ist also wahr."
+    ],
+    "endlösung": "Die Wahrscheinlichkeit beträgt etwa 0.0149."
+  },
+  {
+    "id": 44,
+    "cot_lösung": [
+      "1. Wir betrachten 60 kontrollierte Stücke mit 15 mit Defekt A und 12 mit Defekt B.",
+      "2. Die Wahrscheinlichkeit, dass ein Stück mit Defekt A auch Defekt B hat, ist 12 / 15 = 0.8.",
+      "3. Die Aussage ist also wahr."
+    ],
+    "endlösung": "Die Wahrscheinlichkeit beträgt 0.8."
+  },
+  {
+    "id": 45,
+    "cot_lösung": [
+      "1. Wir betrachten die Altersgruppen und die Wahrscheinlichkeit, den Gottesdienst zu besuchen.",
+      "2. Die Gesamtwahrscheinlichkeit, dass ein Gottesdienstbesucher zur jüngsten Altersgruppe gehört, ist (0.25 * 0.1) / (0.25 * 0.1 + 0.3 * 0.3 + 0.45 * 0.5) = 0.025 / 0.335 ≈ 0.0746.",
+      "3. Die Aussage ist also wahr."
+    ],
+    "endlösung": "Die Wahrscheinlichkeit beträgt etwa 0.0746."
+  },
+  {
+    "id": 46,
+    "cot_lösung": [
+      "1. Wir betrachten ein Glücksrad mit 10 Sektoren, von denen 2 rot sind.",
+      "2. Die Wahrscheinlichkeit, bei einem Dreh Rot zu erhalten, ist 2/10 = 0.2.",
+      "3. Die Wahrscheinlichkeit, in 10 Würfen mindestens zweimal Rot zu erhalten, ist 1 − P(0) − P(1) = 1 − (0.8)^{10} − 10 * 0.2 * (0.8)^9 ≈ 1 − 0.1074 − 0.2684 ≈ 0.6242.",
+      "4. Die Aussage ist also wahr."
+    ],
+    "endlösung": "Die Wahrscheinlichkeit beträgt etwa 0.6242."
+  },
+  {
+    "id": 47,
+    "cot_lösung": [
+      "1. Wir betrachten eine normalverteilte Zufallsvariable Z mit μ = 0 und σ = 1.",
+      "2. Die Wahrscheinlichkeit, dass Z > 1, ist 1 − Φ(1) ≈ 1 − 0.8413 ≈ 0.1587.",
+      "3. Die Aussage ist also wahr."
+    ],
+    "endlösung": "Die Wahrscheinlichkeit beträgt etwa 0.1587."
+  },
+  {
+    "id": 48,
+    "cot_lösung": [
+      "1. Wir betrachten eine normalverteilte Zufallsvariable Z mit μ = 0 und σ = 1.",
+      "2. Die Wahrscheinlichkeit, dass Z < -2, ist Φ(-2) ≈ 0.0228.",
+      "3. Die Aussage ist also wahr."
+    ],
+    "endlösung": "Die Wahrscheinlichkeit beträgt etwa 0.0228."
+  },
+  {
+    "id": 49,
+    "cot_lösung": [
+      "1. Wir betrachten eine normalverteilte Zufallsvariable Z mit μ = 0 und σ = 1.",
+      "2. Die Wahrscheinlichkeit, dass -1 < Z < 1, ist Φ(1) − Φ(-1) ≈ 0.8413 − 0.1587 ≈ 0.6826.",
+      "3. Die Aussage ist also wahr."
+    ],
+    "endlösung": "Die Wahrscheinlichkeit beträgt etwa 0.6826."
+  },
+  {
+    "id": 50,
+    "cot_lösung": [
+      "1. Wir betrachten eine normalverteilte Zufallsvariable Z mit μ = 0 und σ = 1.",
+      "2. Die Abweichung nach oben, die von 10 % der Packungen überschritten wird, ist der Wert z, für den Φ(z) = 0.9.",
+      "3. Dies ist etwa z ≈ 1.28.",
+      "4. Die Aussage ist also wahr."
+    ],
+    "endlösung": "Die Abweichung beträgt etwa 1.28."
+  },
+  {
+    "id": 51,
+    "cot_lösung": [
+      "1. Wir betrachten die Funktion f(x) = (x² − 9)(x² − 16).",
+      "2. Wir setzen x = 0 ein: f(0) = (0 − 9)(0 − 16) = (-9)(-16) = 144.",
+      "3. Also ist f(0) = 144 ≠ 0."
+        ],
+    "endlösung": "Die Aussage ist falsch."
+      },
+      {
+    "id": 52,
+    "cot_lösung": [
+      "1. Wir betrachten die Funktion f(x) = (x² − 9)(x² − 16).",
+      "2. Eine Funktion ist injektiv, wenn sie verschiedene Eingaben auf verschiedene Ausgaben abbildet.",
+      "3. Wir prüfen f(3) = (9 − 9)(9 − 16) = 0 und f(-3) = (9 − 9)(9 − 16) = 0.",
+      "4. Also ist f nicht injektiv, da f(3) = f(-3)."
+        ],
+    "endlösung": "Die Aussage ist falsch."
+      },
+      {
+    "id": 53,
+    "cot_lösung": [
+      "1. Wir betrachten die Funktion f(x) = (x² − 9)(x² − 16).",
+      "2. Eine Funktion ist bijektiv, wenn sie injektiv und surjektiv ist.",
+      "3. Wir haben bereits gezeigt, dass f nicht injektiv ist.",
+      "4. Also ist f nicht bijektiv."
+        ],
+    "endlösung": "Die Aussage ist falsch."
+      },
+      {
+    "id": 54,
+    "cot_lösung": [
+      "1. Wir betrachten die Funktion f(x) = (x² − 9)(x² − 16).",
+      "2. Wir berechnen die erste Ableitung: f'(x) = 2x(x² − 9) + 2x(x² − 16) = 2x(2x² − 25).",
+      "3. Wir setzen f'(x) = 0: 2x(2x² − 25) = 0 → x = 0 oder x² = 25/2 → x = ±√(25/2).",
+      "4. Also hat f vier kritische Punkte, was bedeutet, dass es vier Extrema gibt."
+        ],
+    "endlösung": "Die Aussage ist falsch."
+      },
+      {
+    "id": 55,
+    "cot_lösung": [
+      "1. Wir betrachten die Funktion f(x) = (x² − 9)(x² − 16).",
+      "2. Die Funktion ist nach unten unbeschränkt, da für x → ∞ f(x) → ∞ und für x → -∞ f(x) → ∞.",
+      "3. Also hat f auf ℝ kein globales Minimum."
+        ],
+    "endlösung": "Die Aussage ist wahr."
+      },
+      {
+    "id": 56,
+    "cot_lösung": [
+      "1. Wir betrachten die Funktion f(x) = (x² − 9)(x² − 16) auf dem Intervall [3,4].",
+      "2. Wir berechnen die Werte an den Endpunkten: f(3) = 0, f(4) = 0.",
+      "3. Wir berechnen die Werte an den kritischen Punkten: f'(x) = 2x(2x² − 25) = 0 → x = 0 oder x = ±√(25/2).",
+      "4. Auf [3,4] gibt es keine kritischen Punkte, also ist das Maximum auf [3,4] f(4) = 0."
+        ],
+  "endlösung": "Die Aussage ist wahr."
+      },
+  {
+    "id": 57,
+    "cot_lösung": [
+      "1. Wir betrachten die Exponentialfunktion exp(0).",
+      "2. Es gilt exp(0) = e^0 = 1.",
+      "3. Die Aussage ist also wahr."
+    ],
+    "endlösung": "Die Aussage ist wahr."
+  },
+  {
+    "id": 58,
+    "cot_lösung": [
+      "1. Wir betrachten die Exponentialfunktion e^{e'''(x)}.",
+      "2. Die Ableitung von e^x ist e^x, also ist (e^x)' = e^x.",
+      "3. Die Aussage ist also falsch, da e^{e'''(x)} = e^{e^x} ≠ (e^x)' = e^x."
+    ],
+    "endlösung": "Die Aussage ist falsch."
+  },
+  {
+    "id": 59,
+    "cot_lösung": [
+      "1. Wir betrachten die Exponentialfunktion exp(0.25).",
+      "2. Es gilt exp(0.25) = e^{0.25} = √(e^1) = √e.",
+      "3. √(e²/8) = e/√8 = e/(2√2) ≈ 0.913, während √e ≈ 1.6487.",
+      "4. Die Aussage ist also falsch."
+    ],
+    "endlösung": "Die Aussage ist falsch."
+  },
+  {
+    "id": 60,
+    "cot_lösung": [
+      "1. Wir betrachten die Exponentialfunktion exp(2x).",
+      "2. Es gilt exp(2x) = e^{2x} = (e^x)^2 ≠ 2 · e^x = 2 · exp(x).",
+      "3. Die Aussage ist also falsch."
+    ],
+    "endlösung": "Die Aussage ist falsch."
+  },
+  {
+    "id": 61,
+    "cot_lösung": [
+      "1. Wir betrachten die Exponentialfunktion exp(x − y).",
+      "2. Es gilt exp(x − y) = e^{x − y} = e^x / e^y = exp(x) / exp(y).",
+      "3. Die Aussage ist also wahr."
+    ],
+    "endlösung": "Die Aussage ist wahr."
+  },
+  {
+    "id": 62,
+    "cot_lösung": [
+      "1. Wir betrachten eigentliche Exponentialfunktionen.",
+      "2. Diese sind immer streng monoton steigend, da ihre Ableitung positiv ist.",
+      "3. Die Aussage ist also wahr."
+    ],
+    "endlösung": "Die Aussage ist wahr."
+  },
+  {
+    "id": 63,
+    "cot_lösung": [
+      "1. Wir betrachten die Menge sec(]0,7]).",
+      "2. Die Menge sec(]0,7]) ist die Menge aller x, für die 0 < cos(x) ≤ 7.",
+      "3. Da cos(x) zwischen -1 und 1 liegt, ist die Menge leer.",
+      "4. Die Aussage ist also falsch."
+    ],
+    "endlösung": "Die Menge ist leer."
+  },
+  {
+    "id": 64,
+    "cot_lösung": [
+      "1. Wir betrachten die Folge a_n = (2n − 5 − 4n²) / (3 − 8n² − 10n).",
+      "2. Für n → ∞ dominieren die höchsten Potenzen: a_n ≈ -4n² / -8n² = 1/2.",
+      "3. Der Grenzwert ist also 1/2."
+    ],
+    "endlösung": "Der Grenzwert ist 1/2."
+  },
+  {
+    "id": 65,
+    "cot_lösung": [
+      "1. Wir betrachten die Funktion f(x) = √(3x² + 32x).",
+      "2. Die Ableitung ist f'(x) = (1/2)(3x² + 32x)^{-1/2} * (6x + 32).",
+      "3. Die Aussage ist also wahr."
+    ],
+    "endlösung": "Die Ableitung ist f'(x) = (3x + 16) / √(3x² + 32x)."
+  },
+  {
+    "id": 66,
+    "cot_lösung": [
+      "1. Wir betrachten das Integral ∫_u^{−v} (2uw − 6vw² + 1) dw.",
+      "2. Wir integrieren termweise: ∫ 2uw dw = uw², ∫ 6vw² dw = 2vw³, ∫ 1 dw = w.",
+      "3. Also ist das Integral uw² − 2vw³ + w + C."
+    ],
+    "endlösung": "Das Integral ist uw² − 2vw³ + w + C."
+  },
+  {
+    "id": 67,
+    "cot_lösung": [
+      "1. Wir betrachten die Funktion f(x) = (1/432 m³) x⁴ − (1/6 m) x² + 3 m.",
+      "2. Die Länge der Brücke ist 12 m, also x ∈ [−6, 6].",
+      "3. Die Höhe der Brücke ist 3 m, also f(6) = 3 m.",
+      "4. Wir suchen den maximalen Wert von f(x) auf [−6, 6].",
+      "5. Die Ableitung ist f'(x) = (1/108 m³) x³ − (1/3 m) x.",
+      "6. Wir setzen f'(x) = 0: (1/108 m³) x³ − (1/3 m) x = 0 → x(x² − 36) = 0 → x = 0, ±6.",
+      "7. Die Werte von f(x) an den kritischen Punkten sind f(0) = 3 m, f(6) = 3 m, f(-6) = 3 m.",
+      "8. Also ist die maximale Höhe 3 m.",
+      "9. Ein Lastwagen der Breite 2.5 m darf also maximal 3 m hoch sein."
+    ],
+    "endlösung": "Der Lastwagen darf maximal 3 m hoch sein."
+  },
+  {
+    "id": 68,
+    "cot_lösung": [
+      "1. Wir betrachten die Funktion f(x) = (1/432 m³) x⁴ − (1/6 m) x² + 3 m.",
+      "2. Die Steigung ist die Ableitung f'(x) = (1/108 m³) x³ − (1/3 m) x.",
+      "3. Die maximale Steigung tritt an den kritischen Punkten auf.",
+      "4. Die zweite Ableitung ist f''(x) = (1/36 m³) x² − (1/3 m).",
+      "5. Wir setzen f''(x) = 0: (1/36 m³) x² − (1/3 m) = 0 → x² = 12 → x = ±2√3.",
+      "6. Die Steigung an diesen Punkten ist f'(±2√3) = (1/108 m³)(±2√3)³ − (1/3 m)(±2√3) = ±(16√3/108 m³) ∓ (2√3/3 m) = ±(4√3/27 m³) ∓ (2√3/3 m).",
+      "7. Die maximale Steigung ist also (4√3/27 m³) + (2√3/3 m)."
+    ],
+    "endlösung": "Die maximale Steigung ist (4√3/27 m³) + (2√3/3 m)."
+  },
+  {
+    "id": 69,
+    "cot_lösung": [
+      "1. Wir betrachten die Funktion f(x) = (1/432 m³) x⁴ − (1/6 m) x² + 3 m.",
+      "2. Die Querschnittsfläche der Durchfahrtöffnung ist die Fläche unter der Brücke.",
+      "3. Dies ist das Integral ∫_{-6}^6 (3 m − f(x)) dx.",
+      "4. Wir berechnen das Integral: ∫_{-6}^6 (3 m − (1/432 m³) x⁴ + (1/6 m) x² − 3 m) dx = ∫_{-6}^6 (-(1/432 m³) x⁴ + (1/6 m) x²) dx.",
+      "5. Da die Funktion gerade ist, können wir das Integral von 0 bis 6 verdoppeln: 2 ∫_0^6 (-(1/432 m³) x⁴ + (1/6 m) x²) dx.",
+      "6. Wir berechnen das Integral: 2 [-(1/432 m³)(1/5) x⁵ + (1/6 m)(1/3) x³] von 0 bis 6 = 2 [-(1/2160 m³)(6^5) + (1/18 m)(6^3)] = 2 [-(1/2160 m³)(7776) + (1/18 m)(216)] = 2 [-(7776/2160 m³) + 12 m] = 2 [-(11/3 m³) + 12 m] = 24 m − (22/3) m³."
+    ],
+    "endlösung": "Die Querschnittsfläche ist 24 m − (22/3) m³."
+  },
+  {
+    "id": 70,
+    "cot_lösung": [
+      "1. Wir betrachten das Gauss-Schema mit Parametern p, q ∈ ℝ.",
+      "2. Die Variable x3 ist eine Pivot-Variable, wenn sie in der ersten Zeile nicht null ist.",
+      "3. In der ersten Zeile ist x3 = 3 ≠ 0, also ist x3 eine Pivot-Variable."
+    ],
+    "endlösung": "Die Aussage ist wahr."
+  },
+  {
+    "id": 71,
+    "cot_lösung": [
+      "1. Wir betrachten das Gauss-Schema mit Parametern p, q ∈ ℝ.",
+      "2. Das LGLS hat keine Lösung, wenn die letzte Zeile nicht null ist.",
+      "3. Die letzte Zeile ist p·q, die nur null ist, wenn p = 0 oder q = 0.",
+      "4. Also hat das LGLS in jedem Fall eine Lösung, wenn p = 0 oder q = 0.",
+      "5. Die Aussage ist also falsch."
+    ],
+    "endlösung": "Die Aussage ist falsch."
+  },
+  {
+    "id": 72,
+    "cot_lösung": [
+      "1. Wir betrachten das Gauss-Schema mit Parametern p, q ∈ ℝ.",
+      "2. Der Rang hängt vom Wert des Parameters q ab, wenn p = 0.",
+      "3. Wenn p = 0, dann ist die dritte Zeile null, und der Rang hängt von q ab.",
+      "4. Die Aussage ist also wahr."
+    ],
+    "endlösung": "Die Aussage ist wahr."
+  },
+  {
+    "id": 73,
+    "cot_lösung": [
+      "1. Wir betrachten das Gauss-Schema mit Parametern p, q ∈ ℝ.",
+      "2. In jedem Fall hat das LGLS drei Pivot-Variablen, wenn q ≠ 0.",
+      "3. Wenn q ≠ 0, dann ist die zweite Zeile nicht null, und es gibt drei Pivot-Variablen.",
+      "4. Die Aussage ist also wahr."
+    ],
+    "endlösung": "Die Aussage ist wahr."
+  },
+  {
+    "id": 74,
+    "cot_lösung": [
+      "1. Wir betrachten das Gauss-Schema mit Parametern p, q ∈ ℝ.",
+      "2. Der Defekt n_D ist die Anzahl der Variablen minus der Anzahl der Pivot-Variablen.",
+      "3. Der Rang n_R ist die Anzahl der Pivot-Variablen.",
+      "4. In jedem Fall gilt n_D = 3 - n_R, also n_D > n_R, wenn n_R < 1.5.",
+      "5. Die Aussage ist also nicht immer wahr."
+    ],
+    "endlösung": "Die Aussage ist falsch."
+  },
+  {
+    "id": 75,
+    "cot_lösung": [
+      "1. Wir betrachten das Gauss-Schema mit Parametern p, q ∈ ℝ.",
+      "2. Wenn p = q = 0, dann ist die dritte und vierte Zeile null.",
+      "3. Die erste und zweite Zeile sind nicht null, also gibt es zwei Pivot-Variablen.",
+      "4. Das LGLS hat also unendlich viele Lösungen.",
+      "5. Die Aussage ist also wahr."
+    ],
+    "endlösung": "Die Aussage ist wahr."
+  },
+  {
+    "id": 76,
+    "cot_lösung": [
+      "1. Wir betrachten ein LGLS mit n_R (Rang) = n_V (Anzahl Variablen).",
+      "2. Dies bedeutet, dass die Matrix vollen Rang hat und das LGLS eindeutig lösbar ist.",
+      "3. Die Aussage ist also wahr."
+    ],
+    "endlösung": "Die Aussage ist wahr."
+  },
+  {
+    "id": 77,
+    "cot_lösung": [
+      "1. Das Vektorprodukt ist nur in dreidimensionalen Räumen definiert.",
+      "2. Die Aussage ist also wahr."
+    ],
+    "endlösung": "Die Aussage ist wahr."
+  },
+  {
+    "id": 78,
+    "cot_lösung": [
+      "1. Wir betrachten die Gleichung cos x = cos(−x).",
+      "2. Diese Gleichung hat unendlich viele Lösungen, da cos(x) = cos(-x) für alle x ∈ ℝ gilt.",
+      "3. Die Aussage ist also falsch."
+    ],
+    "endlösung": "Die Aussage ist falsch."
+  },
+  {
+    "id": 79,
+    "cot_lösung": [
+      "1. Wir betrachten das Skalarprodukt ⟨2v, 2w⟩.",
+      "2. Es gilt ⟨2v, 2w⟩ = 4 ⟨v, w⟩.",
+      "3. Die Aussage ist also falsch."
+    ],
+    "endlösung": "Die Aussage ist falsch."
+  },
+  {
+    "id": 80,
+    "cot_lösung": [
+      "1. Wir betrachten den Winkel zwischen den Vektoren 2v und w.",
+      "2. Es gilt ∠(2v, w) = ∠(v, w), da die Länge von v die Richtung nicht ändert.",
+      "3. Die Aussage ist also falsch."
+    ],
+    "endlösung": "Die Aussage ist falsch."
+  },
+  {
+    "id": 81,
+    "cot_lösung": [
+      "1. Wir betrachten das Vektorprodukt w × (v + w).",
+      "2. Es gilt w × (v + w) = w × v + w × w = w × v, da w × w = 0.",
+      "3. Also ist w × (v + w) = −v × w.",
+      "4. Die Aussage ist also wahr."
+    ],
+    "endlösung": "Die Aussage ist wahr."
+  },
+  {
+    "id": 82,
+    "cot_lösung": [
+      "1. Wir betrachten den Term ⟨a × (b + a), b × a − a⟩ für a ⟂ b.",
+      "2. Da a ⟂ b, ist a × b = 0.",
+      "3. Also ist a × (b + a) = a × a = 0.",
+      "4. Der Term wird zu ⟨0, b × a − a⟩ = 0."
+    ],
+    "endlösung": "Der Term ist 0."
+  },
+  {
+    "id": 83,
+    "cot_lösung": [
+      "1. Wir betrachten die Ebene mit Normalengleichung 3x − 6y + 2z − 14 = 0.",
+      "2. Der Abstand des Ursprungs von der Ebene ist |3*0 − 6*0 + 2*0 − 14| / √(3² + (-6)² + 2²) = 14 / √(9 + 36 + 4) = 14 / 7 = 2."
+    ],
+    "endlösung": "Der Abstand beträgt 2."
+  },
+  {
+    "id": 84,
+    "cot_lösung": [
+      "1. Wir betrachten die Orthogonalprojektion des Vektors (5,3,1)^T auf den Vektor (1,2,3)^T.",
+      "2. Die Orthogonalprojektion ist gegeben durch (v · w / w · w) * w, wobei v = (5,3,1)^T und w = (1,2,3)^T.",
+      "3. Der Python-Code ist:\n```python\nimport numpy as np\nv = np.array([5, 3, 1])\nw = np.array([1, 2, 3])\nproj = (np.dot(v, w) / np.dot(w, w)) * w\northogonal = v - proj\nprint(\"Orthogonalprojektion:\", proj)\nprint(\"Orthogonale Komponente:\", orthogonal)\n```"
+    ],
+    "endlösung": "Der Python-Code ist:\n```python\nimport numpy as np\nv = np.array([5, 3, 1])\nw = np.array([1, 2, 3])\nproj = (np.dot(v, w) / np.dot(w, w)) * w\northogonal = v - proj\nprint(\"Orthogonalprojektion:\", proj)\nprint(\"Orthogonale Komponente:\", orthogonal)\n```"
+  },
+  {
+    "id": 85,
+    "cot_lösung": [
+      "1. Wir betrachten die Gerade g durch P₁(5,1,2) mit Richtungsvektor a = (3,1,2)^T.",
+      "2. Die Ebene E geht durch P₀(2,1,8) mit Normalenvektor n = (−1,3,1)^T.",
+      "3. Die Gerade g hat die Parameterdarstellung (5,1,2) + t(3,1,2).",
+      "4. Die Ebene E hat die Gleichung (x-2) - 3(y-1) + (z-8) = 0 → x - 3y + z - 3 = 0.",
+      "5. Wir setzen die Gerade in die Ebene ein: (5 + 3t) - 3(1 + t) + (2 + 2t) - 3 = 0 → 5 + 3t - 3 - 3t + 2 + 2t - 3 = 0 → 1 + 2t = 0 → t = -0.5.",
+      "6. Der Schnittpunkt ist (5 + 3*(-0.5), 1 + 1*(-0.5), 2 + 2*(-0.5)) = (3.5, 0.5, 1).",
+      "7. Der Winkel zwischen der Geraden und der Ebene ist der Winkel zwischen dem Richtungsvektor der Geraden und dem Normalenvektor der Ebene.",
+      "8. Der Winkel ist arccos(|a · n| / (||a|| ||n||)) = arccos(|3*(-1) + 1*3 + 2*1| / (√(3² + 1² + 2²) √((-1)² + 3² + 1²))) = arccos(2 / (√14 √11)) ≈ 82.5°."
+    ],
+    "endlösung": "Die Gerade und die Ebene schneiden sich im Punkt (3.5, 0.5, 1). Der Winkel beträgt etwa 82.5°."
+  },
+  {
+    "id": 86,
+    "cot_lösung": [
+      "1. Wir betrachten ein Hotel mit 135 Betten in 75 Zimmern.",
+      "2. Die Variablen sind: x = Anzahl der Einzelzimmer, y = Anzahl der Doppelzimmer, z = Anzahl der Dreierzimmer.",
+      "3. Die Gleichungen sind: x + 2y + 3z = 135, x + y + z = 75.",
+      "4. Wir lösen das Gleichungssystem: x = 135 - 2y - 3z, 135 - 2y - 3z + y + z = 75 → 135 - y - 2z = 75 → y + 2z = 60 → y = 60 - 2z.",
+      "5. Also ist x = 135 - 2(60 - 2z) - 3z = 135 - 120 + 4z - 3z = 15 + z.",
+      "6. Die Lösungen sind x = 15 + z, y = 60 - 2z, z = z, wobei z ≥ 0 und y ≥ 0 → z ≤ 30, x ≥ 0 → z ≥ -15.",
+      "7. Also ist z ∈ {0, 1, ..., 30} und x, y, z ≥ 0."
+    ],
+    "endlösung": "Die Varianten sind x = 15 + z, y = 60 - 2z, z = z, wobei z ∈ {0, 1, ..., 30} und x, y, z ≥ 0."
+  },
+  {
+    "id": 87,
+    "cot_lösung": [
+      "1. Wir betrachten ein Richtungsvektorfeld einer analytisch isolierbaren DGL erster Ordnung.",
+      "2. Die Aussage ist wahr, da ein Richtungsvektorfeld eine DGL erster Ordnung visualisiert."
+    ],
+    "endlösung": "Die Aussage ist wahr."
+  },
+  {
+    "id": 88,
+    "cot_lösung": [
+      "1. Wir betrachten ein Richtungsvektorfeld einer analytisch isolierbaren DGL erster Ordnung.",
+      "2. Die Aussage ist wahr, da ein Richtungsvektorfeld eine elementar integrierbare DGL visualisiert."
+    ],
+    "endlösung": "Die Aussage ist wahr."
+  },
+  {
+    "id": 89,
+    "cot_lösung": [
+      "1. Wir betrachten eine Lösung der DGL mit y(0) = 0.",
+      "2. Die Aussage ist nicht notwendigerweise wahr, da die DGL nicht linear sein muss."
+    ],
+    "endlösung": "Die Aussage ist falsch."
+  },
+  {
+    "id": 90,
+    "cot_lösung": [
+      "1. Wir betrachten die Lösung durch den Punkt (−3, 0).",
+      "2. Die Aussage ist nicht notwendigerweise wahr, da die Lösung monoton steigend oder fallend sein kann."
+    ],
+    "endlösung": "Die Aussage ist falsch."
+  },
+  {
+    "id": 91,
+    "cot_lösung": [
+      "1. Wir betrachten die Funktion y(x) = 1.",
+      "2. Diese Funktion ist eine stabile, statische Lösung der DGL, da sie konstant ist."
+    ],
+    "endlösung": "Die Aussage ist wahr."
+  },
+  {
+    "id": 92,
+    "cot_lösung": [
+      "1. Wir betrachten das Richtungsvektorfeld einer DGL erster Ordnung.",
+      "2. Die Aussage ist nicht notwendigerweise wahr, da die DGL nicht linear homogen sein muss."
+    ],
+    "endlösung": "Die Aussage ist falsch."
+  },
+  {
+    "id": 93,
+    "cot_lösung": [
+      "1. Um ein Anfangswertproblem mit separierbarer DGL zu lösen, muss man zuerst die allgemeine Lösung der DGL bestimmen.",
+      "2. Dies ist ein Standardverfahren in der Analysis."
+    ],
+    "endlösung": "Die Aussage ist wahr."
+  },
+  {
+    "id": 94,
+    "cot_lösung": [
+      "1. Im Modell der freien ungedämpften harmonischen Schwingung werden äussere Anregungen vernachlässigt.",
+      "2. Dies ist eine bekannte Eigenschaft dieses Modells."
+    ],
+    "endlösung": "Die Aussage ist wahr."
+  },
+  {
+    "id": 95,
+    "cot_lösung": [
+      "1. Nur periodische Funktionen f: ℝ → ℝ besitzen eine Fourier-Transformierte.",
+      "2. Dies ist nicht korrekt, da auch nicht-periodische Funktionen eine Fourier-Transformierte besitzen können."
+    ],
+    "endlösung": "Die Aussage ist falsch."
+  },
+  {
+    "id": 96,
+    "cot_lösung": [
+      "1. Die Funktion f(t) = t³ kann auf [0, 1] durch eine reine Cosinus-Reihe dargestellt werden.",
+      "2. Dies ist nicht korrekt, da t³ nicht gerade ist und daher keine reine Cosinus-Reihe besitzt."
+    ],
+    "endlösung": "Die Aussage ist falsch."
+  },
+  {
+    "id": 97,
+    "cot_lösung": [
+      "1. Es gilt f(t) ↔ F(ω) und g(t) ↔ G(ω), dann folgt F(ω) + G(ω) ↔ f(t) + g(t).",
+      "2. Dies ist eine bekannte Eigenschaft der Fourier-Transformation."
+    ],
+    "endlösung": "Die Aussage ist wahr."
+  },
+  {
+    "id": 98,
+    "cot_lösung": [
+      "1. Jede Lösung einer linear homogenen Differentialgleichung 2. Ordnung kann als Linearkombination von zwei Basislösungen dargestellt werden.",
+      "2. Dies ist ein Standardresultat der Theorie linearer Differentialgleichungen."
+    ],
+    "endlösung": "Die Aussage ist wahr."
+  },
+  {
+    "id": 99,
+    "cot_lösung": [
+      "1. Wir betrachten Beobachtungspaare (x_i, y_i) mit Korrelationskoeffizienten r_xy.",
+      "2. Aus r_xy = 0 folgt, dass zwischen den Merkmalen kein linearer Zusammenhang besteht.",
+      "3. Die Aussage ist also falsch, da r_xy = 0 nur keinen linearen Zusammenhang impliziert, aber möglicherweise einen nicht-linearen Zusammenhang."
+    ],
+    "endlösung": "Die Aussage ist falsch."
+  },
+  {
+    "id": 100,
+    "cot_lösung": [
+      "1. Wir betrachten Beobachtungspaare (x_i, y_i) mit r_xy = −0.99.",
+      "2. Ein Korrelationskoeffizient von -0.99 deutet auf einen starken linearen Zusammenhang hin.",
+      "3. Die Aussage ist also wahr."
+    ],
+    "endlösung": "Die Aussage ist wahr."
+  },
+  {
+    "id": 101,
+    "cot_lösung": [
+      "1. Wir betrachten eine beliebige Zufallsvariable X mit Varianz Var(X).",
+      "2. Es gilt Var(−X) = Var(X), da die Varianz immer nicht-negativ ist.",
+      "3. Die Aussage ist also falsch, da Var(−X) = Var(X) ≥ 0."
+    ],
+    "endlösung": "Die Aussage ist falsch."
+  },
+  {
+    "id": 102,
+    "cot_lösung": [
+      "1. Wir betrachten eine stetige Zufallsvariable X.",
+      "2. Die Verteilungsfunktion von X ist nicht notwendigerweise symmetrisch um E(X).",
+      "3. Die Aussage ist also falsch."
+    ],
+    "endlösung": "Die Aussage ist falsch."
+  },
+  {
+    "id": 103,
+    "cot_lösung": [
+      "1. Wir betrachten zwei Ereignisse A und B mit P(A) > 0 und P(B) > 0.",
+      "2. Es gilt P(A|B) · P(B) = P(A ∩ B) = P(B|A) · P(A).",
+      "3. Die Aussage ist also wahr."
+    ],
+    "endlösung": "Die Aussage ist wahr."
+  },
+  {
+    "id": 104,
+    "cot_lösung": [
+      "1. Wenn die gemeinsame Verteilung von (X, Y) bekannt ist, kann man daraus die Verteilung von X berechnen.",
+      "2. Dies ist eine bekannte Eigenschaft der Wahrscheinlichkeitstheorie."
+    ],
+    "endlösung": "Die Aussage ist wahr."
+  },
+  {
+    "id": 105,
+    "cot_lösung": [
+      "1. Wir betrachten die partielle Differentialgleichung −2u_xx + u_yy + u = 0.",
+      "2. Der Typ der DGL wird durch die Diskriminante D = b² − 4ac bestimmt, wobei a = -2, b = 0, c = 1.",
+      "3. D = 0 − 4*(-2)*1 = 8 > 0, also ist die DGL elliptisch."
+    ],
+    "endlösung": "Die DGL ist elliptisch."
+  },
+  {
+    "id": 106,
+    "cot_lösung": [
+      "1. Wir betrachten die Differentialgleichung y''(x) − 2y'(x) + 2y(x) = 0.",
+      "2. Die charakteristische Gleichung ist r² − 2r + 2 = 0 → r = 1 ± i.",
+      "3. Die allgemeine Lösung ist y(x) = e^x (C1 cos x + C2 sin x)."
+    ],
+    "endlösung": "Die allgemeine Lösung ist y(x) = e^x (C1 cos x + C2 sin x)."
+  },
+  {
+    "id": 107,
+    "cot_lösung": [
+      "1. Wir betrachten die DGLs (i) sin(4x)y + 3y' + √x = 0, (ii) y'/y + x = 0, (iii) m v̇ + k v = m, (iv) ẏ + (1/t²) y = e^{3t}.",
+      "2. (i) ist nichtlinear, inhomogen, mit konstanten Koeffizienten.",
+      "3. (ii) ist linear, homogen, mit konstanten Koeffizienten.",
+      "4. (iii) ist linear, homogen, mit konstanten Koeffizienten.",
+      "5. (iv) ist linear, inhomogen, mit nicht-konstanten Koeffizienten."
+    ],
+    "endlösung": "Die Klassifizierung ist:\n(i) nichtlinear, inhomogen, mit konstanten Koeffizienten.\n(ii) linear, homogen, mit konstanten Koeffizienten.\n(iii) linear, homogen, mit konstanten Koeffizienten.\n(iv) linear, inhomogen, mit nicht-konstanten Koeffizienten."
+  },
+  {
+    "id": 108,
+    "cot_lösung": [
+      "1. Wir betrachten die Schwingungsgleichung ẍ + 2α ẋ + 0.25 x = 0.",
+      "2. Der aperiodische Grenzfall tritt ein, wenn die Dämpfungskonstante α gleich der kritischen Dämpfung ist.",
+      "3. Die kritische Dämpfung ist α_krit = √(0.25) = 0.5.",
+      "4. Also muss α = 0.5 gewählt werden."
+    ],
+    "endlösung": "Der Parameter α muss 0.5 sein."
+  },
+  {
+    "id": 109,
+    "cot_lösung": [
+      "1. Wir betrachten die Schwingungsgleichung ẍ + 2α ẋ + 0.25 x = 0 im aperiodischen Grenzfall mit α = 0.5.",
+      "2. Die Lösung ist x(t) = (C1 + C2 t) e^{-0.5 t}.",
+      "3. Die Anfangsbedingungen sind x(0) = 2, v(0) = -2.",
+      "4. Also ist x(0) = C1 = 2, v(0) = C2 - 0.5 C1 = -2 → C2 = -1.5.",
+      "5. Die Lösung ist x(t) = (2 - 1.5 t) e^{-0.5 t}."
+    ],
+    "endlösung": "Die Lösung ist x(t) = (2 - 1.5 t) e^{-0.5 t}."
+  },
+  {
+    "id": 110,
+    "cot_lösung": [
+      "1. Wir betrachten eine Kiste mit 100 Artikeln, von denen 4 defekt sind.",
+      "2. Die Wahrscheinlichkeit, höchstens 1 defekten Artikel in einer Stichprobe von 5 zu haben, ist P(X ≤ 1) = P(X=0) + P(X=1).",
+      "3. P(X=0) = C(96,5)/C(100,5), P(X=1) = 5 * C(96,4)/C(100,5).",
+      "4. Also ist P(X ≤ 1) ≈ 0.7086."
+    ],
+    "endlösung": "Die Wahrscheinlichkeit beträgt etwa 0.7086."
+  },
+  {
+    "id": 111,
+    "cot_lösung": [
+      "1. Wir betrachten eine normalverteilte Zufallsvariable Z mit μ = 0 und σ = 1.",
+      "2. Die Wahrscheinlichkeit, dass Z < -2, ist Φ(-2) ≈ 0.0228.",
+      "3. Die Aussage ist also wahr."
+    ],
+    "endlösung": "Die Wahrscheinlichkeit beträgt etwa 0.0228."
+  },
+  {
+    "id": 112,
+    "cot_lösung": [
+      "1. Wir betrachten eine normalverteilte Zufallsvariable Z mit μ = 0 und σ = 1.",
+      "2. Die Abweichung nach oben, die von 10 % der Packungen überschritten wird, ist der Wert z, für den Φ(z) = 0.9.",
+      "3. Dies ist etwa z ≈ 1.28."
+    ],
+    "endlösung": "Die Abweichung beträgt etwa 1.28."
+  },
+  {
+    "id": 113,
+    "cot_lösung": [
+      "1. Wir betrachten eine Bernoulli-verteilte Zufallsvariable X mit p = 0.05.",
+      "2. Die Wahrscheinlichkeit, dass höchstens 3 von 100 Fahrern verbotswidrig fahren, ist P(X ≤ 3) ≈ 0.9872.",
+      "3. Die Poisson-Verteilung kann hier nicht benutzt werden, da n = 100 nicht groß genug ist."
+    ],
+    "endlösung": "Die Wahrscheinlichkeit beträgt etwa 0.9872. Die Poisson-Verteilung kann nicht benutzt werden."
+  },
+  {
+    "id": 114,
+    "cot_lösung": [
+      "1. Wir betrachten eine periodische Sägezahnschwingung f(t) auf dem Intervall [-T/2, T/2].",
+      "2. Die Funktion ist f(t) = (2A/T) * t für t ∈ [-T/2, T/2], und f(t + T) = f(t).",
+      "3. Die Fourier-Entwicklung ist gegeben durch die Fourier-Koeffizienten a_n und b_n.",
+      "4. Da f(t) ungerade ist, sind die a_n = 0 für alle n.",
+      "5. Die b_n sind gegeben durch b_n = (2/T) ∫_{-T/2}^{T/2} f(t) sin(2πn t / T) dt.",
+      "6. Wir berechnen b_n: b_n = (2/T) ∫_{-T/2}^{T/2} (2A/T) t sin(2πn t / T) dt = (4A/T²) ∫_{-T/2}^{T/2} t sin(2πn t / T) dt.",
+      "7. Da t sin(2πn t / T) ungerade ist, ist das Integral null für n ≠ 0.",
+      "8. Also ist b_0 = 0, und die Fourier-Entwicklung ist f(t) = Σ_{n=1}^∞ b_n sin(2πn t / T)."
+    ],
+    "endlösung": "Die Fourier-Entwicklung ist f(t) = Σ_{n=1}^∞ b_n sin(2πn t / T), wobei b_n = 0 für alle n."
+  },
+  {
+    "id": 115,
+    "cot_lösung": [
+      "1. Wir betrachten das Anfangswertproblem u_{x1} + 2u u_{x2} − u = 0 mit u(0, x2) = x2.",
+      "2. Wir verwenden die Methode der Charakteristiken.",
+      "3. Die Charakteristiken sind gegeben durch dx1/dt = 1, dx2/dt = 2u, du/dt = u.",
+      "4. Die Lösungen sind x1 = t + x1_0, x2 = 2u t + x2_0, u = u_0 e^t.",
+      "5. Die Anfangsbedingung u(0, x2) = x2 impliziert u_0 = x2 / e^0 = x2.",
+      "6. Also ist u = x2 e^t.",
+      "7. Wir lösen nach t auf: t = x1 - x1_0.",
+      "8. Also ist u = x2 e^{x1 - x1_0}.",
+      "9. Die Lösung ist u(x1, x2) = x2 e^{x1}."
+    ],
+    "endlösung": "Die Lösung ist u(x1, x2) = x2 e^{x1}."
+  },
+  {
+    "id": 116,
+    "cot_lösung": [
+      "1. Wir betrachten die Daten für Drehzahl X (U/min) und Leistung Y (PS).",
+      "2. Die Ausgleichsgerade ist gegeben durch Y = aX + b.",
+      "3. Wir berechnen die Koeffizienten a und b mit der Methode der kleinsten Quadrate."
+    ],
+    "endlösung": "Die Ausgleichsgerade ist Y = aX + b"
+  },
+  {
+    "id": 117,
+    "cot_lösung": [
+      "1. Wir betrachten die Ausgleichsgerade Y = aX + b.",
+      "2. Die Koeffizienten a und b wurden bereits in Aufgabe 116 berechnet.",
+      "3. Für X = 2150 berechnen wir Y = a * 2150 + b."
+    ],
+    "endlösung": "Die erwartete Leistung ist Y = a * 2150 + b, wobei a und b aus Aufgabe 116 stammen."
+  },
+  {
+    "id": 118,
+    "cot_lösung": [
+      "1. Wir betrachten die Körpergrößen (x_i) und Gewichte (y_i).",
+      "2. Die Kovarianz ist gegeben durch cov(X, Y) = (1/n) Σ (x_i - E[X])(y_i - E[Y]).",
+      "3. Der Korrelationskoeffizient ist r = cov(X, Y) / (σ_X σ_Y).",
+      "4. Ohne spezifische Werte können wir keine konkreten Zahlen angeben."
+    ],
+    "endlösung": "Die Kovarianz und der Korrelationskoeffizient hängen von den spezifischen Werten ab."
+  },
+  {
+    "id": 119,
+    "cot_lösung": [
+      "1. Wir betrachten die Funktion f(x) = x^4 - 4x^2.",
+      "2. Die erste Ableitung ist f'(x) = 4x^3 - 8x.",
+      "3. Wir setzen f'(x) = 0: 4x^3 - 8x = 0 → 4x(x^2 - 2) = 0 → x = 0, ±√2.",
+      "4. Die zweite Ableitung ist f''(x) = 12x^2 - 8.",
+      "5. Für x = 0: f''(0) = -8 < 0 → lokales Maximum.",
+      "6. Für x = √2: f''(√2) = 12*2 - 8 = 16 > 0 → lokales Minimum.",
+      "7. Für x = -√2: f''(-√2) = 12*2 - 8 = 16 > 0 → lokales Minimum."
+    ],
+    "endlösung": "Die Funktion hat ein lokales Maximum bei x = 0 und lokale Minima bei x = ±√2."
+  },
+  {
+    "id": 120,
+    "cot_lösung": [
+      "1. Wir betrachten das Integral ∫ (6x^2 - 4x + 1) dx.",
+      "2. Wir integrieren termweise: ∫ 6x^2 dx = 2x^3, ∫ -4x dx = -2x^2, ∫ 1 dx = x.",
+      "3. Also ist das Integral 2x^3 - 2x^2 + x + C."
+    ],
+    "endlösung": "Das Integral ist 2x^3 - 2x^2 + x + C."
+  },
+  {
+    "id": 121,
+    "cot_lösung": [
+      "1. Wir betrachten die Matrix A = [[1,2],[3,6]].",
+      "2. Die Determinante ist det(A) = 1*6 - 2*3 = 0.",
+      "3. Da die Determinante null ist, ist A nicht invertierbar."
+    ],
+    "endlösung": "Die Matrix A ist nicht invertierbar."
+  },
+  {
+    "id": 122,
+    "cot_lösung": [
+      "1. Wir betrachten die Matrix A = [[4,1],[2,3]].",
+      "2. Die Eigenwerte sind die Lösungen der charakteristischen Gleichung det(A - λI) = 0.",
+      "3. Die Gleichung ist (4 - λ)(3 - λ) - 2*1 = 0 → λ² - 7λ + 10 = 0 → λ = (7 ± √(49 - 40)) / 2 = (7 ± 3)/2 → λ = 5, 2."
+    ],
+    "endlösung": "Die Eigenwerte sind 5 und 2."
+  },
+  {
+    "id": 123,
+    "cot_lösung": [
+      "1. Wir betrachten 4 Münzwürfe mit einer fairen Münze.",
+      "2. Die Wahrscheinlichkeit, genau zweimal Kopf zu erhalten, ist C(4,2) * (1/2)^2 * (1/2)^2 = 6 * (1/2)^4 = 6/16 = 3/8."
+    ],
+    "endlösung": "Die Wahrscheinlichkeit beträgt 3/8."
+  },
+  {
+    "id": 124,
+    "cot_lösung": [
+      "1. Wir betrachten eine gleichverteilte Zufallsvariable X auf [0,4].",
+      "2. Die Varianz ist Var(X) = (b - a)² / 12 = (4 - 0)² / 12 = 16/12 = 4/3."
+    ],
+    "endlösung": "Die Varianz beträgt 4/3."
+  },
+  {
+    "id": 125,
+    "cot_lösung": [
+      "1. Wir betrachten die Differentialgleichung y' = 2x.",
+      "2. Wir integrieren beide Seiten: ∫ y' dx = ∫ 2x dx → y = x² + C."
+    ],
+    "endlösung": "Die Lösung ist y = x² + C."
+  },
+  {
+    "id": 126,
+    "cot_lösung": [
+      "1. Wir betrachten die Differentialgleichung y'' − y = e^x.",
+      "2. Die homogene Lösung ist y_h = C1 e^x + C2 e^{-x}.",
+      "3. Die partikuläre Lösung ist y_p = A e^x, wobei A = 1/2.",
+      "4. Die allgemeine Lösung ist y = C1 e^x + C2 e^{-x} + (1/2) e^x."
+    ],
+    "endlösung": "Die allgemeine Lösung ist y = C1 e^x + C2 e^{-x} + (1/2) e^x."
+  },
+  {
+    "id": 127,
+    "cot_lösung": [
+      "1. Wir betrachten die Funktion f(x) = x auf dem Intervall [-π,π].",
+      "2. Die Fourier-Koeffizienten sind a_0 = (1/π) ∫_{-π}^π f(x) dx = (1/π) ∫_{-π}^π x dx = 0.",
+      "3. a_n = (1/π) ∫_{-π}^π f(x) cos(nx) dx = (1/π) ∫_{-π}^π x cos(nx) dx = 0 für alle n, da x cos(nx) ungerade ist.",
+      "4. b_n = (1/π) ∫_{-π}^π f(x) sin(nx) dx = (1/π) ∫_{-π}^π x sin(nx) dx = 2/π ∫_0^π x sin(nx) dx = 2/π [−x cos(nx)/n + sin(nx)/n²] von 0 bis π = 2/π [−π cos(nπ)/n + 0 + 0 - 0] = 2/π [−π (-1)^n / n] = 2 (-1)^{n+1} / n."
+    ],
+    "endlösung": "Die Fourier-Koeffizienten sind a_0 = 0, a_n = 0, b_n = 2 (-1)^{n+1} / n."
+  },
+  {
+    "id": 128,
+    "cot_lösung": [
+      "1. Wir betrachten die Punkte A(2,−1,3) und B(−1,3,0).",
+      "2. Der Abstand ist √((2 - (-1))² + (-1 - 3)² + (3 - 0)²) = √(9 + 16 + 9) = √34."
+    ],
+    "endlösung": "Der Abstand beträgt √34."
+  },
+  {
+    "id": 129,
+    "cot_lösung": [
+      "1. Wir betrachten die Funktion f(x) = (x^2 - 1)/(x - 1).",
+      "2. Der Definitionsbereich ist x ≠ 1.",
+      "3. Die Funktion ist stetig auf ℝ  {1}, da sie auf diesem Gebiet definiert und kontinuierlich ist."
+    ],
+    "endlösung": "Der Definitionsbereich ist x ≠ 1. Die Funktion ist stetig auf ℝ  {1}."
+  },
+  {
+    "id": 130,
+    "cot_lösung": [
+      "1. Wir betrachten die Reihe ∑_{n=1}^∞ ln((n+1)/n).",
+      "2. Der allgemeine Term ist ln(1 + 1/n).",
+      "3. Für n → ∞ ist ln(1 + 1/n) ≈ 1/n, also divergiert die Reihe."
+    ],
+    "endlösung": "Die Reihe divergiert."
+  },
+  {
+    "id": 131,
+    "cot_lösung": [
+      "1. Wir betrachten das lineare Gleichungssystem x + 2y - z = 1, 2x + y + z = 4, 3x + 3y = 5.",
+      "2. Wir lösen das System: Aus der dritten Gleichung folgt x = (5 - 3y)/3.",
+      "3. Wir setzen in die erste und zweite Gleichung ein: (5 - 3y)/3 + 2y - z = 1 → (5 - 3y + 6y - 3z)/3 = 1 → 5 + 3y - 3z = 3 → 3y - 3z = -2 → y - z = -2/3.",
+      "4. 2*(5 - 3y)/3 + y + z = 4 → (10 - 6y + 3y + 3z)/3 = 4 → 10 - 3y + 3z = 12 → -3y + 3z = 2 → -y + z = 2/3.",
+      "5. Wir lösen das System y - z = -2/3 und -y + z = 2/3: y = 0, z = 2/3.",
+      "6. Also ist x = (5 - 0)/3 = 5/3.",
+      "7. Die Lösungsmenge ist (5/3, 0, 2/3)."
+    ],
+    "endlösung": "Die Lösungsmenge ist (5/3, 0, 2/3)."
+  },
+  {
+    "id": 132,
+    "cot_lösung": [
+      "1. Wir betrachten die Vektoren v1 = (1,1,0) und v2 = (1,0,1).",
+      "2. Die Vektoren sind linear unabhängig, da die Determinante der Matrix mit diesen Vektoren als Spalten ungleich null ist.",
+      "3. Eine Orthonormalbasis des von {v1, v2} erzeugten Unterraums ist {v1/√2, v2/√2}."
+    ],
+    "endlösung": "Eine Orthonormalbasis ist {v1/√2, v2/√2}."
+  },
+  {
+    "id": 133,
+    "cot_lösung": [
+      "1. Wir betrachten eine gleichverteilte Zufallsvariable X auf dem Intervall [−1,3].",
+      "2. Der Erwartungswert ist E[X] = (a + b)/2 = (-1 + 3)/2 = 1.",
+      "3. Die Varianz ist Var(X) = (b - a)² / 12 = (3 - (-1))² / 12 = 16/12 = 4/3."
+    ],
+    "endlösung": "Der Erwartungswert ist 1, die Varianz ist 4/3."
+  },
+  {
+    "id": 134,
+    "cot_lösung": [
+      "1. Wir betrachten die Dichtefunktion f(x) = c x e^{−x} für x ≥ 0.",
+      "2. Die Konstante c wird durch die Normierungsbedingung bestimmt: ∫_0^∞ c x e^{−x} dx = 1.",
+      "3. Wir berechnen das Integral: c ∫_0^∞ x e^{−x} dx = c [−x e^{−x} - e^{−x}] von 0 bis ∞ = c (0 - 0 - 0 - (-1)) = c.",
+      "4. Also ist c = 1.",
+      "5. Der Erwartungswert ist E(X) = ∫_0^∞ x * x e^{−x} dx = ∫_0^∞ x² e^{−x} dx = 2."
+    ],
+    "endlösung": "Die Konstante ist c = 1, der Erwartungswert ist E(X) = 2."
+  },
+  {
+    "id": 135,
+    "cot_lösung": [
+      "1. Wir betrachten die separierbare Differentialgleichung y' = x · y.",
+      "2. Wir trennen die Variablen: dy/y = x dx.",
+      "3. Wir integrieren beide Seiten: ∫ (1/y) dy = ∫ x dx → ln|y| = (1/2) x² + C.",
+      "4. Wir lösen nach y auf: y = C e^{(1/2) x²}."
+    ],
+    "endlösung": "Die allgemeine Lösung ist y = C e^{(1/2) x²}."
+  },
+  {
+    "id": 136,
+    "cot_lösung": [
+      "1. Wir betrachten das Anfangswertproblem y' + 2y = e^{−2x} mit y(0) = 1.",
+      "2. Die homogene Lösung ist y_h = C e^{-2x}.",
+      "3. Die partikuläre Lösung ist y_p = A e^{-2x}, wobei A = 1/2.",
+      "4. Die allgemeine Lösung ist y = C e^{-2x} + (1/2) e^{-2x}.",
+      "5. Die Anfangsbedingung y(0) = 1 impliziert C + (1/2) = 1 → C = 1/2.",
+      "6. Die Lösung ist y = (1/2) e^{-2x} + (1/2) e^{-2x} = e^{-2x}."
+    ],
+    "endlösung": "Die Lösung ist y = e^{-2x}."
+  },
+  {
+    "id": 137,
+    "cot_lösung": [
+      "1. Wir betrachten die 2π-periodische Funktion f(x), die auf [−π,π] definiert ist durch f(x) = 1 für 0 < x < π und f(x) = −1 für −π < x < 0.",
+      "2. Die Funktion ist ungerade, also sind die a_n = 0 für alle n.",
+      "3. Die b_n sind gegeben durch b_n = (1/π) ∫_{-π}^π f(x) sin(nx) dx = (2/π) ∫_0^π sin(nx) dx = (2/π) [−cos(nx)/n] von 0 bis π = (2/π) [−cos(nπ)/n + 1/n] = (2/π) [1/n + (-1)^n / n] = 2/π [1 + (-1)^n] / n.",
+      "4. Also ist b_n = 4/π n für ungerade n und b_n = 0 für gerade n."
+    ],
+    "endlösung": "Die Fourierreihe ist eine reine Sinus-Reihe mit b_n = 4/π n für ungerade n und b_n = 0 für gerade n."
+  },
+  {
+    "id": 138,
+    "cot_lösung": [
+      "1. Wir betrachten die Geraden g1: (x,y,z) = (1,0,2) + s(1,1,0) und g2: (x,y,z) = (0,1,1) + t(1,−1,1).",
+      "2. Wir setzen die Geraden gleich: (1 + s, 0 + s, 2 + 0) = (0 + t, 1 - t, 1 + t).",
+      "3. Also ist 1 + s = t, 0 + s = 1 - t, 2 = 1 + t.",
+      "4. Aus der dritten Gleichung folgt t = 1.",
+      "5. Also ist 1 + s = 1 → s = 0, 0 + s = 1 - 1 → s = 0.",
+      "6. Die Geraden schneiden sich im Punkt (1,0,2)."
+    ],
+    "endlösung": "Die Geraden schneiden sich im Punkt (1,0,2)."
+  },
+  {
+    "id": 139,
+    "cot_lösung": [
+      "1. Wir betrachten den Grenzwert lim_{x→0} (sin(3x))/(x).",
+      "2. Es gilt lim_{x→0} (sin(3x))/(3x) = 1, also ist lim_{x→0} (sin(3x))/(x) = 3."
+    ],
+    "endlösung": "Der Grenzwert ist 3."
+  },
+  {
+    "id": 140,
+    "cot_lösung": [
+      "1. Wir betrachten die Funktion f(x) = e^{2x} - 3x.",
+      "2. Die zweite Ableitung ist f''(x) = 4 e^{2x} - 3.",
+      "3. Für x < ln(3/4) ist f''(x) < 0, also ist die Funktion konkav.",
+      "4. Für x > ln(3/4) ist f''(x) > 0, also ist die Funktion konvex."
+    ],
+    "endlösung": "Die Funktion ist konkav für x < ln(3/4) und konvex für x > ln(3/4)."
+  },
+  {
+    "id": 141,
+    "cot_lösung": [
+      "1. Wir betrachten die Funktion f(x) = ln(1+x).",
+      "2. Die Taylorreihe um x=0 ist f(x) = f(0) + f'(0)x + f''(0)x²/2! + f'''(0)x³/3! + f''''(0)x⁴/4! + ...",
+      "3. Wir berechnen die Ableitungen: f(0) = 0, f'(0) = 1, f''(0) = -1, f'''(0) = 2, f''''(0) = -6.",
+      "4. Also ist die Taylorreihe bis zur 4. Ordnung: f(x) ≈ x - x²/2 + x³/3 - x⁴/4."
+    ],
+    "endlösung": "Die Taylorreihe ist f(x) ≈ x - x²/2 + x³/3 - x⁴/4."
+  },
+  {
+    "id": 142,
+    "cot_lösung": [
+      "1. Wir betrachten die Matrix A = [[3,2],[1,4]].",
+      "2. Die Spur ist die Summe der Diagonalelemente: trace(A) = 3 + 4 = 7."
+    ],
+    "endlösung": "Die Spur ist 7."
+  },
+  {
+    "id": 143,
+    "cot_lösung": [
+      "1. Wir betrachten die Matrizen A = [[1,2],[3,4]] und B = [[2,0],[0,3]].",
+      "2. Zwei Matrizen sind ähnlich, wenn es eine invertierbare Matrix P gibt, sodass A = P^{-1} B P.",
+      "3. Die Eigenwerte von A sind 5 und -1, die Eigenwerte von B sind 2 und 3.",
+      "4. Da die Eigenwerte nicht gleich sind, sind die Matrizen nicht ähnlich."
+    ],
+    "endlösung": "Die Matrizen sind nicht ähnlich."
+  },
+  {
+    "id": 144,
+    "cot_lösung": [
+      "1. Wir betrachten die diskrete Zufallsvariable X mit P(X=1)=0.2, P(X=3)=0.5, P(X=5)=0.3.",
+      "2. Der Erwartungswert ist E(X) = 1*0.2 + 3*0.5 + 5*0.3 = 0.2 + 1.5 + 1.5 = 3.2."
+    ],
+    "endlösung": "Der Erwartungswert ist 3.2."
+  },
+  {
+    "id": 145,
+    "cot_lösung": [
+      "1. Wir betrachten die Dichtefunktion f(x) = k e^{−3x} für x ≥ 0.",
+      "2. Die Konstante k wird durch die Normierungsbedingung bestimmt: ∫_0^∞ k e^{−3x} dx = 1.",
+      "3. Wir berechnen das Integral: k ∫_0^∞ e^{−3x} dx = k [−e^{−3x}/3] von 0 bis ∞ = k (0 - (-1/3)) = k/3.",
+      "4. Also ist k = 3.",
+      "5. Die Verteilungsfunktion ist F(x) = ∫_0^x 3 e^{−3t} dt = 1 - e^{−3x}."
+    ],
+    "endlösung": "Die Konstante ist k = 3, die Verteilungsfunktion ist F(x) = 1 - e^{−3x}."
+  },
+  {
+    "id": 146,
+    "cot_lösung": [
+      "1. Wir betrachten die Differentialgleichung y' = y + e^{−x}.",
+      "2. Dies ist eine lineare Differentialgleichung erster Ordnung.",
+      "3. Der Integrationsfaktor ist μ(x) = e^{∫ -1 dx} = e^{-x}.",
+      "4. Die Lösung ist y = C e^x - e^{-x} + e^{-x} = C e^x."
+    ],
+    "endlösung": "Die Lösung ist y = C e^x."
+  },
+  {
+    "id": 147,
+    "cot_lösung": [
+      "1. Wir betrachten die Funktion f(x) = x^2 auf dem Intervall [−π,π].",
+      "2. Die Fourierreihe ist gegeben durch a_0, a_n und b_n.",
+      "3. a_0 = (1/π) ∫_{-π}^π f(x) dx = (1/π) ∫_{-π}^π x² dx = 2/π ∫_0^π x² dx = 2/π [x³/3] von 0 bis π = 2/3 π².",
+      "4. a_n = (1/π) ∫_{-π}^π f(x) cos(nx) dx = (2/π) ∫_0^π x² cos(nx) dx = 2/π [x² sin(nx)/n + 2x cos(nx)/n² - 2 sin(nx)/n³] von 0 bis π = 2/π [π² (-1)^n / n + 0 - 0 - 0 + 0 - 0] = 2/π [π² (-1)^n / n] = 2/π [π² (-1)^n / n] = 2 π (-1)^n / n.",
+      "5. b_n = (1/π) ∫_{-π}^π f(x) sin(nx) dx = 0, da f(x) gerade ist."
+    ],
+    "endlösung": "Die Fourierreihe ist f(x) = a_0/2 + Σ_{n=1}^∞ a_n cos(nx), wobei a_0 = 2/3 π² und a_n = 2 π (-1)^n / n."
+  },
+  {
+    "id": 148,
+    "cot_lösung": [
+      "1. Wir betrachten die Ebenen E1: x + y + z = 4 und E2: 2x − y + 2z = 0.",
+      "2. Die Normalenvektoren sind n1 = (1,1,1) und n2 = (2,−1,2).",
+      "3. Der Winkel zwischen den Ebenen ist der Winkel zwischen den Normalenvektoren.",
+      "4. Der Winkel ist arccos(n1 · n2 / (||n1|| ||n2||)) = arccos(2 -1 + 2 / (√3 √9)) = arccos(3 / (3√3)) = arccos(1/√3) ≈ 54.7°."
+    ],
+    "endlösung": "Der Winkel zwischen den Ebenen beträgt etwa 54.7°."
+  },
+  {
+    "id": 159,
+    "cot_lösung": [
+      "1. Wir betrachten den Grenzwert lim_{x→∞} (3x^2 - x + 1)/(x^2 + 5).",
+      "2. Für x → ∞ dominieren die höchsten Potenzen: lim_{x→∞} (3x^2)/(x^2) = 3."
+    ],
+    "endlösung": "Der Grenzwert ist 3."
+  },
+  {
+    "id": 160,
+    "cot_lösung": [
+      "1. Wir betrachten die Reihe ∑_{n=1}^∞ 1/(n ln(n)).",
+      "2. Der allgemeine Term 1/(n ln(n)) geht für n → ∞ nicht gegen null, da ln(n) wächst langsamer als n.",
+      "3. Also divergiert die Reihe."
+    ],
+    "endlösung": "Die Reihe divergiert."
+  },
+  {
+    "id": 161,
+    "cot_lösung": [
+      "1. Wir betrachten das Integral ∫_0^{π/2} x sin(x) dx.",
+      "2. Wir verwenden partielle Integration: ∫ u dv = uv - ∫ v du.",
+      "3. Wir setzen u = x, dv = sin(x) dx → du = dx, v = -cos(x).",
+      "4. Also ist das Integral -x cos(x) - ∫ -cos(x) dx = -x cos(x) + sin(x) + C."
+    ],
+    "endlösung": "Das Integral ist -x cos(x) + sin(x) + C."
+  },
+  {
+    "id": 162,
+    "cot_lösung": [
+      "1. Wir betrachten die Matrix A = [[5,2],[1,3]].",
+      "2. Die Determinante ist det(A) = 5*3 - 2*1 = 13."
+    ],
+    "endlösung": "Die Determinante ist 13."
+  },
+  {
+    "id": 163,
+    "cot_lösung": [
+      "1. Wir betrachten die Matrix A = [[2,1],[1,2]].",
+      "2. Die Eigenwerte sind die Lösungen der charakteristischen Gleichung det(A - λI) = 0.",
+      "3. Die Gleichung ist (2 - λ)(2 - λ) - 1*1 = 0 → λ² - 4λ + 3 = 0 → λ = (4 ± √(16 - 12)) / 2 = (4 ± 2)/2 → λ = 3, 1."
+    ],
+    "endlösung": "Die Eigenwerte sind 3 und 1."
+  },
+  {
+    "id": 164,
+    "cot_lösung": [
+      "1. Wir betrachten die Vektoren (1,0,1), (2,1,3) und (3,1,4).",
+      "2. Die Vektoren sind linear abhängig, da die Determinante der Matrix mit diesen Vektoren als Spalten null ist.",
+      "3. Also sind sie nicht linear unabhängig."
+    ],
+    "endlösung": "Die Vektoren sind nicht linear unabhängig."
+  },
+  {
+    "id": 165,
+    "cot_lösung": [
+      "1. Wir betrachten eine Zufallsvariable X, die die Werte 0 und 1 mit P(X=1)=0.4 annimmt.",
+      "2. Die Varianz ist Var(X) = E[X²] - (E[X])² = 0.4 - (0.4)² = 0.4 - 0.16 = 0.24."
+    ],
+    "endlösung": "Die Varianz ist 0.24."
+  },
+  {
+    "id": 166,
+    "cot_lösung": [
+      "1. Wir betrachten zwei Würfelwürfe.",
+      "2. Die Wahrscheinlichkeit, dass die Summe mindestens 10 beträgt, ist P(X ≥ 10) = P(X=10) + P(X=11) + P(X=12).",
+      "3. P(X=10) = 3/36, P(X=11) = 2/36, P(X=12) = 1/36.",
+      "4. Also ist P(X ≥ 10) = (3 + 2 + 1)/36 = 6/36 = 1/6."
+    ],
+    "endlösung": "Die Wahrscheinlichkeit beträgt 1/6."
+  },
+  {
+    "id": 167,
+    "cot_lösung": [
+      "1. Wir betrachten die Differentialgleichung y' = (3x^2)/(1+y^2).",
+      "2. Wir trennen die Variablen: (1+y^2) dy = 3x^2 dx.",
+      "3. Wir integrieren beide Seiten: ∫ (1+y^2) dy = ∫ 3x^2 dx → y + (1/3) y³ = x³ + C.",
+      "4. Wir lösen nach y auf: y + (1/3) y³ = x³ + C."
+    ],
+    "endlösung": "Die Lösung ist y + (1/3) y³ = x³ + C."
+  },
+  {
+    "id": 168,
+    "cot_lösung": [
+      "1. Wir betrachten die Ebene x - y + z = 2 und die Gerade g: (x,y,z) = (3,1,0) + t(−2,1,3).",
+      "2. Wir setzen die Gerade in die Ebene ein: (3 - 2t) - (1 + t) + (0 + 3t) = 2 → 2 - 3t + 3t = 2 → 2 = 2.",
+      "3. Die Gleichung ist für alle t erfüllt, also liegt die Gerade in der Ebene."
+    ],
+    "endlösung": "Die Gerade liegt in der Ebene."
+  },
+  {
+    "id": 169,
+    "cot_lösung": [
+      "1. Wir betrachten den Grenzwert lim_{x→0} (e^{2x} − 1)/x.",
+      "2. Es gilt lim_{x→0} (e^{2x} − 1)/x = 2 lim_{x→0} (e^{2x} − 1)/(2x) = 2 * 1 = 2."
+    ],
+    "endlösung": "Der Grenzwert ist 2."
+  },
+  {
+    "id": 170,
+    "cot_lösung": [
+      "1. Wir betrachten die Funktion f(x) = x^3 − 6x + 1.",
+      "2. Die erste Ableitung ist f'(x) = 3x^2 - 6.",
+      "3. Wir setzen f'(x) = 0: 3x^2 - 6 = 0 → x^2 = 2 → x = ±√2.",
+      "4. Die zweite Ableitung ist f''(x) = 6x.",
+      "5. Für x = √2: f''(√2) = 6√2 > 0 → monoton steigend.",
+      "6. Für x = -√2: f''(-√2) = -6√2 < 0 → monoton fallend."
+    ],
+    "endlösung": "Die Funktion ist monoton steigend für x > √2 und monoton fallend für x < -√2."
+  },
+  {
+    "id": 171,
+    "cot_lösung": [
+      "1. Wir betrachten das Integral ∫_1^e (ln(x))/x dx.",
+      "2. Wir setzen u = ln(x), du = (1/x) dx.",
+      "3. Also ist das Integral ∫_0^1 u du = (1/2) u² von 0 bis 1 = (1/2) (1 - 0) = 1/2."
+    ],
+    "endlösung": "Das Integral ist 1/2."
+  },
+  {
+    "id": 172,
+    "cot_lösung": [
+      "1. Wir betrachten die Matrix A = [[1,2],[2,4]].",
+      "2. Die Determinante ist det(A) = 1*4 - 2*2 = 0.",
+      "3. Also ist der Rang der Matrix 1."
+    ],
+    "endlösung": "Der Rang der Matrix ist 1."
+  },
+  {
+    "id": 173,
+    "cot_lösung": [
+      "1. Wir betrachten die Matrix A = [[0,1],[−2,3]].",
+      "2. Die Eigenwerte sind die Lösungen der charakteristischen Gleichung det(A - λI) = 0.",
+      "3. Die Gleichung ist (0 - λ)(3 - λ) - 1*(-2) = 0 → λ(3 - λ) + 2 = 0 → λ² - 3λ + 2 = 0 → λ = (3 ± √(9 - 8)) / 2 = (3 ± 1)/2 → λ = 2, 1."
+    ],
+    "endlösung": "Die Eigenwerte sind 2 und 1."
+  },
+  {
+    "id": 174,
+    "cot_lösung": [
+      "1. Wir betrachten die Matrix A = [[1,1,0],[0,1,1],[0,0,1]].",
+      "2. Die Matrix ist bereits in Dreiecksform, also ist sie diagonalisierbar."
+    ],
+    "endlösung": "Die Matrix ist diagonalisierbar."
+  },
+  {
+    "id": 175,
+    "cot_lösung": [
+      "1. Wir betrachten eine faire sechsseitige Zahl.",
+      "2. Die Wahrscheinlichkeit, dass eine 4 erscheint, ist 1/6."
+    ],
+    "endlösung": "Die Wahrscheinlichkeit beträgt 1/6."
+  },
+  {
+    "id": 176,
+    "cot_lösung": [
+      "1. Wir betrachten eine exponentiell verteilte Zufallsvariable mit λ=0.2.",
+      "2. Die Wahrscheinlichkeit, dass die Lampe mindestens 10 Stunden hält, ist P(X ≥ 10) = e^{-0.2*10} = e^{-2} ≈ 0.1353."
+    ],
+    "endlösung": "Die Wahrscheinlichkeit beträgt etwa 0.1353."
+  },
+  {
+    "id": 177,
+    "cot_lösung": [
+      "1. Wir betrachten die Differentialgleichung y' = y tan(x).",
+      "2. Wir trennen die Variablen: dy/y = tan(x) dx.",
+      "3. Wir integrieren beide Seiten: ∫ (1/y) dy = ∫ tan(x) dx → ln|y| = -ln|cos(x)| + C.",
+      "4. Wir lösen nach y auf: y = C e^{ln|cos(x)|} = C |cos(x)|."
+    ],
+    "endlösung": "Die Lösung ist y = C |cos(x)|."
+  },
+  {
+    "id": 178,
+    "cot_lösung": [
+      "1. Wir betrachten die Funktion f(x) = x auf [0,π], die zu einer ungeraden 2π-periodischen Funktion fortgesetzt wird.",
+      "2. Die Fourierreihe ist eine reine Sinus-Reihe, da die Funktion ungerade ist.",
+      "3. Die b_n sind gegeben durch b_n = (2/π) ∫_0^π x sin(nx) dx = (2/π) [−x cos(nx)/n + sin(nx)/n²] von 0 bis π = (2/π) [−π cos(nπ)/n + 0 + 0 - 0] = (2/π) [−π (-1)^n / n] = 2/π [(-1)^{n+1} / n]."
+    ],
+    "endlösung": "Die Fourierreihe ist f(x) = Σ_{n=1}^∞ 2/π [(-1)^{n+1} / n] sin(nx)."
+  },
+  {
+    "id": 179,
+    "cot_lösung": [
+      "1. Wir betrachten die Funktion f(x) = √(1 + 3x^2).",
+      "2. Die Ableitung ist f'(x) = (1/2)(1 + 3x^2)^{-1/2} * 6x = 3x / √(1 + 3x^2)."
+    ],
+    "endlösung": "Die Ableitung ist f'(x) = 3x / √(1 + 3x^2)."
+  },
+  {
+    "id": 180,
+    "cot_lösung": [
+      "1. Wir betrachten die Funktion f(x,y) = x^2 + 4y^2 - 4x - 8y.",
+      "2. Wir berechnen die partiellen Ableitungen: f_x = 2x - 4, f_y = 8y - 8.",
+      "3. Wir setzen f_x = 0 und f_y = 0: 2x - 4 = 0 → x = 2, 8y - 8 = 0 → y = 1.",
+      "4. Die zweite Ableitung ist f_xx = 2, f_yy = 8, f_xy = 0.",
+      "5. Die Hessematrix ist H = [[2, 0], [0, 8]], die positiv definit ist.",
+      "6. Also ist (2,1) ein globales Minimum."
+    ],
+    "endlösung": "Das globale Minimum ist (2,1)."
+  },
+  {
+    "id": 181,
+    "cot_lösung": [
+      "1. Wir betrachten das Gleichungssystem 2x + 3y = 4 und x − y = 1.",
+      "2. Wir lösen das System: Aus der zweiten Gleichung folgt x = y + 1.",
+      "3. Wir setzen in die erste Gleichung ein: 2(y + 1) + 3y = 4 → 2y + 2 + 3y = 4 → 5y = 2 → y = 2/5.",
+      "4. Also ist x = 2/5 + 1 = 7/5.",
+      "5. Die Lösung ist (7/5, 2/5)."
+    ],
+    "endlösung": "Die Lösung ist (7/5, 2/5)."
+  },
+  {
+    "id": 182,
+    "cot_lösung": [
+      "1. Wir betrachten die Vektoren v1 = (1,2,3), v2 = (2,4,6) und v3 = (1,0,1).",
+      "2. Die Vektoren v1 und v2 sind linear abhängig, da v2 = 2v1.",
+      "3. Also ist eine Basis des von {v1, v2, v3} erzeugten Unterraums {v1, v3}."
+    ],
+    "endlösung": "Eine Basis ist {v1, v3}."
+  },
+  {
+    "id": 183,
+    "cot_lösung": [
+      "1. Wir betrachten eine normalverteilte Zufallsvariable X mit E(X) = 100 und Standardabweichung σ = 15.",
+      "2. Die Wahrscheinlichkeit P(X > 130) ist P(X > 130) = 1 - Φ((130 - 100)/15) = 1 - Φ(2) ≈ 1 - 0.9772 ≈ 0.0228."
+    ],
+    "endlösung": "Die Wahrscheinlichkeit beträgt etwa 0.0228."
+  },
+  {
+    "id": 184,
+    "cot_lösung": [
+      "1. Wir betrachten die Fabriken A und B mit Ausschussraten P(defekt|A)=0.01, P(defekt|B)=0.03.",
+      "2. Die Wahrscheinlichkeit, dass ein defektes Teil aus Fabrik A stammt, ist P(A|defekt) = P(defekt|A) P(A) / P(defekt) = 0.01 * 0.6 / (0.01 * 0.6 + 0.03 * 0.4) = 0.006 / 0.006 + 0.012 = 0.006 / 0.018 ≈ 0.3333."
+    ],
+    "endlösung": "Die Wahrscheinlichkeit beträgt etwa 0.3333."
+  },
+  {
+    "id": 185,
+    "cot_lösung": [
+      "1. Wir betrachten die Differentialgleichung y''(x) − 2y'(x) + 2y(x) = 0.",
+      "2. Die charakteristische Gleichung ist r² - 2r + 2 = 0 → r = 1 ± i.",
+      "3. Die allgemeine Lösung ist y(x) = e^x (C1 cos x + C2 sin x)."
+    ],
+    "endlösung": "Die allgemeine Lösung ist y(x) = e^x (C1 cos x + C2 sin x)."
+  },
+  {
+    "id": 186,
+    "cot_lösung": [
+      "1. Wir betrachten die Differentialgleichung y' = y(2 − y) für 0 < y < 2.",
+      "2. Wir trennen die Variablen: dy/(y(2 - y)) = dx.",
+      "3. Wir integrieren beide Seiten: ∫ [1/(2y - y²)] dy = ∫ dx → (1/2) ln|(2y - y²)/(1 - y)| = x + C.",
+      "4. Wir lösen nach y auf: (2y - y²)/(1 - y) = C e^{2x}."
+    ],
+    "endlösung": "Die Lösung ist (2y - y²)/(1 - y) = C e^{2x}."
+  },
+  {
+    "id": 187,
+    "cot_lösung": [
+      "1. Wir betrachten die 2π-periodische Funktion f(x) = cos(2x).",
+      "2. Die Fourierkoeffizienten sind a_0 = (1/π) ∫_{-π}^π f(x) dx = (1/π) ∫_{-π}^π cos(2x) dx = 0.",
+      "3. a_n = (1/π) ∫_{-π}^π f(x) cos(nx) dx = (1/π) ∫_{-π}^π cos(2x) cos(nx) dx = 0 für n ≠ 2.",
+      "4. a_2 = (1/π) ∫_{-π}^π cos(2x) cos(2x) dx = (1/π) ∫_{-π}^π (1/2)(cos(4x) + 1) dx = (1/π) [sin(4x)/4 + x/2] von -π bis π = (1/π) [0 + π/2 - 0 - (-π/2)] = (1/π) [π] = 1.",
+      "5. b_n = (1/π) ∫_{-π}^π f(x) sin(nx) dx = 0, da f(x) gerade ist."
+    ],
+    "endlösung": "Die von null verschiedenen Fourierkoeffizienten sind a_0 = 0, a_2 = 1, b_n = 0 für alle n."
+  },
+  {
+    "id": 188,
+    "cot_lösung": [
+      "1. Wir betrachten die Punkte P1(1,0,0), P2(0,1,0) und P3(0,0,1).",
+      "2. Die Ebenengleichung ist gegeben durch (x - x0)(y1 - y0)(z2 - z0) - (x - x0)(y2 - y0)(z1 - z0) + (y - y0)(x1 - x0)(z2 - z0) - (y - y0)(x2 - x0)(z1 - z0) + (z - z0)(x1 - x0)(y2 - y0) - (z - z0)(x2 - x0)(y1 - y0) = 0.",
+      "3. Also ist die Gleichung (x - 1)(1 - 0)(0 - 0) - (x - 1)(0 - 0)(0 - 0) + (y - 0)(1 - 1)(0 - 0) - (y - 0)(0 - 1)(0 - 0) + (z - 0)(1 - 1)(1 - 0) - (z - 0)(0 - 1)(0 - 0) = 0 → 0 = 0.",
+      "4. Die Ebenengleichung ist also x + y + z = 1."
+    ],
+    "endlösung": "Die Ebenengleichung ist x + y + z = 1."
+  },
+  {
+    "id": 189,
+    "cot_lösung": [
+      "1. Wir betrachten die Reihe ∑_{n=1}^∞ 1/n^2.",
+      "2. Die Reihe konvergiert, da sie die Leibniz-Kriterium erfüllt.",
+      "3. Der Wert der Reihe ist π²/6."
+    ],
+    "endlösung": "Die Reihe konvergiert und ihr Wert ist π²/6."
+  },
+  {
+    "id": 190,
+    "cot_lösung": [
+      "1. Wir betrachten das uneigentliche Integral ∫_0^∞ e^{−x} dx.",
+      "2. Das Integral ist der Grenzwert lim_{b→∞} ∫_0^b e^{−x} dx = lim_{b→∞} [−e^{−x}] von 0 bis b = lim_{b→∞} (1 - e^{−b}) = 1."
+    ],
+    "endlösung": "Der Wert des Integrals ist 1."
+  },
+  {
+    "id": 191,
+    "cot_lösung": [
+      "1. Wir betrachten den Vektor v = (1,2,3) und die x-y-Ebene.",
+      "2. Die Orthogonalprojektion des Vektors v auf die x-y-Ebene ist (1,2,0)."
+    ],
+    "endlösung": "Die Orthogonalprojektion ist (1,2,0)."
+  },
+  {
+    "id": 192,
+    "cot_lösung": [
+      "1. Wir betrachten die Vektoren v1 = (1,2,2) und v2 = (2,0,1).",
+      "2. Der Winkel zwischen den Vektoren ist arccos(v1 · v2 / (||v1|| ||v2||)) = arccos(2 + 0 + 2 / (√9 √5)) = arccos(4 / (3√5)) ≈ 26.6°."
+    ],
+    "endlösung": "Der Winkel zwischen den Vektoren beträgt etwa 26.6°."
+  },
+  {
+    "id": 193,
+    "cot_lösung": [
+      "1. Wir betrachten die Beobachtungspaare (1,1), (2,2), (3,3) für zwei Merkmale X und Y.",
+      "2. Die empirische Kovarianz ist cov(X, Y) = (1/n) Σ (x_i - E[X])(y_i - E[Y]) = (1/3) [(1-2)(1-2) + (2-2)(2-2) + (3-2)(3-2)] = (1/3) [1 + 0 + 1] = 2/3.",
+      "3. Der Korrelationskoeffizient ist r = cov(X, Y) / (σ_X σ_Y) = (2/3) / (√(1/3) √(1/3)) = (2/3) / (1/3) = 2.",
+      "4. Da |r| = 1, besteht ein perfekter linearer Zusammenhang."
+    ],
+    "endlösung": "Die empirische Kovarianz ist 2/3, der Korrelationskoeffizient ist 2. Es besteht ein perfekter linearer Zusammenhang."
+  },
+  {
+    "id": 194,
+    "cot_lösung": [
+      "1. Wir betrachten ein Standardkartenspiel mit 52 Karten.",
+      "2. Die Wahrscheinlichkeit, dass eine gezogene Karte ein Ass ist, wenn bekannt ist, dass sie ein Herz ist, ist P(Ass|Herz) = P(Ass ∩ Herz) / P(Herz) = 1/52 / 13/52 = 1/13."
+    ],
+    "endlösung": "Die Wahrscheinlichkeit beträgt 1/13."
+  },
+  {
+    "id": 195,
+    "cot_lösung": [
+      "1. Wir betrachten die partielle Differentialgleichung u_xx - 4u_yy = 0.",
+      "2. Der Typ der DGL wird durch die Diskriminante D = b² − 4ac bestimmt, wobei a = 1, b = 0, c = -4.",
+      "3. D = 0 − 4*1*(-4) = 16 > 0, also ist die DGL elliptisch."
+    ],
+    "endlösung": "Die DGL ist elliptisch."
+  },
+  {
+    "id": 196,
+    "cot_lösung": [
+      "1. Wir betrachten die Differentialgleichung y'' + sin(x)y' + y = 0.",
+      "2. Die DGL ist linear, da sie linear in y, y' und y'' ist.",
+      "3. Die DGL ist homogen, da die rechte Seite null ist."
+    ],
+    "endlösung": "Die DGL ist linear und homogen."
+  },
+  {
+    "id": 197,
+    "cot_lösung": [
+      "1. Wir betrachten die 2π-periodische Funktion f(x) = sin(x) + 2 cos(x).",
+      "2. Die Fourierkoeffizienten sind a_0 = (1/π) ∫_{-π}^π f(x) dx = 0.",
+      "3. a_1 = (1/π) ∫_{-π}^π f(x) cos(x) dx = (1/π) ∫_{-π}^π (sin(x) + 2 cos(x)) cos(x) dx = (1/π) ∫_{-π}^π (sin(x)cos(x) + 2 cos²(x)) dx = (1/π) [sin²(x)/2 + 2 (x/2 + sin(2x)/4)] von -π bis π = (1/π) [0 + π - 0 - 0 + 0 - 0] = 1.",
+      "4. a_n = 0 für n ≠ 1.",
+      "5. b_1 = (1/π) ∫_{-π}^π f(x) sin(x) dx = (1/π) ∫_{-π}^π (sin(x) + 2 cos(x)) sin(x) dx = (1/π) ∫_{-π}^π (sin²(x) + 2 sin(x)cos(x)) dx = (1/π) [x/2 - sin(2x)/4 + 2 (-cos(2x)/4)] von -π bis π = (1/π) [π/2 - 0 + 0 - 0 - 0 + 0 - 0] = 1/2.",
+      "6. b_n = 0 für n ≠ 1."
+    ],
+    "endlösung": "Die von null verschiedenen Fourierkoeffizienten sind a_0 = 0, a_1 = 1, b_1 = 1/2, b_n = 0 für n ≠ 1."
+  },
+  {
+    "id": 198,
+    "cot_lösung": [
+      "1. Wir betrachten die Vektoren v1 = (1,2,3) und v2 = (2,4,6).",
+      "2. Die Vektoren sind parallel, da v2 = 2v1."
+    ],
+    "endlösung": "Die Vektoren sind parallel."
+  },
+  {
+    "id": 199,
+    "cot_lösung": [
+      "1. Wir betrachten die Funktion f(x) = ln(x^2 + 4).",
+      "2. Die Ableitung ist f'(x) = (1/(x^2 + 4)) * 2x = 2x / (x^2 + 4)."
+    ],
+    "endlösung": "Die Ableitung ist f'(x) = 2x / (x^2 + 4)."
+  },
+  {
+    "id": 200,
+    "cot_lösung": [
+      "1. Wir betrachten eine Poisson-verteilte Zufallsvariable X mit Parameter λ = 3.",
+      "2. Die Wahrscheinlichkeit, dass X genau 2 Ereignisse annimmt, ist P(X=2) = (3^2 e^{-3}) / 2! = 9 e^{-3} / 2 ≈ 0.6065 * 0.0498 ≈ 0.0302."
+    ],
+    "endlösung": "Die Wahrscheinlichkeit beträgt etwa 0.0302."
+  }
+]
